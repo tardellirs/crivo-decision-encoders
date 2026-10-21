@@ -1,0 +1,18 @@
+{
+ "engine": "crivo:~/.cache/huggingface/hub/models--tardellirs--crivo-400m/snapshots/95194168fe01179462ca8b72be7d8a5259d2ad68",
+ "device": "cpu",
+ "gpu": null,
+ "threads": 16,
+ "requests": 80,
+ "timed": 80,
+ "unsupported": 0,
+ "load_s": 10.1,
+ "median_ms": 253.42535350046091,
+ "p95_ms": 7553.7046210010885,
+ "mean_ms": 1434.0437005624835,
+ "throughput_req_s": 0.6972982831870301,
+ "questions": 113,
+ "options_per_request_mean": 20.85,
+ "peak_rss_mb": 3828.03515625,
+ "cpu_model": "AMD EPYC 7J13 64-Core Processor"
+}

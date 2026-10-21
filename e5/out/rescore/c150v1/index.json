@@ -1,0 +1,497 @@
+{
+  "edition": "0.3",
+  "panel_id": "decision-index-0.3",
+  "index": 36.39,
+  "raw_index": 52.45,
+  "scores": {
+    "balanced_skill": 36.39,
+    "balanced_raw": 52.45,
+    "breadth_skill": 31.5
+  },
+  "areas": [
+    {
+      "id": "knowledge",
+      "label": "Knowledge & Reasoning",
+      "raw": 0.3233,
+      "skill": 0.1177,
+      "coverage": 1.0,
+      "n": 11,
+      "benchmarks": [
+        25,
+        30,
+        31,
+        32,
+        33,
+        43,
+        44,
+        45,
+        57,
+        58,
+        28
+      ]
+    },
+    {
+      "id": "language",
+      "label": "Language Understanding",
+      "raw": 0.5787,
+      "skill": 0.4177,
+      "coverage": 1.0,
+      "n": 9,
+      "benchmarks": [
+        11,
+        12,
+        29,
+        38,
+        39,
+        40,
+        41,
+        42,
+        59
+      ]
+    },
+    {
+      "id": "retrieval",
+      "label": "Retrieval & Classification",
+      "raw": 0.6567,
+      "skill": 0.5217,
+      "coverage": 1.0,
+      "n": 6,
+      "benchmarks": [
+        4,
+        5,
+        36,
+        37,
+        56,
+        61
+      ]
+    },
+    {
+      "id": "tools",
+      "label": "Tools & Automation",
+      "raw": 0.6504,
+      "skill": 0.607,
+      "coverage": 1.0,
+      "n": 5,
+      "benchmarks": [
+        1,
+        2,
+        3,
+        9,
+        62
+      ]
+    },
+    {
+      "id": "arts",
+      "label": "Arts & Human Taste",
+      "raw": 0.4094,
+      "skill": 0.1008,
+      "coverage": 1.0,
+      "n": 6,
+      "benchmarks": [
+        20,
+        21,
+        22,
+        23,
+        50,
+        64
+      ]
+    }
+  ],
+  "benchmarks": {
+    "1": {
+      "raw": 0.8447,
+      "skill": 0.7904,
+      "coverage": 1.0,
+      "random": 0.2592,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "2": {
+      "raw": 0.6161,
+      "skill": 0.5567,
+      "coverage": 1.0,
+      "random": 0.1341,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "3": {
+      "raw": 0.3071,
+      "skill": 0.2938,
+      "coverage": 1.0,
+      "random": 0.0189,
+      "rule": "chance",
+      "in_index": true
+    },
+    "4": {
+      "raw": 0.9069,
+      "skill": 0.9057,
+      "coverage": 1.0,
+      "random": 0.0127,
+      "rule": "chance",
+      "in_index": true
+    },
+    "5": {
+      "raw": 0.9183,
+      "skill": 0.9178,
+      "coverage": 1.0,
+      "random": 0.006,
+      "rule": "chance",
+      "in_index": true
+    },
+    "9": {
+      "raw": 0.7955,
+      "skill": 0.7955,
+      "coverage": 1.0,
+      "random": 0.0,
+      "rule": "chance",
+      "in_index": true
+    },
+    "11": {
+      "raw": 0.8253,
+      "skill": 0.7474,
+      "coverage": 1.0,
+      "random": 0.3085,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "12": {
+      "raw": 0.4594,
+      "skill": 0.1902,
+      "coverage": 1.0,
+      "random": 0.3324,
+      "rule": "chance",
+      "in_index": true
+    },
+    "20": {
+      "raw": 0.4776,
+      "skill": 0.0,
+      "coverage": 1.0,
+      "random": 0.5,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "21": {
+      "raw": 0.5225,
+      "skill": 0.0449,
+      "coverage": 1.0,
+      "random": 0.5,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "22": {
+      "raw": 0.0198,
+      "skill": 0.0121,
+      "coverage": 1.0,
+      "random": 0.0078,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "23": {
+      "raw": 0.5028,
+      "skill": 0.0057,
+      "coverage": 1.0,
+      "random": 0.5,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "25": {
+      "raw": 0.2296,
+      "skill": 0.0,
+      "coverage": 1.0,
+      "random": 0.25,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "28": {
+      "raw": 0.6093,
+      "skill": 0.2186,
+      "coverage": 1.0,
+      "random": 0.5,
+      "rule": "chance",
+      "in_index": true
+    },
+    "29": {
+      "raw": 0.6168,
+      "skill": 0.4891,
+      "coverage": 1.0,
+      "random": 0.25,
+      "rule": "chance",
+      "in_index": true
+    },
+    "30": {
+      "raw": 0.1907,
+      "skill": 0.0201,
+      "coverage": 1.0,
+      "random": 0.25,
+      "rule": "track",
+      "in_index": true,
+      "tracks": [
+        {
+          "track": "GSM8K-4choice",
+          "score": 0.2745,
+          "headline": false
+        },
+        {
+          "track": "GSM8K-10choice",
+          "score": 0.1069,
+          "headline": false
+        }
+      ]
+    },
+    "31": {
+      "raw": 0.0816,
+      "skill": 0.0,
+      "coverage": 1.0,
+      "random": 0.0819,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "32": {
+      "raw": 0.5386,
+      "skill": 0.2665,
+      "coverage": 1.0,
+      "random": 0.371,
+      "rule": "chance",
+      "in_index": true
+    },
+    "33": {
+      "raw": 0.0085,
+      "skill": 0.0,
+      "coverage": 1.0,
+      "random": 0.0131,
+      "rule": "chance",
+      "in_index": true
+    },
+    "36": {
+      "raw": 0.2805,
+      "skill": 0.186,
+      "coverage": 1.0,
+      "random": 0.116,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "37": {
+      "raw": 0.4405,
+      "skill": 0.2983,
+      "coverage": 1.0,
+      "random": 0.2027,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "38": {
+      "raw": 0.408,
+      "skill": 0.3891,
+      "coverage": 1.0,
+      "random": 0.031,
+      "rule": "chance",
+      "in_index": true
+    },
+    "39": {
+      "raw": 0.8415,
+      "skill": 0.7669,
+      "coverage": 1.0,
+      "random": 0.3201,
+      "rule": "chance",
+      "in_index": true
+    },
+    "40": {
+      "raw": 0.0359,
+      "skill": 0.0,
+      "coverage": 1.0,
+      "random": 0.2227,
+      "rule": "track",
+      "in_index": true,
+      "tracks": [
+        {
+          "track": "A · Arabic",
+          "score": 0.0099,
+          "headline": false
+        },
+        {
+          "track": "A · English",
+          "score": 0.0359,
+          "headline": true
+        },
+        {
+          "track": "C · Arabic pairs",
+          "score": 0.53,
+          "headline": false
+        },
+        {
+          "track": "C · English pairs",
+          "score": 0.295,
+          "headline": false
+        }
+      ]
+    },
+    "41": {
+      "raw": 0.7425,
+      "skill": 0.6138,
+      "coverage": 1.0,
+      "random": 0.3333,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "42": {
+      "raw": 0.5636,
+      "skill": 0.151,
+      "coverage": 1.0,
+      "random": 0.486,
+      "rule": "chance",
+      "in_index": true
+    },
+    "43": {
+      "raw": 0.4158,
+      "skill": 0.0731,
+      "coverage": 1.0,
+      "random": 0.3697,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "44": {
+      "raw": 0.8052,
+      "skill": 0.6104,
+      "coverage": 1.0,
+      "random": 0.5,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "45": {
+      "raw": 0.1617,
+      "skill": 0.0,
+      "coverage": 1.0,
+      "random": 0.1641,
+      "rule": "chance",
+      "in_index": true
+    },
+    "50": {
+      "raw": 0.3807,
+      "skill": 0.1011,
+      "coverage": 1.0,
+      "random": 0.311,
+      "rule": "track",
+      "in_index": true,
+      "tracks": []
+    },
+    "56": {
+      "raw": 0.52,
+      "skill": 0.04,
+      "coverage": 1.0,
+      "random": 0.5,
+      "rule": "chance",
+      "in_index": true
+    },
+    "57": {
+      "raw": 0.1415,
+      "skill": 0.0344,
+      "coverage": 1.0,
+      "random": 0.1109,
+      "rule": "chance",
+      "in_index": true
+    },
+    "58": {
+      "raw": 0.3902,
+      "skill": 0.1161,
+      "coverage": 1.0,
+      "random": 0.3101,
+      "rule": "chance",
+      "in_index": true
+    },
+    "59": {
+      "raw": 0.7313,
+      "skill": 0.4429,
+      "coverage": 1.0,
+      "random": 0.5177,
+      "rule": "chance",
+      "in_index": true
+    },
+    "61": {
+      "raw": 0.8468,
+      "skill": 0.6936,
+      "coverage": 1.0,
+      "random": 0.5,
+      "rule": "chance",
+      "in_index": true
+    },
+    "62": {
+      "raw": 0.7185,
+      "skill": 0.6247,
+      "coverage": 1.0,
+      "random": 0.25,
+      "rule": "chance",
+      "in_index": true
+    },
+    "64": {
+      "raw": 0.553,
+      "skill": 0.4413,
+      "coverage": 1.0,
+      "random": 0.2,
+      "rule": "chance",
+      "in_index": true
+    },
+    "6": {
+      "raw": 0.6801,
+      "skill": 0.2499,
+      "coverage": 1.0,
+      "random": 0.5735,
+      "rule": "shown, not counted",
+      "in_index": false
+    },
+    "10": {
+      "raw": 0.4085,
+      "skill": 0.0158,
+      "coverage": 1.0,
+      "random": 0.399,
+      "rule": "shown, not counted",
+      "in_index": false
+    },
+    "24": {
+      "raw": 0.3541,
+      "skill": 0.1388,
+      "coverage": 1.0,
+      "random": 0.25,
+      "rule": "shown, not counted",
+      "in_index": false
+    },
+    "26": {
+      "raw": 0.6726,
+      "skill": 0.5634,
+      "coverage": 1.0,
+      "random": 0.2502,
+      "rule": "shown, not counted",
+      "in_index": false
+    },
+    "27": {
+      "raw": 0.4787,
+      "skill": 0.3047,
+      "coverage": 1.0,
+      "random": 0.2502,
+      "rule": "shown, not counted",
+      "in_index": false
+    },
+    "34": {
+      "raw": 0.3,
+      "skill": 0.16,
+      "coverage": 1.0,
+      "random": 0.1667,
+      "rule": "shown, not counted",
+      "in_index": false
+    }
+  },
+  "coverage": 1.0,
+  "note": "The Decision Index 0.3 public index averages 37 benchmarks in five areas with fixed weights (knowledge 25.8%, language 25.8%, retrieval 20.0%, tools 18.3%, arts 10%). Inside an area, gold ★ benchmarks weigh 1.2 and the rest 1.0; the index is 100 x the weighted mean of the five areas. Each benchmark is chance-corrected first, (score - chance) / (1 - chance) clipped to 0-1, so 0 means random guessing and 100 means perfect. Every score is coverage-adjusted, so an unanswered or unsupported request counts as wrong. On the board this public index is 20% of the Full score; the rest comes from private tests run by the maintainers."
+}

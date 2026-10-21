@@ -1,0 +1,17 @@
+{
+ "engine": "peropt:~/.cache/huggingface/hub/models--tardellirs--crivo-32m/snapshots/c14221dd5cb4953fa83dc40ccf3b90b37126668e",
+ "device": "cpu",
+ "gpu": null,
+ "threads": 16,
+ "requests": 300,
+ "timed": 300,
+ "unsupported": 0,
+ "load_s": 3.3,
+ "median_ms": 36.92629350007337,
+ "p95_ms": 17846.494763998635,
+ "mean_ms": 2805.975948693182,
+ "throughput_req_s": 0.3563785701288562,
+ "questions": 445,
+ "options_per_request_mean": 19.76,
+ "peak_rss_mb": 3900.578125
+}

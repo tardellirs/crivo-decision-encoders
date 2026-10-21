@@ -1,0 +1,33 @@
+{
+ "perm1": {
+  "questions": 3841,
+  "flip_rate": 0.0,
+  "acc_orig": 0.4225462119239781,
+  "acc_perturbed": 0.4225462119239781
+ },
+ "perm2": {
+  "questions": 3841,
+  "flip_rate": 0.0,
+  "acc_orig": 0.4225462119239781,
+  "acc_perturbed": 0.4225462119239781
+ },
+ "perm3": {
+  "questions": 3841,
+  "flip_rate": 0.0,
+  "acc_orig": 0.4225462119239781,
+  "acc_perturbed": 0.4225462119239781
+ },
+ "rev": {
+  "questions": 3841,
+  "flip_rate": 0.0,
+  "acc_orig": 0.4225462119239781,
+  "acc_perturbed": 0.4225462119239781
+ },
+ "yn": {
+  "questions": 894,
+  "flip_rate": 0.0,
+  "acc_orig": 0.37360178970917224,
+  "acc_perturbed": 0.37360178970917224
+ },
+ "consistent_all_perms": 1.0
+}

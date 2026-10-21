@@ -1,0 +1,20 @@
+{
+ "engine": "crivo:~/.cache/huggingface/hub/models--tardellirs--crivo-32m/snapshots/c14221dd5cb4953fa83dc40ccf3b90b37126668e",
+ "device": "cuda",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "threads": 30,
+ "requests": 1000,
+ "timed": 1000,
+ "unsupported": 0,
+ "load_s": 5.0,
+ "median_ms": 10.240997999972024,
+ "p95_ms": 32.52137699928426,
+ "mean_ms": 13.571819492022769,
+ "throughput_req_s": 73.45742097514848,
+ "questions": 1386,
+ "options_per_request_mean": 19.556,
+ "peak_rss_mb": 1625.9140625,
+ "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+ "peak_alloc_mb": 1263.3486328125,
+ "peak_reserved_mb": 1290.0
+}

@@ -1,0 +1,31 @@
+crivo-decision-encoders
+Copyright 2026 Tardelli Stekel
+
+The code in this repository is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Model weights are not included. They are released separately on the Hugging Face Hub under their own licenses:
+the Crivo models (tardellirs/crivo-17m, -32m, -68m, -150m, -400m, -1b and tardellirs/crivo-32m-per-option-ablation)
+under CC BY-NC 4.0; Prumo (tardellirs/prumo) under Apache-2.0.
+
+Third-party material
+--------------------
+The following files contain or are derived from third-party data. They are included unchanged (or as aggregate
+statistics) for reproducibility only and remain subject to their original licenses and terms; the Apache-2.0 license
+of this repository does not apply to them.
+
+- board/di-index-20261020.json, board/di-index-v0.3.2-20261020.json, board/di-methodology-20261020.json:
+  snapshots (2026-10-20) of the Decision Index leaderboard data
+  (https://huggingface.co/spaces/multimodalart/jev-decision-index; kit: https://github.com/apolinario/decision-index).
+- btzsc/published.json, btzsc/published_table.md: aggregated from the BTZSC results files
+  (https://huggingface.co/datasets/btzsc/btzsc-results, MIT).
+- s1arena/tasks.json and task/domain names throughout: metadata of System1-Arena
+  (https://huggingface.co/datasets/C-Tianyu/S1-Arena; generated requests CC BY 4.0, sources keep their own licenses;
+  code https://github.com/TianyuCodings/S1-Arena, Apache-2.0).
+- Score, calibration and statistics files (results_*/, stats/, e5/out/, errors/): our own model outputs aggregated
+  over the BTZSC, System1-Arena and Decision Index public-suite items. No benchmark item text is stored: per-item files
+  keep identifiers only (audit_raw/*_hits_allmixes.jsonl, errors/sample68m_coded.tsv), and the matched-text snippets
+  of the raw contamination audits (audit_raw/*_audit_*.json, field examples[].text) were removed before release.
+
+The [OPT] option-marker readout used in train/model.py and a1a2/peropt.py follows Dinah-0
+(https://huggingface.co/Lukitaduarte/dinah-0). The encoders are initialised from Ettin
+(https://huggingface.co/jhu-clsp) and Ettin reranker (https://huggingface.co/cross-encoder) checkpoints.

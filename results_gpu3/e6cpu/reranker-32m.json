@@ -1,0 +1,18 @@
+{
+ "engine": "reranker:cross-encoder/ettin-reranker-32m-v1",
+ "device": "cpu",
+ "gpu": null,
+ "threads": 16,
+ "requests": 80,
+ "timed": 80,
+ "unsupported": 0,
+ "load_s": 4.5,
+ "median_ms": 38.52414850007335,
+ "p95_ms": 28202.3338350009,
+ "mean_ms": 3749.931883812519,
+ "throughput_req_s": 0.26666709753225276,
+ "questions": 113,
+ "options_per_request_mean": 20.85,
+ "peak_rss_mb": 10456.7265625,
+ "cpu_model": "AMD EPYC 7J13 64-Core Processor"
+}

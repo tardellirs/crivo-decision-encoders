@@ -1,0 +1,230 @@
+{
+ "common_requests": 80,
+ "systems": {
+  "crivo-150m": {
+   "engine": "crivo:~/.cache/huggingface/hub/models--tardellirs--crivo-150m/snapshots/6954b28cf3827c763e191fad8fd0873d3e7e1b44",
+   "device": "cpu",
+   "gpu": null,
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 16,
+   "requests": 80,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 80,
+    "median_ms": 97.31,
+    "p95_ms": 3859.39,
+    "mean_ms": 683.66,
+    "sum_s": 54.69
+   },
+   "common_subset": {
+    "n": 80,
+    "median_ms": 97.31,
+    "p95_ms": 3859.39,
+    "mean_ms": 683.66,
+    "sum_s": 54.69
+   },
+   "peak_rss_mb": 2182.65234375,
+   "peak_alloc_mb": null
+  },
+  "crivo-17m": {
+   "engine": "crivo:~/.cache/huggingface/hub/models--tardellirs--crivo-17m/snapshots/890b00b029856db1a213c8b2cf530f9d506442f7",
+   "device": "cpu",
+   "gpu": null,
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 16,
+   "requests": 80,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 80,
+    "median_ms": 13.5,
+    "p95_ms": 486.07,
+    "mean_ms": 79.76,
+    "sum_s": 6.38
+   },
+   "common_subset": {
+    "n": 80,
+    "median_ms": 13.5,
+    "p95_ms": 486.07,
+    "mean_ms": 79.76,
+    "sum_s": 6.38
+   },
+   "peak_rss_mb": 1646.08203125,
+   "peak_alloc_mb": null
+  },
+  "crivo-1b": {
+   "engine": "crivo:~/.cache/huggingface/hub/models--tardellirs--crivo-1b/snapshots/925ed46ec876b6d6659aa6166fb3c117bc19b207",
+   "device": "cpu",
+   "gpu": null,
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 16,
+   "requests": 80,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 80,
+    "median_ms": 578.59,
+    "p95_ms": 19457.25,
+    "mean_ms": 3122.51,
+    "sum_s": 249.8
+   },
+   "common_subset": {
+    "n": 80,
+    "median_ms": 578.59,
+    "p95_ms": 19457.25,
+    "mean_ms": 3122.51,
+    "sum_s": 249.8
+   },
+   "peak_rss_mb": 8676.05859375,
+   "peak_alloc_mb": null
+  },
+  "crivo-32m-per-option": {
+   "engine": "peropt:~/exp/P_s0 [request-batched]",
+   "device": "cpu",
+   "gpu": null,
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 16,
+   "requests": 80,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 80,
+    "median_ms": 41.03,
+    "p95_ms": 27771.2,
+    "mean_ms": 3728.32,
+    "sum_s": 298.27
+   },
+   "common_subset": {
+    "n": 80,
+    "median_ms": 41.03,
+    "p95_ms": 27771.2,
+    "mean_ms": 3728.32,
+    "sum_s": 298.27
+   },
+   "peak_rss_mb": 4275.08984375,
+   "peak_alloc_mb": null
+  },
+  "crivo-32m": {
+   "engine": "crivo:~/.cache/huggingface/hub/models--tardellirs--crivo-32m/snapshots/c14221dd5cb4953fa83dc40ccf3b90b37126668e",
+   "device": "cpu",
+   "gpu": null,
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 16,
+   "requests": 80,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 80,
+    "median_ms": 21.89,
+    "p95_ms": 856.06,
+    "mean_ms": 139.21,
+    "sum_s": 11.14
+   },
+   "common_subset": {
+    "n": 80,
+    "median_ms": 21.89,
+    "p95_ms": 856.06,
+    "mean_ms": 139.21,
+    "sum_s": 11.14
+   },
+   "peak_rss_mb": 1888.90625,
+   "peak_alloc_mb": null
+  },
+  "crivo-400m": {
+   "engine": "crivo:~/.cache/huggingface/hub/models--tardellirs--crivo-400m/snapshots/95194168fe01179462ca8b72be7d8a5259d2ad68",
+   "device": "cpu",
+   "gpu": null,
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 16,
+   "requests": 80,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 80,
+    "median_ms": 253.43,
+    "p95_ms": 7553.7,
+    "mean_ms": 1434.04,
+    "sum_s": 114.72
+   },
+   "common_subset": {
+    "n": 80,
+    "median_ms": 253.43,
+    "p95_ms": 7553.7,
+    "mean_ms": 1434.04,
+    "sum_s": 114.72
+   },
+   "peak_rss_mb": 3828.03515625,
+   "peak_alloc_mb": null
+  },
+  "crivo-68m": {
+   "engine": "crivo:~/.cache/huggingface/hub/models--tardellirs--crivo-68m/snapshots/2b49f5449895ca23779f22ab1ea8a148d23ae5a0",
+   "device": "cpu",
+   "gpu": null,
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 16,
+   "requests": 80,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 80,
+    "median_ms": 53.25,
+    "p95_ms": 2173.44,
+    "mean_ms": 384.38,
+    "sum_s": 30.75
+   },
+   "common_subset": {
+    "n": 80,
+    "median_ms": 53.25,
+    "p95_ms": 2173.44,
+    "mean_ms": 384.38,
+    "sum_s": 30.75
+   },
+   "peak_rss_mb": 1894.60546875,
+   "peak_alloc_mb": null
+  },
+  "nli-deberta-v3-large-zs2": {
+   "engine": "nli:MoritzLaurer/deberta-v3-large-zeroshot-v2.0",
+   "device": "cpu",
+   "gpu": null,
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 16,
+   "requests": 80,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 80,
+    "median_ms": 728.26,
+    "p95_ms": 61021.95,
+    "mean_ms": 12102.87,
+    "sum_s": 968.23
+   },
+   "common_subset": {
+    "n": 80,
+    "median_ms": 728.26,
+    "p95_ms": 61021.95,
+    "mean_ms": 12102.87,
+    "sum_s": 968.23
+   },
+   "peak_rss_mb": 7659.1484375,
+   "peak_alloc_mb": null
+  },
+  "reranker-32m": {
+   "engine": "reranker:cross-encoder/ettin-reranker-32m-v1",
+   "device": "cpu",
+   "gpu": null,
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 16,
+   "requests": 80,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 80,
+    "median_ms": 38.52,
+    "p95_ms": 28202.33,
+    "mean_ms": 3749.93,
+    "sum_s": 299.99
+   },
+   "common_subset": {
+    "n": 80,
+    "median_ms": 38.52,
+    "p95_ms": 28202.33,
+    "mean_ms": 3749.93,
+    "sum_s": 299.99
+   },
+   "peak_rss_mb": 10456.7265625,
+   "peak_alloc_mb": null
+  }
+ }
+}

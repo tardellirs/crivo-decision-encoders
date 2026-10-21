@@ -1,0 +1,155 @@
+{
+ "common_requests": 1000,
+ "systems": {
+  "P_s0-per-question.a": {
+   "engine": "peropt:~/exp/P_s0",
+   "device": "cuda",
+   "gpu": "NVIDIA A100-SXM4-40GB",
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 30,
+   "requests": 1000,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 1000,
+    "median_ms": 10.59,
+    "p95_ms": 352.42,
+    "mean_ms": 62.93,
+    "sum_s": 62.93
+   },
+   "common_subset": {
+    "n": 1000,
+    "median_ms": 10.59,
+    "p95_ms": 352.42,
+    "mean_ms": 62.93,
+    "sum_s": 62.93
+   },
+   "peak_rss_mb": 1608.046875,
+   "peak_alloc_mb": 2304.4755859375
+  },
+  "P_s0-per-question.b": {
+   "engine": "peropt:~/exp/P_s0",
+   "device": "cuda",
+   "gpu": "NVIDIA A100-SXM4-40GB",
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 30,
+   "requests": 1000,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 1000,
+    "median_ms": 10.62,
+    "p95_ms": 351.84,
+    "mean_ms": 63.01,
+    "sum_s": 63.01
+   },
+   "common_subset": {
+    "n": 1000,
+    "median_ms": 10.62,
+    "p95_ms": 351.84,
+    "mean_ms": 63.01,
+    "sum_s": 63.01
+   },
+   "peak_rss_mb": 1606.3671875,
+   "peak_alloc_mb": 2304.4755859375
+  },
+  "P_s0-request-batched.a": {
+   "engine": "peropt:~/exp/P_s0 [request-batched]",
+   "device": "cuda",
+   "gpu": "NVIDIA A100-SXM4-40GB",
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 30,
+   "requests": 1000,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 1000,
+    "median_ms": 10.65,
+    "p95_ms": 343.3,
+    "mean_ms": 59.92,
+    "sum_s": 59.92
+   },
+   "common_subset": {
+    "n": 1000,
+    "median_ms": 10.65,
+    "p95_ms": 343.3,
+    "mean_ms": 59.92,
+    "sum_s": 59.92
+   },
+   "peak_rss_mb": 1598.0078125,
+   "peak_alloc_mb": 2304.4755859375
+  },
+  "P_s0-request-batched.b": {
+   "engine": "peropt:~/exp/P_s0 [request-batched]",
+   "device": "cuda",
+   "gpu": "NVIDIA A100-SXM4-40GB",
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 30,
+   "requests": 1000,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 1000,
+    "median_ms": 10.71,
+    "p95_ms": 314.05,
+    "mean_ms": 58.12,
+    "sum_s": 58.12
+   },
+   "common_subset": {
+    "n": 1000,
+    "median_ms": 10.71,
+    "p95_ms": 314.05,
+    "mean_ms": 58.12,
+    "sum_s": 58.12
+   },
+   "peak_rss_mb": 1598.1875,
+   "peak_alloc_mb": 2304.4755859375
+  },
+  "crivo-32m-v2.a": {
+   "engine": "crivo:~/.cache/huggingface/hub/models--tardellirs--crivo-32m/snapshots/c14221dd5cb4953fa83dc40ccf3b90b37126668e",
+   "device": "cuda",
+   "gpu": "NVIDIA A100-SXM4-40GB",
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 30,
+   "requests": 1000,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 1000,
+    "median_ms": 10.51,
+    "p95_ms": 33.18,
+    "mean_ms": 13.89,
+    "sum_s": 13.89
+   },
+   "common_subset": {
+    "n": 1000,
+    "median_ms": 10.51,
+    "p95_ms": 33.18,
+    "mean_ms": 13.89,
+    "sum_s": 13.89
+   },
+   "peak_rss_mb": 1627.16015625,
+   "peak_alloc_mb": 1263.3486328125
+  },
+  "crivo-32m-v2.b": {
+   "engine": "crivo:~/.cache/huggingface/hub/models--tardellirs--crivo-32m/snapshots/c14221dd5cb4953fa83dc40ccf3b90b37126668e",
+   "device": "cuda",
+   "gpu": "NVIDIA A100-SXM4-40GB",
+   "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+   "threads": 30,
+   "requests": 1000,
+   "skipped_unsupported": 0,
+   "all_answered": {
+    "n": 1000,
+    "median_ms": 10.24,
+    "p95_ms": 32.52,
+    "mean_ms": 13.57,
+    "sum_s": 13.57
+   },
+   "common_subset": {
+    "n": 1000,
+    "median_ms": 10.24,
+    "p95_ms": 32.52,
+    "mean_ms": 13.57,
+    "sum_s": 13.57
+   },
+   "peak_rss_mb": 1625.9140625,
+   "peak_alloc_mb": 1263.3486328125
+  }
+ }
+}

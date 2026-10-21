@@ -1,0 +1,6 @@
+e1cea1bd407ba9b10a7fc00dc1eb3a5e  exp/a1a2/sub150k.jsonl.gz
+e2048e89f8c9922a0883de0933344424  exp/a1a2/sub150k.t400.npz
+c45fe65602942c6183840e2dc08fd5a4  exp/a1a2/gold_only
+e76d0abe24d58c23fe50d159c92ee78f  evalsets/btzsc500.jsonl
+2124e96947b4d91c671960b5c6015ab2  evalsets/pub15.jsonl
+7c6735158771fc5ffb2f75cc61e97a26  evalsets/s1_60.jsonl

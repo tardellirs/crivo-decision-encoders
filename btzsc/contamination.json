@@ -1,0 +1,1357 @@
+{
+ "amazonpolarity": {
+  "v2": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 297,
+   "sources": {
+    "t3/amazon_polarity/amazon_polarity": 297
+   },
+   "related_rows": 297,
+   "related": {
+    "t3/amazon_counterfactual/en": 297
+   },
+   "test_items": 10000,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  },
+  "32Mv1": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 295,
+   "sources": {
+    "t3/amazon_polarity/amazon_polarity": 295
+   },
+   "related_rows": 297,
+   "related": {
+    "t3/amazon_counterfactual/en": 297
+   },
+   "test_items": 10000,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  },
+  "150Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 10000,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  }
+ },
+ "imdb": {
+  "v2": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 541,
+   "sources": {
+    "t3/counterfactually-augmented-imdb": 244,
+    "t3/imdb": 297
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 10000,
+   "overlap_items": 1,
+   "overlap_rate": 0.0001,
+   "exact": 0,
+   "c80": 1,
+   "short_exact": 0,
+   "overlap_srcs": {
+    "t3/imdb": 1
+   }
+  },
+  "32Mv1": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 538,
+   "sources": {
+    "t3/imdb": 297,
+    "t3/counterfactually-augmented-imdb": 241
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 10000,
+   "overlap_items": 1,
+   "overlap_rate": 0.0001,
+   "exact": 0,
+   "c80": 1,
+   "short_exact": 0,
+   "overlap_srcs": {
+    "t3/imdb": 1
+   }
+  },
+  "150Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 10000,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  }
+ },
+ "appreviews": {
+  "v2": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 4000,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  },
+  "32Mv1": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 296,
+   "sources": {
+    "t3/app_reviews": 296
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 4000,
+   "overlap_items": 5,
+   "overlap_rate": 0.0013,
+   "exact": 5,
+   "c80": 5,
+   "short_exact": 0,
+   "overlap_srcs": {
+    "t3/app_reviews": 5
+   }
+  },
+  "150Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 4000,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  }
+ },
+ "yelpreviews": {
+  "v2": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 297,
+   "sources": {
+    "t3/yelp_review_full/yelp_review_full": 297
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 10000,
+   "overlap_items": 3,
+   "overlap_rate": 0.0003,
+   "exact": 1,
+   "c80": 3,
+   "short_exact": 10,
+   "overlap_srcs": {
+    "t3/yelp_review_full/yelp_review_full": 3
+   }
+  },
+  "32Mv1": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 296,
+   "sources": {
+    "t3/yelp_review_full/yelp_review_full": 296
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 10000,
+   "overlap_items": 3,
+   "overlap_rate": 0.0003,
+   "exact": 1,
+   "c80": 3,
+   "short_exact": 12,
+   "overlap_srcs": {
+    "t3/yelp_review_full/yelp_review_full": 3
+   }
+  },
+  "150Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 10000,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 8,
+   "overlap_srcs": {}
+  }
+ },
+ "rottentomatoes": {
+  "v2": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 525,
+   "sources": {
+    "t3/glue/sst2": 228,
+    "t3/rotten_tomatoes": 297
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 1066,
+   "overlap_items": 3,
+   "overlap_rate": 0.0028,
+   "exact": 3,
+   "c80": 3,
+   "short_exact": 2,
+   "overlap_srcs": {
+    "t3/glue/sst2": 3
+   }
+  },
+  "32Mv1": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 523,
+   "sources": {
+    "t3/rotten_tomatoes": 295,
+    "t3/glue/sst2": 228
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 1066,
+   "overlap_items": 3,
+   "overlap_rate": 0.0028,
+   "exact": 3,
+   "c80": 3,
+   "short_exact": 2,
+   "overlap_srcs": {
+    "t3/glue/sst2": 3
+   }
+  },
+  "150Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 1066,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 1,
+   "overlap_srcs": {}
+  }
+ },
+ "financialphrasebank": {
+  "v2": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 514,
+   "sources": {
+    "t3/auditor_review": 294,
+    "t3/financial_phrasebank/sentences_allagree": 220
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 690,
+   "overlap_items": 77,
+   "overlap_rate": 0.1116,
+   "exact": 77,
+   "c80": 76,
+   "short_exact": 1,
+   "overlap_srcs": {
+    "t3/financial_phrasebank/sentences_allagree": 39,
+    "t3/auditor_review": 38
+   }
+  },
+  "32Mv1": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 512,
+   "sources": {
+    "t3/financial_phrasebank/sentences_allagree": 218,
+    "t3/auditor_review": 294
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 690,
+   "overlap_items": 77,
+   "overlap_rate": 0.1116,
+   "exact": 77,
+   "c80": 76,
+   "short_exact": 1,
+   "overlap_srcs": {
+    "t3/auditor_review": 39,
+    "t3/financial_phrasebank/sentences_allagree": 38
+   }
+  },
+  "150Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 690,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 1,
+   "overlap_srcs": {}
+  }
+ },
+ "emotiondair": {
+  "v2": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 297,
+   "sources": {
+    "t3/emotion": 297
+   },
+   "related_rows": 1915,
+   "related": {
+    "bekko/go_emotions": 1627,
+    "t3/crowdflower/text_emotion": 288
+   },
+   "test_items": 2000,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  },
+  "32Mv1": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 295,
+   "sources": {
+    "t3/emotion": 295
+   },
+   "related_rows": 7861,
+   "related": {
+    "bekko/go_emotions": 7366,
+    "t3/crowdflower/text_emotion": 288,
+    "t3/tweet_eval/emotion": 207
+   },
+   "test_items": 2000,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  },
+  "150Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 7582,
+   "related": {
+    "bekko/go_emotions": 7582
+   },
+   "test_items": 2000,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  }
+ },
+ "empathetic": {
+  "v2": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 1924,
+   "related": {
+    "bekko/go_emotions": 1627,
+    "t3/emotion": 297
+   },
+   "test_items": 2542,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  },
+  "32Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 7868,
+   "related": {
+    "bekko/go_emotions": 7366,
+    "t3/emotion": 295,
+    "t3/tweet_eval/emotion": 207
+   },
+   "test_items": 2542,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  },
+  "150Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 7582,
+   "related": {
+    "bekko/go_emotions": 7582
+   },
+   "test_items": 2542,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  }
+ },
+ "banking77": {
+  "v2": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 18744,
+   "sources": {
+    "src400/sister/banking77/bitext_retail_banking": 8850,
+    "src400/exact/banking77": 2436,
+    "pub/banking77": 3794,
+    "t2/opaque/pub/banking77": 999,
+    "t2/keyonly/bekko/banking77": 468,
+    "t2/opaque/bekko/banking77": 554,
+    "bekko/banking77": 1643
+   },
+   "related_rows": 13989,
+   "related": {
+    "src400/sister/clinc150/bitext_retail_ecommerce": 8850,
+    "bekko/bitext": 1540,
+    "bekko/minds14": 1319,
+    "t2/opaque/bekko/bitext": 534
+   },
+   "test_items": 3080,
+   "overlap_items": 33,
+   "overlap_rate": 0.0107,
+   "exact": 14,
+   "c80": 24,
+   "short_exact": 3,
+   "overlap_srcs": {
+    "bekko/banking77": 7,
+    "src400/exact/banking77": 6,
+    "pub/banking77": 6,
+    "t2/keyonly/bekko/minds14": 3,
+    "bekko/minds14": 2,
+    "t2/nota_present/bekko/minds14": 2,
+    "t2/opaque/bekko/banking77": 2,
+    "src400/teacher/decider_routing_messages": 1,
+    "src400/sister/banking77/bitext_retail_banking": 1,
+    "t2/keyonly/bekko/banking77": 1
+   }
+  },
+  "32Mv1": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 21208,
+   "sources": {
+    "bekko/banking77": 7372,
+    "t2/opaque/bekko/banking77": 465,
+    "pub/banking77": 12163,
+    "t2/opaque/pub/banking77": 819,
+    "t2/keyonly/bekko/banking77": 389
+   },
+   "related_rows": 11274,
+   "related": {
+    "bekko/bitext": 7362,
+    "bekko/minds14": 2010,
+    "t2/opaque/bekko/bitext": 434,
+    "t2/keyonly/bekko/bitext": 391
+   },
+   "test_items": 3080,
+   "overlap_items": 52,
+   "overlap_rate": 0.0169,
+   "exact": 25,
+   "c80": 34,
+   "short_exact": 3,
+   "overlap_srcs": {
+    "pub/banking77": 21,
+    "bekko/banking77": 18,
+    "bekko/minds14": 6,
+    "pub/clinc150": 4,
+    "t2/opaque/bekko/banking77": 2,
+    "t2/keyonly/bekko/minds14": 1
+   }
+  },
+  "150Mv1": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 20083,
+   "sources": {
+    "pub/banking77": 12506,
+    "bekko/banking77": 7577
+   },
+   "related_rows": 9620,
+   "related": {
+    "bekko/bitext": 7561,
+    "bekko/minds14": 2059
+   },
+   "test_items": 3080,
+   "overlap_items": 52,
+   "overlap_rate": 0.0169,
+   "exact": 25,
+   "c80": 34,
+   "short_exact": 3,
+   "overlap_srcs": {
+    "pub/banking77": 22,
+    "bekko/banking77": 19,
+    "bekko/minds14": 7,
+    "pub/clinc150": 3,
+    "bekko/clinc": 1
+   }
+  }
+ },
+ "biasframes_intent": {
+  "v2": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 294,
+   "sources": {
+    "t3/SBIC_Disagreement": 294
+   },
+   "related_rows": 296,
+   "related": {
+    "t3/hate_speech18": 296
+   },
+   "test_items": 3648,
+   "overlap_items": 43,
+   "overlap_rate": 0.0118,
+   "exact": 41,
+   "c80": 42,
+   "short_exact": 1,
+   "overlap_srcs": {
+    "t3/SBIC_Disagreement": 29,
+    "t3/hate_speech18": 13,
+    "bekko/measuring_hate": 1
+   }
+  },
+  "32Mv1": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 294,
+   "sources": {
+    "t3/SBIC_Disagreement": 294
+   },
+   "related_rows": 886,
+   "related": {
+    "t3/tweets_hate_speech_detection": 296,
+    "t3/hate_speech18": 296,
+    "t3/hate_speech_offensive": 294
+   },
+   "test_items": 3648,
+   "overlap_items": 45,
+   "overlap_rate": 0.0123,
+   "exact": 43,
+   "c80": 44,
+   "short_exact": 1,
+   "overlap_srcs": {
+    "t3/SBIC_Disagreement": 29,
+    "t3/hate_speech18": 13,
+    "t3/hate_speech_offensive": 2,
+    "bekko/measuring_hate": 1
+   }
+  },
+  "150Mv1": {
+   "class": "unseen (stray overlap)",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 3648,
+   "overlap_items": 1,
+   "overlap_rate": 0.0003,
+   "exact": 1,
+   "c80": 1,
+   "short_exact": 1,
+   "overlap_srcs": {
+    "bekko/measuring_hate": 1
+   }
+  }
+ },
+ "biasframes_offensive": {
+  "v2": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 294,
+   "sources": {
+    "t3/SBIC_Disagreement": 294
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 3838,
+   "overlap_items": 45,
+   "overlap_rate": 0.0117,
+   "exact": 43,
+   "c80": 44,
+   "short_exact": 1,
+   "overlap_srcs": {
+    "t3/SBIC_Disagreement": 30,
+    "t3/hate_speech18": 13,
+    "bekko/measuring_hate": 1,
+    "bekko/qasper": 1
+   }
+  },
+  "32Mv1": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 294,
+   "sources": {
+    "t3/SBIC_Disagreement": 294
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 3838,
+   "overlap_items": 48,
+   "overlap_rate": 0.0125,
+   "exact": 46,
+   "c80": 47,
+   "short_exact": 1,
+   "overlap_srcs": {
+    "t3/SBIC_Disagreement": 30,
+    "t3/hate_speech18": 13,
+    "t3/hate_speech_offensive": 3,
+    "bekko/measuring_hate": 1,
+    "bekko/qasper": 1
+   }
+  },
+  "150Mv1": {
+   "class": "unseen (stray overlap)",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 3838,
+   "overlap_items": 2,
+   "overlap_rate": 0.0005,
+   "exact": 2,
+   "c80": 2,
+   "short_exact": 1,
+   "overlap_srcs": {
+    "bekko/measuring_hate": 1,
+    "bekko/qasper": 1
+   }
+  }
+ },
+ "biasframes_sex": {
+  "v2": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 294,
+   "sources": {
+    "t3/SBIC_Disagreement": 294
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 4404,
+   "overlap_items": 51,
+   "overlap_rate": 0.0116,
+   "exact": 49,
+   "c80": 50,
+   "short_exact": 1,
+   "overlap_srcs": {
+    "t3/SBIC_Disagreement": 33,
+    "t3/hate_speech18": 16,
+    "bekko/measuring_hate": 1,
+    "bekko/qasper": 1
+   }
+  },
+  "32Mv1": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 294,
+   "sources": {
+    "t3/SBIC_Disagreement": 294
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 4404,
+   "overlap_items": 53,
+   "overlap_rate": 0.012,
+   "exact": 51,
+   "c80": 52,
+   "short_exact": 1,
+   "overlap_srcs": {
+    "t3/SBIC_Disagreement": 33,
+    "t3/hate_speech18": 16,
+    "t3/hate_speech_offensive": 2,
+    "bekko/measuring_hate": 1,
+    "bekko/qasper": 1
+   }
+  },
+  "150Mv1": {
+   "class": "unseen (stray overlap)",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 4404,
+   "overlap_items": 2,
+   "overlap_rate": 0.0005,
+   "exact": 2,
+   "c80": 2,
+   "short_exact": 1,
+   "overlap_srcs": {
+    "bekko/measuring_hate": 1,
+    "bekko/qasper": 1
+   }
+  }
+ },
+ "massive": {
+  "v2": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 2892,
+   "sources": {
+    "t2/keyonly/bekko/massive": 212,
+    "t2/opaque/bekko/massive": 491,
+    "t2/nota_present/bekko/massive": 292,
+    "t2/nota_removed/bekko/massive": 283,
+    "bekko/massive": 1614
+   },
+   "related_rows": 27519,
+   "related": {
+    "src400/sister/clinc150/bitext_retail_ecommerce": 8850,
+    "pub/clinc150": 4490,
+    "src400/exact/clinc150": 2436,
+    "bekko/clinc": 1622
+   },
+   "test_items": 2974,
+   "overlap_items": 21,
+   "overlap_rate": 0.0071,
+   "exact": 11,
+   "c80": 12,
+   "short_exact": 58,
+   "overlap_srcs": {
+    "bekko/massive": 5,
+    "src400/exact/clinc150": 4,
+    "t2/opaque/bekko/massive": 2,
+    "pub/clinc150": 2,
+    "t2/nota_present/bekko/massive": 2,
+    "t2/opaque/bekko/taskmaster": 1,
+    "extra/bfcl-glaive": 1,
+    "bekko/hwu64": 1,
+    "t2/opaque/bekko/oasst1": 1,
+    "bekko/aegis2": 1
+   }
+  },
+  "32Mv1": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 8448,
+   "sources": {
+    "bekko/massive": 7380,
+    "t2/nota_removed/bekko/massive": 239,
+    "t2/opaque/bekko/massive": 412,
+    "t2/nota_present/bekko/massive": 239,
+    "t2/keyonly/bekko/massive": 178
+   },
+   "related_rows": 52562,
+   "related": {
+    "pub/clinc150": 18406,
+    "bekko/snips": 7441,
+    "bekko/mtop": 7420,
+    "bekko/hwu64": 7411
+   },
+   "test_items": 2974,
+   "overlap_items": 34,
+   "overlap_rate": 0.0114,
+   "exact": 19,
+   "c80": 17,
+   "short_exact": 60,
+   "overlap_srcs": {
+    "pub/clinc150": 15,
+    "bekko/massive": 8,
+    "bekko/hwu64": 3,
+    "bekko/oasst1": 2,
+    "extra/bfcl-glaive": 1,
+    "bekko/aegis2": 1,
+    "t2/nota_removed/bekko/massive": 1,
+    "pub/when2call": 1,
+    "bekko/mtop": 1,
+    "t2/nota_present/bekko/massive": 1
+   }
+  },
+  "150Mv1": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 7580,
+   "sources": {
+    "bekko/massive": 7580
+   },
+   "related_rows": 49438,
+   "related": {
+    "pub/clinc150": 18954,
+    "bekko/snips": 7646,
+    "bekko/mtop": 7635,
+    "bekko/hwu64": 7619
+   },
+   "test_items": 2974,
+   "overlap_items": 34,
+   "overlap_rate": 0.0114,
+   "exact": 19,
+   "c80": 17,
+   "short_exact": 56,
+   "overlap_srcs": {
+    "pub/clinc150": 15,
+    "bekko/massive": 10,
+    "bekko/hwu64": 3,
+    "bekko/oasst1": 2,
+    "extra/bfcl-glaive": 1,
+    "bekko/aegis2": 1,
+    "pub/when2call": 1,
+    "bekko/mtop": 1
+   }
+  }
+ },
+ "agnews": {
+  "v2": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 5824,
+   "sources": {
+    "t2/keyonly/bekko/laya__ag_news": 362,
+    "t2/opaque/bekko/laya__ag_news": 386,
+    "t2/nota_present/bekko/laya__ag_news": 236,
+    "t2/nota_removed/bekko/laya__ag_news": 234,
+    "bekko/agnews": 1373,
+    "bekko/laya__ag_news": 1614,
+    "bekko/synthetic_relevance__agnews": 1619
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 7600,
+   "overlap_items": 22,
+   "overlap_rate": 0.0029,
+   "exact": 0,
+   "c80": 22,
+   "short_exact": 0,
+   "overlap_srcs": {
+    "bekko/synthetic_relevance__agnews": 9,
+    "bekko/agnews": 7,
+    "bekko/laya__ag_news": 4,
+    "t2/keyonly/bekko/laya__ag_news": 1,
+    "t2/opaque/bekko/laya__ag_news": 1
+   }
+  },
+  "32Mv1": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 18042,
+   "sources": {
+    "bekko/agnews": 3650,
+    "bekko/synthetic_relevance__agnews": 5965,
+    "bekko/laya__ag_news": 7411,
+    "t2/keyonly/bekko/laya__ag_news": 298,
+    "t2/opaque/bekko/laya__ag_news": 328,
+    "t2/nota_present/bekko/laya__ag_news": 195,
+    "t2/nota_removed/bekko/laya__ag_news": 195
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 7600,
+   "overlap_items": 45,
+   "overlap_rate": 0.0059,
+   "exact": 1,
+   "c80": 45,
+   "short_exact": 0,
+   "overlap_srcs": {
+    "bekko/laya__ag_news": 17,
+    "bekko/synthetic_relevance__agnews": 14,
+    "bekko/agnews": 13,
+    "t2/opaque/bekko/laya__ag_news": 1
+   }
+  },
+  "150Mv1": {
+   "class": "seen-test-overlap",
+   "train_rows_same_source": 18945,
+   "sources": {
+    "bekko/laya__ag_news": 7606,
+    "bekko/synthetic_relevance__agnews": 7599,
+    "bekko/agnews": 3740
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 7600,
+   "overlap_items": 45,
+   "overlap_rate": 0.0059,
+   "exact": 1,
+   "c80": 45,
+   "short_exact": 0,
+   "overlap_srcs": {
+    "bekko/laya__ag_news": 18,
+    "bekko/synthetic_relevance__agnews": 15,
+    "bekko/agnews": 12
+   }
+  }
+ },
+ "yahootopics": {
+  "v2": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 293,
+   "sources": {
+    "t3/yahoo_answers_topics": 293
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 45002,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  },
+  "32Mv1": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 292,
+   "sources": {
+    "t3/yahoo_answers_topics": 292
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 45002,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  },
+  "150Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 45002,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  }
+ },
+ "trueteacher": {
+  "v2": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 8955,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  },
+  "32Mv1": {
+   "class": "unseen (stray overlap)",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 277,
+   "related": {
+    "t3/doc-nli": 277
+   },
+   "test_items": 8955,
+   "overlap_items": 2,
+   "overlap_rate": 0.0002,
+   "exact": 0,
+   "c80": 2,
+   "short_exact": 0,
+   "overlap_srcs": {
+    "t3/doc-nli": 2
+   }
+  },
+  "150Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 8955,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  }
+ },
+ "manifesto": {
+  "v2": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 282,
+   "sources": {
+    "t3/Pol_NLI": 282
+   },
+   "related_rows": 9678,
+   "related": {
+    "proc/policy_under_uncertainty": 4000,
+    "proc/policy_applicability": 3378,
+    "t2/distract/proc/policy_under_uncertainty": 652,
+    "t2/opaque/proc/policy_applicability": 405
+   },
+   "test_items": 17018,
+   "overlap_items": 2,
+   "overlap_rate": 0.0001,
+   "exact": 0,
+   "c80": 2,
+   "short_exact": 0,
+   "overlap_srcs": {
+    "t3/Pol_NLI": 2
+   }
+  },
+  "32Mv1": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 282,
+   "sources": {
+    "t3/Pol_NLI": 282
+   },
+   "related_rows": 11151,
+   "related": {
+    "proc/policy_under_uncertainty": 4930,
+    "proc/policy_applicability": 4322,
+    "t2/distract/proc/policy_under_uncertainty": 539,
+    "t2/opaque/proc/policy_applicability": 331
+   },
+   "test_items": 17018,
+   "overlap_items": 5,
+   "overlap_rate": 0.0003,
+   "exact": 0,
+   "c80": 5,
+   "short_exact": 0,
+   "overlap_srcs": {
+    "bekko/laya__phishing": 3,
+    "t3/Pol_NLI": 2
+   }
+  },
+  "150Mv1": {
+   "class": "unseen (stray overlap)",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 10166,
+   "related": {
+    "proc/policy_applicability": 5095,
+    "proc/policy_under_uncertainty": 5071
+   },
+   "test_items": 17018,
+   "overlap_items": 3,
+   "overlap_rate": 0.0002,
+   "exact": 0,
+   "c80": 3,
+   "short_exact": 0,
+   "overlap_srcs": {
+    "bekko/laya__phishing": 3
+   }
+  }
+ },
+ "capsotu": {
+  "v2": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 3355,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  },
+  "32Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 3355,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  },
+  "150Mv1": {
+   "class": "unseen",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 3355,
+   "overlap_items": 0,
+   "overlap_rate": 0.0,
+   "exact": 0,
+   "c80": 0,
+   "short_exact": 0,
+   "overlap_srcs": {}
+  }
+ },
+ "wikitoxic_toxicaggregated": {
+  "v2": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 297,
+   "sources": {
+    "t3/jigsaw_toxicity": 297
+   },
+   "related_rows": 2422,
+   "related": {
+    "bekko/civil_comments": 1549,
+    "t3/toxic-chat/toxicchat0124/jailbreaking": 297,
+    "t3/toxic-chat/toxicchat0124/toxicity": 296,
+    "t3/toxic_conversations": 280
+   },
+   "test_items": 10000,
+   "overlap_items": 14,
+   "overlap_rate": 0.0014,
+   "exact": 1,
+   "c80": 14,
+   "short_exact": 33,
+   "overlap_srcs": {
+    "t3/jigsaw_toxicity": 13,
+    "t1/gutenberg-poetry": 1
+   }
+  },
+  "32Mv1": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 297,
+   "sources": {
+    "t3/jigsaw_toxicity": 297
+   },
+   "related_rows": 8232,
+   "related": {
+    "bekko/civil_comments": 7363,
+    "t3/toxic-chat/toxicchat0124/jailbreaking": 295,
+    "t3/toxic-chat/toxicchat0124/toxicity": 295,
+    "t3/toxic_conversations": 279
+   },
+   "test_items": 10000,
+   "overlap_items": 16,
+   "overlap_rate": 0.0016,
+   "exact": 2,
+   "c80": 15,
+   "short_exact": 36,
+   "overlap_srcs": {
+    "t3/jigsaw_toxicity": 13,
+    "bekko/sgd": 1,
+    "t1/gutenberg-poetry": 1,
+    "bekko/measuring_hate": 1
+   }
+  },
+  "150Mv1": {
+   "class": "unseen (stray overlap)",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 7568,
+   "related": {
+    "bekko/civil_comments": 7568
+   },
+   "test_items": 10000,
+   "overlap_items": 2,
+   "overlap_rate": 0.0002,
+   "exact": 1,
+   "c80": 1,
+   "short_exact": 29,
+   "overlap_srcs": {
+    "bekko/sgd": 1,
+    "bekko/measuring_hate": 1
+   }
+  }
+ },
+ "wikitoxic_obscene": {
+  "v2": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 297,
+   "sources": {
+    "t3/jigsaw_toxicity": 297
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 8691,
+   "overlap_items": 14,
+   "overlap_rate": 0.0016,
+   "exact": 3,
+   "c80": 13,
+   "short_exact": 22,
+   "overlap_srcs": {
+    "t3/jigsaw_toxicity": 11,
+    "bekko/synthetic_relevance__trivia_qa": 1,
+    "bekko/taskmaster": 1,
+    "bekko/helpsteer2": 1
+   }
+  },
+  "32Mv1": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 297,
+   "sources": {
+    "t3/jigsaw_toxicity": 297
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 8691,
+   "overlap_items": 15,
+   "overlap_rate": 0.0017,
+   "exact": 3,
+   "c80": 14,
+   "short_exact": 27,
+   "overlap_srcs": {
+    "t3/jigsaw_toxicity": 11,
+    "bekko/synthetic_relevance__trivia_qa": 1,
+    "bekko/taskmaster": 1,
+    "bekko/hh_rlhf": 1,
+    "bekko/measuring_hate": 1
+   }
+  },
+  "150Mv1": {
+   "class": "unseen (stray overlap)",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 8691,
+   "overlap_items": 4,
+   "overlap_rate": 0.0005,
+   "exact": 1,
+   "c80": 3,
+   "short_exact": 22,
+   "overlap_srcs": {
+    "bekko/fineweb": 1,
+    "bekko/taskmaster": 1,
+    "bekko/helpsteer2": 1,
+    "bekko/measuring_hate": 1
+   }
+  }
+ },
+ "wikitoxic_threat": {
+  "v2": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 297,
+   "sources": {
+    "t3/jigsaw_toxicity": 297
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 5211,
+   "overlap_items": 7,
+   "overlap_rate": 0.0013,
+   "exact": 3,
+   "c80": 6,
+   "short_exact": 20,
+   "overlap_srcs": {
+    "t3/jigsaw_toxicity": 6,
+    "t2/nota_present/bekko/taskmaster": 1
+   }
+  },
+  "32Mv1": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 297,
+   "sources": {
+    "t3/jigsaw_toxicity": 297
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 5211,
+   "overlap_items": 7,
+   "overlap_rate": 0.0013,
+   "exact": 3,
+   "c80": 6,
+   "short_exact": 23,
+   "overlap_srcs": {
+    "t3/jigsaw_toxicity": 6,
+    "bekko/taskmaster": 1
+   }
+  },
+  "150Mv1": {
+   "class": "unseen (stray overlap)",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 5211,
+   "overlap_items": 1,
+   "overlap_rate": 0.0002,
+   "exact": 1,
+   "c80": 0,
+   "short_exact": 20,
+   "overlap_srcs": {
+    "bekko/taskmaster": 1
+   }
+  }
+ },
+ "wikitoxic_insult": {
+  "v2": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 297,
+   "sources": {
+    "t3/jigsaw_toxicity": 297
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 8427,
+   "overlap_items": 14,
+   "overlap_rate": 0.0017,
+   "exact": 2,
+   "c80": 13,
+   "short_exact": 18,
+   "overlap_srcs": {
+    "t3/jigsaw_toxicity": 13,
+    "t2/nota_present/bekko/taskmaster": 1
+   }
+  },
+  "32Mv1": {
+   "class": "seen-train-split",
+   "train_rows_same_source": 297,
+   "sources": {
+    "t3/jigsaw_toxicity": 297
+   },
+   "related_rows": 0,
+   "related": {},
+   "test_items": 8427,
+   "overlap_items": 16,
+   "overlap_rate": 0.0019,
+   "exact": 3,
+   "c80": 14,
+   "short_exact": 23,
+   "overlap_srcs": {
+    "t3/jigsaw_toxicity": 13,
+    "bekko/laya__enron_spam": 1,
+    "bekko/taskmaster": 1,
+    "bekko/measuring_hate": 1
+   }
+  },
+  "150Mv1": {
+   "class": "unseen (stray overlap)",
+   "train_rows_same_source": 0,
+   "sources": {},
+   "related_rows": 0,
+   "related": {},
+   "test_items": 8427,
+   "overlap_items": 3,
+   "overlap_rate": 0.0004,
+   "exact": 2,
+   "c80": 1,
+   "short_exact": 20,
+   "overlap_srcs": {
+    "bekko/laya__enron_spam": 1,
+    "bekko/taskmaster": 1,
+    "bekko/measuring_hate": 1
+   }
+  }
+ }
+}

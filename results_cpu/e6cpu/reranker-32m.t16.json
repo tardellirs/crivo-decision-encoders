@@ -1,0 +1,17 @@
+{
+ "engine": "reranker:cross-encoder/ettin-reranker-32m-v1",
+ "device": "cpu",
+ "gpu": null,
+ "threads": 16,
+ "requests": 300,
+ "timed": 300,
+ "unsupported": 0,
+ "load_s": 3.1,
+ "median_ms": 40.16069650015197,
+ "p95_ms": 18198.03167000009,
+ "mean_ms": 2822.65914431336,
+ "throughput_req_s": 0.3542720757901528,
+ "questions": 445,
+ "options_per_request_mean": 19.76,
+ "peak_rss_mb": 11140.57421875
+}

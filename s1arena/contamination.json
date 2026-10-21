@@ -1,0 +1,3465 @@
+{
+ "basic_cls/entity_relation/fewnerd": {
+  "domain": "basic_cls",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 1,
+  "overlap_rate": 0.006,
+  "overlap_srcs": {
+   "src400/sister/ragtruth/ragbench_hagrid": 1
+  },
+  "source_tokens": [
+   "fewnerd"
+  ],
+  "train_rows_same_source": 2523,
+  "train_sources": {
+   "bekko/few_nerd": 1578,
+   "t2/opaque/bekko/few_nerd": 945
+  },
+  "source": "Few-NERD supervised, fine-grained entity types (Ding et al., 2021)",
+  "url": "https://huggingface.co/datasets/DFKI-SLT/few-nerd"
+ },
+ "basic_cls/entity_relation/fewrel": {
+  "domain": "basic_cls",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 2,
+  "overlap_rate": 0.012,
+  "overlap_srcs": {
+   "t3/few_rel/default": 2
+  },
+  "source_tokens": [
+   "fewrel"
+  ],
+  "train_rows_same_source": 297,
+  "train_sources": {
+   "t3/few_rel/default": 297
+  },
+  "source": "FewRel 1.0, the 80 public Wikidata relations (Han et al., 2018)",
+  "url": "https://github.com/thunlp/FewRel"
+ },
+ "basic_cls/entity_relation/semeval2010_task8": {
+  "domain": "basic_cls",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "semeval2010task8"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SemEval-2010 Task 8, relations between nominals (Hendrickx et al., 2010)",
+  "url": "https://huggingface.co/datasets/SemEvalWorkshop/sem_eval_2010_task_8"
+ },
+ "basic_cls/intent/clinc150": {
+  "domain": "basic_cls",
+  "n": 250,
+  "class": "seen-test-overlap",
+  "overlap_items": 3,
+  "overlap_rate": 0.012,
+  "overlap_srcs": {
+   "bekko/circa": 2,
+   "extra/bfcl-glaive": 1
+  },
+  "source_tokens": [
+   "clinc",
+   "clinc150",
+   "clincoos"
+  ],
+  "train_rows_same_source": 19226,
+  "train_sources": {
+   "src400/sister/clinc150/bitext_retail_ecommerce": 8850,
+   "pub/clinc150": 4490,
+   "src400/exact/clinc150": 2436,
+   "bekko/clinc": 1622,
+   "t2/opaque/pub/clinc150": 991
+  },
+  "source": "CLINC150, plus variant with out-of-scope queries (Larson et al., 2019)",
+  "url": "https://huggingface.co/datasets/clinc/clinc_oos"
+ },
+ "basic_cls/intent/massive_en": {
+  "domain": "basic_cls",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 1,
+  "overlap_rate": 0.004,
+  "overlap_srcs": {
+   "bekko/massive": 1
+  },
+  "source_tokens": [
+   "amazonmassiveintent",
+   "massive",
+   "massiveen"
+  ],
+  "train_rows_same_source": 2892,
+  "train_sources": {
+   "bekko/massive": 1614,
+   "t2/opaque/bekko/massive": 491,
+   "t2/nota_present/bekko/massive": 292,
+   "t2/nota_removed/bekko/massive": 283,
+   "t2/keyonly/bekko/massive": 212
+  },
+  "source": "MASSIVE, en-US (FitzGerald et al., 2022)",
+  "url": "https://huggingface.co/datasets/mteb/amazon_massive_intent"
+ },
+ "basic_cls/language_style/cefr_sp": {
+  "domain": "basic_cls",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "cefrsentencelevelannotations",
+   "cefrsp"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "CEFR-SP, public part (Arase et al., 2022)",
+  "url": "https://huggingface.co/datasets/edesaras/CEFR-Sentence-Level-Annotations"
+ },
+ "basic_cls/language_style/pavlick_formality": {
+  "domain": "basic_cls",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 1,
+  "overlap_rate": 0.006,
+  "overlap_srcs": {
+   "t3/UltraFeedback-paired": 1
+  },
+  "source_tokens": [
+   "pavlickformality",
+   "pavlickformalityscores"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Formality scores (Pavlick and Tetreault, 2016)",
+  "url": "https://huggingface.co/datasets/osyvokon/pavlick-formality-scores"
+ },
+ "basic_cls/language_style/wili2018": {
+  "domain": "basic_cls",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "wili2018"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "WiLI-2018 Wikipedia language identification (Thoma, 2018)",
+  "url": "https://huggingface.co/datasets/MartinThoma/wili_2018"
+ },
+ "basic_cls/multilabel/goemotions": {
+  "domain": "basic_cls",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "goemotions"
+  ],
+  "train_rows_same_source": 1627,
+  "train_sources": {
+   "bekko/go_emotions": 1627
+  },
+  "source": "GoEmotions (Demszky et al., 2020)",
+  "url": "https://huggingface.co/datasets/google-research-datasets/go_emotions"
+ },
+ "basic_cls/nli/anli_r3": {
+  "domain": "basic_cls",
+  "n": 250,
+  "class": "seen-test-overlap",
+  "overlap_items": 101,
+  "overlap_rate": 0.404,
+  "overlap_srcs": {
+   "pub/anli": 84,
+   "src400/exact/anli": 12,
+   "t3/glue/rte": 4,
+   "pub/hover": 1
+  },
+  "source_tokens": [
+   "anli",
+   "anlir3"
+  ],
+  "train_rows_same_source": 8969,
+  "train_sources": {
+   "pub/anli": 5609,
+   "src400/exact/anli": 1932,
+   "t2/opaque/pub/anli": 433,
+   "t2/nota_removed/pub/anli": 354,
+   "t2/nota_present/pub/anli": 344
+  },
+  "source": "Adversarial NLI, round 3 test (Nie et al., 2020)",
+  "url": "https://huggingface.co/datasets/facebook/anli"
+ },
+ "basic_cls/nli/chaosnli": {
+  "domain": "basic_cls",
+  "n": 250,
+  "class": "seen-test-overlap",
+  "overlap_items": 2,
+  "overlap_rate": 0.008,
+  "overlap_srcs": {
+   "t3/mpe": 1,
+   "t3/super_glue/multirc": 1
+  },
+  "source_tokens": [
+   "chaosnli"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "ChaosNLI, SNLI and MNLI parts, 100 annotations per example (Nie et al., 2020)",
+  "url": "https://github.com/easonnie/ChaosNLI"
+ },
+ "basic_cls/sentiment/sst5": {
+  "domain": "basic_cls",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 3,
+  "overlap_rate": 0.018,
+  "overlap_srcs": {
+   "t3/rotten_tomatoes": 3
+  },
+  "source_tokens": [
+   "rotten",
+   "sst5"
+  ],
+  "train_rows_same_source": 297,
+  "train_sources": {
+   "t3/rotten_tomatoes": 297
+  },
+  "source": "Stanford Sentiment Treebank, 5 classes (Socher et al., 2013)",
+  "url": "https://huggingface.co/datasets/SetFit/sst5"
+ },
+ "basic_cls/sentiment/tweeteval_sentiment": {
+  "domain": "basic_cls",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "tweeteval",
+   "tweetevalsentiment"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "TweetEval sentiment (SemEval-2017 Task 4A; Barbieri et al., 2020)",
+  "url": "https://huggingface.co/datasets/cardiffnlp/tweet_eval"
+ },
+ "basic_cls/spam_phishing/sms_spam": {
+  "domain": "basic_cls",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 54,
+  "overlap_rate": 0.3234,
+  "overlap_srcs": {
+   "bekko/sms_spam": 53,
+   "t2/opaque/bekko/circa": 1
+  },
+  "source_tokens": [
+   "smsspam"
+  ],
+  "train_rows_same_source": 1589,
+  "train_sources": {
+   "bekko/sms_spam": 1589
+  },
+  "source": "SMS Spam Collection (Almeida et al., 2011)",
+  "url": "https://huggingface.co/datasets/ucirvine/sms_spam"
+ },
+ "basic_cls/spam_phishing/spamassassin_nazario": {
+  "domain": "basic_cls",
+  "n": 166,
+  "class": "seen-test-overlap",
+  "overlap_items": 13,
+  "overlap_rate": 0.0783,
+  "overlap_srcs": {
+   "bekko/laya__phishing": 11,
+   "bekko/laya__enron_spam": 2
+  },
+  "source_tokens": [
+   "spamassassinnazario"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SpamAssassin public corpus, ham and spam (2002-2005), and Jose Nazario's phishing corpus, 2004-2006 mailboxes; labels by corpus membership",
+  "url": "https://monkey.org/~jose/phishing/"
+ },
+ "basic_cls/stance_sarcasm_humor/isarcasmeval": {
+  "domain": "basic_cls",
+  "n": 167,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "isarcasm",
+   "isarcasmeval"
+  ],
+  "train_rows_same_source": 6422,
+  "train_sources": {
+   "pub/isarcasm": 3007,
+   "src400/exact/isarcasm": 2438,
+   "t2/opaque/pub/isarcasm": 977
+  },
+  "source": "iSarcasmEval subtask A, English (Abu Farha et al., 2022)",
+  "url": "https://github.com/iabufarha/iSarcasmEval"
+ },
+ "basic_cls/topic/20newsgroups": {
+  "domain": "basic_cls",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "20newsgroups"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "20 Newsgroups (Lang, 1995)",
+  "url": "https://huggingface.co/datasets/SetFit/20_newsgroups"
+ },
+ "basic_cls/topic/dbpedia_l2": {
+  "domain": "basic_cls",
+  "n": 167,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "dbpedia",
+   "dbpediaclasses",
+   "dbpedial2"
+  ],
+  "train_rows_same_source": 2858,
+  "train_sources": {
+   "bekko/dbpedia": 1550,
+   "t2/opaque/bekko/dbpedia": 419,
+   "t2/keyonly/bekko/dbpedia": 322,
+   "t2/nota_present/bekko/dbpedia": 286,
+   "t2/nota_removed/bekko/dbpedia": 281
+  },
+  "source": "DBpedia hierarchical classes, level 2 (DeveloperOats/DBPedia_Classes)",
+  "url": "https://huggingface.co/datasets/DeveloperOats/DBPedia_Classes"
+ },
+ "basic_cls/topic/wos46985": {
+  "domain": "basic_cls",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "webofsciencewithlabeltexts",
+   "wos46985"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Web of Science WOS-46985 (Kowsari et al., 2017)",
+  "url": "https://huggingface.co/datasets/river-martin/web-of-science-with-label-texts"
+ },
+ "basic_cls/toxicity/civil_comments": {
+  "domain": "basic_cls",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "civilcomments"
+  ],
+  "train_rows_same_source": 1549,
+  "train_sources": {
+   "bekko/civil_comments": 1549
+  },
+  "source": "Civil Comments / Jigsaw Unintended Bias (Borkan et al., 2019)",
+  "url": "https://huggingface.co/datasets/google/civil_comments"
+ },
+ "basic_cls/toxicity/dynahate": {
+  "domain": "basic_cls",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "dynahate"
+  ],
+  "train_rows_same_source": 297,
+  "train_sources": {
+   "t3/dynahate": 297
+  },
+  "source": "Dynamically Generated Hate Speech Dataset v0.2.3 (Vidgen et al., 2021)",
+  "url": "https://github.com/bvidgen/Dynamically-Generated-Hate-Speech-Dataset"
+ },
+ "batch/semantic_filter/clothing_reviews": {
+  "domain": "batch",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "clothingreviews"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Women's E-Commerce Clothing Reviews, 23,486 reviews from an online retailer (nicapotato, Kaggle)",
+  "url": "https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews"
+ },
+ "batch/semantic_filter/job_postings": {
+  "domain": "batch",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "jobpostings"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "EMSCAD, Employment Scam Aegean Dataset: 17,880 job ads from Workable, 866 of them fraudulent (Vidros et al., 2017)",
+  "url": "https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction"
+ },
+ "batch/semantic_grouping/abo_product_types": {
+  "domain": "batch",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "aboproducttypes"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Amazon Berkeley Objects (ABO) product listings, English listings of amazon.com, .co.uk and .ca (Collins et al., CVPR 2022)",
+  "url": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html"
+ },
+ "batch/semantic_grouping/airline_complaints": {
+  "domain": "batch",
+  "n": 250,
+  "class": "seen-test-overlap",
+  "overlap_items": 2,
+  "overlap_rate": 0.008,
+  "overlap_srcs": {
+   "t3/crowdflower/airline-sentiment": 2
+  },
+  "source_tokens": [
+   "airlinecomplaints",
+   "twitterairlinesentiment"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Twitter US Airline Sentiment, negative tweets with the complaint reason (Figure Eight / CrowdFlower Data for Everyone, 2015)",
+  "url": "https://huggingface.co/datasets/osanseviero/twitter-airline-sentiment"
+ },
+ "batch/semantic_ranking/trec_clinical_trials": {
+  "domain": "batch",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "trecclinicaltrials"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "TREC 2022 Clinical Trials track: synthetic patient cases and ClinicalTrials.gov records with NIST judgments (Roberts et al., 2022)",
+  "url": "https://huggingface.co/datasets/araag2/TREC_Clinical-Trials"
+ },
+ "batch/semantic_ranking/tripadvisor_aspects": {
+  "domain": "batch",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "tripadvisoraspects",
+   "tripadvisorreviewrating"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "TripAdvisor hotel reviews with the reviewers' aspect ratings, English reviews of 2012 (Li et al., 2013; processed by Niimi, 2024)",
+  "url": "https://huggingface.co/datasets/jniimi/tripadvisor-review-rating"
+ },
+ "code/code_search/codesearchnet_challenge": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "codesearchnetchallenge"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "CodeSearchNet Challenge expert relevance annotations, six languages (Husain et al., 2019)",
+  "url": "https://github.com/github/CodeSearchNet"
+ },
+ "code/code_search/cosqa": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "cosqa"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "CoSQA, Bing web queries paired with Python functions, dev split (Huang et al., 2021)",
+  "url": "https://github.com/Jun-jie-Huang/CoCLR"
+ },
+ "code/commit_classification/codereviewer_quality": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "codereviewerquality"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "CodeReviewer diff quality estimation, test split (Li et al., FSE 2022)",
+  "url": "https://zenodo.org/records/6900648"
+ },
+ "code/commit_classification/conventional_commits": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "ccsdataset",
+   "conventionalcommits"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "CCS conventional commit classification dataset, test split (Zeng et al., ICSE 2025)",
+  "url": "https://huggingface.co/datasets/0x404/ccs_dataset"
+ },
+ "code/fault_localization/swe_bench_file": {
+  "domain": "code",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "swebench",
+   "swebenchfile"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SWE-bench test set, file-level localization from the gold patch (Jimenez et al., 2024)",
+  "url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench"
+ },
+ "code/fault_localization/swe_bench_function": {
+  "domain": "code",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "swebenchfunction",
+   "swebenchoracle"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SWE-bench test set, function-level localization inside the fixed file, oracle file contents (Jimenez et al., 2024)",
+  "url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_oracle"
+ },
+ "code/fault_localization/swe_bench_live_file": {
+  "domain": "code",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "swebenchlive",
+   "swebenchlivefile"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SWE-bench-Live, issues from 2024-2025, file-level localization from the gold patch (Zhang et al., 2025)",
+  "url": "https://huggingface.co/datasets/SWE-bench-Live/SWE-bench-Live"
+ },
+ "code/output_prediction/cruxeval": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "cruxeval"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "CRUXEval-O, output prediction for 800 short Python functions (Gu et al., 2024)",
+  "url": "https://github.com/facebookresearch/cruxeval"
+ },
+ "code/output_prediction/livecodebench_execution": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "executionv2",
+   "livecodebenchexecution"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "LiveCodeBench code execution v2, LeetCode solutions with recorded outputs (Jain et al., 2024)",
+  "url": "https://huggingface.co/datasets/livecodebench/execution-v2"
+ },
+ "code/patch_correctness/swe_bench_extra_pairwise": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "sweagenttrajectories",
+   "swebenchextrapairwise"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SWE-bench-extra tasks with SWE-agent final patches from Nebius's open-weight agent runs and their test results (Golubev et al., 2024)",
+  "url": "https://huggingface.co/datasets/nebius/SWE-agent-trajectories"
+ },
+ "code/patch_correctness/swe_rebench": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "swerebench",
+   "swerebenchopenhandstrajectories"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SWE-rebench tasks with OpenHands + Qwen3-Coder-480B final patches and their test results (Badertdinov et al., 2025)",
+  "url": "https://huggingface.co/datasets/nebius/SWE-rebench-openhands-trajectories"
+ },
+ "code/static_analysis_triage/d2a": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 1,
+  "overlap_rate": 0.004,
+  "overlap_srcs": {
+   "t3/code_x_glue_cc_defect_detection": 1
+  },
+  "source_tokens": [],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "D2A leaderboard, Trace + Code task, dev split: Infer warnings on C projects labelled by differential analysis (Zheng et al., ICSE-SEIP 2021)",
+  "url": "https://github.com/IBM/D2A"
+ },
+ "code/static_analysis_triage/owasp_benchmark": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "owaspbenchmark"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "OWASP Benchmark for Java v1.2: 2,740 servlets, each a true or a false positive for one vulnerability category (OWASP Foundation)",
+  "url": "https://github.com/OWASP-Benchmark/BenchmarkJava"
+ },
+ "code/test_outcome/humanevalfix": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "humanevalfix",
+   "humanevalpack"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "HumanEvalFix from HumanEvalPack, correct and buggy solutions with their unit tests, six languages (Muennighoff et al., 2023)",
+  "url": "https://huggingface.co/datasets/bigcode/humanevalpack"
+ },
+ "code/test_outcome/livecodebench": {
+  "domain": "code",
+  "n": 136,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "livecodebench",
+   "submissions"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "LiveCodeBench code generation, recorded per-test results of Gemini-Pro-1.5 programs (Jain et al., 2024)",
+  "url": "https://huggingface.co/datasets/livecodebench/submissions"
+ },
+ "code/vulnerability/primevul_paired": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "primevulpaired"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "PrimeVul v0.1, paired test set: vulnerable and patched C/C++ functions (Ding et al., ICSE 2025)",
+  "url": "https://github.com/DLVulDet/PrimeVul"
+ },
+ "code/vulnerability/secvuleval_paired": {
+  "domain": "code",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "secvuleval",
+   "secvulevalpaired"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SecVulEval, C/C++ CVE fixes from NVD, vulnerable and fixed function pairs (Ahmed et al., 2025)",
+  "url": "https://huggingface.co/datasets/arag0rn/SecVulEval"
+ },
+ "dialog/clarification_need/ambigqa": {
+  "domain": "dialog",
+  "n": 250,
+  "class": "seen-test-overlap",
+  "overlap_items": 2,
+  "overlap_rate": 0.008,
+  "overlap_srcs": {
+   "bekko/natural_questions": 1,
+   "bekko/synthetic_relevance__natural_questions": 1
+  },
+  "source_tokens": [
+   "ambignq",
+   "ambigqa"
+  ],
+  "train_rows_same_source": 297,
+  "train_sources": {
+   "t3/AmbigNQ-clarifying-question": 297
+  },
+  "source": "AmbigQA / AmbigNQ, validation (Min et al., 2020)",
+  "url": "https://huggingface.co/datasets/sewon/ambig_qa"
+ },
+ "dialog/clarification_need/sharc": {
+  "domain": "dialog",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "sharc"
+  ],
+  "train_rows_same_source": 297,
+  "train_sources": {
+   "t3/sharc": 297
+  },
+  "source": "ShARC conversational machine reading with rules, test (Saeidi et al., 2018)",
+  "url": "https://sharc-data.github.io/"
+ },
+ "dialog/end_of_turn/switchboard": {
+  "domain": "dialog",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "switchboard"
+  ],
+  "train_rows_same_source": 133,
+  "train_sources": {
+   "t3/pragmeval/switchboard": 133
+  },
+  "source": "Switchboard Dialog Act Corpus (SwDA), test conversations of Stolcke et al. (2000) (Jurafsky et al., 1997)",
+  "url": "https://github.com/cgpotts/swda"
+ },
+ "dialog/end_of_turn/taskmaster1_woz": {
+  "domain": "dialog",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 1,
+  "overlap_rate": 0.004,
+  "overlap_srcs": {
+   "bekko/hh_rlhf": 1
+  },
+  "source_tokens": [
+   "taskmaster1woz"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Taskmaster-1 spoken two-person (Wizard-of-Oz) dialogues: user turns transcribed from speech (Byrne et al., 2019)",
+  "url": "https://github.com/google-research-datasets/Taskmaster/tree/master/TM-1-2019"
+ },
+ "dialog/human_handoff/abcd": {
+  "domain": "dialog",
+  "n": 220,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "abcd"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "ABCD, Action-Based Conversations Dataset: customer-service chats escalated to a manager, all splits (Chen et al., 2021)",
+  "url": "https://github.com/asappresearch/abcd"
+ },
+ "dialog/human_handoff/scope_cards": {
+  "domain": "dialog",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "scopecards"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Scope cards over human intent labels: HINT3 v2 test sets, real queries to three chatbots (Arora et al., 2020), and NatCS customer-service requests in insurance, banking and finance (Gung et al., 2023)",
+  "url": "https://github.com/hellohaptik/HINT3"
+ },
+ "dialog/state_tracking/multiwoz22": {
+  "domain": "dialog",
+  "n": 249,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "multiwoz22"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "MultiWOZ 2.2, test split (Zang et al., 2020; Budzianowski et al., 2018)",
+  "url": "https://github.com/budzianowski/multiwoz/tree/master/data/MultiWOZ_2.2"
+ },
+ "dialog/state_tracking/sgd": {
+  "domain": "dialog",
+  "n": 245,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Schema-Guided Dialogue (SGD / DSTC8), test split (Rastogi et al., 2020)",
+  "url": "https://github.com/google-research-datasets/dstc8-schema-guided-dialogue"
+ },
+ "dialog/user_satisfaction/emowoz": {
+  "domain": "dialog",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "emowoz"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "EmoWOZ, test split: MultiWOZ and DialMAGE human-machine dialogues (Feng et al., 2022)",
+  "url": "https://zenodo.org/record/6506504"
+ },
+ "dialog/user_satisfaction/uss": {
+  "domain": "dialog",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "User Satisfaction Simulation (USS), exchange-level ratings on MultiWOZ, SGD, ReDial and CCPE dialogues (Sun et al., 2021)",
+  "url": "https://github.com/sunnweiwei/user-satisfaction-simulation"
+ },
+ "fore/binary_events/forecastbench_datasets": {
+  "domain": "fore",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "forecastbenchdatasets"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "ForecastBench question sets, questions resolved from FRED, DBnomics, Wikipedia and Yahoo Finance data (Karger et al., 2025)",
+  "url": "https://huggingface.co/datasets/forecastingresearch/forecastbench-datasets"
+ },
+ "fore/binary_events/forecastbench_markets": {
+  "domain": "fore",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "forecastbenchdatasets",
+   "forecastbenchmarkets"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "ForecastBench question sets, prediction-market and forecasting-platform questions (Karger et al., 2025)",
+  "url": "https://huggingface.co/datasets/forecastingresearch/forecastbench-datasets"
+ },
+ "fore/binary_events/halawi_2024": {
+  "domain": "fore",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "forecasting",
+   "halawi2024"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Binary forecasting questions from Metaculus, Manifold, Polymarket, Good Judgment Open and INFER, test split (Halawi et al., 2024)",
+  "url": "https://huggingface.co/datasets/YuehHanChen/forecasting"
+ },
+ "fore/multi_outcome/fred_races": {
+  "domain": "fore",
+  "n": 170,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "fredraces"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Which related daily FRED series moves most (currencies against the dollar, energy prices, Treasury yields), resolved by September 2026",
+  "url": "https://fred.stlouisfed.org/"
+ },
+ "fore/numeric_bins/fred_daily": {
+  "domain": "fore",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "freddaily"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Daily FRED series (Treasury yields, breakeven inflation, exchange rates, oil and gas prices), values published up to September 2026",
+  "url": "https://fred.stlouisfed.org/"
+ },
+ "judge/agent_trajectory/agentrewardbench": {
+  "domain": "judge",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "agentrewardbench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "AgentRewardBench, expert-annotated web agent trajectories, test split (L\u00f9 et al., 2025)",
+  "url": "https://huggingface.co/datasets/McGill-NLP/agent-reward-bench"
+ },
+ "judge/agent_trajectory/tau_bench": {
+  "domain": "judge",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "taubench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "tau-bench historical trajectories of GPT-4o and Claude 3.5 Sonnet (new) in the airline and retail domains (Yao et al., 2024)",
+  "url": "https://github.com/sierra-research/tau-bench"
+ },
+ "judge/atomic_factuality/factscore": {
+  "domain": "judge",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "factscore"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "FActScore human-annotated biographies by InstructGPT, ChatGPT and PerplexityAI (Min et al., 2023)",
+  "url": "https://github.com/shmsw25/FActScore"
+ },
+ "judge/atomic_factuality/felm": {
+  "domain": "judge",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "felm"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "FELM, segment-level factuality of ChatGPT responses (Chen et al., 2023)",
+  "url": "https://huggingface.co/datasets/hkust-nlp/felm"
+ },
+ "judge/instruction_following/ifbench": {
+  "domain": "judge",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 1,
+  "overlap_rate": 0.004,
+  "overlap_srcs": {
+   "bekko/aegis2": 1
+  },
+  "source_tokens": [
+   "evalifbenchresults",
+   "ifbench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "IFBench test prompts (Pyatkin et al., 2025) with model responses and strict checker results from shisa-ai/eval-IFBench-results",
+  "url": "https://huggingface.co/datasets/shisa-ai/eval-IFBench-results"
+ },
+ "judge/instruction_following/ifeval_ppe": {
+  "domain": "judge",
+  "n": 250,
+  "class": "seen-test-overlap",
+  "overlap_items": 2,
+  "overlap_rate": 0.008,
+  "overlap_srcs": {
+   "t3/PromptShield": 2
+  },
+  "source_tokens": [
+   "ifevalppe",
+   "ppeifevalbestofk"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "IFEval prompts (Zhou et al., 2023) with sampled responses and strict checker results from PPE (Frick et al., 2025)",
+  "url": "https://huggingface.co/datasets/lmarena-ai/PPE-IFEval-Best-of-K"
+ },
+ "judge/pairwise_preference/judgebench": {
+  "domain": "judge",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "judgebench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "JudgeBench, GPT-4o and Claude-3.5-Sonnet response pairs (Tan et al., 2025)",
+  "url": "https://huggingface.co/datasets/ScalerLab/JudgeBench"
+ },
+ "judge/pairwise_preference/reward_bench_2": {
+  "domain": "judge",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "rewardbench2"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "RewardBench 2, Math, Precise IF, Focus and Ties subsets (Malik et al., 2025)",
+  "url": "https://huggingface.co/datasets/allenai/reward-bench-2"
+ },
+ "judge/pairwise_preference/rm_bench": {
+  "domain": "judge",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "rmbench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "RM-Bench, chat, math and code domains (Liu et al., 2025)",
+  "url": "https://huggingface.co/datasets/THU-KEG/RM-Bench"
+ },
+ "judge/pointwise_rating/biggen_bench": {
+  "domain": "judge",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "biggenbench",
+   "biggenbenchresults"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "BiGGen Bench, human evaluation split (Kim et al., 2025)",
+  "url": "https://huggingface.co/datasets/prometheus-eval/BiGGen-Bench-Results"
+ },
+ "judge/pointwise_rating/helpsteer2": {
+  "domain": "judge",
+  "n": 250,
+  "class": "seen-test-overlap",
+  "overlap_items": 2,
+  "overlap_rate": 0.008,
+  "overlap_srcs": {
+   "t2/opaque/bekko/taskmaster": 2
+  },
+  "source_tokens": [
+   "helpsteer2"
+  ],
+  "train_rows_same_source": 1559,
+  "train_sources": {
+   "bekko/helpsteer2": 1559
+  },
+  "source": "HelpSteer2, validation split with individual annotator ratings (Wang et al., 2024)",
+  "url": "https://huggingface.co/datasets/nvidia/HelpSteer2"
+ },
+ "judge/process_reward/mr_ben": {
+  "domain": "judge",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "mrben"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "MR-Ben meta-reasoning benchmark, all subjects except coding (Zeng et al., 2024)",
+  "url": "https://huggingface.co/datasets/Randolphzeng/Mr-Ben"
+ },
+ "judge/process_reward/prm800k": {
+  "domain": "judge",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "prm800k"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "PRM800K, phase 2 test split (Lightman et al., 2024)",
+  "url": "https://github.com/openai/prm800k"
+ },
+ "judge/process_reward/processbench": {
+  "domain": "judge",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "processbench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "ProcessBench, earliest-error paragraph (Zheng et al., 2025)",
+  "url": "https://huggingface.co/datasets/Qwen/ProcessBench"
+ },
+ "judge/rag_faithfulness/begin": {
+  "domain": "judge",
+  "n": 250,
+  "class": "seen-test-overlap",
+  "overlap_items": 2,
+  "overlap_rate": 0.008,
+  "overlap_srcs": {
+   "t3/nli_fever": 2
+  },
+  "source_tokens": [
+   "begin"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "BEGIN, knowledge-grounded dialogue responses, test split (Dziri et al., 2022)",
+  "url": "https://github.com/google/BEGIN-dataset"
+ },
+ "judge/rag_faithfulness/ragtruth": {
+  "domain": "judge",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "ragtruth"
+  ],
+  "train_rows_same_source": 14323,
+  "train_sources": {
+   "pub/ragtruth": 5269,
+   "src400/sister/ragtruth/ragbench_expertqa": 2340,
+   "src400/exact/ragtruth": 2249,
+   "src400/sister/ragtruth/ragbench_hagrid": 1540,
+   "src400/sister/ragtruth/ragbench_techqa": 1488
+  },
+  "source": "RAGTruth, test split: QA (MS MARCO), data-to-text (Yelp) and news summarization (CNN/DM, Recent News) (Niu et al., 2024)",
+  "url": "https://github.com/ParticleMedia/RAGTruth"
+ },
+ "judge/reference_answer/answer_equivalence": {
+  "domain": "judge",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "answerequivalence"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Answer Equivalence (AE) dataset, test split, SQuAD questions (Bulian et al., 2022)",
+  "url": "https://github.com/google-research-datasets/answer-equivalence-dataset"
+ },
+ "judge/reference_answer/evouna": {
+  "domain": "judge",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "evouna"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "EVOUNA, Natural Questions and TriviaQA answers of five QA systems judged by humans (Wang et al., 2023)",
+  "url": "https://github.com/wangcunxiang/QA-Eval"
+ },
+ "judge/reference_answer/verifierbench": {
+  "domain": "judge",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "verifierbench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "VerifierBench (CompassVerifier; Liu et al., 2025)",
+  "url": "https://huggingface.co/datasets/opencompass/VerifierBench"
+ },
+ "judge/summary_consistency/faithbench": {
+  "domain": "judge",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 1,
+  "overlap_rate": 0.006,
+  "overlap_srcs": {
+   "pub/ragtruth": 1
+  },
+  "source_tokens": [
+   "faithbench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "FaithBench, summaries by 10 modern LLMs (Bao et al., 2025)",
+  "url": "https://github.com/vectara/FaithBench"
+ },
+ "judge/summary_consistency/summedits": {
+  "domain": "judge",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "summedits"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SummEdits, 10 domains (Laban et al., 2023)",
+  "url": "https://huggingface.co/datasets/Salesforce/summedits"
+ },
+ "judge/summary_consistency/tofueval_meetingbank": {
+  "domain": "judge",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "tofuevalmeetingbank"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "TofuEval, MeetingBank part, test split (Tang et al., 2024)",
+  "url": "https://github.com/amazon-science/tofueval"
+ },
+ "judge/translation_quality/wmt20_mqm": {
+  "domain": "judge",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "wmt20mqm"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "WMT 2020 newstest MQM annotations, en-de and zh-en (Freitag et al., 2021)",
+  "url": "https://github.com/google/wmt-mqm-human-evaluation"
+ },
+ "judge/translation_quality/wmt23_mqm": {
+  "domain": "judge",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "wmt23mqm"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "WMT 2023 general MT MQM annotations with three ratings per segment, en-de and zh-en (Kocmi et al., 2023; Google MQM release)",
+  "url": "https://github.com/google/wmt-mqm-human-evaluation"
+ },
+ "know/answerability/musique": {
+  "domain": "know",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "musique"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "MuSiQue-Full, answerable and unanswerable multi-hop questions, validation (Trivedi et al., 2022)",
+  "url": "https://huggingface.co/datasets/bdsaglam/musique"
+ },
+ "know/answerability/squad_v2": {
+  "domain": "know",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "squad",
+   "squad2",
+   "squadv2"
+  ],
+  "train_rows_same_source": 4555,
+  "train_sources": {
+   "bekko/squad2": 1629,
+   "bekko/synthetic_relevance__bge_m3__squad": 1525,
+   "bekko/bge-hn-squad": 1401
+  },
+  "source": "SQuAD 2.0, validation (Rajpurkar et al., 2018)",
+  "url": "https://huggingface.co/datasets/rajpurkar/squad_v2"
+ },
+ "know/causal/copa": {
+  "domain": "know",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "balancedcopa",
+   "copa"
+  ],
+  "train_rows_same_source": 911,
+  "train_sources": {
+   "bekko/copa": 423,
+   "t2/distract/bekko/copa": 244,
+   "t2/opaque/bekko/copa": 244
+  },
+  "source": "COPA, original test set with labels (Roemmele et al., 2011), via Balanced COPA",
+  "url": "https://huggingface.co/datasets/pkavumba/balanced-copa"
+ },
+ "know/causal/e_care": {
+  "domain": "know",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "ecare"
+  ],
+  "train_rows_same_source": 290,
+  "train_sources": {
+   "t3/e-CARE": 290
+  },
+  "source": "e-CARE, validation (Du et al., 2022)",
+  "url": "https://huggingface.co/datasets/12ml/e-CARE"
+ },
+ "know/citation_support/attributionbench": {
+  "domain": "know",
+  "n": 250,
+  "class": "seen-test-overlap",
+  "overlap_items": 47,
+  "overlap_rate": 0.188,
+  "overlap_srcs": {
+   "src400/sister/ragtruth/ragbench_expertqa": 47
+  },
+  "source_tokens": [
+   "attributionbench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "AttributionBench, in-distribution test (Li et al., 2024)",
+  "url": "https://huggingface.co/datasets/osunlp/AttributionBench"
+ },
+ "know/citation_support/wice": {
+  "domain": "know",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "wice"
+  ],
+  "train_rows_same_source": 296,
+  "train_sources": {
+   "t3/wice": 296
+  },
+  "source": "WiCE, Wikipedia citation entailment, sub-claims (Kamoi et al., 2023)",
+  "url": "https://huggingface.co/datasets/jon-tow/wice"
+ },
+ "know/commonsense/commonsense_qa": {
+  "domain": "know",
+  "n": 167,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "commonsenseqa"
+  ],
+  "train_rows_same_source": 4400,
+  "train_sources": {
+   "bekko/commonsense_qa": 1633,
+   "bekko/commonsense_qa2": 1584,
+   "t2/distract/bekko/commonsense_qa": 374,
+   "t2/opaque/bekko/commonsense_qa": 362,
+   "t2/nota_removed/bekko/commonsense_qa": 225
+  },
+  "source": "CommonsenseQA, validation (Talmor et al., 2019)",
+  "url": "https://huggingface.co/datasets/tau/commonsense_qa"
+ },
+ "know/commonsense/piqa": {
+  "domain": "know",
+  "n": 167,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "piqa"
+  ],
+  "train_rows_same_source": 2620,
+  "train_sources": {
+   "bekko/piqa": 1610,
+   "t2/distract/bekko/piqa": 545,
+   "t2/opaque/bekko/piqa": 465
+  },
+  "source": "PIQA, validation (Bisk et al., 2020)",
+  "url": "https://huggingface.co/datasets/baber/piqa"
+ },
+ "know/commonsense/winogrande": {
+  "domain": "know",
+  "n": 166,
+  "class": "seen-test-overlap",
+  "overlap_items": 17,
+  "overlap_rate": 0.1024,
+  "overlap_srcs": {
+   "t3/winodict": 17
+  },
+  "source_tokens": [
+   "winogrande"
+  ],
+  "train_rows_same_source": 10438,
+  "train_sources": {
+   "pub/winogrande": 4463,
+   "src400/exact/winogrande": 2438,
+   "bekko/winogrande": 1571,
+   "t2/distract/bekko/winogrande": 535,
+   "t2/distract/pub/winogrande": 530
+  },
+  "source": "WinoGrande XL, validation (Sakaguchi et al., 2020)",
+  "url": "https://huggingface.co/datasets/allenai/winogrande"
+ },
+ "know/date_reasoning/bbh_date_understanding": {
+  "domain": "know",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "bbhdateunderstanding"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "BIG-Bench Hard, date understanding (Suzgun et al., 2023)",
+  "url": "https://huggingface.co/datasets/lukaemon/bbh"
+ },
+ "know/date_reasoning/date_arithmetic": {
+  "domain": "know",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "datearithmetic"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Date arithmetic (generated)",
+  "url": "https://github.com/TianyuCodings/S1-Arena"
+ },
+ "know/date_reasoning/timestamp_compare": {
+  "domain": "know",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "timestampcompare"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Timestamp comparison across time zones and formats (generated)",
+  "url": "https://github.com/TianyuCodings/S1-Arena"
+ },
+ "know/fact_verification/averitec": {
+  "domain": "know",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "averitec"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "AVeriTeC real-world claims with question-answer evidence, dev (Schlichtkrull et al., 2023)",
+  "url": "https://huggingface.co/datasets/pminervini/averitec"
+ },
+ "know/fact_verification/scifact": {
+  "domain": "know",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 39,
+  "overlap_rate": 0.2335,
+  "overlap_srcs": {
+   "t3/scifact_entailment": 39
+  },
+  "source_tokens": [
+   "scifact",
+   "scifactentailment"
+  ],
+  "train_rows_same_source": 297,
+  "train_sources": {
+   "t3/scifact_entailment": 297
+  },
+  "source": "SciFact claims against paper abstracts, validation (Wadden et al., 2020)",
+  "url": "https://huggingface.co/datasets/allenai/scifact_entailment"
+ },
+ "know/fact_verification/vitaminc": {
+  "domain": "know",
+  "n": 166,
+  "class": "seen-test-overlap",
+  "overlap_items": 2,
+  "overlap_rate": 0.012,
+  "overlap_srcs": {
+   "bekko/squad2": 1,
+   "src400/exact/hover": 1
+  },
+  "source_tokens": [
+   "vitaminc"
+  ],
+  "train_rows_same_source": 297,
+  "train_sources": {
+   "t3/vitaminc": 297
+  },
+  "source": "VitaminC contrastive fact verification (Schuster et al., 2021)",
+  "url": "https://huggingface.co/datasets/tals/vitaminc"
+ },
+ "know/factual_judgment/nq_open": {
+  "domain": "know",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "bgehnnq",
+   "bgem3nq",
+   "naturalquestions",
+   "nqopen"
+  ],
+  "train_rows_same_source": 5986,
+  "train_sources": {
+   "bekko/synthetic_relevance__bge_m3__nq": 1564,
+   "bekko/synthetic_relevance__natural_questions": 1563,
+   "bekko/bge-hn-nq": 1433,
+   "bekko/natural_questions": 1426
+  },
+  "source": "Natural Questions open, validation (Lee et al., 2019)",
+  "url": "https://huggingface.co/datasets/google-research-datasets/nq_open"
+ },
+ "know/factual_judgment/simpleqa_verified": {
+  "domain": "know",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "simpleqaverified"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SimpleQA Verified (Google, 2025; after Wei et al., 2024)",
+  "url": "https://huggingface.co/datasets/google/simpleqa-verified"
+ },
+ "know/logic_puzzles/folio": {
+  "domain": "know",
+  "n": 167,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "folio"
+  ],
+  "train_rows_same_source": 297,
+  "train_sources": {
+   "t3/folio": 297
+  },
+  "source": "FOLIO v2, first-order logic reasoning in natural language, validation (Han et al., 2024)",
+  "url": "https://huggingface.co/datasets/yale-nlp/FOLIO"
+ },
+ "know/logic_puzzles/ordering": {
+  "domain": "know",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "ordering"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Ordering puzzles from pairwise clues (generated)",
+  "url": "https://github.com/TianyuCodings/S1-Arena"
+ },
+ "know/logic_puzzles/zebralogic": {
+  "domain": "know",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "zebralogic"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "ZebraLogic, multiple-choice mode (Lin et al., 2025)",
+  "url": "https://huggingface.co/datasets/WildEval/ZebraLogic"
+ },
+ "know/math_verification/processbench": {
+  "domain": "know",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "processbench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "ProcessBench model solutions (Zheng et al., 2024)",
+  "url": "https://huggingface.co/datasets/Qwen/ProcessBench"
+ },
+ "know/math_verification/verifybench": {
+  "domain": "know",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "verifybench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "VerifyBench, math problems (Yan et al., 2025)",
+  "url": "https://huggingface.co/datasets/ZJU-REAL/VerifyBench"
+ },
+ "know/multihop/2wikimultihopqa": {
+  "domain": "know",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "2wikimultihopqa"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "2WikiMultihopQA, comparison and bridge-comparison questions (Ho et al., 2020)",
+  "url": "https://huggingface.co/datasets/framolfese/2WikiMultihopQA"
+ },
+ "know/multihop/hotpotqa_comparison": {
+  "domain": "know",
+  "n": 167,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "hotpotqa",
+   "hotpotqacomparison"
+  ],
+  "train_rows_same_source": 3046,
+  "train_sources": {
+   "bekko/synthetic_relevance__bge_m3__hotpotqa": 1637,
+   "bekko/bge-hn-hotpotqa": 1409
+  },
+  "source": "HotpotQA, distractor setting, comparison questions (Yang et al., 2018)",
+  "url": "https://huggingface.co/datasets/hotpotqa/hotpot_qa"
+ },
+ "know/multihop/strategyqa": {
+  "domain": "know",
+  "n": 166,
+  "class": "seen-test-overlap",
+  "overlap_items": 88,
+  "overlap_rate": 0.5301,
+  "overlap_srcs": {
+   "bekko/strategyqa": 88
+  },
+  "source_tokens": [
+   "strategyqa"
+  ],
+  "train_rows_same_source": 1321,
+  "train_sources": {
+   "bekko/strategyqa": 1321
+  },
+  "source": "StrategyQA, re-split test (Geva et al., 2021)",
+  "url": "https://huggingface.co/datasets/ChilleD/StrategyQA"
+ },
+ "know/numeric_comparison/equate": {
+  "domain": "know",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 23,
+  "overlap_rate": 0.1377,
+  "overlap_srcs": {
+   "t3/equate": 22,
+   "src400/exact/ragtruth": 1
+  },
+  "source_tokens": [
+   "equate"
+  ],
+  "train_rows_same_source": 175,
+  "train_sources": {
+   "t3/equate": 175
+  },
+  "source": "EQUATE quantitative NLI: AWPNLI, NewsNLI, RedditNLI (Ravichander et al., 2019)",
+  "url": "https://huggingface.co/datasets/tasksource/equate"
+ },
+ "know/numeric_comparison/number_compare": {
+  "domain": "know",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "numbercompare"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Number comparison across notations (generated)",
+  "url": "https://github.com/TianyuCodings/S1-Arena"
+ },
+ "know/numeric_comparison/unit_compare": {
+  "domain": "know",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "unitcompare"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Quantity comparison across units (generated)",
+  "url": "https://github.com/TianyuCodings/S1-Arena"
+ },
+ "know/subject_mcq/mmlu_pro": {
+  "domain": "know",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "mmlu",
+   "mmlupro"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "MMLU-Pro (Wang et al., 2024)",
+  "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro"
+ },
+ "know/subject_mcq/supergpqa": {
+  "domain": "know",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "supergpqa"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SuperGPQA (M-A-P, 2025)",
+  "url": "https://huggingface.co/datasets/m-a-p/SuperGPQA"
+ },
+ "pro/answer_grading/mohler_asag": {
+  "domain": "pro",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "mohlerasag"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "UNT Computer Science Short Answer Dataset v2.0 (Mohler, Bunescu and Mihalcea, 2011)",
+  "url": "https://huggingface.co/datasets/nkazi/MohlerASAG"
+ },
+ "pro/answer_grading/semeval2013_sra": {
+  "domain": "pro",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "semeval2013sra"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SemEval-2013 Task 7 Student Response Analysis, SciEntsBank and Beetle, 5-way (Dzikovska et al., 2013)",
+  "url": "https://github.com/myrosia/semeval-2013-task7"
+ },
+ "pro/document_fields/cord": {
+  "domain": "pro",
+  "n": 167,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "cord",
+   "cordv2"
+  ],
+  "train_rows_same_source": 4734,
+  "train_sources": {
+   "proc/record_aggregation": 3316,
+   "t2/distract/proc/record_aggregation": 605,
+   "t2/nota_removed/proc/record_aggregation": 412,
+   "t2/nota_present/proc/record_aggregation": 401
+  },
+  "source": "CORD v2 Consolidated Receipt Dataset, test and validation sets (Park et al., 2019)",
+  "url": "https://huggingface.co/datasets/naver-clova-ix/cord-v2"
+ },
+ "pro/document_fields/sroie": {
+  "domain": "pro",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "icdar2019sroie",
+   "sroie"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SROIE, ICDAR 2019 Scanned Receipts OCR and Information Extraction, test set with the 14 restored annotations (Huang et al., 2019)",
+  "url": "https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE"
+ },
+ "pro/document_fields/vrdu_ad_buy": {
+  "domain": "pro",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "vrduadbuy"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "VRDU ad-buy forms (DeepForm political TV-ad invoices and contracts from FCC public files), mixed-template test split (Wang et al., 2023)",
+  "url": "https://github.com/google-research-datasets/vrdu"
+ },
+ "pro/ecommerce/esci": {
+  "domain": "pro",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 1,
+  "overlap_rate": 0.006,
+  "overlap_srcs": {
+   "t2/keyonly/bekko/esci": 1
+  },
+  "source_tokens": [
+   "esci"
+  ],
+  "train_rows_same_source": 10510,
+  "train_sources": {
+   "pub/esci": 6005,
+   "src400/exact/esci": 1431,
+   "bekko/esci": 1354,
+   "t2/opaque/bekko/esci": 477,
+   "t2/keyonly/bekko/esci": 456
+  },
+  "source": "Shopping Queries Dataset (ESCI), English test split (Reddy et al., 2022)",
+  "url": "https://github.com/amazon-science/esci-data"
+ },
+ "pro/ecommerce/wands": {
+  "domain": "pro",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "wands"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "WANDS, Wayfair product search relevance judgements (Chen et al., 2022)",
+  "url": "https://github.com/wayfair/WANDS"
+ },
+ "pro/ecommerce/wdc25_categories": {
+  "domain": "pro",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "wdc25categories"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "WDC-25 Gold Standard for Product Categorization, test clusters (Web Data Commons, 2019)",
+  "url": "http://webdatacommons.org/categorization/"
+ },
+ "pro/finance/financial_phrasebank": {
+  "domain": "pro",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 18,
+  "overlap_rate": 0.1078,
+  "overlap_srcs": {
+   "t3/auditor_review": 10,
+   "t3/financial_phrasebank/sentences_allagree": 8
+  },
+  "source_tokens": [
+   "auditorreview",
+   "financialphrasebank"
+  ],
+  "train_rows_same_source": 514,
+  "train_sources": {
+   "t3/auditor_review": 294,
+   "t3/financial_phrasebank/sentences_allagree": 220
+  },
+  "source": "Financial PhraseBank v1.0, sentences with majority agreement (Malo et al., 2014)",
+  "url": "https://huggingface.co/datasets/takala/financial_phrasebank"
+ },
+ "pro/finance/fomc_hawkish_dovish": {
+  "domain": "pro",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "fomccommunication",
+   "fomchawkishdovish"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Trillion Dollar Words: FOMC minutes, speeches and press conferences, hawkish-dovish test split (Shah et al., 2023)",
+  "url": "https://huggingface.co/datasets/gtfintechlab/fomc_communication"
+ },
+ "pro/finance/south_german_credit": {
+  "domain": "pro",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "southgermancredit"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "South German Credit (UPDATE), 1,000 consumer credits 1973-1975 (Groemping, 2019; corrected Statlog German Credit)",
+  "url": "https://archive.ics.uci.edu/dataset/573/south+german+credit+update"
+ },
+ "pro/legal/contractnli": {
+  "domain": "pro",
+  "n": 167,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "contractnli"
+  ],
+  "train_rows_same_source": 16401,
+  "train_sources": {
+   "src400/sister/contractnli/cuad": 6408,
+   "pub/contractnli": 4605,
+   "src400/exact/contractnli": 1752,
+   "bekko/contract_nli": 1508,
+   "t2/opaque/bekko/contract_nli": 417
+  },
+  "source": "ContractNLI, document-level NLI on non-disclosure agreements, test split (Koreeda and Manning, 2021)",
+  "url": "https://stanfordnlp.github.io/contract-nli/"
+ },
+ "pro/legal/cuad": {
+  "domain": "pro",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 68,
+  "overlap_rate": 0.4072,
+  "overlap_srcs": {
+   "src400/sister/contractnli/cuad": 68
+  },
+  "source_tokens": [
+   "cuad"
+  ],
+  "train_rows_same_source": 6408,
+  "train_sources": {
+   "src400/sister/contractnli/cuad": 6408
+  },
+  "source": "CUAD v1, clause-type identification on the 102 test contracts (Hendrycks et al., 2021)",
+  "url": "https://github.com/TheAtticusProject/cuad"
+ },
+ "pro/legal/legalbench": {
+  "domain": "pro",
+  "n": 166,
+  "class": "seen-test-overlap",
+  "overlap_items": 1,
+  "overlap_rate": 0.006,
+  "overlap_srcs": {
+   "t3/lex_glue/scotus": 1
+  },
+  "source_tokens": [
+   "legalbench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "LegalBench, 17 classification tasks, test splits (Guha et al., 2023)",
+  "url": "https://huggingface.co/datasets/nguha/legalbench"
+ },
+ "pro/medical/ktas_triage": {
+  "domain": "pro",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "ktastriage"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Emergency department visits with expert-reviewed KTAS triage levels (Moon et al., 2019, PLOS ONE, S1 data)",
+  "url": "https://doi.org/10.1371/journal.pone.0216972"
+ },
+ "pro/medical/medqa_usmle": {
+  "domain": "pro",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "medqausmle"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "MedQA, US (USMLE) questions with 4 options, test split (Jin et al., 2021)",
+  "url": "https://github.com/jind11/MedQA"
+ },
+ "pro/medical/pubmedqa": {
+  "domain": "pro",
+  "n": 166,
+  "class": "seen-test-overlap",
+  "overlap_items": 1,
+  "overlap_rate": 0.006,
+  "overlap_srcs": {
+   "bekko/synthetic_relevance__bge_m3__pubmed_qa_labeled": 1
+  },
+  "source_tokens": [
+   "pubmedqa"
+  ],
+  "train_rows_same_source": 3004,
+  "train_sources": {
+   "bekko/synthetic_relevance__bge_m3__pubmed_qa_labeled": 1624,
+   "bekko/bge-hn-pubmed_qa_labeled": 1380
+  },
+  "source": "PubMedQA, expert-labelled PQA-L, official 500-question test set, reasoning-required setting (Jin et al., 2019)",
+  "url": "https://github.com/pubmedqa/pubmedqa"
+ },
+ "pro/science/arxiv_cs_category": {
+  "domain": "pro",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "arxivcscategory",
+   "arxivmetadatabyyear"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "arXiv metadata, papers first submitted in 2024 with a computer-science primary category (Cornell arXiv snapshot)",
+  "url": "https://huggingface.co/datasets/bluuebunny/arxiv_metadata_by_year"
+ },
+ "pro/science/iclr2025_reviews": {
+  "domain": "pro",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "iclr2025reviews"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "ICLR 2025 submissions with reviewer ratings and decisions, from OpenReview via Paper Copilot paperlists",
+  "url": "https://github.com/papercopilot/paperlists"
+ },
+ "pro/secops/nsl_kdd": {
+  "domain": "pro",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "nslkdd"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "NSL-KDD, KDDTest+ (Tavallaee et al., 2009; from the 1998 DARPA / KDD Cup 1999 data)",
+  "url": "https://www.unb.ca/cic/datasets/nsl.html"
+ },
+ "pro/secops/nvd_cvss31": {
+  "domain": "pro",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "nvdcvss31"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "NVD CVSS v3.1 base metrics assigned by NVD analysts, CVE-2025 records (NIST National Vulnerability Database)",
+  "url": "https://nvd.nist.gov/vuln/data-feeds"
+ },
+ "pro/secops/nvd_cwe": {
+  "domain": "pro",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "nvdcwe"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "NVD CWE mappings assigned by NVD analysts, CVE-2025 records (NIST National Vulnerability Database)",
+  "url": "https://nvd.nist.gov/vuln/categories"
+ },
+ "pro/support_tickets/banking77": {
+  "domain": "pro",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 1,
+  "overlap_rate": 0.006,
+  "overlap_srcs": {
+   "pub/banking77": 1
+  },
+  "source_tokens": [
+   "banking77"
+  ],
+  "train_rows_same_source": 18744,
+  "train_sources": {
+   "src400/sister/banking77/bitext_retail_banking": 8850,
+   "pub/banking77": 3794,
+   "src400/exact/banking77": 2436,
+   "bekko/banking77": 1643,
+   "t2/opaque/pub/banking77": 999
+  },
+  "source": "BANKING77, online banking customer queries, test split (Casanueva et al., 2020)",
+  "url": "https://github.com/PolyAI-LDN/task-specific-datasets"
+ },
+ "pro/support_tickets/cfpb_complaints": {
+  "domain": "pro",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 4,
+  "overlap_rate": 0.024,
+  "overlap_srcs": {
+   "src400/docs/cfpb_issue": 3,
+   "src400/docs/cfpb_product": 1
+  },
+  "source_tokens": [
+   "cfpbcomplaints",
+   "consumerfinancecomplaints"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "CFPB Consumer Complaint Database, narratives of complaints received in 2022 (via a Hugging Face snapshot)",
+  "url": "https://huggingface.co/datasets/BEE-spoke-data/consumer-finance-complaints"
+ },
+ "pro/support_tickets/mozilla_bug_severity": {
+  "domain": "pro",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "mozillabugseverity"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Mozilla Bugzilla defect reports filed January-June 2024 and later fixed (bugzilla.mozilla.org)",
+  "url": "https://bugzilla.mozilla.org"
+ },
+ "ret/context_sufficiency/duorc_paraphrase": {
+  "domain": "ret",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "duorc",
+   "duorcparaphrase"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "DuoRC ParaphraseRC, test (Saha et al., 2018)",
+  "url": "https://huggingface.co/datasets/ibm-research/duorc"
+ },
+ "ret/context_sufficiency/iirc": {
+  "domain": "ret",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "iirc"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "IIRC, incomplete information reading comprehension, test (Ferguson et al., 2020)",
+  "url": "https://allenai.org/data/iirc"
+ },
+ "ret/context_sufficiency/ms_marco_qna": {
+  "domain": "ret",
+  "n": 166,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "msmarco",
+   "msmarcoqna"
+  ],
+  "train_rows_same_source": 2973,
+  "train_sources": {
+   "bekko/synthetic_relevance__bge_m3__msmarco": 1579,
+   "bekko/bge-hn-msmarco": 1394
+  },
+  "source": "MS MARCO question answering v2.1, dev set (Bajaj et al., 2018)",
+  "url": "https://huggingface.co/datasets/microsoft/ms_marco"
+ },
+ "ret/entity_matching/abt_buy": {
+  "domain": "ret",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "abtbuy"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Abt-Buy (K\u00f6pcke, Thor and Rahm, 2010), DeepMatcher test split (Mudgal et al., 2018)",
+  "url": "https://github.com/anhaidgroup/deepmatcher/blob/master/Datasets.md#abt-buy"
+ },
+ "ret/entity_matching/dblp_scholar": {
+  "domain": "ret",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "dblpscholar"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "DBLP-Scholar (K\u00f6pcke, Thor and Rahm, 2010), DeepMatcher test split (Mudgal et al., 2018)",
+  "url": "https://github.com/anhaidgroup/deepmatcher/blob/master/Datasets.md#dblp-scholar"
+ },
+ "ret/entity_matching/wdc_products": {
+  "domain": "ret",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "wdcproducts"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "WDC Products, 80% corner cases, seen-products test set (Peeters, Der and Bizer, 2024)",
+  "url": "https://webdatacommons.org/largescaleproductcorpus/wdc-products/"
+ },
+ "ret/relevance_grading/trec_dl": {
+  "domain": "ret",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "trecdl"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "TREC 2019 and 2020 Deep Learning Track, passage judgments on MS MARCO (Craswell et al., 2020; 2021)",
+  "url": "https://microsoft.github.io/msmarco/TREC-Deep-Learning"
+ },
+ "ret/reranking/bright": {
+  "domain": "ret",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "bright"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "BRIGHT, StackExchange domains (Su et al., 2025)",
+  "url": "https://huggingface.co/datasets/xlangai/BRIGHT"
+ },
+ "ret/reranking/trec_dl": {
+  "domain": "ret",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "trecdl"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "TREC 2019 and 2020 Deep Learning Track, passage judgments on MS MARCO (Craswell et al., 2020; 2021)",
+  "url": "https://microsoft.github.io/msmarco/TREC-Deep-Learning"
+ },
+ "ret/retrieval_need/freshqa": {
+  "domain": "ret",
+  "n": 250,
+  "class": "seen-test-overlap",
+  "overlap_items": 3,
+  "overlap_rate": 0.012,
+  "overlap_srcs": {
+   "src400/sister/ragtruth/ragbench_hagrid": 1,
+   "bekko/bge-hn-mr-tydi_english": 1,
+   "t3/oasst2_pairwise_rlhf_reward": 1
+  },
+  "source_tokens": [
+   "freshqa"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "FreshQA, test questions, snapshot of 2026-04-21 (Vu et al., 2024)",
+  "url": "https://github.com/freshllms/freshqa"
+ },
+ "ret/retrieval_need/situatedqa_temporal": {
+  "domain": "ret",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "situatedqatemporal"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SituatedQA, temporal context-dependent question identification, test (Zhang and Choi, 2021)",
+  "url": "https://github.com/mikejqzhang/SituatedQA"
+ },
+ "route/context_pruning/fact_chains": {
+  "domain": "route",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "factchains"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Leave-one-out paragraph ablation on generated multi-hop fact chains (generated)",
+  "url": "https://github.com/TianyuCodings/S1-Arena"
+ },
+ "route/context_pruning/qasper": {
+  "domain": "route",
+  "n": 250,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "qasper"
+  ],
+  "train_rows_same_source": 418,
+  "train_sources": {
+   "bekko/qasper": 418
+  },
+  "source": "QASPER, questions on NLP papers with annotated evidence paragraphs, test split (Dasigi et al., 2021)",
+  "url": "https://huggingface.co/datasets/allenai/qasper"
+ },
+ "route/difficulty/bigcodebench": {
+  "domain": "route",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "bigcodebench",
+   "bigcodebenchsolverate"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "BigCodeBench-Instruct tasks with leaderboard solve rates (Zhuo et al., 2025)",
+  "url": "https://huggingface.co/datasets/bigcode/bigcodebench-solve-rate"
+ },
+ "route/difficulty/embedllm": {
+  "domain": "route",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "embedllm"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "EmbedLLM correctness matrix, test questions (Zhuang et al., 2024)",
+  "url": "https://huggingface.co/datasets/RZ412/EmbedLLM"
+ },
+ "route/difficulty/livebench": {
+  "domain": "route",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "livebench",
+   "modeljudgment"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "LiveBench code generation, code completion, typo fixing and Connections puzzles (White et al., 2025)",
+  "url": "https://huggingface.co/datasets/livebench/model_judgment"
+ },
+ "route/escalation/automix_quality": {
+  "domain": "route",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "automixquality"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "AutoMix cascade outputs on QuALITY, validation (Aggarwal et al., 2024)",
+  "url": "https://github.com/automix-llm/automix"
+ },
+ "route/escalation/livebench": {
+  "domain": "route",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "livebench",
+   "modelanswer"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "LiveBench model answers and judgments: GPT-4o mini drafts, o1-preview as the stronger model (White et al., 2025)",
+  "url": "https://huggingface.co/datasets/livebench/model_answer"
+ },
+ "route/escalation/routerarena_human": {
+  "domain": "route",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "routerarenahuman"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "RouterArena cached GPT-4o mini replies, full split (Lu et al., 2025)",
+  "url": "https://github.com/RouteWorks/RouterArena"
+ },
+ "route/memory_decisions/dulemon_retrieve": {
+  "domain": "route",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "dulemonretrieve"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "DuLeMon, Chinese long-term persona memory dialogues, 'both' test split (Xu et al., 2022)",
+  "url": "https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2022-DuLeMon"
+ },
+ "route/memory_decisions/msc_write": {
+  "domain": "route",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "mscwrite"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Multi-Session Chat, per-turn memory summaries, test split (Xu et al., 2022)",
+  "url": "https://parl.ai/projects/msc/"
+ },
+ "route/model_correctness/livebench": {
+  "domain": "route",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "livebench",
+   "modeljudgment"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "LiveBench code generation, code completion, typo fixing and Connections puzzles (White et al., 2025)",
+  "url": "https://huggingface.co/datasets/livebench/model_judgment"
+ },
+ "route/model_correctness/routerarena": {
+  "domain": "route",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "routerarena"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "RouterArena sub_10 split with cached replies of three models (Lu et al., 2025)",
+  "url": "https://github.com/RouteWorks/RouterArena"
+ },
+ "route/model_correctness/routerbench": {
+  "domain": "route",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "routerbench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "RouterBench, zero-shot MMLU, HellaSwag and ARC-Challenge prompts (Hu et al., 2024)",
+  "url": "https://huggingface.co/datasets/withmartian/routerbench"
+ },
+ "route/model_selection/livebench": {
+  "domain": "route",
+  "n": 212,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "livebench",
+   "modeljudgment"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "LiveBench code generation, code completion, typo fixing and Connections puzzles (White et al., 2025)",
+  "url": "https://huggingface.co/datasets/livebench/model_judgment"
+ },
+ "route/model_selection/routerbench": {
+  "domain": "route",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "routerbench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "RouterBench, zero-shot MMLU, HellaSwag and ARC-Challenge prompts (Hu et al., 2024)",
+  "url": "https://huggingface.co/datasets/withmartian/routerbench"
+ },
+ "route/tool_selection/bfcl_expert": {
+  "domain": "route",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "bfclexpert"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Berkeley Function Calling Leaderboard v4, expert-written 'multiple' and 'irrelevance' categories (Patil et al., 2025)",
+  "url": "https://gorilla.cs.berkeley.edu/leaderboard.html"
+ },
+ "route/tool_selection/bfcl_live": {
+  "domain": "route",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 2,
+  "overlap_rate": 0.012,
+  "overlap_srcs": {
+   "bekko/taskmaster": 1,
+   "t2/opaque/bekko/sgd": 1
+  },
+  "source_tokens": [
+   "bfcl",
+   "bfcllive"
+  ],
+  "train_rows_same_source": 18989,
+  "train_sources": {
+   "extra/bfcl-toolace": 10547,
+   "extra/bfcl-glaive": 5292,
+   "src400/sister/bfcl/hermes_fc_v1": 3150
+  },
+  "source": "Berkeley Function Calling Leaderboard v4, user-contributed 'live_multiple' and 'live_irrelevance' categories (Patil et al., 2025)",
+  "url": "https://gorilla.cs.berkeley.edu/leaderboard.html"
+ },
+ "route/tool_selection/metatool": {
+  "domain": "route",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "metatool"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "MetaTool ToolE, tool selection with and without the right tool in the list (Huang et al., 2024)",
+  "url": "https://github.com/HowieHwong/MetaTool"
+ },
+ "safety/agent_action_risk/assebench": {
+  "domain": "safety",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "assebench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "ASSEBench safety and security subsets, unambiguous records (Luo et al., 2025, AgentAuditor)",
+  "url": "https://huggingface.co/datasets/Atarogic/ASSEBench"
+ },
+ "safety/agent_action_risk/atbench": {
+  "domain": "safety",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "atbench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "ATBench agent trajectory safety benchmark, 1,000-trajectory release (Li et al., 2026)",
+  "url": "https://huggingface.co/datasets/AI45Research/ATBench"
+ },
+ "safety/custom_policy/cosapien": {
+  "domain": "safety",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "cosapien"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "CoSApien, human-authored safety configs and test prompts (Zhang et al., ICLR 2025, Controllable Safety Alignment)",
+  "url": "https://huggingface.co/datasets/microsoft/CoSApien"
+ },
+ "safety/custom_policy/dynabench": {
+  "domain": "safety",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "dynabench"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "DynaBench test set of the DynaGuard project: business policies and user-agent dialogues (Hoover et al., 2025)",
+  "url": "https://huggingface.co/datasets/tomg-group-umd/DynaBench"
+ },
+ "safety/custom_policy/moderation_policies": {
+  "domain": "safety",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "moderationpolicies"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Policy variants over the OpenAI moderation evaluation set (texts and human labels from Markov et al., 2023; policies generated)",
+  "url": "https://github.com/openai/moderation-api-release"
+ },
+ "safety/harmfulness/aegis2": {
+  "domain": "safety",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 7,
+  "overlap_rate": 0.0419,
+  "overlap_srcs": {
+   "bekko/hh_rlhf": 4,
+   "t2/distract/bekko/hh_rlhf": 1,
+   "t3/BeaverTails": 1,
+   "t3/PKU-SafeRLHF/helpfulness": 1
+  },
+  "source_tokens": [
+   "aegis2",
+   "aegisaicontentsafetydataset20"
+  ],
+  "train_rows_same_source": 1581,
+  "train_sources": {
+   "bekko/aegis2": 1581
+  },
+  "source": "Aegis 2.0 / Nemotron Content Safety Dataset V2, test, user prompts (Ghosh et al., 2025)",
+  "url": "https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0"
+ },
+ "safety/harmfulness/beavertails": {
+  "domain": "safety",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 3,
+  "overlap_rate": 0.018,
+  "overlap_srcs": {
+   "bekko/aegis2": 2,
+   "t2/distract/bekko/hh_rlhf": 1
+  },
+  "source_tokens": [
+   "beavertails"
+  ],
+  "train_rows_same_source": 281,
+  "train_sources": {
+   "t3/BeaverTails": 281
+  },
+  "source": "BeaverTails-330k, test, question-answer pairs with three annotations each (Ji et al., 2023)",
+  "url": "https://huggingface.co/datasets/PKU-Alignment/BeaverTails"
+ },
+ "safety/harmfulness/wildguardtest": {
+  "domain": "safety",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "wildguardmix",
+   "wildguardtest"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "WildGuardTest, prompt and response harmfulness (Han et al., 2024)",
+  "url": "https://huggingface.co/datasets/allenai/wildguardmix"
+ },
+ "safety/injection/agentdojo": {
+  "domain": "safety",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "agentdojo"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "AgentDojo tool-use trajectories of GPT-4o, clean and with injections in tool outputs (Debenedetti et al., 2024)",
+  "url": "https://github.com/ethz-spylab/agentdojo"
+ },
+ "safety/injection/bipia": {
+  "domain": "safety",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "bipia"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "BIPIA indirect prompt injection benchmark: email, table and code contexts with test attacks (Yi et al., 2025)",
+  "url": "https://github.com/microsoft/BIPIA"
+ },
+ "safety/injection/toxicchat_jailbreak": {
+  "domain": "safety",
+  "n": 166,
+  "class": "seen-test-overlap",
+  "overlap_items": 20,
+  "overlap_rate": 0.1205,
+  "overlap_srcs": {
+   "t3/toxic-chat/toxicchat0124/toxicity": 12,
+   "t3/toxic-chat/toxicchat0124/jailbreaking": 4,
+   "bekko/helpsteer2": 2,
+   "t3/safe-guard-prompt-injection": 1,
+   "bekko/aegis2": 1
+  },
+  "source_tokens": [
+   "toxicchat",
+   "toxicchatjailbreak"
+  ],
+  "train_rows_same_source": 593,
+  "train_sources": {
+   "t3/toxic-chat/toxicchat0124/jailbreaking": 297,
+   "t3/toxic-chat/toxicchat0124/toxicity": 296
+  },
+  "source": "ToxicChat 0124, test, human-annotated user prompts with the jailbreaking label (Lin et al., 2023)",
+  "url": "https://huggingface.co/datasets/lmsys/toxic-chat"
+ },
+ "safety/pii/tab": {
+  "domain": "safety",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Text Anonymization Benchmark (TAB), test split: ECHR court judgments annotated for anonymization (Pil\u00e1n et al., 2022)",
+  "url": "https://github.com/NorskRegnesentral/text-anonymization-benchmark"
+ },
+ "safety/pii/templates": {
+  "domain": "safety",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "templates"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Customer messages, forms and log lines with inserted personal information (generated)",
+  "url": "https://github.com/TianyuCodings/S1-Arena"
+ },
+ "safety/refusal/coconot": {
+  "domain": "safety",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "coconot"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "CoCoNot, human-verified noncompliance test set and contrast set (Brahman et al., 2024)",
+  "url": "https://huggingface.co/datasets/allenai/coconot"
+ },
+ "safety/refusal/xstest_prompts": {
+  "domain": "safety",
+  "n": 167,
+  "class": "seen-test-overlap",
+  "overlap_items": 4,
+  "overlap_rate": 0.024,
+  "overlap_srcs": {
+   "t3/Prompt-injection-dataset/full": 4
+  },
+  "source_tokens": [
+   "xstestprompts"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "XSTest v2 prompts: 250 safe prompts and 200 unsafe contrast prompts (R\u00f6ttger et al., 2024)",
+  "url": "https://github.com/paul-rottger/xstest"
+ },
+ "safety/refusal/xstest_responses": {
+  "domain": "safety",
+  "n": 166,
+  "class": "seen-test-overlap",
+  "overlap_items": 5,
+  "overlap_rate": 0.0301,
+  "overlap_srcs": {
+   "bekko/helpsteer3": 5
+  },
+  "source_tokens": [
+   "xstestresponses"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "XSTest v2 model completions with two human annotations each (R\u00f6ttger et al., 2024)",
+  "url": "https://github.com/paul-rottger/xstest/tree/main/model_completions"
+ },
+ "social/moral_judgment/ethics_commonsense": {
+  "domain": "social",
+  "n": 167,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "ethics",
+   "ethicscommonsense"
+  ],
+  "train_rows_same_source": 2601,
+  "train_sources": {
+   "bekko/ethics": 1593,
+   "t2/distract/bekko/ethics": 588,
+   "t2/opaque/bekko/ethics": 420
+  },
+  "source": "ETHICS commonsense morality, hard test set, short scenarios (Hendrycks et al., 2021)",
+  "url": "https://huggingface.co/datasets/hendrycks/ethics"
+ },
+ "social/moral_judgment/scruples_anecdotes": {
+  "domain": "social",
+  "n": 167,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "scruples",
+   "scruplesanecdotes"
+  ],
+  "train_rows_same_source": 297,
+  "train_sources": {
+   "t3/scruples/verdict_votes": 297
+  },
+  "source": "Scruples Anecdotes, test split: r/AmItheAsshole posts with the community's verdict votes (Lourie et al., 2021)",
+  "url": "https://github.com/allenai/scruples"
+ },
+ "social/moral_judgment/social_chem_101": {
+  "domain": "social",
+  "n": 166,
+  "class": "seen-test-overlap",
+  "overlap_items": 6,
+  "overlap_rate": 0.0361,
+  "overlap_srcs": {
+   "t3/SChem_Disagreement": 6
+  },
+  "source_tokens": [
+   "socialchem101"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Social-Chem-101, rules of thumb annotated by 50 crowd workers each (analysis split; Forbes et al., 2020)",
+  "url": "https://github.com/mbforbes/social-chemistry-101"
+ },
+ "social/opinion_distribution/ccai_polis": {
+  "domain": "social",
+  "n": 125,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "ccaipolis"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Collective Constitutional AI: Polis votes of about 1,000 U.S. adults on rules for an AI chatbot, July 2023 (Anthropic and The Collective Intelligence Project, 2023)",
+  "url": "https://github.com/saffronh/ccai"
+ },
+ "social/opinion_distribution/globalopinionqa": {
+  "domain": "social",
+  "n": 125,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "globalopinionqa",
+   "llmglobalopinions"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "GlobalOpinionQA: Pew Global Attitudes Survey and World Values Survey questions with answer shares by country (Durmus et al., 2023)",
+  "url": "https://huggingface.co/datasets/Anthropic/llm_global_opinions"
+ },
+ "social/opinion_distribution/polis": {
+  "domain": "social",
+  "n": 125,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "polis"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Polis open data: statements from 13 English-language public deliberations with participants' agree / disagree / pass votes (The Computational Democracy Project)",
+  "url": "https://github.com/compdemocracy/openData"
+ },
+ "social/perspective_labeling/dices_350": {
+  "domain": "social",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "dices350"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "DICES-350: adversarial chatbot conversations rated for safety by all 104 raters of a pool balanced by gender and race (Aroyo et al., 2023)",
+  "url": "https://github.com/google-research-datasets/dices-dataset"
+ },
+ "social/perspective_labeling/dices_990": {
+  "domain": "social",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "dices990"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "DICES-990: adversarial chatbot conversations, each rated for safety by 60-70 raters balanced by gender and locale (US, India) (Aroyo et al., 2023)",
+  "url": "https://github.com/google-research-datasets/dices-dataset"
+ },
+ "social/perspective_labeling/measuring_hate_speech": {
+  "domain": "social",
+  "n": 166,
+  "class": "seen-test-overlap",
+  "overlap_items": 7,
+  "overlap_rate": 0.0422,
+  "overlap_srcs": {
+   "bekko/measuring_hate": 4,
+   "t3/Pol_NLI": 3
+  },
+  "source_tokens": [
+   "measuringhatespeech"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Measuring Hate Speech corpus, the 70 reference-set comments rated by 240-815 U.S. crowd workers each (Kennedy et al., 2020; Sachdeva et al., 2022)",
+  "url": "https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech"
+ },
+ "social/persuasion_humor/anthropic_persuasion": {
+  "domain": "social",
+  "n": 125,
+  "class": "seen-test-overlap",
+  "overlap_items": 23,
+  "overlap_rate": 0.184,
+  "overlap_srcs": {
+   "t3/persuasion": 23
+  },
+  "source_tokens": [
+   "anthropicpersuasion",
+   "persuasion"
+  ],
+  "train_rows_same_source": 297,
+  "train_sources": {
+   "t3/persuasion": 297
+  },
+  "source": "Persuasion dataset: claims with human- and Claude-written arguments, each read by three participants (Durmus et al., 2024)",
+  "url": "https://huggingface.co/datasets/Anthropic/persuasion"
+ },
+ "social/persuasion_humor/expun": {
+  "domain": "social",
+  "n": 125,
+  "class": "seen-test-overlap",
+  "overlap_items": 3,
+  "overlap_rate": 0.024,
+  "overlap_srcs": {
+   "t3/recast/recast_puns": 2,
+   "t3/dnc": 1
+  },
+  "source_tokens": [
+   "expun"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "ExPUN: puns and non-puns from SemEval-2017 Task 7, each rated by five annotators (Sun et al., 2022)",
+  "url": "https://github.com/amazon-science/expunations"
+ },
+ "social/persuasion_humor/nycc_captions": {
+  "domain": "social",
+  "n": 125,
+  "class": "seen-train-split",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "newyorker",
+   "newyorkercaptionranking",
+   "nycccaptions"
+  ],
+  "train_rows_same_source": 6918,
+  "train_sources": {
+   "pub/newyorker": 4975,
+   "src400/exact/newyorker": 1329,
+   "t2/distract/pub/newyorker": 219,
+   "t2/opaque/pub/newyorker": 172,
+   "t2/nota_removed/pub/newyorker": 116
+  },
+  "source": "New Yorker Cartoon Caption Contest crowd ratings (Jain et al., 2020; Zhang et al., 2024), cartoons described by the human-written annotations of Hessel et al. (2023), ranking test split",
+  "url": "https://huggingface.co/datasets/yguooo/newyorker_caption_ranking"
+ },
+ "social/persuasion_humor/ukpconvarg1": {
+  "domain": "social",
+  "n": 124,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "ukpconvarg1"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "UKPConvArg1, argument pairs from createdebate.com and convinceme.net with five crowd judgments each (Habernal and Gurevych, 2016)",
+  "url": "https://github.com/UKPLab/acl2016-convincing-arguments"
+ },
+ "struct/column_types/sotab_cta": {
+  "domain": "struct",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "sotabcta"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "SOTAB V2, WDC Schema.org Table Annotation Benchmark, column type annotation test set (Korini, Peeters and Bizer, 2023)",
+  "url": "http://webdatacommons.org/structureddata/sotab/v2/"
+ },
+ "struct/column_types/sotab_sm": {
+  "domain": "struct",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "sotabsm"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "WDC Schema Matching Benchmark, SOTAB-SM (100-table variant), test split (Der and Bizer, 2023)",
+  "url": "http://webdatacommons.org/structureddata/smb/"
+ },
+ "struct/column_types/t2d_sm": {
+  "domain": "struct",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "t2dsm"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "WDC Schema Matching Benchmark, T2D-SM with column headers, test split (Der and Bizer, 2023; built on the T2Dv2 gold standard, Ritze et al., 2015)",
+  "url": "http://webdatacommons.org/structureddata/smb/"
+ },
+ "struct/data_quality_rules/generated": {
+  "domain": "struct",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "generated"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Data-quality rules over generated tables (generated)",
+  "url": "https://github.com/TianyuCodings/S1-Arena"
+ },
+ "struct/data_quality_rules/hospital": {
+  "domain": "struct",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "hospital"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "HoloClean hospital data with injected typos and its denial constraints (Rekatsinas et al., 2017)",
+  "url": "https://github.com/HoloClean/holoclean/tree/master/testdata"
+ },
+ "struct/log_anomaly/bgl": {
+  "domain": "struct",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Loghub BGL, Blue Gene/L RAS log with alert tags from the administrators' rules (Oliner and Stearley, 2007)",
+  "url": "https://github.com/logpai/loghub/tree/master/BGL"
+ },
+ "struct/log_anomaly/bgl_category": {
+  "domain": "struct",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "bglcategory"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Loghub BGL, alert categories assigned by the administrators' rules (Oliner and Stearley, 2007)",
+  "url": "https://github.com/logpai/loghub/tree/master/BGL"
+ },
+ "struct/log_anomaly/hdfs": {
+  "domain": "struct",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "hdfs"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Loghub HDFS_v1, block-level traces labelled normal or anomalous (Xu et al., 2009)",
+  "url": "https://github.com/logpai/loghub/tree/master/HDFS"
+ },
+ "struct/sql_verification/nl2sql_bugs": {
+  "domain": "struct",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "nl2sqlbugs"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "NL2SQL-BUGs, BIRD dev questions with SQL from RESDSQL, CodeS and CHESS (Liu et al., 2025)",
+  "url": "https://github.com/HKUSTDial/NL2SQL-Bugs-Benchmark"
+ },
+ "struct/sql_verification/spider_parser_beams": {
+  "domain": "struct",
+  "n": 250,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "spiderparserbeams"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "Spider dev with beam predictions of SmBoP, RESDSQL+NatSQL and NatSQL (Yu et al., 2018; Chen et al., 2023)",
+  "url": "https://github.com/OSU-NLP-Group/Text2SQL-Error-Detection"
+ },
+ "struct/table_qa/tabmwp": {
+  "domain": "struct",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "tabmwp"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "TabMWP, multiple-choice questions of the test split (Lu et al., 2023)",
+  "url": "https://github.com/lupantech/PromptPG"
+ },
+ "struct/table_qa/tatqa": {
+  "domain": "struct",
+  "n": 167,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "tatqa"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "TAT-QA, test set with released gold answers (Zhu et al., 2021)",
+  "url": "https://github.com/NExTplusplus/TAT-QA"
+ },
+ "struct/table_qa/wikitablequestions": {
+  "domain": "struct",
+  "n": 166,
+  "class": "unseen",
+  "overlap_items": 0,
+  "overlap_rate": 0.0,
+  "overlap_srcs": {},
+  "source_tokens": [
+   "wikitablequestions"
+  ],
+  "train_rows_same_source": 0,
+  "train_sources": {},
+  "source": "WikiTableQuestions, pristine-unseen-tables test set (Pasupat and Liang, 2015)",
+  "url": "https://github.com/ppasupat/WikiTableQuestions"
+ }
+}

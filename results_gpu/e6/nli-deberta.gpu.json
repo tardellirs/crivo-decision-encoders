@@ -1,0 +1,19 @@
+{
+ "engine": "nli:MoritzLaurer/deberta-v3-large-zeroshot-v2.0",
+ "device": "cuda",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "threads": 30,
+ "requests": 1000,
+ "timed": 960,
+ "unsupported": 40,
+ "load_s": 5.5,
+ "median_ms": 36.095958999794675,
+ "p95_ms": 552.1585759997834,
+ "mean_ms": 119.09128572613099,
+ "throughput_req_s": 8.32259072994129,
+ "questions": 1386,
+ "options_per_request_mean": 19.556,
+ "peak_rss_mb": 2629.5546875,
+ "peak_alloc_mb": 3118.3232421875,
+ "peak_reserved_mb": 3760.0
+}

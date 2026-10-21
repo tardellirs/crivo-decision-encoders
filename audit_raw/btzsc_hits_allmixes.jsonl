@@ -1,0 +1,428 @@
+{"ds": "imdb", "id": 4083, "kind": "contain 0.93", "src": "t3/imdb"}
+{"ds": "appreviews", "id": 879, "kind": "exact", "src": "t3/app_reviews"}
+{"ds": "appreviews", "id": 1915, "kind": "exact", "src": "t3/app_reviews"}
+{"ds": "appreviews", "id": 2835, "kind": "exact", "src": "t3/app_reviews"}
+{"ds": "appreviews", "id": 3113, "kind": "exact", "src": "t3/app_reviews"}
+{"ds": "appreviews", "id": 3774, "kind": "exact", "src": "t3/app_reviews"}
+{"ds": "yelpreviews", "id": 2574, "kind": "contain 0.81", "src": "t3/yelp_review_full/yelp_review_full"}
+{"ds": "yelpreviews", "id": 4080, "kind": "contain 0.88", "src": "t3/yelp_review_full/yelp_review_full"}
+{"ds": "yelpreviews", "id": 4826, "kind": "exact", "src": "t3/yelp_review_full/yelp_review_full"}
+{"ds": "rottentomatoes", "id": 485, "kind": "exact", "src": "t3/glue/sst2"}
+{"ds": "rottentomatoes", "id": 830, "kind": "exact", "src": "t3/glue/sst2"}
+{"ds": "rottentomatoes", "id": 870, "kind": "exact", "src": "t3/glue/sst2"}
+{"ds": "financialphrasebank", "id": 4, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 8, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 10, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 11, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 14, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 38, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 48, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 51, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 79, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 92, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 95, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 104, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 121, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 136, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 138, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 139, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 144, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 152, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 165, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 168, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 178, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 183, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 188, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 196, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 203, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 221, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 225, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 227, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 240, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 244, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 250, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 271, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 275, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 276, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 290, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 293, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 319, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 331, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 337, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 352, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 361, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 374, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 378, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 419, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 420, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 424, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 443, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 457, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 458, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 467, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 477, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 478, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 483, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 485, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 502, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 504, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 510, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 514, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 518, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 566, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 577, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 589, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 594, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 598, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 606, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 608, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 617, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 625, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 638, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 639, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 640, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 641, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 643, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 646, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 658, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "financialphrasebank", "id": 662, "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "financialphrasebank", "id": 668, "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "banking77", "id": 36, "kind": "contain 1.00", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 53, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 75, "kind": "exact", "src": "src400/sister/banking77/bitext_retail_banking"}
+{"ds": "banking77", "id": 127, "kind": "contain 1.00", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 158, "kind": "contain 1.00", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 174, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 207, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 341, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 409, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 439, "kind": "contain 0.83", "src": "pub/banking77"}
+{"ds": "banking77", "id": 441, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 456, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 602, "kind": "exact", "src": "bekko/minds14"}
+{"ds": "banking77", "id": 609, "kind": "exact", "src": "bekko/minds14"}
+{"ds": "banking77", "id": 613, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "banking77", "id": 622, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 634, "kind": "exact", "src": "bekko/minds14"}
+{"ds": "banking77", "id": 672, "kind": "contain 0.80", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 682, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 761, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 869, "kind": "contain 1.00", "src": "t2/opaque/bekko/banking77"}
+{"ds": "banking77", "id": 903, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 926, "kind": "contain 1.00", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 951, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 1026, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 1066, "kind": "exact", "src": "bekko/minds14"}
+{"ds": "banking77", "id": 1092, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 1122, "kind": "contain 0.82", "src": "pub/banking77"}
+{"ds": "banking77", "id": 1134, "kind": "contain 0.93", "src": "pub/banking77"}
+{"ds": "banking77", "id": 1263, "kind": "exact", "src": "t2/keyonly/bekko/minds14"}
+{"ds": "banking77", "id": 1279, "kind": "exact", "src": "bekko/minds14"}
+{"ds": "banking77", "id": 1473, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 1474, "kind": "exact", "src": "t2/opaque/bekko/banking77"}
+{"ds": "banking77", "id": 1694, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "banking77", "id": 1740, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "banking77", "id": 1968, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 2077, "kind": "contain 0.83", "src": "pub/banking77"}
+{"ds": "banking77", "id": 2142, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 2228, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 2338, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 2339, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 2362, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 2381, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 2407, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 2414, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 2436, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 2539, "kind": "contain 0.82", "src": "pub/banking77"}
+{"ds": "banking77", "id": 2603, "kind": "exact", "src": "bekko/minds14"}
+{"ds": "banking77", "id": 2710, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 2865, "kind": "exact", "src": "bekko/banking77"}
+{"ds": "banking77", "id": 2950, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "banking77", "id": 2999, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "banking77", "id": 3044, "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "biasframes_intent", "id": 46, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 163, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 174, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 190, "kind": "contain 1.00", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 240, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 453, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 480, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 668, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 690, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 814, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 835, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 1069, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 1097, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 1105, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 1178, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 1194, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 1293, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 1362, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 1462, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 1495, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 1588, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 1611, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 1676, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 1859, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 1879, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 2004, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 2152, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 2158, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 2277, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 2311, "kind": "exact", "src": "t3/hate_speech_offensive"}
+{"ds": "biasframes_intent", "id": 2456, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 2460, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 2576, "kind": "contain 1.00", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 2677, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 2873, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 3023, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 3150, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 3171, "kind": "exact", "src": "bekko/measuring_hate"}
+{"ds": "biasframes_intent", "id": 3295, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 3320, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 3392, "kind": "exact", "src": "t3/hate_speech_offensive"}
+{"ds": "biasframes_intent", "id": 3400, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_intent", "id": 3544, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 3574, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_intent", "id": 3608, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "massive", "id": 147, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 241, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 419, "kind": "contain 1.00", "src": "bekko/massive"}
+{"ds": "massive", "id": 458, "kind": "contain 1.00", "src": "bekko/massive"}
+{"ds": "massive", "id": 512, "kind": "contain 0.90", "src": "bekko/massive"}
+{"ds": "massive", "id": 675, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 676, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 682, "kind": "exact", "src": "extra/bfcl-glaive"}
+{"ds": "massive", "id": 720, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 725, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 884, "kind": "exact", "src": "bekko/hwu64"}
+{"ds": "massive", "id": 1011, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 1013, "kind": "exact", "src": "bekko/oasst1"}
+{"ds": "massive", "id": 1017, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 1020, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 1022, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 1089, "kind": "contain 1.00", "src": "bekko/oasst1"}
+{"ds": "massive", "id": 1133, "kind": "contain 1.00", "src": "bekko/massive"}
+{"ds": "massive", "id": 1374, "kind": "contain 1.00", "src": "bekko/massive"}
+{"ds": "massive", "id": 1551, "kind": "contain 1.00", "src": "bekko/massive"}
+{"ds": "massive", "id": 1750, "kind": "contain 1.00", "src": "bekko/aegis2"}
+{"ds": "massive", "id": 1862, "kind": "contain 1.00", "src": "bekko/massive"}
+{"ds": "massive", "id": 1991, "kind": "contain 0.83", "src": "bekko/hwu64"}
+{"ds": "massive", "id": 2391, "kind": "contain 0.90", "src": "bekko/hwu64"}
+{"ds": "massive", "id": 2448, "kind": "contain 0.80", "src": "t2/nota_removed/bekko/massive"}
+{"ds": "massive", "id": 2499, "kind": "contain 0.83", "src": "bekko/massive"}
+{"ds": "massive", "id": 2501, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 2502, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 2739, "kind": "contain 1.00", "src": "pub/clinc150"}
+{"ds": "massive", "id": 2830, "kind": "exact", "src": "pub/when2call"}
+{"ds": "massive", "id": 2842, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 2845, "kind": "exact", "src": "bekko/mtop"}
+{"ds": "massive", "id": 2928, "kind": "exact", "src": "pub/clinc150"}
+{"ds": "massive", "id": 2957, "kind": "contain 0.83", "src": "t2/nota_present/bekko/massive"}
+{"ds": "agnews", "id": 270, "kind": "contain 0.87", "src": "bekko/agnews"}
+{"ds": "agnews", "id": 308, "kind": "contain 0.85", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 441, "kind": "contain 0.81", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 527, "kind": "contain 0.84", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 580, "kind": "contain 0.80", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 610, "kind": "contain 0.85", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 663, "kind": "contain 0.84", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 835, "kind": "contain 0.88", "src": "bekko/agnews"}
+{"ds": "agnews", "id": 955, "kind": "contain 0.82", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 1223, "kind": "contain 0.80", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 1236, "kind": "contain 0.82", "src": "bekko/agnews"}
+{"ds": "agnews", "id": 1268, "kind": "contain 0.96", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 1284, "kind": "contain 0.83", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 1523, "kind": "contain 1.00", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 1618, "kind": "contain 0.83", "src": "bekko/agnews"}
+{"ds": "agnews", "id": 1668, "kind": "contain 0.90", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 1683, "kind": "contain 0.80", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 1857, "kind": "contain 0.84", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 1919, "kind": "contain 0.94", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 1988, "kind": "contain 0.88", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 2031, "kind": "contain 0.85", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 2061, "kind": "contain 0.83", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 2281, "kind": "contain 0.80", "src": "bekko/agnews"}
+{"ds": "agnews", "id": 2609, "kind": "contain 0.81", "src": "bekko/agnews"}
+{"ds": "agnews", "id": 2875, "kind": "contain 0.96", "src": "bekko/agnews"}
+{"ds": "agnews", "id": 3328, "kind": "contain 0.87", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 3405, "kind": "contain 0.83", "src": "bekko/agnews"}
+{"ds": "agnews", "id": 4261, "kind": "contain 0.81", "src": "bekko/agnews"}
+{"ds": "agnews", "id": 4264, "kind": "contain 0.83", "src": "bekko/agnews"}
+{"ds": "agnews", "id": 4343, "kind": "contain 0.82", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 4456, "kind": "contain 0.80", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 4679, "kind": "contain 0.87", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 4729, "kind": "contain 0.84", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 4734, "kind": "contain 0.85", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 4769, "kind": "contain 0.80", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 4922, "kind": "contain 0.82", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 5125, "kind": "contain 0.88", "src": "bekko/agnews"}
+{"ds": "agnews", "id": 5246, "kind": "contain 0.84", "src": "bekko/synthetic_relevance__agnews"}
+{"ds": "agnews", "id": 6008, "kind": "contain 1.00", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 6631, "kind": "exact", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 6774, "kind": "contain 0.92", "src": "t2/opaque/bekko/laya__ag_news"}
+{"ds": "agnews", "id": 6966, "kind": "contain 0.87", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 7053, "kind": "contain 0.80", "src": "bekko/laya__ag_news"}
+{"ds": "agnews", "id": 7213, "kind": "contain 0.82", "src": "bekko/agnews"}
+{"ds": "agnews", "id": 7541, "kind": "contain 0.80", "src": "bekko/agnews"}
+{"ds": "trueteacher", "id": 5241, "kind": "contain 0.90", "src": "t3/doc-nli"}
+{"ds": "trueteacher", "id": 8913, "kind": "contain 0.93", "src": "t3/doc-nli"}
+{"ds": "manifesto", "id": 6552, "kind": "contain 1.00", "src": "bekko/laya__phishing"}
+{"ds": "manifesto", "id": 8196, "kind": "contain 1.00", "src": "bekko/laya__phishing"}
+{"ds": "manifesto", "id": 8264, "kind": "contain 1.00", "src": "bekko/laya__phishing"}
+{"ds": "manifesto", "id": 8707, "kind": "contain 1.00", "src": "t3/Pol_NLI"}
+{"ds": "manifesto", "id": 10420, "kind": "contain 0.91", "src": "t3/Pol_NLI"}
+{"ds": "biasframes_offensive", "id": 3, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_offensive", "id": 94, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 126, "kind": "contain 1.00", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 275, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_offensive", "id": 289, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 326, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 480, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 496, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 608, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_offensive", "id": 619, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 652, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 689, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 738, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_offensive", "id": 821, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 959, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_offensive", "id": 996, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 1015, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_offensive", "id": 1022, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 1089, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_offensive", "id": 1193, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 1225, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 1346, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 1417, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_offensive", "id": 1549, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 1687, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 1728, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_offensive", "id": 1867, "kind": "contain 1.00", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 1950, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 2096, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 2134, "kind": "exact", "src": "bekko/measuring_hate"}
+{"ds": "biasframes_offensive", "id": 2216, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 2547, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 2551, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_offensive", "id": 2682, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_offensive", "id": 2707, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 2733, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_offensive", "id": 2790, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 2847, "kind": "exact", "src": "t3/hate_speech_offensive"}
+{"ds": "biasframes_offensive", "id": 2894, "kind": "exact", "src": "t3/hate_speech_offensive"}
+{"ds": "biasframes_offensive", "id": 3092, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 3098, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 3181, "kind": "exact", "src": "t3/hate_speech_offensive"}
+{"ds": "biasframes_offensive", "id": 3391, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 3409, "kind": "exact", "src": "bekko/qasper"}
+{"ds": "biasframes_offensive", "id": 3664, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 3668, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 3687, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_offensive", "id": 3703, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 6, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 174, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 255, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 265, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 531, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 547, "kind": "exact", "src": "t3/hate_speech_offensive"}
+{"ds": "biasframes_sex", "id": 555, "kind": "exact", "src": "bekko/measuring_hate"}
+{"ds": "biasframes_sex", "id": 594, "kind": "exact", "src": "bekko/qasper"}
+{"ds": "biasframes_sex", "id": 617, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 677, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 687, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 804, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 840, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 854, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 922, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 987, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 1087, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 1113, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 1217, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 1220, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 1368, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 1377, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 1474, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 1534, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 1543, "kind": "contain 1.00", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 1632, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 1651, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 1674, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 1983, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 2009, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 2167, "kind": "contain 1.00", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 2261, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 2349, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 2373, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 2611, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 2862, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 3023, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 3122, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 3574, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 3707, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 3758, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 3788, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 3790, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 3809, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 3812, "kind": "exact", "src": "t3/hate_speech18"}
+{"ds": "biasframes_sex", "id": 3821, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 3922, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 3949, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 3969, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 3974, "kind": "exact", "src": "t3/hate_speech_offensive"}
+{"ds": "biasframes_sex", "id": 4077, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 4322, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "biasframes_sex", "id": 4371, "kind": "exact", "src": "t3/SBIC_Disagreement"}
+{"ds": "wikitoxic_toxicaggregated", "id": 134, "kind": "exact", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_toxicaggregated", "id": 576, "kind": "contain 0.86", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_toxicaggregated", "id": 1289, "kind": "exact", "src": "bekko/sgd"}
+{"ds": "wikitoxic_toxicaggregated", "id": 1545, "kind": "contain 0.88", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_toxicaggregated", "id": 1779, "kind": "contain 0.88", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_toxicaggregated", "id": 2193, "kind": "contain 0.94", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_toxicaggregated", "id": 2774, "kind": "contain 0.97", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_toxicaggregated", "id": 2974, "kind": "contain 1.00", "src": "t1/gutenberg-poetry"}
+{"ds": "wikitoxic_toxicaggregated", "id": 3272, "kind": "contain 1.00", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_toxicaggregated", "id": 3419, "kind": "contain 0.97", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_toxicaggregated", "id": 3689, "kind": "contain 0.83", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_toxicaggregated", "id": 4774, "kind": "contain 0.95", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_toxicaggregated", "id": 4896, "kind": "contain 0.88", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_toxicaggregated", "id": 5723, "kind": "contain 1.00", "src": "bekko/measuring_hate"}
+{"ds": "wikitoxic_toxicaggregated", "id": 7241, "kind": "contain 1.00", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_toxicaggregated", "id": 8025, "kind": "contain 1.00", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_obscene", "id": 684, "kind": "contain 1.00", "src": "bekko/synthetic_relevance__trivia_qa"}
+{"ds": "wikitoxic_obscene", "id": 691, "kind": "exact", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_obscene", "id": 968, "kind": "exact", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_obscene", "id": 1642, "kind": "contain 0.94", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_obscene", "id": 1934, "kind": "contain 0.97", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_obscene", "id": 2295, "kind": "exact", "src": "bekko/taskmaster"}
+{"ds": "wikitoxic_obscene", "id": 2468, "kind": "contain 0.88", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_obscene", "id": 2810, "kind": "contain 0.94", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_obscene", "id": 3716, "kind": "contain 0.97", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_obscene", "id": 4074, "kind": "contain 0.88", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_obscene", "id": 4477, "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "wikitoxic_obscene", "id": 6028, "kind": "contain 1.00", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_obscene", "id": 7401, "kind": "contain 1.00", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_obscene", "id": 7408, "kind": "contain 1.00", "src": "bekko/measuring_hate"}
+{"ds": "wikitoxic_obscene", "id": 7940, "kind": "contain 1.00", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_threat", "id": 141, "kind": "exact", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_threat", "id": 559, "kind": "exact", "src": "bekko/taskmaster"}
+{"ds": "wikitoxic_threat", "id": 1162, "kind": "contain 0.95", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_threat", "id": 1185, "kind": "contain 0.98", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_threat", "id": 3047, "kind": "exact", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_threat", "id": 3134, "kind": "contain 0.96", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_threat", "id": 3586, "kind": "contain 1.00", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 1012, "kind": "contain 0.86", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 1082, "kind": "exact", "src": "bekko/laya__enron_spam"}
+{"ds": "wikitoxic_insult", "id": 1598, "kind": "contain 0.95", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 1614, "kind": "contain 0.97", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 2219, "kind": "exact", "src": "bekko/taskmaster"}
+{"ds": "wikitoxic_insult", "id": 2455, "kind": "contain 0.97", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 2707, "kind": "contain 0.94", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 2783, "kind": "contain 0.95", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 2861, "kind": "contain 0.97", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 3081, "kind": "contain 0.96", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 3394, "kind": "contain 0.92", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 3807, "kind": "exact", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 4639, "kind": "contain 0.96", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 5147, "kind": "contain 1.00", "src": "bekko/measuring_hate"}
+{"ds": "wikitoxic_insult", "id": 6102, "kind": "contain 1.00", "src": "t3/jigsaw_toxicity"}
+{"ds": "wikitoxic_insult", "id": 8139, "kind": "contain 1.00", "src": "t3/jigsaw_toxicity"}

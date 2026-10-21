@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper (in preparation)."
+title: "Joint or Per-Option? Compact Encoders for Closed-Set Decisions: code and results"
+type: software
+authors:
+  - family-names: "Stekel"
+    given-names: "Tardelli"
+    orcid: "https://orcid.org/0000-0002-3135-3656"
+license: Apache-2.0
+repository-code: "https://github.com/tardellirs/crivo-decision-encoders"
+keywords:
+  - text classification
+  - zero-shot classification
+  - multiple-choice scoring
+  - cross-encoder
+  - knowledge distillation
+  - calibration
+  - robustness
+date-released: "2026-10-21"
+preferred-citation:
+  type: article
+  title: "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17M to 1B Parameters"
+  authors:
+    - family-names: "Stekel"
+      given-names: "Tardelli"
+      orcid: "https://orcid.org/0000-0002-3135-3656"
+  year: 2026
+  status: in-preparation

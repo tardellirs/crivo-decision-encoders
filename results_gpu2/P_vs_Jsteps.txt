@@ -1,0 +1,6 @@
+pub15_skill  P-Jsteps +0.0578  95% Welch CI [+0.0500, +0.0656]
+pub15_ece    P-Jsteps +0.0013  95% Welch CI [-0.0725, +0.0751]
+s1_acc       P-Jsteps +0.0374  95% Welch CI [+0.0018, +0.0730]
+s1_brier     P-Jsteps -0.0186  95% Welch CI [-0.0244, -0.0129]
+btzsc_f1     P-Jsteps +0.1162  95% Welch CI [+0.0554, +0.1771]
+flip_perm    P-Jsteps -0.2621  95% Welch CI [-0.3363, -0.1880]

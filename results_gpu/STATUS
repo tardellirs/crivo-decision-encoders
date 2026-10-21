@@ -1,0 +1,90 @@
+2026-10-20T18:44:05Z lanes start NVIDIA A100-SXM4-40GB
+2026-10-20T18:44:05Z start lane0 btzsc/crivo-17m
+2026-10-20T18:44:05Z start lane2 btzsc/letter-qwen3-0.6b
+2026-10-20T18:44:05Z start lane1 btzsc/reranker-32m-raw
+2026-10-20T18:46:51Z lanes start NVIDIA A100-SXM4-40GB
+2026-10-20T18:46:51Z start lane1 btzsc/reranker-32m-raw
+2026-10-20T18:46:51Z start lane2 btzsc/letter-qwen3-0.6b
+2026-10-20T18:46:51Z start lane0 btzsc/crivo-17m
+2026-10-20T19:00:51Z done lane0 btzsc/crivo-17m 840s
+2026-10-20T19:00:51Z start lane0 btzsc/crivo-32m
+2026-10-20T19:17:49Z done lane0 btzsc/crivo-32m 1018s
+2026-10-20T19:17:49Z start lane0 btzsc/crivo-32m-v1
+2026-10-20T19:35:54Z done lane0 btzsc/crivo-32m-v1 1085s
+2026-10-20T19:35:54Z start lane0 btzsc/crivo-68m
+2026-10-20T19:59:37Z done lane0 btzsc/crivo-68m 1423s
+2026-10-20T19:59:37Z start lane0 btzsc/crivo-150m
+2026-10-20T20:00:36Z done lane2 btzsc/letter-qwen3-0.6b 4425s
+2026-10-20T20:00:36Z start lane2 btzsc/letter-gemma-3-1b
+2026-10-20T20:06:16Z done lane1 btzsc/reranker-32m-raw 4765s
+2026-10-20T20:06:16Z start lane1 btzsc/nli-deberta-v3-large-zs2
+2026-10-20T20:29:57Z done lane0 btzsc/crivo-150m 1820s
+2026-10-20T20:29:57Z start lane0 btzsc/crivo-150m-v1
+2026-10-20T20:35:00Z done lane0 btzsc/crivo-150m-v1 303s
+2026-10-20T20:35:00Z start lane0 btzsc/crivo-400m
+2026-10-20T21:32:40Z done rerun btzsc/crivo-150m-v1
+2026-10-20T21:41:22Z done lane0 btzsc/crivo-400m 3982s
+2026-10-20T21:41:22Z start lane0 btzsc/crivo-1b
+2026-10-20T21:57:27Z done lane2 btzsc/letter-gemma-3-1b 7011s
+2026-10-20T21:57:27Z start lane2 s1/letter-qwen3-0.6b
+2026-10-20T23:26:21Z done lane0 btzsc/crivo-1b 6299s
+2026-10-20T23:26:21Z start lane0 s1/crivo-17m
+2026-10-20T23:30:32Z done lane2 s1/letter-qwen3-0.6b 5585s
+2026-10-20T23:30:32Z start lane2 s1/letter-qwen3-0.6b-rot4
+2026-10-20T23:35:36Z done lane0 s1/crivo-17m 555s
+2026-10-20T23:35:36Z start lane0 s1/crivo-32m
+2026-10-20T23:48:16Z done lane0 s1/crivo-32m 760s
+2026-10-20T23:48:16Z start lane0 s1/crivo-68m
+2026-10-21T00:01:47Z done lane1 btzsc/nli-deberta-v3-large-zs2 14131s
+2026-10-21T00:01:47Z start lane1 btzsc/nli-modernbert-large-zs2
+2026-10-21T00:09:39Z done lane0 s1/crivo-68m 1283s
+2026-10-21T00:09:39Z start lane0 s1/crivo-150m
+2026-10-21T00:14:19Z done lane2 s1/letter-qwen3-0.6b-rot4 2627s
+2026-10-21T00:14:19Z start lane2 s1/letter-gemma-3-1b
+2026-10-21T00:45:13Z done lane0 s1/crivo-150m 2134s
+2026-10-21T00:45:13Z start lane0 s1/crivo-400m
+2026-10-21T01:46:26Z done lane0 s1/crivo-400m 3673s
+2026-10-21T01:46:26Z start lane0 s1/crivo-1b
+2026-10-21T01:46:57Z done lane2 s1/letter-gemma-3-1b 5558s
+2026-10-21T01:46:57Z start lane2 s1/uniform
+2026-10-21T01:47:02Z done lane2 s1/uniform 5s
+2026-10-21T01:47:02Z start lane2 e4/letter-qwen3-0.6b
+2026-10-21T02:07:04Z done lane2 e4/letter-qwen3-0.6b 1202s
+2026-10-21T02:07:04Z start lane2 e4/letter-gemma-3-1b
+2026-10-21T02:28:42Z done lane2 e4/letter-gemma-3-1b 1298s
+2026-10-21T03:02:06Z done lane1 btzsc/nli-modernbert-large-zs2 10819s
+2026-10-21T03:02:06Z start lane1 s1/reranker-32m-raw
+2026-10-21T03:05:46Z done lane0 s1/crivo-1b 4760s
+2026-10-21T03:05:46Z start lane0 s1/crivo-150m-v1
+2026-10-21T03:28:56Z done lane0 s1/crivo-150m-v1 1390s
+2026-10-21T03:28:56Z start lane0 e4/crivo-17m
+2026-10-21T03:31:42Z done lane0 e4/crivo-17m 166s
+2026-10-21T03:31:42Z start lane0 e4/crivo-32m
+2026-10-21T03:34:59Z done lane0 e4/crivo-32m 197s
+2026-10-21T03:34:59Z start lane0 e4/crivo-68m
+2026-10-21T03:39:24Z done lane0 e4/crivo-68m 265s
+2026-10-21T03:39:24Z start lane0 e4/crivo-150m
+2026-10-21T03:45:04Z done lane0 e4/crivo-150m 340s
+2026-10-21T03:45:04Z start lane0 e4/crivo-400m
+2026-10-21T03:53:35Z done lane0 e4/crivo-400m 511s
+2026-10-21T03:53:35Z start lane0 e4/crivo-1b
+2026-10-21T03:55:39Z done lane1 s1/reranker-32m-raw 3213s
+2026-10-21T03:55:39Z start lane1 s1/nli-deberta-v3-large-zs2
+2026-10-21T04:06:18Z done lane0 e4/crivo-1b 763s
+2026-10-21T04:14:49Z retry start
+2026-10-21T04:23:55Z retry done
+2026-10-21T04:34:00Z par start s1/nli-bart-large-mnli
+2026-10-21T05:06:20Z done lane1 s1/nli-deberta-v3-large-zs2 4241s
+2026-10-21T05:06:20Z start lane1 e4/nli-deberta-v3-large-zs2
+2026-10-21T05:24:55Z par done s1/nli-bart-large-mnli
+2026-10-21T05:48:31Z done lane1 e4/nli-deberta-v3-large-zs2 2531s
+2026-10-21T05:48:31Z lanes finished; E6 latency (GPU alone)
+2026-10-21T05:55:12Z par PAUSED (pids 19524 21093) for E6; resume with kill -CONT after E6 done
+2026-10-21T05:56:10Z par really paused now (python 21093 State T); E6 files written before this are contaminated and will be redone
+2026-10-21T05:56:31Z par KILLED (held 32 GB while paused; E6 1B/reranker OOM). Remaining: e4/reranker-32m-raw perm2..yn (resumable) + redo E6 entries measured with par running or failed
+2026-10-21T05:58:44Z E6 done
+2026-10-21T06:02:46Z ALL DONE
+2026-10-21T06:02:58Z finish start
+2026-10-21T06:11:38Z finish E6 redo done
+2026-10-21T06:27:29Z finish e4/reranker done
+2026-10-21T06:27:35Z finish ALL DONE

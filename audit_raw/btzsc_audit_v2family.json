@@ -1,0 +1,778 @@
+{
+ "train_files": [
+  "mix400_s1.train.jsonl.gz",
+  "mix400_s2.train.jsonl.gz",
+  "mix400_s3.train.jsonl.gz",
+  "mix400_s1.dev.jsonl.gz",
+  "mix400_s2.dev.jsonl.gz",
+  "mix400_s3.dev.jsonl.gz"
+ ],
+ "n_targets": 172501,
+ "per_dataset": {
+  "amazonpolarity": {
+   "n": 10000,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "imdb": {
+   "n": 10000,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 1,
+   "c50": 1,
+   "any": 1,
+   "examples": [
+    {
+     "id": 4083,
+     "kind": "contain 0.93",
+     "src": "t3/imdb",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "t3/imdb": 1
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 1
+   }
+  },
+  "appreviews": {
+   "n": 4000,
+   "short": 2,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "yelpreviews": {
+   "n": 10000,
+   "short": 55,
+   "short_exact": 10,
+   "exact": 1,
+   "c80": 3,
+   "c50": 4,
+   "any": 3,
+   "examples": [
+    {
+     "id": 2574,
+     "kind": "contain 0.81",
+     "src": "t3/yelp_review_full/yelp_review_full",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 4080,
+     "kind": "contain 0.88",
+     "src": "t3/yelp_review_full/yelp_review_full",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 4826,
+     "kind": "exact",
+     "src": "t3/yelp_review_full/yelp_review_full",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "t3/yelp_review_full/yelp_review_full": 3
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 3
+   }
+  },
+  "rottentomatoes": {
+   "n": 1066,
+   "short": 34,
+   "short_exact": 2,
+   "exact": 3,
+   "c80": 3,
+   "c50": 6,
+   "any": 3,
+   "examples": [
+    {
+     "id": 485,
+     "kind": "exact",
+     "src": "t3/glue/sst2",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 830,
+     "kind": "exact",
+     "src": "t3/glue/sst2",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 870,
+     "kind": "exact",
+     "src": "t3/glue/sst2",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "t3/glue/sst2": 3
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 3
+   }
+  },
+  "financialphrasebank": {
+   "n": 690,
+   "short": 5,
+   "short_exact": 1,
+   "exact": 77,
+   "c80": 76,
+   "c50": 77,
+   "any": 77,
+   "examples": [
+    {
+     "id": 4,
+     "kind": "exact",
+     "src": "t3/auditor_review",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 8,
+     "kind": "exact",
+     "src": "t3/financial_phrasebank/sentences_allagree",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 10,
+     "kind": "exact",
+     "src": "t3/auditor_review",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 11,
+     "kind": "exact",
+     "src": "t3/auditor_review",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 14,
+     "kind": "exact",
+     "src": "t3/auditor_review",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "t3/financial_phrasebank/sentences_allagree": 39,
+    "t3/auditor_review": 38
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 77
+   }
+  },
+  "emotiondair": {
+   "n": 2000,
+   "short": 35,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "empathetic": {
+   "n": 2542,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "banking77": {
+   "n": 3080,
+   "short": 73,
+   "short_exact": 3,
+   "exact": 14,
+   "c80": 24,
+   "c50": 78,
+   "any": 33,
+   "examples": [
+    {
+     "id": 36,
+     "kind": "contain 1.00",
+     "src": "src400/teacher/decider_routing_messages",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 75,
+     "kind": "exact",
+     "src": "src400/sister/banking77/bitext_retail_banking",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 127,
+     "kind": "contain 1.00",
+     "src": "src400/exact/banking77",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 158,
+     "kind": "contain 1.00",
+     "src": "src400/exact/banking77",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 207,
+     "kind": "contain 1.00",
+     "src": "bekko/banking77",
+     "file": "mix400_s2.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/banking77": 7,
+    "src400/exact/banking77": 6,
+    "pub/banking77": 6,
+    "t2/keyonly/bekko/minds14": 3,
+    "bekko/minds14": 2,
+    "t2/nota_present/bekko/minds14": 2,
+    "t2/opaque/bekko/banking77": 2,
+    "src400/teacher/decider_routing_messages": 1,
+    "src400/sister/banking77/bitext_retail_banking": 1,
+    "t2/keyonly/bekko/banking77": 1
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 31,
+    "mix400_s2.train.jsonl.gz": 2
+   }
+  },
+  "biasframes_intent": {
+   "n": 3648,
+   "short": 22,
+   "short_exact": 1,
+   "exact": 41,
+   "c80": 42,
+   "c50": 45,
+   "any": 43,
+   "examples": [
+    {
+     "id": 46,
+     "kind": "exact",
+     "src": "t3/hate_speech18",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 163,
+     "kind": "exact",
+     "src": "t3/SBIC_Disagreement",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 174,
+     "kind": "exact",
+     "src": "t3/hate_speech18",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 190,
+     "kind": "contain 1.00",
+     "src": "t3/SBIC_Disagreement",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 240,
+     "kind": "exact",
+     "src": "t3/SBIC_Disagreement",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "t3/SBIC_Disagreement": 29,
+    "t3/hate_speech18": 13,
+    "bekko/measuring_hate": 1
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 43
+   }
+  },
+  "massive": {
+   "n": 2974,
+   "short": 678,
+   "short_exact": 58,
+   "exact": 11,
+   "c80": 12,
+   "c50": 18,
+   "any": 21,
+   "examples": [
+    {
+     "id": 147,
+     "kind": "exact",
+     "src": "t2/opaque/bekko/taskmaster",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 241,
+     "kind": "exact",
+     "src": "src400/exact/clinc150",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 419,
+     "kind": "contain 1.00",
+     "src": "t2/opaque/bekko/massive",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 458,
+     "kind": "contain 1.00",
+     "src": "bekko/massive",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 676,
+     "kind": "exact",
+     "src": "src400/exact/clinc150",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/massive": 5,
+    "src400/exact/clinc150": 4,
+    "t2/opaque/bekko/massive": 2,
+    "pub/clinc150": 2,
+    "t2/nota_present/bekko/massive": 2,
+    "t2/opaque/bekko/taskmaster": 1,
+    "extra/bfcl-glaive": 1,
+    "bekko/hwu64": 1,
+    "t2/opaque/bekko/oasst1": 1,
+    "bekko/aegis2": 1
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 17,
+    "mix400_s2.train.jsonl.gz": 4
+   }
+  },
+  "agnews": {
+   "n": 7600,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 22,
+   "c50": 68,
+   "any": 22,
+   "examples": [
+    {
+     "id": 270,
+     "kind": "contain 0.87",
+     "src": "bekko/agnews",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 308,
+     "kind": "contain 0.85",
+     "src": "bekko/synthetic_relevance__agnews",
+     "file": "mix400_s2.train.jsonl.gz"
+    },
+    {
+     "id": 580,
+     "kind": "contain 0.80",
+     "src": "t2/keyonly/bekko/laya__ag_news",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 610,
+     "kind": "contain 0.85",
+     "src": "bekko/laya__ag_news",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 955,
+     "kind": "contain 0.82",
+     "src": "bekko/synthetic_relevance__agnews",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/synthetic_relevance__agnews": 9,
+    "bekko/agnews": 7,
+    "bekko/laya__ag_news": 4,
+    "t2/keyonly/bekko/laya__ag_news": 1,
+    "t2/opaque/bekko/laya__ag_news": 1
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 19,
+    "mix400_s2.train.jsonl.gz": 3
+   }
+  },
+  "yahootopics": {
+   "n": 45002,
+   "short": 4,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "trueteacher": {
+   "n": 8955,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "manifesto": {
+   "n": 17018,
+   "short": 17,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 2,
+   "c50": 5,
+   "any": 2,
+   "examples": [
+    {
+     "id": 8707,
+     "kind": "contain 1.00",
+     "src": "t3/Pol_NLI",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 10420,
+     "kind": "contain 0.91",
+     "src": "t3/Pol_NLI",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "t3/Pol_NLI": 2
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 2
+   }
+  },
+  "capsotu": {
+   "n": 3355,
+   "short": 3,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "biasframes_offensive": {
+   "n": 3838,
+   "short": 24,
+   "short_exact": 1,
+   "exact": 43,
+   "c80": 44,
+   "c50": 47,
+   "any": 45,
+   "examples": [
+    {
+     "id": 3,
+     "kind": "exact",
+     "src": "t3/hate_speech18",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 94,
+     "kind": "exact",
+     "src": "t3/SBIC_Disagreement",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 126,
+     "kind": "contain 1.00",
+     "src": "t3/SBIC_Disagreement",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 275,
+     "kind": "exact",
+     "src": "t3/hate_speech18",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 289,
+     "kind": "exact",
+     "src": "t3/SBIC_Disagreement",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "t3/SBIC_Disagreement": 30,
+    "t3/hate_speech18": 13,
+    "bekko/measuring_hate": 1,
+    "bekko/qasper": 1
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 44,
+    "mix400_s3.train.jsonl.gz": 1
+   }
+  },
+  "biasframes_sex": {
+   "n": 4404,
+   "short": 30,
+   "short_exact": 1,
+   "exact": 49,
+   "c80": 50,
+   "c50": 54,
+   "any": 51,
+   "examples": [
+    {
+     "id": 6,
+     "kind": "exact",
+     "src": "t3/SBIC_Disagreement",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 174,
+     "kind": "exact",
+     "src": "t3/hate_speech18",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 255,
+     "kind": "exact",
+     "src": "t3/SBIC_Disagreement",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 265,
+     "kind": "exact",
+     "src": "t3/SBIC_Disagreement",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 531,
+     "kind": "exact",
+     "src": "t3/hate_speech18",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "t3/SBIC_Disagreement": 33,
+    "t3/hate_speech18": 16,
+    "bekko/measuring_hate": 1,
+    "bekko/qasper": 1
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 50,
+    "mix400_s3.train.jsonl.gz": 1
+   }
+  },
+  "wikitoxic_toxicaggregated": {
+   "n": 10000,
+   "short": 567,
+   "short_exact": 33,
+   "exact": 1,
+   "c80": 14,
+   "c50": 25,
+   "any": 14,
+   "examples": [
+    {
+     "id": 134,
+     "kind": "exact",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 576,
+     "kind": "contain 0.86",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 1545,
+     "kind": "contain 0.88",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 1779,
+     "kind": "contain 0.88",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 2193,
+     "kind": "contain 0.94",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "t3/jigsaw_toxicity": 13,
+    "t1/gutenberg-poetry": 1
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 14
+   }
+  },
+  "wikitoxic_obscene": {
+   "n": 8691,
+   "short": 470,
+   "short_exact": 22,
+   "exact": 3,
+   "c80": 13,
+   "c50": 24,
+   "any": 14,
+   "examples": [
+    {
+     "id": 684,
+     "kind": "contain 1.00",
+     "src": "bekko/synthetic_relevance__trivia_qa",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 691,
+     "kind": "exact",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 968,
+     "kind": "exact",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 1642,
+     "kind": "contain 0.94",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 1934,
+     "kind": "contain 0.97",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "t3/jigsaw_toxicity": 11,
+    "bekko/synthetic_relevance__trivia_qa": 1,
+    "bekko/taskmaster": 1,
+    "bekko/helpsteer2": 1
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 14
+   }
+  },
+  "wikitoxic_threat": {
+   "n": 5211,
+   "short": 202,
+   "short_exact": 20,
+   "exact": 3,
+   "c80": 6,
+   "c50": 14,
+   "any": 7,
+   "examples": [
+    {
+     "id": 141,
+     "kind": "exact",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 559,
+     "kind": "exact",
+     "src": "t2/nota_present/bekko/taskmaster",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 1162,
+     "kind": "contain 0.95",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 1185,
+     "kind": "contain 0.98",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 3047,
+     "kind": "exact",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "t3/jigsaw_toxicity": 6,
+    "t2/nota_present/bekko/taskmaster": 1
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 7
+   }
+  },
+  "wikitoxic_insult": {
+   "n": 8427,
+   "short": 426,
+   "short_exact": 18,
+   "exact": 2,
+   "c80": 13,
+   "c50": 27,
+   "any": 14,
+   "examples": [
+    {
+     "id": 1012,
+     "kind": "contain 0.86",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 1598,
+     "kind": "contain 0.95",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 1614,
+     "kind": "contain 0.97",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 2219,
+     "kind": "exact",
+     "src": "t2/nota_present/bekko/taskmaster",
+     "file": "mix400_s1.train.jsonl.gz"
+    },
+    {
+     "id": 2455,
+     "kind": "contain 0.97",
+     "src": "t3/jigsaw_toxicity",
+     "file": "mix400_s1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "t3/jigsaw_toxicity": 13,
+    "t2/nota_present/bekko/taskmaster": 1
+   },
+   "files": {
+    "mix400_s1.train.jsonl.gz": 14
+   }
+  }
+ }
+}

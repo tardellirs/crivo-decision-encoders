@@ -1,0 +1,11 @@
+{
+ "max_abs_diff": {
+  "macro_f1": 0.0,
+  "accuracy": 0.0
+ },
+ "exact_equal": {
+  "macro_f1": 22,
+  "accuracy": 22
+ },
+ "datasets": 22
+}

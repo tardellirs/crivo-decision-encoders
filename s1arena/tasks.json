@@ -1,0 +1,1047 @@
+{
+"pro/answer_grading/mohler_asag": {
+"source": "UNT Computer Science Short Answer Dataset v2.0 (Mohler, Bunescu and Mihalcea, 2011)",
+"url": "https://huggingface.co/datasets/nkazi/MohlerASAG",
+"n": 167
+},
+"pro/answer_grading/semeval2013_sra": {
+"source": "SemEval-2013 Task 7 Student Response Analysis, SciEntsBank and Beetle, 5-way (Dzikovska et al., 2013)",
+"url": "https://github.com/myrosia/semeval-2013-task7",
+"n": 166
+},
+"pro/document_fields/cord": {
+"source": "CORD v2 Consolidated Receipt Dataset, test and validation sets (Park et al., 2019)",
+"url": "https://huggingface.co/datasets/naver-clova-ix/cord-v2",
+"n": 167
+},
+"pro/document_fields/sroie": {
+"source": "SROIE, ICDAR 2019 Scanned Receipts OCR and Information Extraction, test set with the 14 restored annotations (Huang et al., 2019)",
+"url": "https://huggingface.co/datasets/jsdnrs/ICDAR2019-SROIE",
+"n": 167
+},
+"pro/document_fields/vrdu_ad_buy": {
+"source": "VRDU ad-buy forms (DeepForm political TV-ad invoices and contracts from FCC public files), mixed-template test split (Wang et al., 2023)",
+"url": "https://github.com/google-research-datasets/vrdu",
+"n": 166
+},
+"pro/ecommerce/esci": {
+"source": "Shopping Queries Dataset (ESCI), English test split (Reddy et al., 2022)",
+"url": "https://github.com/amazon-science/esci-data",
+"n": 167
+},
+"pro/ecommerce/wands": {
+"source": "WANDS, Wayfair product search relevance judgements (Chen et al., 2022)",
+"url": "https://github.com/wayfair/WANDS",
+"n": 167
+},
+"pro/ecommerce/wdc25_categories": {
+"source": "WDC-25 Gold Standard for Product Categorization, test clusters (Web Data Commons, 2019)",
+"url": "http://webdatacommons.org/categorization/",
+"n": 166
+},
+"pro/finance/financial_phrasebank": {
+"source": "Financial PhraseBank v1.0, sentences with majority agreement (Malo et al., 2014)",
+"url": "https://huggingface.co/datasets/takala/financial_phrasebank",
+"n": 167
+},
+"pro/finance/fomc_hawkish_dovish": {
+"source": "Trillion Dollar Words: FOMC minutes, speeches and press conferences, hawkish-dovish test split (Shah et al., 2023)",
+"url": "https://huggingface.co/datasets/gtfintechlab/fomc_communication",
+"n": 167
+},
+"pro/finance/south_german_credit": {
+"source": "South German Credit (UPDATE), 1,000 consumer credits 1973-1975 (Groemping, 2019; corrected Statlog German Credit)",
+"url": "https://archive.ics.uci.edu/dataset/573/south+german+credit+update",
+"n": 166
+},
+"pro/legal/contractnli": {
+"source": "ContractNLI, document-level NLI on non-disclosure agreements, test split (Koreeda and Manning, 2021)",
+"url": "https://stanfordnlp.github.io/contract-nli/",
+"n": 167
+},
+"pro/legal/cuad": {
+"source": "CUAD v1, clause-type identification on the 102 test contracts (Hendrycks et al., 2021)",
+"url": "https://github.com/TheAtticusProject/cuad",
+"n": 167
+},
+"pro/legal/legalbench": {
+"source": "LegalBench, 17 classification tasks, test splits (Guha et al., 2023)",
+"url": "https://huggingface.co/datasets/nguha/legalbench",
+"n": 166
+},
+"pro/medical/ktas_triage": {
+"source": "Emergency department visits with expert-reviewed KTAS triage levels (Moon et al., 2019, PLOS ONE, S1 data)",
+"url": "https://doi.org/10.1371/journal.pone.0216972",
+"n": 167
+},
+"pro/medical/medqa_usmle": {
+"source": "MedQA, US (USMLE) questions with 4 options, test split (Jin et al., 2021)",
+"url": "https://github.com/jind11/MedQA",
+"n": 167
+},
+"pro/medical/pubmedqa": {
+"source": "PubMedQA, expert-labelled PQA-L, official 500-question test set, reasoning-required setting (Jin et al., 2019)",
+"url": "https://github.com/pubmedqa/pubmedqa",
+"n": 166
+},
+"pro/science/arxiv_cs_category": {
+"source": "arXiv metadata, papers first submitted in 2024 with a computer-science primary category (Cornell arXiv snapshot)",
+"url": "https://huggingface.co/datasets/bluuebunny/arxiv_metadata_by_year",
+"n": 250
+},
+"pro/science/iclr2025_reviews": {
+"source": "ICLR 2025 submissions with reviewer ratings and decisions, from OpenReview via Paper Copilot paperlists",
+"url": "https://github.com/papercopilot/paperlists",
+"n": 250
+},
+"pro/secops/nsl_kdd": {
+"source": "NSL-KDD, KDDTest+ (Tavallaee et al., 2009; from the 1998 DARPA / KDD Cup 1999 data)",
+"url": "https://www.unb.ca/cic/datasets/nsl.html",
+"n": 167
+},
+"pro/secops/nvd_cvss31": {
+"source": "NVD CVSS v3.1 base metrics assigned by NVD analysts, CVE-2025 records (NIST National Vulnerability Database)",
+"url": "https://nvd.nist.gov/vuln/data-feeds",
+"n": 167
+},
+"pro/secops/nvd_cwe": {
+"source": "NVD CWE mappings assigned by NVD analysts, CVE-2025 records (NIST National Vulnerability Database)",
+"url": "https://nvd.nist.gov/vuln/categories",
+"n": 166
+},
+"pro/support_tickets/banking77": {
+"source": "BANKING77, online banking customer queries, test split (Casanueva et al., 2020)",
+"url": "https://github.com/PolyAI-LDN/task-specific-datasets",
+"n": 167
+},
+"pro/support_tickets/cfpb_complaints": {
+"source": "CFPB Consumer Complaint Database, narratives of complaints received in 2022 (via a Hugging Face snapshot)",
+"url": "https://huggingface.co/datasets/BEE-spoke-data/consumer-finance-complaints",
+"n": 167
+},
+"pro/support_tickets/mozilla_bug_severity": {
+"source": "Mozilla Bugzilla defect reports filed January-June 2024 and later fixed (bugzilla.mozilla.org)",
+"url": "https://bugzilla.mozilla.org",
+"n": 166
+},
+"fore/binary_events/forecastbench_datasets": {
+"source": "ForecastBench question sets, questions resolved from FRED, DBnomics, Wikipedia and Yahoo Finance data (Karger et al., 2025)",
+"url": "https://huggingface.co/datasets/forecastingresearch/forecastbench-datasets",
+"n": 167
+},
+"fore/binary_events/forecastbench_markets": {
+"source": "ForecastBench question sets, prediction-market and forecasting-platform questions (Karger et al., 2025)",
+"url": "https://huggingface.co/datasets/forecastingresearch/forecastbench-datasets",
+"n": 167
+},
+"fore/binary_events/halawi_2024": {
+"source": "Binary forecasting questions from Metaculus, Manifold, Polymarket, Good Judgment Open and INFER, test split (Halawi et al., 2024)",
+"url": "https://huggingface.co/datasets/YuehHanChen/forecasting",
+"n": 166
+},
+"fore/multi_outcome/fred_races": {
+"source": "Which related daily FRED series moves most (currencies against the dollar, energy prices, Treasury yields), resolved by September 2026",
+"url": "https://fred.stlouisfed.org/",
+"n": 170
+},
+"fore/numeric_bins/fred_daily": {
+"source": "Daily FRED series (Treasury yields, breakeven inflation, exchange rates, oil and gas prices), values published up to September 2026",
+"url": "https://fred.stlouisfed.org/",
+"n": 250
+},
+"judge/agent_trajectory/agentrewardbench": {
+"source": "AgentRewardBench, expert-annotated web agent trajectories, test split (L\u00f9 et al., 2025)",
+"url": "https://huggingface.co/datasets/McGill-NLP/agent-reward-bench",
+"n": 250
+},
+"judge/agent_trajectory/tau_bench": {
+"source": "tau-bench historical trajectories of GPT-4o and Claude 3.5 Sonnet (new) in the airline and retail domains (Yao et al., 2024)",
+"url": "https://github.com/sierra-research/tau-bench",
+"n": 250
+},
+"judge/atomic_factuality/factscore": {
+"source": "FActScore human-annotated biographies by InstructGPT, ChatGPT and PerplexityAI (Min et al., 2023)",
+"url": "https://github.com/shmsw25/FActScore",
+"n": 250
+},
+"judge/atomic_factuality/felm": {
+"source": "FELM, segment-level factuality of ChatGPT responses (Chen et al., 2023)",
+"url": "https://huggingface.co/datasets/hkust-nlp/felm",
+"n": 250
+},
+"judge/instruction_following/ifbench": {
+"source": "IFBench test prompts (Pyatkin et al., 2025) with model responses and strict checker results from shisa-ai/eval-IFBench-results",
+"url": "https://huggingface.co/datasets/shisa-ai/eval-IFBench-results",
+"n": 250
+},
+"judge/instruction_following/ifeval_ppe": {
+"source": "IFEval prompts (Zhou et al., 2023) with sampled responses and strict checker results from PPE (Frick et al., 2025)",
+"url": "https://huggingface.co/datasets/lmarena-ai/PPE-IFEval-Best-of-K",
+"n": 250
+},
+"judge/pairwise_preference/judgebench": {
+"source": "JudgeBench, GPT-4o and Claude-3.5-Sonnet response pairs (Tan et al., 2025)",
+"url": "https://huggingface.co/datasets/ScalerLab/JudgeBench",
+"n": 166
+},
+"judge/pairwise_preference/reward_bench_2": {
+"source": "RewardBench 2, Math, Precise IF, Focus and Ties subsets (Malik et al., 2025)",
+"url": "https://huggingface.co/datasets/allenai/reward-bench-2",
+"n": 166
+},
+"judge/pairwise_preference/rm_bench": {
+"source": "RM-Bench, chat, math and code domains (Liu et al., 2025)",
+"url": "https://huggingface.co/datasets/THU-KEG/RM-Bench",
+"n": 166
+},
+"judge/pointwise_rating/biggen_bench": {
+"source": "BiGGen Bench, human evaluation split (Kim et al., 2025)",
+"url": "https://huggingface.co/datasets/prometheus-eval/BiGGen-Bench-Results",
+"n": 250
+},
+"judge/pointwise_rating/helpsteer2": {
+"source": "HelpSteer2, validation split with individual annotator ratings (Wang et al., 2024)",
+"url": "https://huggingface.co/datasets/nvidia/HelpSteer2",
+"n": 250
+},
+"judge/process_reward/mr_ben": {
+"source": "MR-Ben meta-reasoning benchmark, all subjects except coding (Zeng et al., 2024)",
+"url": "https://huggingface.co/datasets/Randolphzeng/Mr-Ben",
+"n": 167
+},
+"judge/process_reward/prm800k": {
+"source": "PRM800K, phase 2 test split (Lightman et al., 2024)",
+"url": "https://github.com/openai/prm800k",
+"n": 167
+},
+"judge/process_reward/processbench": {
+"source": "ProcessBench, earliest-error paragraph (Zheng et al., 2025)",
+"url": "https://huggingface.co/datasets/Qwen/ProcessBench",
+"n": 166
+},
+"judge/rag_faithfulness/begin": {
+"source": "BEGIN, knowledge-grounded dialogue responses, test split (Dziri et al., 2022)",
+"url": "https://github.com/google/BEGIN-dataset",
+"n": 250
+},
+"judge/rag_faithfulness/ragtruth": {
+"source": "RAGTruth, test split: QA (MS MARCO), data-to-text (Yelp) and news summarization (CNN/DM, Recent News) (Niu et al., 2024)",
+"url": "https://github.com/ParticleMedia/RAGTruth",
+"n": 250
+},
+"judge/reference_answer/answer_equivalence": {
+"source": "Answer Equivalence (AE) dataset, test split, SQuAD questions (Bulian et al., 2022)",
+"url": "https://github.com/google-research-datasets/answer-equivalence-dataset",
+"n": 167
+},
+"judge/reference_answer/evouna": {
+"source": "EVOUNA, Natural Questions and TriviaQA answers of five QA systems judged by humans (Wang et al., 2023)",
+"url": "https://github.com/wangcunxiang/QA-Eval",
+"n": 167
+},
+"judge/reference_answer/verifierbench": {
+"source": "VerifierBench (CompassVerifier; Liu et al., 2025)",
+"url": "https://huggingface.co/datasets/opencompass/VerifierBench",
+"n": 166
+},
+"judge/summary_consistency/faithbench": {
+"source": "FaithBench, summaries by 10 modern LLMs (Bao et al., 2025)",
+"url": "https://github.com/vectara/FaithBench",
+"n": 167
+},
+"judge/summary_consistency/summedits": {
+"source": "SummEdits, 10 domains (Laban et al., 2023)",
+"url": "https://huggingface.co/datasets/Salesforce/summedits",
+"n": 167
+},
+"judge/summary_consistency/tofueval_meetingbank": {
+"source": "TofuEval, MeetingBank part, test split (Tang et al., 2024)",
+"url": "https://github.com/amazon-science/tofueval",
+"n": 166
+},
+"judge/translation_quality/wmt20_mqm": {
+"source": "WMT 2020 newstest MQM annotations, en-de and zh-en (Freitag et al., 2021)",
+"url": "https://github.com/google/wmt-mqm-human-evaluation",
+"n": 250
+},
+"judge/translation_quality/wmt23_mqm": {
+"source": "WMT 2023 general MT MQM annotations with three ratings per segment, en-de and zh-en (Kocmi et al., 2023; Google MQM release)",
+"url": "https://github.com/google/wmt-mqm-human-evaluation",
+"n": 250
+},
+"route/context_pruning/fact_chains": {
+"source": "Leave-one-out paragraph ablation on generated multi-hop fact chains (generated)",
+"url": "https://github.com/TianyuCodings/S1-Arena",
+"n": 250
+},
+"route/context_pruning/qasper": {
+"source": "QASPER, questions on NLP papers with annotated evidence paragraphs, test split (Dasigi et al., 2021)",
+"url": "https://huggingface.co/datasets/allenai/qasper",
+"n": 250
+},
+"route/difficulty/bigcodebench": {
+"source": "BigCodeBench-Instruct tasks with leaderboard solve rates (Zhuo et al., 2025)",
+"url": "https://huggingface.co/datasets/bigcode/bigcodebench-solve-rate",
+"n": 167
+},
+"route/difficulty/embedllm": {
+"source": "EmbedLLM correctness matrix, test questions (Zhuang et al., 2024)",
+"url": "https://huggingface.co/datasets/RZ412/EmbedLLM",
+"n": 167
+},
+"route/difficulty/livebench": {
+"source": "LiveBench code generation, code completion, typo fixing and Connections puzzles (White et al., 2025)",
+"url": "https://huggingface.co/datasets/livebench/model_judgment",
+"n": 166
+},
+"route/escalation/automix_quality": {
+"source": "AutoMix cascade outputs on QuALITY, validation (Aggarwal et al., 2024)",
+"url": "https://github.com/automix-llm/automix",
+"n": 167
+},
+"route/escalation/livebench": {
+"source": "LiveBench model answers and judgments: GPT-4o mini drafts, o1-preview as the stronger model (White et al., 2025)",
+"url": "https://huggingface.co/datasets/livebench/model_answer",
+"n": 167
+},
+"route/escalation/routerarena_human": {
+"source": "RouterArena cached GPT-4o mini replies, full split (Lu et al., 2025)",
+"url": "https://github.com/RouteWorks/RouterArena",
+"n": 166
+},
+"route/memory_decisions/dulemon_retrieve": {
+"source": "DuLeMon, Chinese long-term persona memory dialogues, 'both' test split (Xu et al., 2022)",
+"url": "https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2022-DuLeMon",
+"n": 250
+},
+"route/memory_decisions/msc_write": {
+"source": "Multi-Session Chat, per-turn memory summaries, test split (Xu et al., 2022)",
+"url": "https://parl.ai/projects/msc/",
+"n": 250
+},
+"route/model_correctness/livebench": {
+"source": "LiveBench code generation, code completion, typo fixing and Connections puzzles (White et al., 2025)",
+"url": "https://huggingface.co/datasets/livebench/model_judgment",
+"n": 167
+},
+"route/model_correctness/routerarena": {
+"source": "RouterArena sub_10 split with cached replies of three models (Lu et al., 2025)",
+"url": "https://github.com/RouteWorks/RouterArena",
+"n": 167
+},
+"route/model_correctness/routerbench": {
+"source": "RouterBench, zero-shot MMLU, HellaSwag and ARC-Challenge prompts (Hu et al., 2024)",
+"url": "https://huggingface.co/datasets/withmartian/routerbench",
+"n": 166
+},
+"route/model_selection/livebench": {
+"source": "LiveBench code generation, code completion, typo fixing and Connections puzzles (White et al., 2025)",
+"url": "https://huggingface.co/datasets/livebench/model_judgment",
+"n": 212
+},
+"route/model_selection/routerbench": {
+"source": "RouterBench, zero-shot MMLU, HellaSwag and ARC-Challenge prompts (Hu et al., 2024)",
+"url": "https://huggingface.co/datasets/withmartian/routerbench",
+"n": 250
+},
+"route/tool_selection/bfcl_expert": {
+"source": "Berkeley Function Calling Leaderboard v4, expert-written 'multiple' and 'irrelevance' categories (Patil et al., 2025)",
+"url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+"n": 167
+},
+"route/tool_selection/bfcl_live": {
+"source": "Berkeley Function Calling Leaderboard v4, user-contributed 'live_multiple' and 'live_irrelevance' categories (Patil et al., 2025)",
+"url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+"n": 167
+},
+"route/tool_selection/metatool": {
+"source": "MetaTool ToolE, tool selection with and without the right tool in the list (Huang et al., 2024)",
+"url": "https://github.com/HowieHwong/MetaTool",
+"n": 166
+},
+"struct/column_types/sotab_cta": {
+"source": "SOTAB V2, WDC Schema.org Table Annotation Benchmark, column type annotation test set (Korini, Peeters and Bizer, 2023)",
+"url": "http://webdatacommons.org/structureddata/sotab/v2/",
+"n": 167
+},
+"struct/column_types/sotab_sm": {
+"source": "WDC Schema Matching Benchmark, SOTAB-SM (100-table variant), test split (Der and Bizer, 2023)",
+"url": "http://webdatacommons.org/structureddata/smb/",
+"n": 167
+},
+"struct/column_types/t2d_sm": {
+"source": "WDC Schema Matching Benchmark, T2D-SM with column headers, test split (Der and Bizer, 2023; built on the T2Dv2 gold standard, Ritze et al., 2015)",
+"url": "http://webdatacommons.org/structureddata/smb/",
+"n": 166
+},
+"struct/data_quality_rules/generated": {
+"source": "Data-quality rules over generated tables (generated)",
+"url": "https://github.com/TianyuCodings/S1-Arena",
+"n": 250
+},
+"struct/data_quality_rules/hospital": {
+"source": "HoloClean hospital data with injected typos and its denial constraints (Rekatsinas et al., 2017)",
+"url": "https://github.com/HoloClean/holoclean/tree/master/testdata",
+"n": 250
+},
+"struct/log_anomaly/bgl": {
+"source": "Loghub BGL, Blue Gene/L RAS log with alert tags from the administrators' rules (Oliner and Stearley, 2007)",
+"url": "https://github.com/logpai/loghub/tree/master/BGL",
+"n": 167
+},
+"struct/log_anomaly/bgl_category": {
+"source": "Loghub BGL, alert categories assigned by the administrators' rules (Oliner and Stearley, 2007)",
+"url": "https://github.com/logpai/loghub/tree/master/BGL",
+"n": 167
+},
+"struct/log_anomaly/hdfs": {
+"source": "Loghub HDFS_v1, block-level traces labelled normal or anomalous (Xu et al., 2009)",
+"url": "https://github.com/logpai/loghub/tree/master/HDFS",
+"n": 166
+},
+"struct/sql_verification/nl2sql_bugs": {
+"source": "NL2SQL-BUGs, BIRD dev questions with SQL from RESDSQL, CodeS and CHESS (Liu et al., 2025)",
+"url": "https://github.com/HKUSTDial/NL2SQL-Bugs-Benchmark",
+"n": 250
+},
+"struct/sql_verification/spider_parser_beams": {
+"source": "Spider dev with beam predictions of SmBoP, RESDSQL+NatSQL and NatSQL (Yu et al., 2018; Chen et al., 2023)",
+"url": "https://github.com/OSU-NLP-Group/Text2SQL-Error-Detection",
+"n": 250
+},
+"struct/table_qa/tabmwp": {
+"source": "TabMWP, multiple-choice questions of the test split (Lu et al., 2023)",
+"url": "https://github.com/lupantech/PromptPG",
+"n": 167
+},
+"struct/table_qa/tatqa": {
+"source": "TAT-QA, test set with released gold answers (Zhu et al., 2021)",
+"url": "https://github.com/NExTplusplus/TAT-QA",
+"n": 167
+},
+"struct/table_qa/wikitablequestions": {
+"source": "WikiTableQuestions, pristine-unseen-tables test set (Pasupat and Liang, 2015)",
+"url": "https://github.com/ppasupat/WikiTableQuestions",
+"n": 166
+},
+"batch/semantic_filter/clothing_reviews": {
+"source": "Women's E-Commerce Clothing Reviews, 23,486 reviews from an online retailer (nicapotato, Kaggle)",
+"url": "https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews",
+"n": 250
+},
+"batch/semantic_filter/job_postings": {
+"source": "EMSCAD, Employment Scam Aegean Dataset: 17,880 job ads from Workable, 866 of them fraudulent (Vidros et al., 2017)",
+"url": "https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction",
+"n": 250
+},
+"batch/semantic_grouping/abo_product_types": {
+"source": "Amazon Berkeley Objects (ABO) product listings, English listings of amazon.com, .co.uk and .ca (Collins et al., CVPR 2022)",
+"url": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+"n": 250
+},
+"batch/semantic_grouping/airline_complaints": {
+"source": "Twitter US Airline Sentiment, negative tweets with the complaint reason (Figure Eight / CrowdFlower Data for Everyone, 2015)",
+"url": "https://huggingface.co/datasets/osanseviero/twitter-airline-sentiment",
+"n": 250
+},
+"batch/semantic_ranking/trec_clinical_trials": {
+"source": "TREC 2022 Clinical Trials track: synthetic patient cases and ClinicalTrials.gov records with NIST judgments (Roberts et al., 2022)",
+"url": "https://huggingface.co/datasets/araag2/TREC_Clinical-Trials",
+"n": 250
+},
+"batch/semantic_ranking/tripadvisor_aspects": {
+"source": "TripAdvisor hotel reviews with the reviewers' aspect ratings, English reviews of 2012 (Li et al., 2013; processed by Niimi, 2024)",
+"url": "https://huggingface.co/datasets/jniimi/tripadvisor-review-rating",
+"n": 250
+},
+"ret/context_sufficiency/duorc_paraphrase": {
+"source": "DuoRC ParaphraseRC, test (Saha et al., 2018)",
+"url": "https://huggingface.co/datasets/ibm-research/duorc",
+"n": 167
+},
+"ret/context_sufficiency/iirc": {
+"source": "IIRC, incomplete information reading comprehension, test (Ferguson et al., 2020)",
+"url": "https://allenai.org/data/iirc",
+"n": 166
+},
+"ret/context_sufficiency/ms_marco_qna": {
+"source": "MS MARCO question answering v2.1, dev set (Bajaj et al., 2018)",
+"url": "https://huggingface.co/datasets/microsoft/ms_marco",
+"n": 166
+},
+"ret/entity_matching/abt_buy": {
+"source": "Abt-Buy (K\u00f6pcke, Thor and Rahm, 2010), DeepMatcher test split (Mudgal et al., 2018)",
+"url": "https://github.com/anhaidgroup/deepmatcher/blob/master/Datasets.md#abt-buy",
+"n": 167
+},
+"ret/entity_matching/dblp_scholar": {
+"source": "DBLP-Scholar (K\u00f6pcke, Thor and Rahm, 2010), DeepMatcher test split (Mudgal et al., 2018)",
+"url": "https://github.com/anhaidgroup/deepmatcher/blob/master/Datasets.md#dblp-scholar",
+"n": 167
+},
+"ret/entity_matching/wdc_products": {
+"source": "WDC Products, 80% corner cases, seen-products test set (Peeters, Der and Bizer, 2024)",
+"url": "https://webdatacommons.org/largescaleproductcorpus/wdc-products/",
+"n": 166
+},
+"ret/relevance_grading/trec_dl": {
+"source": "TREC 2019 and 2020 Deep Learning Track, passage judgments on MS MARCO (Craswell et al., 2020; 2021)",
+"url": "https://microsoft.github.io/msmarco/TREC-Deep-Learning",
+"n": 166
+},
+"ret/reranking/bright": {
+"source": "BRIGHT, StackExchange domains (Su et al., 2025)",
+"url": "https://huggingface.co/datasets/xlangai/BRIGHT",
+"n": 250
+},
+"ret/reranking/trec_dl": {
+"source": "TREC 2019 and 2020 Deep Learning Track, passage judgments on MS MARCO (Craswell et al., 2020; 2021)",
+"url": "https://microsoft.github.io/msmarco/TREC-Deep-Learning",
+"n": 250
+},
+"ret/retrieval_need/freshqa": {
+"source": "FreshQA, test questions, snapshot of 2026-04-21 (Vu et al., 2024)",
+"url": "https://github.com/freshllms/freshqa",
+"n": 250
+},
+"ret/retrieval_need/situatedqa_temporal": {
+"source": "SituatedQA, temporal context-dependent question identification, test (Zhang and Choi, 2021)",
+"url": "https://github.com/mikejqzhang/SituatedQA",
+"n": 250
+},
+"know/answerability/musique": {
+"source": "MuSiQue-Full, answerable and unanswerable multi-hop questions, validation (Trivedi et al., 2022)",
+"url": "https://huggingface.co/datasets/bdsaglam/musique",
+"n": 250
+},
+"know/answerability/squad_v2": {
+"source": "SQuAD 2.0, validation (Rajpurkar et al., 2018)",
+"url": "https://huggingface.co/datasets/rajpurkar/squad_v2",
+"n": 250
+},
+"know/causal/copa": {
+"source": "COPA, original test set with labels (Roemmele et al., 2011), via Balanced COPA",
+"url": "https://huggingface.co/datasets/pkavumba/balanced-copa",
+"n": 250
+},
+"know/causal/e_care": {
+"source": "e-CARE, validation (Du et al., 2022)",
+"url": "https://huggingface.co/datasets/12ml/e-CARE",
+"n": 250
+},
+"know/citation_support/attributionbench": {
+"source": "AttributionBench, in-distribution test (Li et al., 2024)",
+"url": "https://huggingface.co/datasets/osunlp/AttributionBench",
+"n": 250
+},
+"know/citation_support/wice": {
+"source": "WiCE, Wikipedia citation entailment, sub-claims (Kamoi et al., 2023)",
+"url": "https://huggingface.co/datasets/jon-tow/wice",
+"n": 250
+},
+"know/commonsense/commonsense_qa": {
+"source": "CommonsenseQA, validation (Talmor et al., 2019)",
+"url": "https://huggingface.co/datasets/tau/commonsense_qa",
+"n": 167
+},
+"know/commonsense/piqa": {
+"source": "PIQA, validation (Bisk et al., 2020)",
+"url": "https://huggingface.co/datasets/baber/piqa",
+"n": 167
+},
+"know/commonsense/winogrande": {
+"source": "WinoGrande XL, validation (Sakaguchi et al., 2020)",
+"url": "https://huggingface.co/datasets/allenai/winogrande",
+"n": 166
+},
+"know/date_reasoning/bbh_date_understanding": {
+"source": "BIG-Bench Hard, date understanding (Suzgun et al., 2023)",
+"url": "https://huggingface.co/datasets/lukaemon/bbh",
+"n": 167
+},
+"know/date_reasoning/date_arithmetic": {
+"source": "Date arithmetic (generated)",
+"url": "https://github.com/TianyuCodings/S1-Arena",
+"n": 167
+},
+"know/date_reasoning/timestamp_compare": {
+"source": "Timestamp comparison across time zones and formats (generated)",
+"url": "https://github.com/TianyuCodings/S1-Arena",
+"n": 166
+},
+"know/fact_verification/averitec": {
+"source": "AVeriTeC real-world claims with question-answer evidence, dev (Schlichtkrull et al., 2023)",
+"url": "https://huggingface.co/datasets/pminervini/averitec",
+"n": 167
+},
+"know/fact_verification/scifact": {
+"source": "SciFact claims against paper abstracts, validation (Wadden et al., 2020)",
+"url": "https://huggingface.co/datasets/allenai/scifact_entailment",
+"n": 167
+},
+"know/fact_verification/vitaminc": {
+"source": "VitaminC contrastive fact verification (Schuster et al., 2021)",
+"url": "https://huggingface.co/datasets/tals/vitaminc",
+"n": 166
+},
+"know/factual_judgment/nq_open": {
+"source": "Natural Questions open, validation (Lee et al., 2019)",
+"url": "https://huggingface.co/datasets/google-research-datasets/nq_open",
+"n": 250
+},
+"know/factual_judgment/simpleqa_verified": {
+"source": "SimpleQA Verified (Google, 2025; after Wei et al., 2024)",
+"url": "https://huggingface.co/datasets/google/simpleqa-verified",
+"n": 250
+},
+"know/logic_puzzles/folio": {
+"source": "FOLIO v2, first-order logic reasoning in natural language, validation (Han et al., 2024)",
+"url": "https://huggingface.co/datasets/yale-nlp/FOLIO",
+"n": 167
+},
+"know/logic_puzzles/ordering": {
+"source": "Ordering puzzles from pairwise clues (generated)",
+"url": "https://github.com/TianyuCodings/S1-Arena",
+"n": 167
+},
+"know/logic_puzzles/zebralogic": {
+"source": "ZebraLogic, multiple-choice mode (Lin et al., 2025)",
+"url": "https://huggingface.co/datasets/WildEval/ZebraLogic",
+"n": 166
+},
+"know/math_verification/processbench": {
+"source": "ProcessBench model solutions (Zheng et al., 2024)",
+"url": "https://huggingface.co/datasets/Qwen/ProcessBench",
+"n": 250
+},
+"know/math_verification/verifybench": {
+"source": "VerifyBench, math problems (Yan et al., 2025)",
+"url": "https://huggingface.co/datasets/ZJU-REAL/VerifyBench",
+"n": 250
+},
+"know/multihop/2wikimultihopqa": {
+"source": "2WikiMultihopQA, comparison and bridge-comparison questions (Ho et al., 2020)",
+"url": "https://huggingface.co/datasets/framolfese/2WikiMultihopQA",
+"n": 167
+},
+"know/multihop/hotpotqa_comparison": {
+"source": "HotpotQA, distractor setting, comparison questions (Yang et al., 2018)",
+"url": "https://huggingface.co/datasets/hotpotqa/hotpot_qa",
+"n": 167
+},
+"know/multihop/strategyqa": {
+"source": "StrategyQA, re-split test (Geva et al., 2021)",
+"url": "https://huggingface.co/datasets/ChilleD/StrategyQA",
+"n": 166
+},
+"know/numeric_comparison/equate": {
+"source": "EQUATE quantitative NLI: AWPNLI, NewsNLI, RedditNLI (Ravichander et al., 2019)",
+"url": "https://huggingface.co/datasets/tasksource/equate",
+"n": 167
+},
+"know/numeric_comparison/number_compare": {
+"source": "Number comparison across notations (generated)",
+"url": "https://github.com/TianyuCodings/S1-Arena",
+"n": 167
+},
+"know/numeric_comparison/unit_compare": {
+"source": "Quantity comparison across units (generated)",
+"url": "https://github.com/TianyuCodings/S1-Arena",
+"n": 166
+},
+"know/subject_mcq/mmlu_pro": {
+"source": "MMLU-Pro (Wang et al., 2024)",
+"url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
+"n": 250
+},
+"know/subject_mcq/supergpqa": {
+"source": "SuperGPQA (M-A-P, 2025)",
+"url": "https://huggingface.co/datasets/m-a-p/SuperGPQA",
+"n": 250
+},
+"basic_cls/entity_relation/fewnerd": {
+"source": "Few-NERD supervised, fine-grained entity types (Ding et al., 2021)",
+"url": "https://huggingface.co/datasets/DFKI-SLT/few-nerd",
+"n": 167
+},
+"basic_cls/entity_relation/fewrel": {
+"source": "FewRel 1.0, the 80 public Wikidata relations (Han et al., 2018)",
+"url": "https://github.com/thunlp/FewRel",
+"n": 167
+},
+"basic_cls/entity_relation/semeval2010_task8": {
+"source": "SemEval-2010 Task 8, relations between nominals (Hendrickx et al., 2010)",
+"url": "https://huggingface.co/datasets/SemEvalWorkshop/sem_eval_2010_task_8",
+"n": 166
+},
+"basic_cls/intent/clinc150": {
+"source": "CLINC150, plus variant with out-of-scope queries (Larson et al., 2019)",
+"url": "https://huggingface.co/datasets/clinc/clinc_oos",
+"n": 250
+},
+"basic_cls/intent/massive_en": {
+"source": "MASSIVE, en-US (FitzGerald et al., 2022)",
+"url": "https://huggingface.co/datasets/mteb/amazon_massive_intent",
+"n": 250
+},
+"basic_cls/language_style/cefr_sp": {
+"source": "CEFR-SP, public part (Arase et al., 2022)",
+"url": "https://huggingface.co/datasets/edesaras/CEFR-Sentence-Level-Annotations",
+"n": 167
+},
+"basic_cls/language_style/pavlick_formality": {
+"source": "Formality scores (Pavlick and Tetreault, 2016)",
+"url": "https://huggingface.co/datasets/osyvokon/pavlick-formality-scores",
+"n": 167
+},
+"basic_cls/language_style/wili2018": {
+"source": "WiLI-2018 Wikipedia language identification (Thoma, 2018)",
+"url": "https://huggingface.co/datasets/MartinThoma/wili_2018",
+"n": 166
+},
+"basic_cls/multilabel/goemotions": {
+"source": "GoEmotions (Demszky et al., 2020)",
+"url": "https://huggingface.co/datasets/google-research-datasets/go_emotions",
+"n": 250
+},
+"basic_cls/nli/anli_r3": {
+"source": "Adversarial NLI, round 3 test (Nie et al., 2020)",
+"url": "https://huggingface.co/datasets/facebook/anli",
+"n": 250
+},
+"basic_cls/nli/chaosnli": {
+"source": "ChaosNLI, SNLI and MNLI parts, 100 annotations per example (Nie et al., 2020)",
+"url": "https://github.com/easonnie/ChaosNLI",
+"n": 250
+},
+"basic_cls/sentiment/sst5": {
+"source": "Stanford Sentiment Treebank, 5 classes (Socher et al., 2013)",
+"url": "https://huggingface.co/datasets/SetFit/sst5",
+"n": 167
+},
+"basic_cls/sentiment/tweeteval_sentiment": {
+"source": "TweetEval sentiment (SemEval-2017 Task 4A; Barbieri et al., 2020)",
+"url": "https://huggingface.co/datasets/cardiffnlp/tweet_eval",
+"n": 166
+},
+"basic_cls/spam_phishing/sms_spam": {
+"source": "SMS Spam Collection (Almeida et al., 2011)",
+"url": "https://huggingface.co/datasets/ucirvine/sms_spam",
+"n": 167
+},
+"basic_cls/spam_phishing/spamassassin_nazario": {
+"source": "SpamAssassin public corpus, ham and spam (2002-2005), and Jose Nazario's phishing corpus, 2004-2006 mailboxes; labels by corpus membership",
+"url": "https://monkey.org/~jose/phishing/",
+"n": 166
+},
+"basic_cls/stance_sarcasm_humor/isarcasmeval": {
+"source": "iSarcasmEval subtask A, English (Abu Farha et al., 2022)",
+"url": "https://github.com/iabufarha/iSarcasmEval",
+"n": 167
+},
+"basic_cls/topic/20newsgroups": {
+"source": "20 Newsgroups (Lang, 1995)",
+"url": "https://huggingface.co/datasets/SetFit/20_newsgroups",
+"n": 167
+},
+"basic_cls/topic/dbpedia_l2": {
+"source": "DBpedia hierarchical classes, level 2 (DeveloperOats/DBPedia_Classes)",
+"url": "https://huggingface.co/datasets/DeveloperOats/DBPedia_Classes",
+"n": 167
+},
+"basic_cls/topic/wos46985": {
+"source": "Web of Science WOS-46985 (Kowsari et al., 2017)",
+"url": "https://huggingface.co/datasets/river-martin/web-of-science-with-label-texts",
+"n": 166
+},
+"basic_cls/toxicity/civil_comments": {
+"source": "Civil Comments / Jigsaw Unintended Bias (Borkan et al., 2019)",
+"url": "https://huggingface.co/datasets/google/civil_comments",
+"n": 250
+},
+"basic_cls/toxicity/dynahate": {
+"source": "Dynamically Generated Hate Speech Dataset v0.2.3 (Vidgen et al., 2021)",
+"url": "https://github.com/bvidgen/Dynamically-Generated-Hate-Speech-Dataset",
+"n": 250
+},
+"dialog/clarification_need/ambigqa": {
+"source": "AmbigQA / AmbigNQ, validation (Min et al., 2020)",
+"url": "https://huggingface.co/datasets/sewon/ambig_qa",
+"n": 250
+},
+"dialog/clarification_need/sharc": {
+"source": "ShARC conversational machine reading with rules, test (Saeidi et al., 2018)",
+"url": "https://sharc-data.github.io/",
+"n": 250
+},
+"dialog/end_of_turn/switchboard": {
+"source": "Switchboard Dialog Act Corpus (SwDA), test conversations of Stolcke et al. (2000) (Jurafsky et al., 1997)",
+"url": "https://github.com/cgpotts/swda",
+"n": 250
+},
+"dialog/end_of_turn/taskmaster1_woz": {
+"source": "Taskmaster-1 spoken two-person (Wizard-of-Oz) dialogues: user turns transcribed from speech (Byrne et al., 2019)",
+"url": "https://github.com/google-research-datasets/Taskmaster/tree/master/TM-1-2019",
+"n": 250
+},
+"dialog/human_handoff/abcd": {
+"source": "ABCD, Action-Based Conversations Dataset: customer-service chats escalated to a manager, all splits (Chen et al., 2021)",
+"url": "https://github.com/asappresearch/abcd",
+"n": 220
+},
+"dialog/human_handoff/scope_cards": {
+"source": "Scope cards over human intent labels: HINT3 v2 test sets, real queries to three chatbots (Arora et al., 2020), and NatCS customer-service requests in insurance, banking and finance (Gung et al., 2023)",
+"url": "https://github.com/hellohaptik/HINT3",
+"n": 250
+},
+"dialog/state_tracking/multiwoz22": {
+"source": "MultiWOZ 2.2, test split (Zang et al., 2020; Budzianowski et al., 2018)",
+"url": "https://github.com/budzianowski/multiwoz/tree/master/data/MultiWOZ_2.2",
+"n": 249
+},
+"dialog/state_tracking/sgd": {
+"source": "Schema-Guided Dialogue (SGD / DSTC8), test split (Rastogi et al., 2020)",
+"url": "https://github.com/google-research-datasets/dstc8-schema-guided-dialogue",
+"n": 245
+},
+"dialog/user_satisfaction/emowoz": {
+"source": "EmoWOZ, test split: MultiWOZ and DialMAGE human-machine dialogues (Feng et al., 2022)",
+"url": "https://zenodo.org/record/6506504",
+"n": 250
+},
+"dialog/user_satisfaction/uss": {
+"source": "User Satisfaction Simulation (USS), exchange-level ratings on MultiWOZ, SGD, ReDial and CCPE dialogues (Sun et al., 2021)",
+"url": "https://github.com/sunnweiwei/user-satisfaction-simulation",
+"n": 250
+},
+"social/moral_judgment/ethics_commonsense": {
+"source": "ETHICS commonsense morality, hard test set, short scenarios (Hendrycks et al., 2021)",
+"url": "https://huggingface.co/datasets/hendrycks/ethics",
+"n": 167
+},
+"social/moral_judgment/scruples_anecdotes": {
+"source": "Scruples Anecdotes, test split: r/AmItheAsshole posts with the community's verdict votes (Lourie et al., 2021)",
+"url": "https://github.com/allenai/scruples",
+"n": 167
+},
+"social/moral_judgment/social_chem_101": {
+"source": "Social-Chem-101, rules of thumb annotated by 50 crowd workers each (analysis split; Forbes et al., 2020)",
+"url": "https://github.com/mbforbes/social-chemistry-101",
+"n": 166
+},
+"social/opinion_distribution/ccai_polis": {
+"source": "Collective Constitutional AI: Polis votes of about 1,000 U.S. adults on rules for an AI chatbot, July 2023 (Anthropic and The Collective Intelligence Project, 2023)",
+"url": "https://github.com/saffronh/ccai",
+"n": 125
+},
+"social/opinion_distribution/globalopinionqa": {
+"source": "GlobalOpinionQA: Pew Global Attitudes Survey and World Values Survey questions with answer shares by country (Durmus et al., 2023)",
+"url": "https://huggingface.co/datasets/Anthropic/llm_global_opinions",
+"n": 125
+},
+"social/opinion_distribution/polis": {
+"source": "Polis open data: statements from 13 English-language public deliberations with participants' agree / disagree / pass votes (The Computational Democracy Project)",
+"url": "https://github.com/compdemocracy/openData",
+"n": 125
+},
+"social/perspective_labeling/dices_350": {
+"source": "DICES-350: adversarial chatbot conversations rated for safety by all 104 raters of a pool balanced by gender and race (Aroyo et al., 2023)",
+"url": "https://github.com/google-research-datasets/dices-dataset",
+"n": 167
+},
+"social/perspective_labeling/dices_990": {
+"source": "DICES-990: adversarial chatbot conversations, each rated for safety by 60-70 raters balanced by gender and locale (US, India) (Aroyo et al., 2023)",
+"url": "https://github.com/google-research-datasets/dices-dataset",
+"n": 167
+},
+"social/perspective_labeling/measuring_hate_speech": {
+"source": "Measuring Hate Speech corpus, the 70 reference-set comments rated by 240-815 U.S. crowd workers each (Kennedy et al., 2020; Sachdeva et al., 2022)",
+"url": "https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech",
+"n": 166
+},
+"social/persuasion_humor/anthropic_persuasion": {
+"source": "Persuasion dataset: claims with human- and Claude-written arguments, each read by three participants (Durmus et al., 2024)",
+"url": "https://huggingface.co/datasets/Anthropic/persuasion",
+"n": 125
+},
+"social/persuasion_humor/expun": {
+"source": "ExPUN: puns and non-puns from SemEval-2017 Task 7, each rated by five annotators (Sun et al., 2022)",
+"url": "https://github.com/amazon-science/expunations",
+"n": 125
+},
+"social/persuasion_humor/nycc_captions": {
+"source": "New Yorker Cartoon Caption Contest crowd ratings (Jain et al., 2020; Zhang et al., 2024), cartoons described by the human-written annotations of Hessel et al. (2023), ranking test split",
+"url": "https://huggingface.co/datasets/yguooo/newyorker_caption_ranking",
+"n": 125
+},
+"social/persuasion_humor/ukpconvarg1": {
+"source": "UKPConvArg1, argument pairs from createdebate.com and convinceme.net with five crowd judgments each (Habernal and Gurevych, 2016)",
+"url": "https://github.com/UKPLab/acl2016-convincing-arguments",
+"n": 124
+},
+"code/code_search/codesearchnet_challenge": {
+"source": "CodeSearchNet Challenge expert relevance annotations, six languages (Husain et al., 2019)",
+"url": "https://github.com/github/CodeSearchNet",
+"n": 250
+},
+"code/code_search/cosqa": {
+"source": "CoSQA, Bing web queries paired with Python functions, dev split (Huang et al., 2021)",
+"url": "https://github.com/Jun-jie-Huang/CoCLR",
+"n": 250
+},
+"code/commit_classification/codereviewer_quality": {
+"source": "CodeReviewer diff quality estimation, test split (Li et al., FSE 2022)",
+"url": "https://zenodo.org/records/6900648",
+"n": 250
+},
+"code/commit_classification/conventional_commits": {
+"source": "CCS conventional commit classification dataset, test split (Zeng et al., ICSE 2025)",
+"url": "https://huggingface.co/datasets/0x404/ccs_dataset",
+"n": 250
+},
+"code/fault_localization/swe_bench_file": {
+"source": "SWE-bench test set, file-level localization from the gold patch (Jimenez et al., 2024)",
+"url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench",
+"n": 167
+},
+"code/fault_localization/swe_bench_function": {
+"source": "SWE-bench test set, function-level localization inside the fixed file, oracle file contents (Jimenez et al., 2024)",
+"url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_oracle",
+"n": 167
+},
+"code/fault_localization/swe_bench_live_file": {
+"source": "SWE-bench-Live, issues from 2024-2025, file-level localization from the gold patch (Zhang et al., 2025)",
+"url": "https://huggingface.co/datasets/SWE-bench-Live/SWE-bench-Live",
+"n": 166
+},
+"code/output_prediction/cruxeval": {
+"source": "CRUXEval-O, output prediction for 800 short Python functions (Gu et al., 2024)",
+"url": "https://github.com/facebookresearch/cruxeval",
+"n": 250
+},
+"code/output_prediction/livecodebench_execution": {
+"source": "LiveCodeBench code execution v2, LeetCode solutions with recorded outputs (Jain et al., 2024)",
+"url": "https://huggingface.co/datasets/livecodebench/execution-v2",
+"n": 250
+},
+"code/patch_correctness/swe_bench_extra_pairwise": {
+"source": "SWE-bench-extra tasks with SWE-agent final patches from Nebius's open-weight agent runs and their test results (Golubev et al., 2024)",
+"url": "https://huggingface.co/datasets/nebius/SWE-agent-trajectories",
+"n": 250
+},
+"code/patch_correctness/swe_rebench": {
+"source": "SWE-rebench tasks with OpenHands + Qwen3-Coder-480B final patches and their test results (Badertdinov et al., 2025)",
+"url": "https://huggingface.co/datasets/nebius/SWE-rebench-openhands-trajectories",
+"n": 250
+},
+"code/static_analysis_triage/d2a": {
+"source": "D2A leaderboard, Trace + Code task, dev split: Infer warnings on C projects labelled by differential analysis (Zheng et al., ICSE-SEIP 2021)",
+"url": "https://github.com/IBM/D2A",
+"n": 250
+},
+"code/static_analysis_triage/owasp_benchmark": {
+"source": "OWASP Benchmark for Java v1.2: 2,740 servlets, each a true or a false positive for one vulnerability category (OWASP Foundation)",
+"url": "https://github.com/OWASP-Benchmark/BenchmarkJava",
+"n": 250
+},
+"code/test_outcome/humanevalfix": {
+"source": "HumanEvalFix from HumanEvalPack, correct and buggy solutions with their unit tests, six languages (Muennighoff et al., 2023)",
+"url": "https://huggingface.co/datasets/bigcode/humanevalpack",
+"n": 250
+},
+"code/test_outcome/livecodebench": {
+"source": "LiveCodeBench code generation, recorded per-test results of Gemini-Pro-1.5 programs (Jain et al., 2024)",
+"url": "https://huggingface.co/datasets/livecodebench/submissions",
+"n": 136
+},
+"code/vulnerability/primevul_paired": {
+"source": "PrimeVul v0.1, paired test set: vulnerable and patched C/C++ functions (Ding et al., ICSE 2025)",
+"url": "https://github.com/DLVulDet/PrimeVul",
+"n": 250
+},
+"code/vulnerability/secvuleval_paired": {
+"source": "SecVulEval, C/C++ CVE fixes from NVD, vulnerable and fixed function pairs (Ahmed et al., 2025)",
+"url": "https://huggingface.co/datasets/arag0rn/SecVulEval",
+"n": 250
+},
+"safety/agent_action_risk/assebench": {
+"source": "ASSEBench safety and security subsets, unambiguous records (Luo et al., 2025, AgentAuditor)",
+"url": "https://huggingface.co/datasets/Atarogic/ASSEBench",
+"n": 250
+},
+"safety/agent_action_risk/atbench": {
+"source": "ATBench agent trajectory safety benchmark, 1,000-trajectory release (Li et al., 2026)",
+"url": "https://huggingface.co/datasets/AI45Research/ATBench",
+"n": 250
+},
+"safety/custom_policy/cosapien": {
+"source": "CoSApien, human-authored safety configs and test prompts (Zhang et al., ICLR 2025, Controllable Safety Alignment)",
+"url": "https://huggingface.co/datasets/microsoft/CoSApien",
+"n": 167
+},
+"safety/custom_policy/dynabench": {
+"source": "DynaBench test set of the DynaGuard project: business policies and user-agent dialogues (Hoover et al., 2025)",
+"url": "https://huggingface.co/datasets/tomg-group-umd/DynaBench",
+"n": 167
+},
+"safety/custom_policy/moderation_policies": {
+"source": "Policy variants over the OpenAI moderation evaluation set (texts and human labels from Markov et al., 2023; policies generated)",
+"url": "https://github.com/openai/moderation-api-release",
+"n": 166
+},
+"safety/harmfulness/aegis2": {
+"source": "Aegis 2.0 / Nemotron Content Safety Dataset V2, test, user prompts (Ghosh et al., 2025)",
+"url": "https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
+"n": 167
+},
+"safety/harmfulness/beavertails": {
+"source": "BeaverTails-330k, test, question-answer pairs with three annotations each (Ji et al., 2023)",
+"url": "https://huggingface.co/datasets/PKU-Alignment/BeaverTails",
+"n": 167
+},
+"safety/harmfulness/wildguardtest": {
+"source": "WildGuardTest, prompt and response harmfulness (Han et al., 2024)",
+"url": "https://huggingface.co/datasets/allenai/wildguardmix",
+"n": 166
+},
+"safety/injection/agentdojo": {
+"source": "AgentDojo tool-use trajectories of GPT-4o, clean and with injections in tool outputs (Debenedetti et al., 2024)",
+"url": "https://github.com/ethz-spylab/agentdojo",
+"n": 166
+},
+"safety/injection/bipia": {
+"source": "BIPIA indirect prompt injection benchmark: email, table and code contexts with test attacks (Yi et al., 2025)",
+"url": "https://github.com/microsoft/BIPIA",
+"n": 166
+},
+"safety/injection/toxicchat_jailbreak": {
+"source": "ToxicChat 0124, test, human-annotated user prompts with the jailbreaking label (Lin et al., 2023)",
+"url": "https://huggingface.co/datasets/lmsys/toxic-chat",
+"n": 166
+},
+"safety/pii/tab": {
+"source": "Text Anonymization Benchmark (TAB), test split: ECHR court judgments annotated for anonymization (Pil\u00e1n et al., 2022)",
+"url": "https://github.com/NorskRegnesentral/text-anonymization-benchmark",
+"n": 250
+},
+"safety/pii/templates": {
+"source": "Customer messages, forms and log lines with inserted personal information (generated)",
+"url": "https://github.com/TianyuCodings/S1-Arena",
+"n": 250
+},
+"safety/refusal/coconot": {
+"source": "CoCoNot, human-verified noncompliance test set and contrast set (Brahman et al., 2024)",
+"url": "https://huggingface.co/datasets/allenai/coconot",
+"n": 167
+},
+"safety/refusal/xstest_prompts": {
+"source": "XSTest v2 prompts: 250 safe prompts and 200 unsafe contrast prompts (R\u00f6ttger et al., 2024)",
+"url": "https://github.com/paul-rottger/xstest",
+"n": 167
+},
+"safety/refusal/xstest_responses": {
+"source": "XSTest v2 model completions with two human annotations each (R\u00f6ttger et al., 2024)",
+"url": "https://github.com/paul-rottger/xstest/tree/main/model_completions",
+"n": 166
+}
+}

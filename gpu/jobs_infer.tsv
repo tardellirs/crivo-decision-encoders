@@ -1,0 +1,41 @@
+# lane	name	engine	options (space-separated k=v)	requests	threads	batch
+# --- E1 BTZSC (172,501 requests) ---
+0	btzsc/crivo-17m	crivo	path=tardellirs/crivo-17m	btzsc_full	4	256
+0	btzsc/crivo-32m	crivo	path=tardellirs/crivo-32m	btzsc_full	4	256
+0	btzsc/crivo-32m-v1	crivo	path=tardellirs/crivo-32m revision=bbf3f1924523f530b3a9e621f2f20f314ea462aa	btzsc_full	4	256
+0	btzsc/crivo-68m	crivo	path=tardellirs/crivo-68m	btzsc_full	4	256
+0	btzsc/crivo-150m	crivo	path=tardellirs/crivo-150m	btzsc_full	4	256
+0	btzsc/crivo-150m-v1	crivo	path=tardellirs/crivo-150m revision=7a6c7453c06be576e1b48aeb70429318402791d7	btzsc_full	4	256
+0	btzsc/crivo-400m	crivo	path=tardellirs/crivo-400m	btzsc_full	4	256
+0	btzsc/crivo-1b	crivo	path=tardellirs/crivo-1b	btzsc_full	4	256
+1	btzsc/reranker-32m-raw	reranker	model=cross-encoder/ettin-reranker-32m-v1	btzsc_full	4	0
+1	btzsc/nli-deberta-v3-large-zs2	nli	model=MoritzLaurer/deberta-v3-large-zeroshot-v2.0 fp16=1 batch_size=64	btzsc_full	4	0
+1	btzsc/nli-modernbert-large-zs2	nli	model=MoritzLaurer/ModernBERT-large-zeroshot-v2.0 fp16=1 batch_size=64	btzsc_full	4	0
+2	btzsc/letter-qwen3-0.6b	letter	model=Qwen/Qwen3-0.6B	btzsc_full	4	16
+2	btzsc/letter-gemma-3-1b	letter	model=google/gemma-3-1b-it	btzsc_full	4	16
+# --- E2 S1-Arena, non-agentic HF snapshot (41,183 requests, 13 domains) ---
+0	s1/crivo-17m	crivo	path=tardellirs/crivo-17m	s1_all	4	256
+0	s1/crivo-32m	crivo	path=tardellirs/crivo-32m	s1_all	4	256
+0	s1/crivo-68m	crivo	path=tardellirs/crivo-68m	s1_all	4	256
+0	s1/crivo-150m	crivo	path=tardellirs/crivo-150m	s1_all	4	256
+0	s1/crivo-400m	crivo	path=tardellirs/crivo-400m	s1_all	4	256
+0	s1/crivo-1b	crivo	path=tardellirs/crivo-1b	s1_all	4	256
+0	s1/crivo-150m-v1	crivo	path=tardellirs/crivo-150m revision=7a6c7453c06be576e1b48aeb70429318402791d7	s1_all	4	256
+1	s1/reranker-32m-raw	reranker	model=cross-encoder/ettin-reranker-32m-v1	s1_all	4	0
+1	s1/nli-deberta-v3-large-zs2	nli	model=MoritzLaurer/deberta-v3-large-zeroshot-v2.0 fp16=1 batch_size=64	s1_all	4	0
+1	s1/nli-bart-large-mnli	nli	model=facebook/bart-large-mnli fp16=1 batch_size=64 max_length=1024	s1_all	4	0
+2	s1/letter-qwen3-0.6b	letter	model=Qwen/Qwen3-0.6B	s1_all	4	16
+2	s1/letter-qwen3-0.6b-rot4	letter	model=Qwen/Qwen3-0.6B rotations=4	s1_60	4	16
+2	s1/letter-gemma-3-1b	letter	model=google/gemma-3-1b-it	s1_all	4	16
+2	s1/uniform	uniform	-	s1_all	1	0
+# --- E4 robustness (2,833 requests x 6 variants: orig perm1 perm2 perm3 rev yn) ---
+0	e4/crivo-17m	crivo	path=tardellirs/crivo-17m	E4	4	256
+0	e4/crivo-32m	crivo	path=tardellirs/crivo-32m	E4	4	256
+0	e4/crivo-68m	crivo	path=tardellirs/crivo-68m	E4	4	256
+0	e4/crivo-150m	crivo	path=tardellirs/crivo-150m	E4	4	256
+0	e4/crivo-400m	crivo	path=tardellirs/crivo-400m	E4	4	256
+0	e4/crivo-1b	crivo	path=tardellirs/crivo-1b	E4	4	256
+1	e4/reranker-32m-raw	reranker	model=cross-encoder/ettin-reranker-32m-v1	E4	4	0
+1	e4/nli-deberta-v3-large-zs2	nli	model=MoritzLaurer/deberta-v3-large-zeroshot-v2.0 fp16=1 batch_size=64	E4	4	0
+2	e4/letter-qwen3-0.6b	letter	model=Qwen/Qwen3-0.6B	E4	4	16
+2	e4/letter-gemma-3-1b	letter	model=google/gemma-3-1b-it	E4	4	16

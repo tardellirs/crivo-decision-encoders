@@ -1,0 +1,20 @@
+{
+ "engine": "peropt:~/exp/P_s0 [request-batched]",
+ "device": "cuda",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "threads": 30,
+ "requests": 1000,
+ "timed": 1000,
+ "unsupported": 0,
+ "load_s": 4.9,
+ "median_ms": 10.707356000239088,
+ "p95_ms": 314.05382299999474,
+ "mean_ms": 58.12471780703345,
+ "throughput_req_s": 17.190287187610632,
+ "questions": 1386,
+ "options_per_request_mean": 19.556,
+ "peak_rss_mb": 1598.1875,
+ "cpu_model": "AMD EPYC 7J13 64-Core Processor",
+ "peak_alloc_mb": 2304.4755859375,
+ "peak_reserved_mb": 2370.0
+}

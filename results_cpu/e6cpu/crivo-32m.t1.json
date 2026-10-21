@@ -1,0 +1,17 @@
+{
+ "engine": "crivo:tardellirs/crivo-32m",
+ "device": "cpu",
+ "gpu": null,
+ "threads": 1,
+ "requests": 100,
+ "timed": 100,
+ "unsupported": 0,
+ "load_s": 3.6,
+ "median_ms": 93.6607305002326,
+ "p95_ms": 7002.2863449994475,
+ "mean_ms": 973.7413483100227,
+ "throughput_req_s": 1.0269349007464814,
+ "questions": 133,
+ "options_per_request_mean": 23.49,
+ "peak_rss_mb": 1440.171875
+}

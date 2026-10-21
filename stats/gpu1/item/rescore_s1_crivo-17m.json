@@ -1,0 +1,21 @@
+{
+ "tasks": 209,
+ "max_abs_diff": {
+  "n_questions": 0,
+  "accuracy": 0.0,
+  "accuracy_se": 0.0,
+  "brier": 0.0,
+  "ece": 0.0,
+  "unanswered_rate": 0.0
+ },
+ "exact_equal_fields": {
+  "n_questions": 209,
+  "accuracy": 209,
+  "accuracy_se": 209,
+  "brier": 209,
+  "ece": 209,
+  "unanswered_rate": 209
+ },
+ "overall_accuracy": 0.42784669960302496,
+ "overall_accuracy_score_json": 0.42784669960302496
+}

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets
+.env
+*.token
+
+# Generated outputs
+/build/
+
+# Large or third-party artefacts that are never committed
+/data/
+/req/
+/out/
+/evalsets/
+ck/
+/runs/
+gpu3/inputs/
+stats/gpu1/item/*
+!stats/gpu1/item/rescore_*_crivo-17m.json
+stats/gpu1/req/
+stats/gpu1/ext/
+e5/tab/
+*.safetensors
+*.bin
+*.npz
+*.jsonl.gz
+*.parquet
+results_gpu*/**/*.jsonl
+!results_gpu3/e6*/*.per.jsonl

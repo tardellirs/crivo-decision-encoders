@@ -1,0 +1,28 @@
+2026-10-21T17:49:05Z inputs md5 ok; prefetch ok: 9 models load offline; GPU NVIDIA A100-SXM4-40GB, 40960 MiB
+2026-10-21T17:49:05Z train start Jcomp s0
+2026-10-21T18:01:08Z train done Jcomp s0 723s "steps": 6858, "oom_skips": 0, "tokens_total": 136769305, "questions_total": 487579, "train_seconds": 709.9, "total_planned": 6858}
+2026-10-21T18:01:08Z train start Jcomp s1
+2026-10-21T18:01:08Z eval start Jcomp s0
+2026-10-21T18:12:51Z eval ran Jcomp s0
+2026-10-21T18:16:20Z train done Jcomp s1 911s "steps": 6860, "oom_skips": 0, "tokens_total": 136615113, "questions_total": 487730, "train_seconds": 898.1, "total_planned": 6860}
+2026-10-21T18:16:20Z train start Jcomp s2
+2026-10-21T18:16:20Z eval start Jcomp s1
+2026-10-21T18:28:04Z eval ran Jcomp s1
+2026-10-21T18:31:32Z train done Jcomp s2 912s "steps": 6859, "oom_skips": 0, "tokens_total": 136617609, "questions_total": 487650, "train_seconds": 898.9, "total_planned": 6859}
+2026-10-21T18:31:32Z train start Praw s0
+2026-10-21T19:28:11Z train done Praw s0 3399s "steps": 6858, "oom_skips": 0, "tokens_total": 161346063, "questions_total": 150000, "train_seconds": 3382.9, "total_planned": 6858}
+2026-10-21T19:28:11Z eval start Praw s0
+2026-10-21T19:28:11Z eval start Jcomp s2
+2026-10-21T19:37:21Z eval ran Jcomp s2
+2026-10-21T19:54:10Z eval ran Praw s0
+2026-10-21T19:54:21Z eval done Jcomp s0 (0 effective errors)
+2026-10-21T19:54:32Z eval done Jcomp s1 (0 effective errors)
+2026-10-21T19:54:43Z eval done Jcomp s2 (0 effective errors)
+2026-10-21T19:54:53Z eval done Praw s0 (0 effective errors)
+2026-10-21T19:54:57Z compare: PRIMARY (pre-registered): P - Jcomp, Welch 95% CI over seeds   pub15_skill    +0.0283 [+0.0146, +0.0420]  above 0   s1_acc         +0.0309 [+0.0104, +0.0515]  above 0 
+2026-10-21T19:54:57Z TRAIN+EVAL DONE
+2026-10-21T19:54:57Z E6 GPU start (GPU alone) NVIDIA A100-SXM4-40GB, 0 %, 0 MiB
+2026-10-21T20:00:18Z E6 GPU done (common subset: 1000 requests)
+2026-10-21T20:00:18Z E6 CPU start: 16 threads, first 80 requests of lat1000 for every system; Model name: AMD EPYC 7J13 64-Core Processor
+2026-10-21T20:38:56Z E6 CPU done (common subset: 80 requests)
+2026-10-21T20:38:56Z ALL DONE

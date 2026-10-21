@@ -1,0 +1,18 @@
+{
+ "engine": "peropt:~/exp/P_s0 [request-batched]",
+ "device": "cpu",
+ "gpu": null,
+ "threads": 16,
+ "requests": 80,
+ "timed": 80,
+ "unsupported": 0,
+ "load_s": 4.7,
+ "median_ms": 41.028867500244814,
+ "p95_ms": 27771.19978399969,
+ "mean_ms": 3728.3233549373563,
+ "throughput_req_s": 0.26821270311487594,
+ "questions": 113,
+ "options_per_request_mean": 20.85,
+ "peak_rss_mb": 4275.08984375,
+ "cpu_model": "AMD EPYC 7J13 64-Core Processor"
+}

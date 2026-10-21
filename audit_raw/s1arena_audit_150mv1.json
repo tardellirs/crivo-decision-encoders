@@ -1,0 +1,3249 @@
+{
+ "train_files": [
+  "mix_v1.train.jsonl.gz",
+  "mix_v2c.train.jsonl.gz",
+  "mix_v3.train.jsonl.gz",
+  "mix_v1.dev.jsonl.gz",
+  "mix_v2c.dev.jsonl.gz",
+  "mix_v3.dev.jsonl.gz"
+ ],
+ "n_targets": 41183,
+ "per_dataset": {
+  "basic_cls/entity_relation/fewnerd": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 1,
+   "c50": 1,
+   "any": 1,
+   "examples": [
+    {
+     "id": "basic_cls.entity_relation.fewnerd:be12f57a8851",
+     "kind": "contain 0.82",
+     "src": "bekko/synthetic_relevance__wikipedia_hard_negatives_english",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/synthetic_relevance__wikipedia_hard_negatives_english": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "basic_cls/entity_relation/fewrel": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 1,
+   "c50": 3,
+   "any": 1,
+   "examples": [
+    {
+     "id": "basic_cls.entity_relation.fewrel:821ace84c834",
+     "kind": "contain 1.00",
+     "src": "bekko/dbpedia",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/dbpedia": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "basic_cls/entity_relation/semeval2010_task8": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "basic_cls/intent/clinc150": {
+   "n": 250,
+   "short": 25,
+   "short_exact": 2,
+   "exact": 3,
+   "c80": 0,
+   "c50": 2,
+   "any": 3,
+   "examples": [
+    {
+     "id": "basic_cls.intent.clinc150:275442b13fbc",
+     "kind": "exact",
+     "src": "bekko/circa",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.intent.clinc150:ff36ab48e5d4",
+     "kind": "exact",
+     "src": "extra/bfcl-glaive",
+     "file": "mix_v2c.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.intent.clinc150:61b51eb7416f",
+     "kind": "exact",
+     "src": "bekko/circa",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/circa": 2,
+    "extra/bfcl-glaive": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 2,
+    "mix_v2c.train.jsonl.gz": 1
+   }
+  },
+  "basic_cls/intent/massive_en": {
+   "n": 250,
+   "short": 61,
+   "short_exact": 5,
+   "exact": 0,
+   "c80": 2,
+   "c50": 2,
+   "any": 2,
+   "examples": [
+    {
+     "id": "basic_cls.intent.massive_en:75cf69ac32c9",
+     "kind": "contain 1.00",
+     "src": "bekko/massive",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.intent.massive_en:9c0b63174de3",
+     "kind": "contain 1.00",
+     "src": "pub/clinc150",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/massive": 1,
+    "pub/clinc150": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 2
+   }
+  },
+  "basic_cls/language_style/cefr_sp": {
+   "n": 167,
+   "short": 1,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "basic_cls/language_style/pavlick_formality": {
+   "n": 167,
+   "short": 15,
+   "short_exact": 3,
+   "exact": 0,
+   "c80": 1,
+   "c50": 1,
+   "any": 1,
+   "examples": [
+    {
+     "id": "basic_cls.language_style.pavlick_formality:7c6800ee189a",
+     "kind": "contain 1.00",
+     "src": "bekko/oasst1",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/oasst1": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "basic_cls/language_style/wili2018": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "basic_cls/multilabel/goemotions": {
+   "n": 250,
+   "short": 27,
+   "short_exact": 3,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "basic_cls/nli/anli_r3": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 1,
+   "c80": 191,
+   "c50": 193,
+   "any": 191,
+   "examples": [
+    {
+     "id": "basic_cls.nli.anli_r3:753ba4776550",
+     "kind": "contain 1.00",
+     "src": "pub/anli",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.nli.anli_r3:32db2d9a528c",
+     "kind": "contain 1.00",
+     "src": "pub/anli",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.nli.anli_r3:44aecade6f38",
+     "kind": "contain 1.00",
+     "src": "pub/anli",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.nli.anli_r3:28702599005a",
+     "kind": "contain 1.00",
+     "src": "pub/anli",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.nli.anli_r3:384c15060191",
+     "kind": "contain 1.00",
+     "src": "pub/anli",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "pub/anli": 190,
+    "pub/hover": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 191
+   }
+  },
+  "basic_cls/nli/chaosnli": {
+   "n": 250,
+   "short": 4,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 1,
+   "c50": 1,
+   "any": 1,
+   "examples": [
+    {
+     "id": "basic_cls.nli.chaosnli:9a881ee24f6b",
+     "kind": "contain 1.00",
+     "src": "bekko/defeasible_nli",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/defeasible_nli": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "basic_cls/sentiment/sst5": {
+   "n": 167,
+   "short": 3,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "basic_cls/sentiment/tweeteval_sentiment": {
+   "n": 166,
+   "short": 4,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "basic_cls/spam_phishing/sms_spam": {
+   "n": 167,
+   "short": 11,
+   "short_exact": 11,
+   "exact": 156,
+   "c80": 126,
+   "c50": 126,
+   "any": 156,
+   "examples": [
+    {
+     "id": "basic_cls.spam_phishing.sms_spam:dfbbb768ebb9",
+     "kind": "exact",
+     "src": "bekko/sms_spam",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.spam_phishing.sms_spam:472faa76719a",
+     "kind": "exact",
+     "src": "bekko/sms_spam",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.spam_phishing.sms_spam:d3ca441e2793",
+     "kind": "exact",
+     "src": "bekko/sms_spam",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.spam_phishing.sms_spam:12f15f43c4e4",
+     "kind": "exact",
+     "src": "bekko/sms_spam",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.spam_phishing.sms_spam:8b3c946a8137",
+     "kind": "exact",
+     "src": "bekko/sms_spam",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/sms_spam": 155,
+    "bekko/circa": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 156
+   }
+  },
+  "basic_cls/spam_phishing/spamassassin_nazario": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 9,
+   "c80": 40,
+   "c50": 55,
+   "any": 40,
+   "examples": [
+    {
+     "id": "basic_cls.spam_phishing.spamassassin_nazario:e0ce57a5b7ed",
+     "kind": "contain 0.85",
+     "src": "bekko/laya__phishing",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.spam_phishing.spamassassin_nazario:410613943773",
+     "kind": "contain 0.90",
+     "src": "bekko/laya__enron_spam",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.spam_phishing.spamassassin_nazario:8e632290395c",
+     "kind": "contain 0.92",
+     "src": "bekko/laya__phishing",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.spam_phishing.spamassassin_nazario:980970f81bcf",
+     "kind": "contain 0.81",
+     "src": "bekko/laya__phishing",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "basic_cls.spam_phishing.spamassassin_nazario:8c2d1b79d8dc",
+     "kind": "exact",
+     "src": "bekko/laya__phishing",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/laya__phishing": 29,
+    "bekko/laya__enron_spam": 11
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 40
+   }
+  },
+  "basic_cls/stance_sarcasm_humor/isarcasmeval": {
+   "n": 167,
+   "short": 4,
+   "short_exact": 1,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "basic_cls/topic/20newsgroups": {
+   "n": 167,
+   "short": 1,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "basic_cls/topic/dbpedia_l2": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "basic_cls/topic/wos46985": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "basic_cls/toxicity/civil_comments": {
+   "n": 250,
+   "short": 2,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "basic_cls/toxicity/dynahate": {
+   "n": 250,
+   "short": 8,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/answerability/musique": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/answerability/squad_v2": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 2,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/causal/copa": {
+   "n": 250,
+   "short": 36,
+   "short_exact": 1,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/causal/e_care": {
+   "n": 250,
+   "short": 32,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/citation_support/attributionbench": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/citation_support/wice": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/commonsense/commonsense_qa": {
+   "n": 167,
+   "short": 2,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 2,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/commonsense/piqa": {
+   "n": 167,
+   "short": 38,
+   "short_exact": 9,
+   "exact": 1,
+   "c80": 0,
+   "c50": 0,
+   "any": 1,
+   "examples": [
+    {
+     "id": "know.commonsense.piqa:be70878cfffd",
+     "kind": "exact",
+     "src": "bekko/piqa",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/piqa": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "know/commonsense/winogrande": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/date_reasoning/bbh_date_understanding": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/date_reasoning/date_arithmetic": {
+   "n": 167,
+   "short": 167,
+   "short_exact": 3,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/date_reasoning/timestamp_compare": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/fact_verification/averitec": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/fact_verification/scifact": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/fact_verification/vitaminc": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 3,
+   "c50": 4,
+   "any": 3,
+   "examples": [
+    {
+     "id": "know.fact_verification.vitaminc:fa14a429eeb3",
+     "kind": "contain 1.00",
+     "src": "bekko/boolq",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "know.fact_verification.vitaminc:6c7f39fabf1f",
+     "kind": "contain 1.00",
+     "src": "bekko/squad2",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "know.fact_verification.vitaminc:5c8707c78827",
+     "kind": "contain 0.82",
+     "src": "pub/hover",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/boolq": 1,
+    "bekko/squad2": 1,
+    "pub/hover": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 3
+   }
+  },
+  "know/factual_judgment/nq_open": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/factual_judgment/simpleqa_verified": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/logic_puzzles/folio": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/logic_puzzles/ordering": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/logic_puzzles/zebralogic": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/math_verification/processbench": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/math_verification/verifybench": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/multihop/2wikimultihopqa": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/multihop/hotpotqa_comparison": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/multihop/strategyqa": {
+   "n": 166,
+   "short": 2,
+   "short_exact": 2,
+   "exact": 164,
+   "c80": 129,
+   "c50": 129,
+   "any": 164,
+   "examples": [
+    {
+     "id": "know.multihop.strategyqa:2a00d2116fbe",
+     "kind": "exact",
+     "src": "bekko/strategyqa",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "know.multihop.strategyqa:4ac8c587276e",
+     "kind": "exact",
+     "src": "bekko/strategyqa",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "know.multihop.strategyqa:ed5b7c482835",
+     "kind": "exact",
+     "src": "bekko/strategyqa",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "know.multihop.strategyqa:8b743df5c659",
+     "kind": "exact",
+     "src": "bekko/strategyqa",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "know.multihop.strategyqa:6d4250182ed1",
+     "kind": "exact",
+     "src": "bekko/strategyqa",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/strategyqa": 164
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 163,
+    "mix_v1.dev.jsonl.gz": 1
+   }
+  },
+  "know/numeric_comparison/equate": {
+   "n": 167,
+   "short": 2,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 1,
+   "c50": 1,
+   "any": 1,
+   "examples": [
+    {
+     "id": "know.numeric_comparison.equate:95258d18b3ef",
+     "kind": "contain 1.00",
+     "src": "pub/ragtruth",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "pub/ragtruth": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "know/numeric_comparison/number_compare": {
+   "n": 167,
+   "short": 167,
+   "short_exact": 7,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/numeric_comparison/unit_compare": {
+   "n": 166,
+   "short": 166,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/subject_mcq/mmlu_pro": {
+   "n": 250,
+   "short": 1,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "know/subject_mcq/supergpqa": {
+   "n": 250,
+   "short": 2,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "social/moral_judgment/ethics_commonsense": {
+   "n": 167,
+   "short": 1,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "social/moral_judgment/scruples_anecdotes": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "social/moral_judgment/social_chem_101": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 1,
+   "c50": 1,
+   "any": 1,
+   "examples": [
+    {
+     "id": "social.moral_judgment.social_chem_101:68694cd2ca31",
+     "kind": "contain 1.00",
+     "src": "bekko/ethics",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/ethics": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "social/opinion_distribution/ccai_polis": {
+   "n": 125,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "social/opinion_distribution/globalopinionqa": {
+   "n": 125,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "social/opinion_distribution/polis": {
+   "n": 125,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "social/perspective_labeling/dices_350": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "social/perspective_labeling/dices_990": {
+   "n": 167,
+   "short": 4,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "social/perspective_labeling/measuring_hate_speech": {
+   "n": 166,
+   "short": 2,
+   "short_exact": 0,
+   "exact": 4,
+   "c80": 4,
+   "c50": 4,
+   "any": 4,
+   "examples": [
+    {
+     "id": "social.perspective_labeling.measuring_hate_speech:be32d1cd1cb3",
+     "kind": "exact",
+     "src": "bekko/measuring_hate",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "social.perspective_labeling.measuring_hate_speech:9e4e245270ce",
+     "kind": "exact",
+     "src": "bekko/measuring_hate",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "social.perspective_labeling.measuring_hate_speech:8e12568828a7",
+     "kind": "exact",
+     "src": "bekko/measuring_hate",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "social.perspective_labeling.measuring_hate_speech:b8d6ad697934",
+     "kind": "exact",
+     "src": "bekko/measuring_hate",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/measuring_hate": 4
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 4
+   }
+  },
+  "social/persuasion_humor/anthropic_persuasion": {
+   "n": 125,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "social/persuasion_humor/expun": {
+   "n": 125,
+   "short": 1,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "social/persuasion_humor/nycc_captions": {
+   "n": 125,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "social/persuasion_humor/ukpconvarg1": {
+   "n": 124,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/answer_grading/mohler_asag": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/answer_grading/semeval2013_sra": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/document_fields/cord": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/document_fields/sroie": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/document_fields/vrdu_ad_buy": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/ecommerce/esci": {
+   "n": 167,
+   "short": 2,
+   "short_exact": 1,
+   "exact": 4,
+   "c80": 5,
+   "c50": 8,
+   "any": 6,
+   "examples": [
+    {
+     "id": "pro.ecommerce.esci:1361578153de",
+     "kind": "exact",
+     "src": "pub/esci",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "pro.ecommerce.esci:9f23ac62bd37",
+     "kind": "exact",
+     "src": "pub/esci",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "pro.ecommerce.esci:1997fd132800",
+     "kind": "contain 0.94",
+     "src": "pub/esci",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "pro.ecommerce.esci:04f4883b5d46",
+     "kind": "exact",
+     "src": "pub/esci",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "pro.ecommerce.esci:2a290336591d",
+     "kind": "exact",
+     "src": "bekko/esci",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "pub/esci": 4,
+    "bekko/esci": 2
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 6
+   }
+  },
+  "pro/ecommerce/wands": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/ecommerce/wdc25_categories": {
+   "n": 166,
+   "short": 3,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/finance/financial_phrasebank": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/finance/fomc_hawkish_dovish": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/finance/south_german_credit": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/legal/contractnli": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 10,
+   "c50": 18,
+   "any": 10,
+   "examples": [
+    {
+     "id": "pro.legal.contractnli:30c2eea5bbfe",
+     "kind": "contain 0.89",
+     "src": "pub/contractnli",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "pro.legal.contractnli:7bf1acf56935",
+     "kind": "contain 1.00",
+     "src": "pub/contractnli",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "pro.legal.contractnli:20d5693453a6",
+     "kind": "contain 0.84",
+     "src": "pub/contractnli",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "pro.legal.contractnli:e96699e2a3e0",
+     "kind": "contain 0.99",
+     "src": "pub/contractnli",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "pro.legal.contractnli:48641de605e2",
+     "kind": "contain 0.98",
+     "src": "pub/contractnli",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "pub/contractnli": 10
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 10
+   }
+  },
+  "pro/legal/cuad": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 3,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/legal/legalbench": {
+   "n": 166,
+   "short": 1,
+   "short_exact": 1,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/medical/ktas_triage": {
+   "n": 167,
+   "short": 165,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/medical/medqa_usmle": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/medical/pubmedqa": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 1,
+   "c50": 29,
+   "any": 1,
+   "examples": [
+    {
+     "id": "pro.medical.pubmedqa:8f0757870e4e",
+     "kind": "contain 0.83",
+     "src": "bekko/synthetic_relevance__bge_m3__pubmed_qa_labeled",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/synthetic_relevance__bge_m3__pubmed_qa_labeled": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "pro/science/arxiv_cs_category": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/science/iclr2025_reviews": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/secops/nsl_kdd": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/secops/nvd_cvss31": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/secops/nvd_cwe": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/support_tickets/banking77": {
+   "n": 167,
+   "short": 4,
+   "short_exact": 1,
+   "exact": 1,
+   "c80": 2,
+   "c50": 6,
+   "any": 2,
+   "examples": [
+    {
+     "id": "pro.support_tickets.banking77:d4ebfbfe11bb",
+     "kind": "exact",
+     "src": "bekko/banking77",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "pro.support_tickets.banking77:28f68c0c0790",
+     "kind": "contain 1.00",
+     "src": "pub/banking77",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/banking77": 1,
+    "pub/banking77": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 2
+   }
+  },
+  "pro/support_tickets/cfpb_complaints": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "pro/support_tickets/mozilla_bug_severity": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "ret/context_sufficiency/duorc_paraphrase": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "ret/context_sufficiency/iirc": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "ret/context_sufficiency/ms_marco_qna": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "ret/entity_matching/abt_buy": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "ret/entity_matching/dblp_scholar": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "ret/entity_matching/wdc_products": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "ret/relevance_grading/trec_dl": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "ret/reranking/bright": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "ret/reranking/trec_dl": {
+   "n": 250,
+   "short": 75,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "ret/retrieval_need/freshqa": {
+   "n": 250,
+   "short": 1,
+   "short_exact": 0,
+   "exact": 2,
+   "c80": 2,
+   "c50": 2,
+   "any": 2,
+   "examples": [
+    {
+     "id": "ret.retrieval_need.freshqa:8ad9af35eb79",
+     "kind": "exact",
+     "src": "bekko/bge-hn-mr-tydi_english",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "ret.retrieval_need.freshqa:a7fac2106cb1",
+     "kind": "exact",
+     "src": "bekko/oasst1",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/bge-hn-mr-tydi_english": 1,
+    "bekko/oasst1": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 2
+   }
+  },
+  "ret/retrieval_need/situatedqa_temporal": {
+   "n": 250,
+   "short": 37,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/column_types/sotab_cta": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/column_types/sotab_sm": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/column_types/t2d_sm": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/data_quality_rules/generated": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/data_quality_rules/hospital": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/log_anomaly/bgl": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/log_anomaly/bgl_category": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/log_anomaly/hdfs": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/sql_verification/nl2sql_bugs": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/sql_verification/spider_parser_beams": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/table_qa/tabmwp": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/table_qa/tatqa": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "struct/table_qa/wikitablequestions": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/code_search/codesearchnet_challenge": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/code_search/cosqa": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 1,
+   "c50": 2,
+   "any": 1,
+   "examples": [
+    {
+     "id": "code.code_search.cosqa:f47e68e8b148",
+     "kind": "contain 0.91",
+     "src": "bekko/codesearch",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/codesearch": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "code/commit_classification/codereviewer_quality": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/commit_classification/conventional_commits": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/fault_localization/swe_bench_file": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/fault_localization/swe_bench_function": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/fault_localization/swe_bench_live_file": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/output_prediction/cruxeval": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/output_prediction/livecodebench_execution": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/patch_correctness/swe_bench_extra_pairwise": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/patch_correctness/swe_rebench": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/static_analysis_triage/d2a": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/static_analysis_triage/owasp_benchmark": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/test_outcome/humanevalfix": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/test_outcome/livecodebench": {
+   "n": 136,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/vulnerability/primevul_paired": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "code/vulnerability/secvuleval_paired": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "fore/binary_events/forecastbench_datasets": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "fore/binary_events/forecastbench_markets": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "fore/binary_events/halawi_2024": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "fore/multi_outcome/fred_races": {
+   "n": 170,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "fore/numeric_bins/fred_daily": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "dialog/clarification_need/ambigqa": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 2,
+   "c80": 2,
+   "c50": 2,
+   "any": 2,
+   "examples": [
+    {
+     "id": "dialog.clarification_need.ambigqa:112711452e91",
+     "kind": "exact",
+     "src": "bekko/natural_questions",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "dialog.clarification_need.ambigqa:82a2a11adefd",
+     "kind": "exact",
+     "src": "bekko/synthetic_relevance__natural_questions",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/natural_questions": 1,
+    "bekko/synthetic_relevance__natural_questions": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 2
+   }
+  },
+  "dialog/clarification_need/sharc": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "dialog/end_of_turn/switchboard": {
+   "n": 250,
+   "short": 1,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "dialog/end_of_turn/taskmaster1_woz": {
+   "n": 250,
+   "short": 2,
+   "short_exact": 2,
+   "exact": 1,
+   "c80": 0,
+   "c50": 0,
+   "any": 1,
+   "examples": [
+    {
+     "id": "dialog.end_of_turn.taskmaster1_woz:18c3769aaf0e",
+     "kind": "exact",
+     "src": "bekko/hh_rlhf",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/hh_rlhf": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "dialog/human_handoff/abcd": {
+   "n": 220,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "dialog/human_handoff/scope_cards": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "dialog/state_tracking/multiwoz22": {
+   "n": 249,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "dialog/state_tracking/sgd": {
+   "n": 245,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 3,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "dialog/user_satisfaction/emowoz": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "dialog/user_satisfaction/uss": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "batch/semantic_filter/clothing_reviews": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "batch/semantic_filter/job_postings": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "batch/semantic_grouping/abo_product_types": {
+   "n": 250,
+   "short": 2,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 1,
+   "c50": 12,
+   "any": 1,
+   "examples": [
+    {
+     "id": "batch.semantic_grouping.abo_product_types:cdfd91074a06",
+     "kind": "contain 0.87",
+     "src": "pub/esci",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "pub/esci": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "batch/semantic_grouping/airline_complaints": {
+   "n": 250,
+   "short": 3,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "batch/semantic_ranking/trec_clinical_trials": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "batch/semantic_ranking/tripadvisor_aspects": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/agent_trajectory/agentrewardbench": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/agent_trajectory/tau_bench": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/atomic_factuality/factscore": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/atomic_factuality/felm": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/instruction_following/ifbench": {
+   "n": 250,
+   "short": 2,
+   "short_exact": 1,
+   "exact": 0,
+   "c80": 1,
+   "c50": 1,
+   "any": 1,
+   "examples": [
+    {
+     "id": "judge.instruction_following.ifbench:9f7038d08178",
+     "kind": "contain 0.91",
+     "src": "bekko/aegis2",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/aegis2": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "judge/instruction_following/ifeval_ppe": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/pairwise_preference/judgebench": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/pairwise_preference/reward_bench_2": {
+   "n": 166,
+   "short": 2,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/pairwise_preference/rm_bench": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/pointwise_rating/biggen_bench": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/pointwise_rating/helpsteer2": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 2,
+   "c80": 0,
+   "c50": 3,
+   "any": 2,
+   "examples": [
+    {
+     "id": "judge.pointwise_rating.helpsteer2:353e84acb8e6",
+     "kind": "exact",
+     "src": "bekko/taskmaster",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "judge.pointwise_rating.helpsteer2:6bb1a24ce98f",
+     "kind": "exact",
+     "src": "bekko/taskmaster",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/taskmaster": 2
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 2
+   }
+  },
+  "judge/process_reward/mr_ben": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/process_reward/prm800k": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/process_reward/processbench": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/rag_faithfulness/begin": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 1,
+   "c50": 4,
+   "any": 1,
+   "examples": [
+    {
+     "id": "judge.rag_faithfulness.begin:4a0e87b8b1c0",
+     "kind": "contain 0.80",
+     "src": "bekko/synthetic_relevance__fineweb",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/synthetic_relevance__fineweb": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "judge/rag_faithfulness/ragtruth": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/reference_answer/answer_equivalence": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 1,
+   "c80": 2,
+   "c50": 3,
+   "any": 2,
+   "examples": [
+    {
+     "id": "judge.reference_answer.answer_equivalence:5296db6c9088",
+     "kind": "exact",
+     "src": "bekko/synthetic_relevance__bge_m3__mr-tydi_english",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "judge.reference_answer.answer_equivalence:a9bf800aa638",
+     "kind": "contain 0.84",
+     "src": "bekko/boolq",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/synthetic_relevance__bge_m3__mr-tydi_english": 1,
+    "bekko/boolq": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 2
+   }
+  },
+  "judge/reference_answer/evouna": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/reference_answer/verifierbench": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/summary_consistency/faithbench": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 1,
+   "c50": 1,
+   "any": 1,
+   "examples": [
+    {
+     "id": "judge.summary_consistency.faithbench:0c74617ec2ef",
+     "kind": "contain 0.97",
+     "src": "pub/ragtruth",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "pub/ragtruth": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "judge/summary_consistency/summedits": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/summary_consistency/tofueval_meetingbank": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/translation_quality/wmt20_mqm": {
+   "n": 250,
+   "short": 1,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "judge/translation_quality/wmt23_mqm": {
+   "n": 250,
+   "short": 20,
+   "short_exact": 4,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "safety/agent_action_risk/assebench": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "safety/agent_action_risk/atbench": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "safety/custom_policy/cosapien": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "safety/custom_policy/dynabench": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "safety/custom_policy/moderation_policies": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "safety/harmfulness/aegis2": {
+   "n": 167,
+   "short": 8,
+   "short_exact": 2,
+   "exact": 1,
+   "c80": 15,
+   "c50": 18,
+   "any": 15,
+   "examples": [
+    {
+     "id": "safety.harmfulness.aegis2:63c6e3ebadda",
+     "kind": "contain 1.00",
+     "src": "bekko/hh_rlhf",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.harmfulness.aegis2:19bab1a21471",
+     "kind": "contain 1.00",
+     "src": "bekko/hh_rlhf",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.harmfulness.aegis2:cd114aba6a65",
+     "kind": "contain 1.00",
+     "src": "bekko/hh_rlhf",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.harmfulness.aegis2:78c98d6e94e9",
+     "kind": "contain 1.00",
+     "src": "bekko/hh_rlhf",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.harmfulness.aegis2:c39d363d443b",
+     "kind": "exact",
+     "src": "bekko/aegis2",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/hh_rlhf": 12,
+    "bekko/aegis2": 3
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 15
+   }
+  },
+  "safety/harmfulness/beavertails": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 2,
+   "c80": 4,
+   "c50": 5,
+   "any": 4,
+   "examples": [
+    {
+     "id": "safety.harmfulness.beavertails:23ab0f4a7d0d",
+     "kind": "contain 1.00",
+     "src": "bekko/hh_rlhf",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.harmfulness.beavertails:98a40b6c78cf",
+     "kind": "exact",
+     "src": "bekko/aegis2",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.harmfulness.beavertails:dd2ddc5cf989",
+     "kind": "exact",
+     "src": "bekko/aegis2",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.harmfulness.beavertails:9b133678cae5",
+     "kind": "contain 1.00",
+     "src": "bekko/hh_rlhf",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/hh_rlhf": 2,
+    "bekko/aegis2": 2
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 4
+   }
+  },
+  "safety/harmfulness/wildguardtest": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "safety/injection/agentdojo": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "safety/injection/bipia": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "safety/injection/toxicchat_jailbreak": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 2,
+   "c80": 14,
+   "c50": 18,
+   "any": 14,
+   "examples": [
+    {
+     "id": "safety.injection.toxicchat_jailbreak:461011009f19",
+     "kind": "contain 0.85",
+     "src": "bekko/helpsteer2",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.injection.toxicchat_jailbreak:5f85a2ccd898",
+     "kind": "contain 0.81",
+     "src": "bekko/helpsteer2",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.injection.toxicchat_jailbreak:47b5ebdb3836",
+     "kind": "contain 0.82",
+     "src": "bekko/aegis2",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.injection.toxicchat_jailbreak:8ca40855aca2",
+     "kind": "contain 1.00",
+     "src": "bekko/helpsteer3",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.injection.toxicchat_jailbreak:d3ea11cd8211",
+     "kind": "contain 0.82",
+     "src": "bekko/helpsteer2",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/aegis2": 8,
+    "bekko/helpsteer2": 5,
+    "bekko/helpsteer3": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 14
+   }
+  },
+  "safety/pii/tab": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "safety/pii/templates": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "safety/refusal/coconot": {
+   "n": 167,
+   "short": 9,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "safety/refusal/xstest_prompts": {
+   "n": 167,
+   "short": 5,
+   "short_exact": 0,
+   "exact": 1,
+   "c80": 0,
+   "c50": 0,
+   "any": 1,
+   "examples": [
+    {
+     "id": "safety.refusal.xstest_prompts:64b234688044",
+     "kind": "exact",
+     "src": "bekko/aegis2",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/aegis2": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "safety/refusal/xstest_responses": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 5,
+   "c50": 5,
+   "any": 5,
+   "examples": [
+    {
+     "id": "safety.refusal.xstest_responses:6ca7f96e1ee0",
+     "kind": "contain 1.00",
+     "src": "bekko/canttalk",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.refusal.xstest_responses:ea05417f6990",
+     "kind": "contain 1.00",
+     "src": "bekko/canttalk",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.refusal.xstest_responses:713538a31ad0",
+     "kind": "contain 1.00",
+     "src": "bekko/canttalk",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.refusal.xstest_responses:6d2010b2837b",
+     "kind": "contain 1.00",
+     "src": "bekko/canttalk",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "safety.refusal.xstest_responses:09e473bad49a",
+     "kind": "contain 1.00",
+     "src": "bekko/canttalk",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/canttalk": 5
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 5
+   }
+  },
+  "route/context_pruning/fact_chains": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/context_pruning/qasper": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/difficulty/bigcodebench": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/difficulty/embedllm": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/difficulty/livebench": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/escalation/automix_quality": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/escalation/livebench": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/escalation/routerarena_human": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 3,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/memory_decisions/dulemon_retrieve": {
+   "n": 250,
+   "short": 14,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/memory_decisions/msc_write": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/model_correctness/livebench": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/model_correctness/routerarena": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/model_correctness/routerbench": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/model_selection/livebench": {
+   "n": 212,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/model_selection/routerbench": {
+   "n": 250,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/tool_selection/bfcl_expert": {
+   "n": 167,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "route/tool_selection/bfcl_live": {
+   "n": 167,
+   "short": 22,
+   "short_exact": 8,
+   "exact": 2,
+   "c80": 1,
+   "c50": 2,
+   "any": 3,
+   "examples": [
+    {
+     "id": "route.tool_selection.bfcl_live:4df4532b8014",
+     "kind": "contain 1.00",
+     "src": "bekko/taskmaster",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "route.tool_selection.bfcl_live:736ca740f5fe",
+     "kind": "exact",
+     "src": "bekko/sgd",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": "route.tool_selection.bfcl_live:7ac43c467b8e",
+     "kind": "exact",
+     "src": "bekko/sgd",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/sgd": 2,
+    "bekko/taskmaster": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 3
+   }
+  },
+  "route/tool_selection/metatool": {
+   "n": 166,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 1,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  }
+ }
+}

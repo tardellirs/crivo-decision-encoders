@@ -1,0 +1,19 @@
+# Python 3.12. GPU users: install the torch wheel matching their CUDA driver first
+# (e.g. pip install torch --index-url https://download.pytorch.org/whl/cu128).
+torch>=2.4
+transformers==5.19.0        # the version the Crivo engine and all reported runs used
+tokenizers
+safetensors
+accelerate
+huggingface_hub
+sentencepiece
+protobuf
+numpy
+scipy
+scikit-learn
+pandas
+pyarrow
+datasets
+pyyaml
+matplotlib                  # paper_artifacts/make_figs.py and e5/plot_reliability.py only
+# Optional, for Prumo and the Decision Index kit's rebuild extras: chess==1.11.2 mido httpx

@@ -1,0 +1,104 @@
+{
+ "state": {
+  "channel": "chat",
+  "plan": "basic",
+  "message": "I was charged twice for this month's subscription and now the app says my account is locked. Please refund the extra charge, I need this fixed today."
+ },
+ "questions": {
+  "team": {
+   "type": "choice",
+   "instructions": "Which team should handle this ticket?",
+   "criteria": {
+    "billing": "charges, invoices and refunds",
+    "technical": "app errors and bugs",
+    "security": "locked accounts and suspicious logins",
+    "sales": "plans and upgrades"
+   }
+  },
+  "refund": {
+   "type": "noul",
+   "instructions": "The customer asks for money back."
+  },
+  "urgency": {
+   "type": "score",
+   "instructions": "How urgent is this ticket?",
+   "criteria": {
+    "1": "low",
+    "2": "normal",
+    "3": "high",
+    "4": "critical"
+   }
+  }
+ },
+ "note": "invented request; answers are each model's real output",
+ "runs": {
+  "Crivo-17M": {
+   "weights": "tardellirs/crivo-17m",
+   "sha256": "f7fa05c95a905b140bdba722ba69297c48b8ed09737271dd950921ecea783346",
+   "device": "cpu",
+   "threads": 4,
+   "machine": "arm64",
+   "wall_ms_one_call": 17.1,
+   "answers": {
+    "refund": {
+     "type": "noul",
+     "noul": 0.17491076007638906
+    },
+    "urgency": {
+     "type": "score",
+     "score": 1.9819400606244006,
+     "probabilities": {
+      "0": 0.2719208094509738,
+      "1": 0.09143553883637648,
+      "2": 0.019426433349924933,
+      "3": 0.6172172183627248
+     }
+    },
+    "team": {
+     "type": "choice",
+     "choice": "security",
+     "probabilities": {
+      "billing": 0.3111309310613678,
+      "technical": 0.0866214578386553,
+      "security": 0.5970928508677692,
+      "sales": 0.005154760232207694
+     }
+    }
+   }
+  },
+  "Crivo-150M": {
+   "weights": "tardellirs/crivo-150m",
+   "sha256": "9022e370bb7ddf91297a64c0b538540acdd5c09dee5848ea854bb177577daab8",
+   "device": "cpu",
+   "threads": 4,
+   "machine": "arm64",
+   "wall_ms_one_call": 114.8,
+   "answers": {
+    "refund": {
+     "type": "noul",
+     "noul": 0.8186646450016726
+    },
+    "urgency": {
+     "type": "score",
+     "score": 2.4555025438868863,
+     "probabilities": {
+      "0": 0.025401104256881368,
+      "1": 0.05294005611563331,
+      "2": 0.3624140311112024,
+      "3": 0.5592448085162828
+     }
+    },
+    "team": {
+     "type": "choice",
+     "choice": "billing",
+     "probabilities": {
+      "billing": 0.9686075297468602,
+      "technical": 0.019033407533772466,
+      "security": 0.010532575471224832,
+      "sales": 0.0018264872481424852
+     }
+    }
+   }
+  }
+ }
+}

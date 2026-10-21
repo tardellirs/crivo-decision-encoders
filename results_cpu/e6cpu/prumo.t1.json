@@ -1,0 +1,17 @@
+{
+ "engine": "prumo",
+ "device": "cpu",
+ "gpu": null,
+ "threads": 1,
+ "requests": 1000,
+ "timed": 1000,
+ "unsupported": 0,
+ "load_s": 1.6,
+ "median_ms": 0.18716700014920207,
+ "p95_ms": 23.29328199994052,
+ "mean_ms": 5.681404941047731,
+ "throughput_req_s": 175.55074246325336,
+ "questions": 1386,
+ "options_per_request_mean": 19.556,
+ "peak_rss_mb": 273.87109375
+}

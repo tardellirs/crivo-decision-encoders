@@ -1,0 +1,7 @@
+# arm	reader	base	extra flags	(every arm: 150k fixed rows, 1 epoch, lr 1e-4 / head 5e-4, warmup 5%, max_len 2048, 24,576 tokens/step; seeds 0 1 2)
+J	joint	cross-encoder/ettin-reranker-32m-v1	KD
+P	peropt	cross-encoder/ettin-reranker-32m-v1	KD
+JnoBrier	joint	cross-encoder/ettin-reranker-32m-v1	KD --brier 0
+JnoKD	joint	cross-encoder/ettin-reranker-32m-v1	
+Jraw	joint	jhu-clsp/ettin-encoder-32m	KD
+Jsteps	joint	cross-encoder/ettin-reranker-32m-v1	KD --max_tokens 6784

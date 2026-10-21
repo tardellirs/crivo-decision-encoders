@@ -1,0 +1,15 @@
+e1cea1bd407ba9b10a7fc00dc1eb3a5e  exp/a1a2/sub150k.jsonl.gz
+e2048e89f8c9922a0883de0933344424  exp/a1a2/sub150k.t400.npz
+c45fe65602942c6183840e2dc08fd5a4  exp/a1a2/gold_only
+ff000a1a5f384084d1ce75bd650351a2  req/lat1000.jsonl
+54326c3e4b9a4a459338f5239ed97edd  exp/P_s0/model.safetensors
+c348432a606d119c43084a185d7189b7  exp/P_s0/config.json
+e76d0abe24d58c23fe50d159c92ee78f  evalsets/btzsc500.jsonl
+2124e96947b4d91c671960b5c6015ab2  evalsets/pub15.jsonl
+7c6735158771fc5ffb2f75cc61e97a26  evalsets/s1_60.jsonl
+4643cfec8115e9bbf6f331cc031961cf  e4/req/orig.jsonl
+bcd9fd3f56b51920cb7c1ea7310c372e  e4/req/perm1.jsonl
+2132e6af453ff365f322e1f747dd9cc1  e4/req/perm2.jsonl
+a8069559457d8e36be70257cb66ac101  e4/req/perm3.jsonl
+61f518e380bb5dc6e3b11fc17ea595c7  e4/req/rev.jsonl
+66a532a0a85160c9d6b30474b40bcbf1  e4/req/yn.jsonl

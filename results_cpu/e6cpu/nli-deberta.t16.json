@@ -1,0 +1,17 @@
+{
+ "engine": "nli:MoritzLaurer/deberta-v3-large-zeroshot-v2.0",
+ "device": "cpu",
+ "gpu": null,
+ "threads": 16,
+ "requests": 100,
+ "timed": 98,
+ "unsupported": 2,
+ "load_s": 3.5,
+ "median_ms": 943.2637899990368,
+ "p95_ms": 37568.15704899782,
+ "mean_ms": 8563.512362061078,
+ "throughput_req_s": 0.11677203318181817,
+ "questions": 133,
+ "options_per_request_mean": 23.49,
+ "peak_rss_mb": 7041.08984375
+}

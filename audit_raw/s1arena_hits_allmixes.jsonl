@@ -1,0 +1,933 @@
+{"ds": "basic_cls/entity_relation/fewnerd", "id": "basic_cls.entity_relation.fewnerd:c382eae820ea", "kind": "contain 1.00", "src": "src400/sister/ragtruth/ragbench_hagrid"}
+{"ds": "basic_cls/entity_relation/fewnerd", "id": "basic_cls.entity_relation.fewnerd:be12f57a8851", "kind": "contain 0.82", "src": "bekko/synthetic_relevance__wikipedia_hard_negatives_english"}
+{"ds": "basic_cls/entity_relation/fewrel", "id": "basic_cls.entity_relation.fewrel:0e25eaaefa37", "kind": "contain 1.00", "src": "t3/few_rel/default"}
+{"ds": "basic_cls/entity_relation/fewrel", "id": "basic_cls.entity_relation.fewrel:e06dd17e1ad3", "kind": "exact", "src": "t3/few_rel/default"}
+{"ds": "basic_cls/entity_relation/fewrel", "id": "basic_cls.entity_relation.fewrel:821ace84c834", "kind": "contain 1.00", "src": "bekko/dbpedia"}
+{"ds": "basic_cls/intent/clinc150", "id": "basic_cls.intent.clinc150:275442b13fbc", "kind": "exact", "src": "bekko/circa"}
+{"ds": "basic_cls/intent/clinc150", "id": "basic_cls.intent.clinc150:ff36ab48e5d4", "kind": "exact", "src": "extra/bfcl-glaive"}
+{"ds": "basic_cls/intent/clinc150", "id": "basic_cls.intent.clinc150:61b51eb7416f", "kind": "exact", "src": "bekko/circa"}
+{"ds": "basic_cls/intent/massive_en", "id": "basic_cls.intent.massive_en:75cf69ac32c9", "kind": "contain 1.00", "src": "bekko/massive"}
+{"ds": "basic_cls/intent/massive_en", "id": "basic_cls.intent.massive_en:9c0b63174de3", "kind": "contain 1.00", "src": "pub/clinc150"}
+{"ds": "basic_cls/language_style/pavlick_formality", "id": "basic_cls.language_style.pavlick_formality:7c6800ee189a", "kind": "contain 1.00", "src": "bekko/oasst1"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:fd5bd328c995", "kind": "contain 1.00", "src": "t3/glue/rte"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:753ba4776550", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:32db2d9a528c", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:44aecade6f38", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:28702599005a", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:384c15060191", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:9199657aa0f5", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:126c3de172d1", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:0c32d0bfaf24", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:0c46100efb21", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:d8e39a233849", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:a695a86d2d20", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:c214c35a012f", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:385774423cca", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:0ff9d9ed5cab", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:77ea1a3d9136", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:2dd2e2d06643", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:57723d582291", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:38dda1125260", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:e420d1d1cae0", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:57c4f5433bd1", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:106d29ff7363", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:260fdd3b30d4", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:fd827220fd56", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:8d1b10230c7f", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:941f90ede2ae", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:7dbd5cfa4be8", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:11c0295d6dd4", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:19279b40a4ad", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:50d8f3f31f3e", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:8b556013b54d", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:09f4badbf0a0", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:2e2ba6e60924", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:19e8f5ec573b", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:d83358c90cb8", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:f4d160c9f21d", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:1fe5cefc3fae", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:8947aa0f8e0b", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:bd58cb62dac4", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:2ca7de7a8441", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:d1777e9f7b2b", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:275d3f2c3fdf", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:321ad6cb2568", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:fd2acd707ab5", "kind": "exact", "src": "src400/exact/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:a31812424aba", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:9803ff56b92f", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:d046bde36790", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:ad8e659fa02a", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:cc669f032bf8", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:d83463a81f32", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:bb71887ad0f8", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:187fedd7c8b1", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:b06695005ca2", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:74522256ddc5", "kind": "exact", "src": "pub/hover"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:d8a7800b4d17", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:1206d9483002", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:57b5dbb2276f", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:f7503e00736e", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:368942f2e68d", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:3f42e61c71cf", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:3f73b8d03692", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:eb591d10b78d", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:02a02de500fa", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:eb1a7de9f54a", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:a8bc387bb103", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:e33e0d78a276", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:9148348079d7", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:5d778e93993e", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:a08b39420611", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:94b6087382da", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:386e5712ee14", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:9ca823bf7a26", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:7d8d461e1203", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:c2a751c5b5f8", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:5c1154306b4f", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:06373b5dc985", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:e1c435d73f8a", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:726d762ec8f0", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:41f6f67b0b52", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:4db5fe13a30a", "kind": "exact", "src": "src400/exact/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:482ea8ae001f", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:2a907c2a053a", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:1d792f2ac3b7", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:2beb7b811732", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:79b9cac9a26e", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:d914adf09e24", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:25199da405b3", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:6ff669cdd6c4", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:ccae6aa713e8", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:ad0a75705a2f", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:c6957a5fd005", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:8554a7a85876", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:169a55c48c52", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:2431eecc3aff", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:9015551585c2", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:e044bd0f4ebe", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:b2ca4777f6ae", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:3fd58a0cf4f8", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:3ce5ff6e5b56", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:e59f223bd846", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:67b5813b2c0d", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:0950a160bbdc", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:1d1f2eb3cfc0", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:31d377577c80", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:5e10810dc8cd", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:64284ab5cf95", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:166d08477a07", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:bc0cd8d9601c", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:273326ee05df", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:15b15852c5ca", "kind": "exact", "src": "src400/exact/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:f80aba785c7b", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:04aa104e21ed", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:d5b1c384a91d", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:7765e6014cd8", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:6725d9287e22", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:aa62d87c7087", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:66a95f20ca93", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:2163ae576d7d", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:ad426183c757", "kind": "contain 1.00", "src": "t3/doc-nli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:c2464f2f63bd", "kind": "exact", "src": "src400/exact/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:81c69a34cb86", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:501ebe21c009", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:5acb2f80f67d", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:b2de819309e4", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:daee85b82b49", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:71c9ce288451", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:020b86001dcd", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:cd4d30d6d31d", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:7966d6f4d0fd", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:8866c7315ca8", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:111f549e077a", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:91a56dab6551", "kind": "exact", "src": "src400/exact/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:1c77273c3a56", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:ee028cc448dc", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:ab0817650e78", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:9a1859f8cc2d", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:70a71d0c4d24", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:abf0e5c13845", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:1710c627c3e3", "kind": "contain 1.00", "src": "t3/glue/rte"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:3c430a9e9b8a", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:7b99068d2544", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:df134a4a0387", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:3a9d5a73d657", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:dabcff8ec5aa", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:2e12a8d04715", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:62e99d012847", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:9a2da4a5469f", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:7d7d8bba2db4", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:ddf82ab0a44c", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:d406713ff085", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:c5ba6111af92", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:ea6bd40cead6", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:7fdce6c1f00b", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:a32c6429b8fe", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:23999276e2ad", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:1fdaf4de0533", "kind": "contain 0.85", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:69fdc7f88499", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:b0ccc06ad3ac", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:2a733e4e7075", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:c3b9a715ff23", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:a3024714bd81", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:194b3c3fc647", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:8553d0e33936", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:abab35a0f752", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:9410d4a197db", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:5d02dade966f", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:57ce6be44e38", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:ca74330d9e64", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:19fb18664c0b", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:e00258816879", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:e7a34df6f19c", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:4250c9f535cf", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:dbec313077f1", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:fa5a91edaf3b", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:a2a0dd55e626", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:778748439cbd", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:ab451cef17dd", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:d7f89c835b03", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:65e80505fb57", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:35d7a4b21855", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:37a5aa88f886", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:c1ddb5e9cfec", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:9ba97c1299e4", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:a23cbf318abd", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:cfe244af35dc", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:cac21507e0c1", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:3fc1f37c3c11", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:ecdd34d7fbfa", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:83c20302bd59", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:f03dcff2fa93", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:5d2714eb2276", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/anli_r3", "id": "basic_cls.nli.anli_r3:9e3dbd3005c5", "kind": "contain 1.00", "src": "pub/anli"}
+{"ds": "basic_cls/nli/chaosnli", "id": "basic_cls.nli.chaosnli:4ae4953ddd91", "kind": "exact", "src": "t3/joci"}
+{"ds": "basic_cls/nli/chaosnli", "id": "basic_cls.nli.chaosnli:9a881ee24f6b", "kind": "contain 1.00", "src": "bekko/defeasible_nli"}
+{"ds": "basic_cls/nli/chaosnli", "id": "basic_cls.nli.chaosnli:22bb97a9c035", "kind": "contain 1.00", "src": "t3/mpe"}
+{"ds": "basic_cls/nli/chaosnli", "id": "basic_cls.nli.chaosnli:857b3370a0dc", "kind": "contain 1.00", "src": "t3/robust_nli/ST_SE"}
+{"ds": "basic_cls/nli/chaosnli", "id": "basic_cls.nli.chaosnli:bfde936dc6a0", "kind": "contain 0.86", "src": "t3/super_glue/multirc"}
+{"ds": "basic_cls/sentiment/sst5", "id": "basic_cls.sentiment.sst5:645e33512fe2", "kind": "exact", "src": "t3/rotten_tomatoes"}
+{"ds": "basic_cls/sentiment/sst5", "id": "basic_cls.sentiment.sst5:99d00fb5500e", "kind": "exact", "src": "t3/rotten_tomatoes"}
+{"ds": "basic_cls/sentiment/sst5", "id": "basic_cls.sentiment.sst5:e630045dc1b2", "kind": "exact", "src": "t3/rotten_tomatoes"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:dfbbb768ebb9", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:472faa76719a", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:d3ca441e2793", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:12f15f43c4e4", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:8b3c946a8137", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:95ba7850487a", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:cf807431d264", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:633bb8133626", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:d56f1910f55e", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:1cf2aaaeeef1", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:0144df731e93", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:5d5328aa397f", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:ec069d654236", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:e71eee4a66c0", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:d4b1f4c1b69d", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:6d4961f1f645", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:49fb921ed1e4", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:eb19c835d030", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:80e49e915082", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:7073d18cdaae", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:60c2d2e1ea22", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:b6a133c9b646", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:5a1dacf90470", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:d09c59648e78", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:a33260f69521", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:99889b7dbbae", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:2015927563cf", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:83e1866e8164", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:81c0eddd7c7f", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:cfabffd25964", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:5dfac87237f8", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:ad3052c7dfca", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:74f4f3e8d49b", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:8a5352332849", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:ecb6d9fe5afc", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:00b65e009330", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:3fdbf72e5380", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:f1be8d793963", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:cbddcde6a6c2", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:45ad2df05a05", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:f629ed394dc8", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:ea73c4bcccfb", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:e3d4ad1fb6af", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:fd9d7945a55c", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:b0b8031ff776", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:019e172af66f", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:970da9c3954e", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:78779c12e2c1", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:f3f770dd99fa", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:923178cf0488", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:ee579cadce11", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:42a166e1e517", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:083fc30bece2", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:b7e55d06ea9d", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:ca2110c40fb5", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:af29ef48ac14", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:c3c17177acc2", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:c0d6e8d6c6f7", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:21b4a04e7f45", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:46ce6de23d2d", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:96666ed1e7d1", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:70205272b817", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:9fa4937d1eb3", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:201e20fcb957", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:78e3713e7ce9", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:dd79ce530d58", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:c57ce6e1d206", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:46fbd184f5fe", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:7e4c49d579c6", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:3ecb59a165d6", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:460fef0f751a", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:3538056ba982", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:a6e35923c0a5", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:7bda43c1a715", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:776db59728ad", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:5504d0ea287d", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:94a8cf69eeff", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:967463e07c29", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:2b472d59181e", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:9f26017be9d3", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:b2c3d85632f8", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:7cd863635aa2", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:3d9cd30584a0", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:e3473195f7a4", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:0ecd7ffc622f", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:6ebbeb9ea40c", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:a4b4b64f42cd", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:504038fd3b6d", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:7f71cc6a8e23", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:1186f6adb0b2", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:df7090c3ec84", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:40c41b077efa", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:8dc7cfda3463", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:9ae3ca868164", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:9e73a0820477", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:e20377886500", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:1d16da19c714", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:9c999e88b383", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:ed09ad695076", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:864d50a9a359", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:471caa9bc0fb", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:5db634667ca9", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:2b6f1fcb668c", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:0a7f973b2d1d", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:fcf56a3eeaae", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:1b8bc2566d1a", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:b4de0b4f890f", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:b5811a35908a", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:d124c0b6d1ac", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:a42e3ee442dc", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:c8d9ba93ebd6", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:d143ef893df2", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:b011706fd85f", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:5ec3f4289868", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:958ecec8e678", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:fcc6a8059b80", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:95446ceb8e08", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:d1f2bdf21bbf", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:b043e79e3f72", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:1844b0de142c", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:2effda4c17ca", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:a15c633793bd", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:28b39df81bfa", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:aa6d1f4b6e1f", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:9728c5a9447f", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:523cdb2cba2b", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:dc3dbf25d174", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:1fdd34050b4f", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:3b6e3237a349", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:4fba6c526908", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:3c1481482172", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:1da7976a8dff", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:dcb85b2f9299", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:d8b831184cf6", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:bb9f93d45a04", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:b70c565741a3", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:f67409c6974d", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:7b7e25a26ec4", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:46a5d8dd2ee3", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:c8d305a7ef39", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:9f43ebe938e7", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:62b214f0a45c", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:58ff3759a066", "kind": "exact", "src": "bekko/circa"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:074c66049100", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:0173d5bf20a8", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:1309293a3985", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:ae38cf76d252", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:478633492496", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:733c5a66d5dd", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:a9b1c434bbe1", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:e74f788b85e2", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:746b76de92ba", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:cb769b3d09c5", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:475076d747c6", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:d3c37ea40396", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/sms_spam", "id": "basic_cls.spam_phishing.sms_spam:7da1a4e85d3d", "kind": "exact", "src": "bekko/sms_spam"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:e0ce57a5b7ed", "kind": "contain 0.85", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:410613943773", "kind": "contain 0.90", "src": "bekko/laya__enron_spam"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:8e632290395c", "kind": "contain 0.92", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:980970f81bcf", "kind": "contain 0.81", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:8c2d1b79d8dc", "kind": "exact", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:d20222383299", "kind": "contain 0.89", "src": "bekko/laya__enron_spam"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:aef658ac5ed9", "kind": "contain 0.99", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:6de685b5a2fe", "kind": "contain 0.89", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:3dc420824bdf", "kind": "contain 0.81", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:fc9eb7f6ad78", "kind": "exact", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:f889a61f0d44", "kind": "contain 0.89", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:87c1a468056e", "kind": "contain 0.89", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:d53075328117", "kind": "contain 0.88", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:c86c81b81ce6", "kind": "contain 0.99", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:5cfb1eb732ab", "kind": "exact", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:257ce467e3f4", "kind": "contain 0.80", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:b1aba4991917", "kind": "contain 0.99", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:e746e4bf351f", "kind": "exact", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:3e359263ed44", "kind": "contain 0.97", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:cb02fd97a49b", "kind": "contain 0.93", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:5666fa45781a", "kind": "contain 0.96", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:898751352624", "kind": "contain 0.89", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:2998f04396d7", "kind": "exact", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:e358a12c22ba", "kind": "exact", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:ba771671cbf1", "kind": "contain 0.94", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:abaff1ce2317", "kind": "contain 0.99", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:676fd686f452", "kind": "exact", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:d83da7844990", "kind": "contain 0.95", "src": "bekko/laya__enron_spam"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:e5307ffb1fa9", "kind": "contain 0.99", "src": "bekko/laya__enron_spam"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:7758dd2a99a0", "kind": "contain 0.98", "src": "bekko/laya__enron_spam"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:ed94850c50b0", "kind": "contain 0.95", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:d6efd60ff07d", "kind": "contain 0.98", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:46037fd5c0e5", "kind": "contain 0.93", "src": "bekko/laya__enron_spam"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:8b1a09f095bd", "kind": "exact", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:4258bbf75531", "kind": "contain 0.92", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:5471a8f988fb", "kind": "contain 0.81", "src": "bekko/laya__enron_spam"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:0451a6bf6f8d", "kind": "contain 0.92", "src": "bekko/laya__enron_spam"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:e673361f54a5", "kind": "exact", "src": "bekko/laya__enron_spam"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:a91177c32038", "kind": "contain 0.93", "src": "bekko/laya__phishing"}
+{"ds": "basic_cls/spam_phishing/spamassassin_nazario", "id": "basic_cls.spam_phishing.spamassassin_nazario:df28011e5e29", "kind": "contain 0.95", "src": "bekko/laya__phishing"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:fece1d5d9227", "kind": "exact", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:8d352e549946", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:e1391b2106ba", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:cca7b7d75b5c", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:c151792aaac3", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:384ef3e5972b", "kind": "contain 0.92", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:6c01e72f3f2c", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:b6a0c9a17c47", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:a3df90167678", "kind": "contain 0.94", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:1bbe34c10deb", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:3a3d607a1754", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:cf24644e0069", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:2e56b940a433", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:86c3a54c3ec9", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:91609bf91a37", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:d8fe3d16a52b", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:37faa61737df", "kind": "exact", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:55fbff7037af", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:5a1ddedf56dd", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:913aaf7620fe", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:4f1147d54ed4", "kind": "exact", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:3bbc8d5644c5", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:4be73ab7e8f6", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:30696828cb66", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:3244e2d7a9c7", "kind": "contain 0.92", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:40c95019860c", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:2b0271c54032", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:c26fe02b49fa", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:bcbdabda8967", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:6479a37426b6", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:9f72277c7386", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:d384c9ec7f38", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:19984e2e1ebe", "kind": "exact", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:998c5c2e3e62", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:8a3ea1c2f82e", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:59b243503389", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:012ab6b417f4", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:2f572b3f6759", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:477cdfc3e6ce", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:230af2d55909", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:e1591a9a8985", "kind": "contain 0.84", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:ee2698bd2bb1", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:81a0411b4f6f", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:e481d9bbb13a", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:08bb3be626fe", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:1307ac0c47fc", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/citation_support/attributionbench", "id": "know.citation_support.attributionbench:56b2381dda00", "kind": "contain 0.99", "src": "src400/sister/ragtruth/ragbench_expertqa"}
+{"ds": "know/commonsense/piqa", "id": "know.commonsense.piqa:be70878cfffd", "kind": "exact", "src": "bekko/piqa"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:1d632d9744a4", "kind": "contain 0.93", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:d8bc3d59eace", "kind": "contain 0.88", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:0dd4788ade71", "kind": "contain 0.88", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:b991031f5798", "kind": "contain 0.93", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:20599a234a66", "kind": "contain 0.88", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:a36884cfc52a", "kind": "contain 0.93", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:e9d70392d6dc", "kind": "contain 0.88", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:b710ef604289", "kind": "contain 0.95", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:231cc13c8516", "kind": "contain 0.80", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:f3cf737328da", "kind": "contain 0.89", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:6d7a5aa37166", "kind": "contain 0.89", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:610f45d6601b", "kind": "contain 0.83", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:191dd75c7496", "kind": "contain 0.89", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:6e9ac9ea9e2d", "kind": "contain 0.86", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:f62c85ec3ec3", "kind": "contain 0.93", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:037e7cd1115d", "kind": "contain 0.92", "src": "t3/winodict"}
+{"ds": "know/commonsense/winogrande", "id": "know.commonsense.winogrande:e7ea2c90bbe0", "kind": "contain 0.93", "src": "t3/winodict"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:ff0dde99c009", "kind": "contain 0.93", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:772f46c2f996", "kind": "contain 0.91", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:6c33afab5525", "kind": "contain 0.94", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:1aeede19998c", "kind": "contain 0.95", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:c0cc93c841a3", "kind": "contain 0.93", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:e2fc179c1696", "kind": "contain 0.94", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:2b4c836216d5", "kind": "contain 0.95", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:edbe48fd4932", "kind": "contain 0.91", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:f37a7b715f2e", "kind": "contain 0.93", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:3d43de745f3f", "kind": "contain 0.93", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:84dbf00ec407", "kind": "contain 0.95", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:bcaf22046fb8", "kind": "contain 0.91", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:b2ee46ecbd28", "kind": "contain 0.95", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:d9856f59eaa5", "kind": "contain 0.94", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:15a2db2e7365", "kind": "contain 0.96", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:a0fdc2552776", "kind": "contain 0.94", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:909455871b96", "kind": "contain 0.97", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:b1459a39c137", "kind": "contain 0.95", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:7c4a07753fd3", "kind": "contain 0.93", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:912ab361ffe8", "kind": "contain 0.98", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:b097b1b93ad4", "kind": "contain 0.97", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:886131ed573b", "kind": "contain 0.94", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:3a55d6473296", "kind": "contain 0.98", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:9e5fad8a0403", "kind": "contain 0.92", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:859afbd0cdeb", "kind": "contain 0.89", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:ef32fbadc672", "kind": "contain 0.93", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:11e4ae251e1d", "kind": "contain 0.90", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:87c78be2d171", "kind": "contain 0.93", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:3cd3aeb14657", "kind": "contain 0.97", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:deecba2371da", "kind": "contain 0.95", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:b16578cb3b52", "kind": "contain 0.91", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:4770be34e737", "kind": "contain 0.93", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:f28cf2be3aed", "kind": "contain 0.96", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:3a26fe6239fa", "kind": "contain 0.91", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:27be4a918aea", "kind": "contain 0.94", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:10402d5189c2", "kind": "contain 0.95", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:361b95ab4308", "kind": "contain 0.96", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:175055ef57f9", "kind": "contain 0.90", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/scifact", "id": "know.fact_verification.scifact:03c4266695d8", "kind": "contain 0.92", "src": "t3/scifact_entailment"}
+{"ds": "know/fact_verification/vitaminc", "id": "know.fact_verification.vitaminc:fa14a429eeb3", "kind": "contain 1.00", "src": "bekko/boolq"}
+{"ds": "know/fact_verification/vitaminc", "id": "know.fact_verification.vitaminc:6c7f39fabf1f", "kind": "contain 1.00", "src": "bekko/squad2"}
+{"ds": "know/fact_verification/vitaminc", "id": "know.fact_verification.vitaminc:5c8707c78827", "kind": "contain 0.82", "src": "pub/hover"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:2a00d2116fbe", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:4ac8c587276e", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:ed5b7c482835", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:8b743df5c659", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:6d4250182ed1", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:9708a41102c9", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:d2ae902423ac", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:8c111e28f550", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:f725a25f3b36", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:8936a3600df6", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:dec2f6e00ad7", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:0cd6862613d4", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:3989eeb467b0", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:7900d5248ad7", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:5bc1b40f1acd", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:3c4e3a1af628", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:dedeeaa04952", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:e1aaefeeb18b", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:62dd9210ec77", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:73cc28d89956", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:15f6b63efc7b", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:d60291e4e74d", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:288e821579a7", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:2f866fb29e5e", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:12d7943d31d8", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:9447618dc4b6", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:d073ed3b9d95", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:4b18deb4dac5", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:5d250edfba25", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:920441eb108a", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:b0a12112f515", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:9ee9394f42ae", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:5efd2c9a49c3", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:a524b310a826", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:9976df7b5192", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:e5c8b374f64f", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:c942c1c28572", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:681b07b3af95", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:fefa525472d3", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:0ae56ba44e1d", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:fdfb96c74187", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:5d656e87334f", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:9cd560698952", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:21590d4ec8fe", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:dd7d17b9a6a8", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:dba03a791146", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:de0188982a58", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:42023696f19a", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:258a60350848", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:bc7bdc09307b", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:3aee222c6e96", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:e93af9b4bd28", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:72e1c7034bd0", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:859b7d70f7f4", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:94d0cb470f04", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:ae9ecf717562", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:c78e53531fbd", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:0b1fe3ea159d", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:6e70c0cc5cde", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:cee53eb0e014", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:1500a2bc5d36", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:40f884491525", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:a10384d5d045", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:430916144ab9", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:6f49d96f514e", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:427de432543c", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:ecd892e43232", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:5bab12a327e2", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:8d9e6765f5d3", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:fe7ae58c697a", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:d7046b14e968", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:f1dc29175418", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:13442322605f", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:6c2b8191aa9a", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:ed416bd6b0e6", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:4e41894c9cde", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:250f7c3fb71f", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:574ddad90bd8", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:632019c8a278", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:c6717cbb8485", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:4d69cab61188", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:4823b97e654a", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:ccc2cc46c4e4", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:831271eda6bd", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:6c83a1ecd28a", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:3932a8b77dff", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:93433adfe216", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:8bb6ea45183c", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:0973f367109c", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:2d91d94ae3e3", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:c75c2ac500b0", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:64f31d9c026e", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:ea8e8bf8affb", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:85a0108436e2", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:082c3678d116", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:101a3fe91e65", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:91ea433b65bc", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:21bbb160f91d", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:9e73357c0a41", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:435e86fe9659", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:ab6bc2f1244c", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:89a906e85f80", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:ef79dab01b0f", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:53889fb27db1", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:ffe106be6795", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:e0dca4990e4d", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:b82853b29fe9", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:b878ee60fa54", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:9c164ca56960", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:62954a2d5739", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:6bd406bfc5ef", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:7a54fa83d079", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:2494903dda13", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:26b519823702", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:8ac459819b04", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:9b0aa07d3446", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:75fa2967af57", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:f2c1e15e1129", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:9d8cf2043972", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:614f3ea5bde5", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:5e69e1a1813b", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:b84a11c66c57", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:e52877d34b2e", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:148e7a7c3a1b", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:47503659bc44", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:7988227a3b87", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:9e99ea0dc4a1", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:607ac3f1b7df", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:3b279d90d2c1", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:cada6cb76a8e", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:f2b66fe02bc6", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:3ea728fbe3b1", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:e65a045f50fe", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:f5dd2de7bceb", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:d5013b9e00f6", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:7ea9882cfaa8", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:3d2f920c6290", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:62e67a50efb1", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:7ce53bc61106", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:0ecc0ea2ba36", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:b63f85510f30", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:93e0486ec83d", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:9ad000a1624a", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:f9115e574b0e", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:debaa29523a6", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:1cc81246b760", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:f656d56bf2da", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:c9040b9d25a4", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:1f1de03bf947", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:5012d4ffd555", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:07b2d86ed550", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:21736454c53d", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:b4ca34a0c00f", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:98878e076e0f", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:4bf6e5fd99bd", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:8f81f1331882", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:189c255ca079", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:ca181e8de007", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:1b4fa4bf3f04", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:215c8065c28d", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:10f45bb9bc0e", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:52f970de869d", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:7bb2ff4f288e", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/multihop/strategyqa", "id": "know.multihop.strategyqa:05729139fdee", "kind": "exact", "src": "bekko/strategyqa"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:c752e2d34bf2", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:d431646dffff", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:7c370b6449fd", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:a0f1806306fb", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:de13753d8fa5", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:d24bc2125b3f", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:4510f10e0684", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:2c433d3ef88d", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:3f90b6277cb5", "kind": "exact", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:a7f38b7f0c70", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:87140c02ff35", "kind": "exact", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:f991698e564e", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:6a8302bc1e23", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:b4641d371331", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:75f98f8d8ce7", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:61e6e5f516e9", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:c5e90e8cd68d", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:f0aad2baffc7", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:bfdfe53576af", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:c282fd8f3ca5", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:751e33341e5f", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:34f1b0766be7", "kind": "contain 1.00", "src": "t3/equate"}
+{"ds": "know/numeric_comparison/equate", "id": "know.numeric_comparison.equate:95258d18b3ef", "kind": "contain 1.00", "src": "pub/ragtruth"}
+{"ds": "social/moral_judgment/social_chem_101", "id": "social.moral_judgment.social_chem_101:7b0ad72c67ef", "kind": "exact", "src": "t3/SChem_Disagreement"}
+{"ds": "social/moral_judgment/social_chem_101", "id": "social.moral_judgment.social_chem_101:82d6b3b1cca7", "kind": "exact", "src": "t3/SChem_Disagreement"}
+{"ds": "social/moral_judgment/social_chem_101", "id": "social.moral_judgment.social_chem_101:db72f99933b5", "kind": "exact", "src": "t3/SChem_Disagreement"}
+{"ds": "social/moral_judgment/social_chem_101", "id": "social.moral_judgment.social_chem_101:53f45125bced", "kind": "exact", "src": "t3/SChem_Disagreement"}
+{"ds": "social/moral_judgment/social_chem_101", "id": "social.moral_judgment.social_chem_101:f6b1c0550973", "kind": "exact", "src": "t3/SChem_Disagreement"}
+{"ds": "social/moral_judgment/social_chem_101", "id": "social.moral_judgment.social_chem_101:68694cd2ca31", "kind": "contain 1.00", "src": "bekko/ethics"}
+{"ds": "social/moral_judgment/social_chem_101", "id": "social.moral_judgment.social_chem_101:420ab00b586b", "kind": "exact", "src": "t3/SChem_Disagreement"}
+{"ds": "social/perspective_labeling/measuring_hate_speech", "id": "social.perspective_labeling.measuring_hate_speech:be32d1cd1cb3", "kind": "exact", "src": "bekko/measuring_hate"}
+{"ds": "social/perspective_labeling/measuring_hate_speech", "id": "social.perspective_labeling.measuring_hate_speech:8dfc91716377", "kind": "contain 1.00", "src": "t3/Pol_NLI"}
+{"ds": "social/perspective_labeling/measuring_hate_speech", "id": "social.perspective_labeling.measuring_hate_speech:9e4e245270ce", "kind": "exact", "src": "bekko/measuring_hate"}
+{"ds": "social/perspective_labeling/measuring_hate_speech", "id": "social.perspective_labeling.measuring_hate_speech:8e12568828a7", "kind": "exact", "src": "bekko/measuring_hate"}
+{"ds": "social/perspective_labeling/measuring_hate_speech", "id": "social.perspective_labeling.measuring_hate_speech:4ab92d024eae", "kind": "contain 1.00", "src": "t3/Pol_NLI"}
+{"ds": "social/perspective_labeling/measuring_hate_speech", "id": "social.perspective_labeling.measuring_hate_speech:b8d6ad697934", "kind": "exact", "src": "bekko/measuring_hate"}
+{"ds": "social/perspective_labeling/measuring_hate_speech", "id": "social.perspective_labeling.measuring_hate_speech:d3990fa8b4c5", "kind": "contain 1.00", "src": "t3/Pol_NLI"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:58b72ded5b96", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:df1b03b06eb5", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:43fc22ff8b00", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:f136a10cdf47", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:3099068ba529", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:8c09c09d4d82", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:a5e4a927c6bf", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:33c69b374e94", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:5871b5c199a0", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:884891776e0d", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:a3ccbad618ae", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:13a25330514e", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:a9a9b22f1135", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:e8d396487747", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:9c3ceb1adc8e", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:276921f5bc45", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:215999caa99b", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:1ddcd232c178", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:904776c827ed", "kind": "exact", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:b169ecfeec4a", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:d9119fed1892", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:269dba56ae08", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/anthropic_persuasion", "id": "social.persuasion_humor.anthropic_persuasion:4811312dd0ac", "kind": "contain 1.00", "src": "t3/persuasion"}
+{"ds": "social/persuasion_humor/expun", "id": "social.persuasion_humor.expun:c76ecab6620b", "kind": "contain 1.00", "src": "t3/dnc"}
+{"ds": "social/persuasion_humor/expun", "id": "social.persuasion_humor.expun:7c13f6877fc9", "kind": "contain 1.00", "src": "t3/recast/recast_puns"}
+{"ds": "social/persuasion_humor/expun", "id": "social.persuasion_humor.expun:05f1939b42bd", "kind": "contain 1.00", "src": "t3/recast/recast_puns"}
+{"ds": "social/persuasion_humor/expun", "id": "social.persuasion_humor.expun:a55db28cc1a0", "kind": "contain 1.00", "src": "t3/tweet_eval/emotion"}
+{"ds": "pro/ecommerce/esci", "id": "pro.ecommerce.esci:1361578153de", "kind": "exact", "src": "pub/esci"}
+{"ds": "pro/ecommerce/esci", "id": "pro.ecommerce.esci:9f23ac62bd37", "kind": "exact", "src": "pub/esci"}
+{"ds": "pro/ecommerce/esci", "id": "pro.ecommerce.esci:1997fd132800", "kind": "contain 0.94", "src": "pub/esci"}
+{"ds": "pro/ecommerce/esci", "id": "pro.ecommerce.esci:04f4883b5d46", "kind": "exact", "src": "pub/esci"}
+{"ds": "pro/ecommerce/esci", "id": "pro.ecommerce.esci:2a290336591d", "kind": "exact", "src": "bekko/esci"}
+{"ds": "pro/ecommerce/esci", "id": "pro.ecommerce.esci:5d94659eb87a", "kind": "contain 0.84", "src": "bekko/esci"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:7b90cf2cae71", "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:23a181cc8c57", "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:db0dc740fbed", "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:95af66f0bb8a", "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:4dbefe3470b6", "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:873b0e5dd899", "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:dc045ba4b843", "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:076157bd896a", "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:7eddd7fb980c", "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:5c2b3b3975ac", "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:e363809acda7", "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:b2618286686c", "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:062e13bef7e5", "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:fa613ce1eb26", "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:ccf7e4fc982f", "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:fc145547819e", "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:5671831978f9", "kind": "exact", "src": "t3/financial_phrasebank/sentences_allagree"}
+{"ds": "pro/finance/financial_phrasebank", "id": "pro.finance.financial_phrasebank:256a9a324dbd", "kind": "exact", "src": "t3/auditor_review"}
+{"ds": "pro/legal/contractnli", "id": "pro.legal.contractnli:30c2eea5bbfe", "kind": "contain 0.89", "src": "pub/contractnli"}
+{"ds": "pro/legal/contractnli", "id": "pro.legal.contractnli:7bf1acf56935", "kind": "contain 1.00", "src": "pub/contractnli"}
+{"ds": "pro/legal/contractnli", "id": "pro.legal.contractnli:20d5693453a6", "kind": "contain 0.84", "src": "pub/contractnli"}
+{"ds": "pro/legal/contractnli", "id": "pro.legal.contractnli:e96699e2a3e0", "kind": "contain 0.99", "src": "pub/contractnli"}
+{"ds": "pro/legal/contractnli", "id": "pro.legal.contractnli:48641de605e2", "kind": "contain 0.98", "src": "pub/contractnli"}
+{"ds": "pro/legal/contractnli", "id": "pro.legal.contractnli:51512fb8b5a6", "kind": "contain 0.99", "src": "pub/contractnli"}
+{"ds": "pro/legal/contractnli", "id": "pro.legal.contractnli:d6e7fb56d5f0", "kind": "contain 0.98", "src": "pub/contractnli"}
+{"ds": "pro/legal/contractnli", "id": "pro.legal.contractnli:73573f9d9f15", "kind": "contain 0.98", "src": "pub/contractnli"}
+{"ds": "pro/legal/contractnli", "id": "pro.legal.contractnli:cdb663019aa9", "kind": "contain 0.84", "src": "pub/contractnli"}
+{"ds": "pro/legal/contractnli", "id": "pro.legal.contractnli:6ec93e4cec65", "kind": "contain 0.84", "src": "pub/contractnli"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:8cd859f21e69", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:495ab89555a3", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:b211b7c97fb9", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:68f06609a9f4", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:a3e479f00605", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:4e707013d937", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:cace94dbc421", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:8e6dc2c09a90", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:91fb4bb2d704", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:6962b3c8e2c3", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:42dfd9ab13fd", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:761fa6516db4", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:fdf8ace0dd5b", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:ff63b5982b7d", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:82a609c619ef", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:07b5e8076ade", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:966566781856", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:21dfdab2fa88", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:a3b45a3c301d", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:d9b8f7e89269", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:73df302d1bf2", "kind": "contain 0.91", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:afce17bab8a4", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:1a2394b3bdbe", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:80c4f25d832e", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:7dc8933fb887", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:13cc3235e73e", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:aba15f8aae3d", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:d341f3054000", "kind": "exact", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:bffb499e8037", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:404df45018fd", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:ca9fd3caf239", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:6c42e7bf3384", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:b457f3e53f00", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:ac086d639c94", "kind": "exact", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:bf5fe968833f", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:9909d291fe3d", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:bbdbdbf6a102", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:5e5020100716", "kind": "contain 0.83", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:56c1bf2c63d5", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:a499a0ade539", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:00b2f2ac826d", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:df9eb2479b8a", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:e537cfaf5a32", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:42c213601039", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:ac59ef80afeb", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:694429b4ef59", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:c5a1e06a8343", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:79d15646cf28", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:2f4173de41fe", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:46e5bc21e150", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:62eb4d0b5514", "kind": "exact", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:cbf36824cd08", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:0e5aeef07ed2", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:1a16d6da0fbe", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:a71e68ddc3dd", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:93608f2ec0b3", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:f5fe38d0550d", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:17b46e8c596e", "kind": "exact", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:2f8031c5d60c", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:e8bdb1eca250", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:02e978b2bd0e", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:34aa15441c04", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:e23a052e267a", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:53eeccf0e750", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:7ce67978e19c", "kind": "exact", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:7c10069d34cc", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:39d021f228b5", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/cuad", "id": "pro.legal.cuad:0f5e8ef885ec", "kind": "contain 1.00", "src": "src400/sister/contractnli/cuad"}
+{"ds": "pro/legal/legalbench", "id": "pro.legal.legalbench:ab18bdd9670a", "kind": "contain 1.00", "src": "t3/lex_glue/scotus"}
+{"ds": "pro/medical/pubmedqa", "id": "pro.medical.pubmedqa:8f0757870e4e", "kind": "contain 0.83", "src": "bekko/synthetic_relevance__bge_m3__pubmed_qa_labeled"}
+{"ds": "pro/support_tickets/banking77", "id": "pro.support_tickets.banking77:d4ebfbfe11bb", "kind": "exact", "src": "bekko/banking77"}
+{"ds": "pro/support_tickets/banking77", "id": "pro.support_tickets.banking77:28f68c0c0790", "kind": "contain 1.00", "src": "pub/banking77"}
+{"ds": "pro/support_tickets/cfpb_complaints", "id": "pro.support_tickets.cfpb_complaints:bfdbcb6b8c38", "kind": "exact", "src": "src400/docs/cfpb_issue"}
+{"ds": "pro/support_tickets/cfpb_complaints", "id": "pro.support_tickets.cfpb_complaints:040ad7d0cc35", "kind": "contain 0.84", "src": "src400/docs/cfpb_issue"}
+{"ds": "pro/support_tickets/cfpb_complaints", "id": "pro.support_tickets.cfpb_complaints:83af717a3f4d", "kind": "exact", "src": "src400/docs/cfpb_issue"}
+{"ds": "pro/support_tickets/cfpb_complaints", "id": "pro.support_tickets.cfpb_complaints:509a9cd2a20d", "kind": "contain 0.96", "src": "src400/docs/cfpb_product"}
+{"ds": "ret/retrieval_need/freshqa", "id": "ret.retrieval_need.freshqa:ae27cf467803", "kind": "exact", "src": "src400/sister/ragtruth/ragbench_hagrid"}
+{"ds": "ret/retrieval_need/freshqa", "id": "ret.retrieval_need.freshqa:8ad9af35eb79", "kind": "exact", "src": "bekko/bge-hn-mr-tydi_english"}
+{"ds": "ret/retrieval_need/freshqa", "id": "ret.retrieval_need.freshqa:a7fac2106cb1", "kind": "exact", "src": "bekko/oasst1"}
+{"ds": "code/code_search/cosqa", "id": "code.code_search.cosqa:f47e68e8b148", "kind": "contain 0.91", "src": "bekko/codesearch"}
+{"ds": "code/static_analysis_triage/d2a", "id": "code.static_analysis_triage.d2a:42dff6d3cd3a", "kind": "contain 0.94", "src": "t3/code_x_glue_cc_defect_detection"}
+{"ds": "dialog/clarification_need/ambigqa", "id": "dialog.clarification_need.ambigqa:112711452e91", "kind": "exact", "src": "bekko/natural_questions"}
+{"ds": "dialog/clarification_need/ambigqa", "id": "dialog.clarification_need.ambigqa:82a2a11adefd", "kind": "exact", "src": "bekko/synthetic_relevance__natural_questions"}
+{"ds": "dialog/end_of_turn/taskmaster1_woz", "id": "dialog.end_of_turn.taskmaster1_woz:18c3769aaf0e", "kind": "exact", "src": "bekko/hh_rlhf"}
+{"ds": "batch/semantic_grouping/abo_product_types", "id": "batch.semantic_grouping.abo_product_types:cdfd91074a06", "kind": "contain 0.87", "src": "pub/esci"}
+{"ds": "batch/semantic_grouping/airline_complaints", "id": "batch.semantic_grouping.airline_complaints:aae3e6b94493", "kind": "exact", "src": "t3/crowdflower/airline-sentiment"}
+{"ds": "batch/semantic_grouping/airline_complaints", "id": "batch.semantic_grouping.airline_complaints:8d6ec4e23b58", "kind": "exact", "src": "t3/crowdflower/airline-sentiment"}
+{"ds": "judge/instruction_following/ifbench", "id": "judge.instruction_following.ifbench:9f7038d08178", "kind": "contain 0.91", "src": "bekko/aegis2"}
+{"ds": "judge/instruction_following/ifeval_ppe", "id": "judge.instruction_following.ifeval_ppe:04f8dab7d0e1", "kind": "exact", "src": "t3/PromptShield"}
+{"ds": "judge/instruction_following/ifeval_ppe", "id": "judge.instruction_following.ifeval_ppe:aebbc8f6a744", "kind": "exact", "src": "t3/PromptShield"}
+{"ds": "judge/pointwise_rating/helpsteer2", "id": "judge.pointwise_rating.helpsteer2:353e84acb8e6", "kind": "exact", "src": "bekko/taskmaster"}
+{"ds": "judge/pointwise_rating/helpsteer2", "id": "judge.pointwise_rating.helpsteer2:6bb1a24ce98f", "kind": "exact", "src": "bekko/taskmaster"}
+{"ds": "judge/rag_faithfulness/begin", "id": "judge.rag_faithfulness.begin:93d85c201aed", "kind": "contain 1.00", "src": "t3/nli_fever"}
+{"ds": "judge/rag_faithfulness/begin", "id": "judge.rag_faithfulness.begin:9834acde6c20", "kind": "contain 1.00", "src": "t3/nli_fever"}
+{"ds": "judge/rag_faithfulness/begin", "id": "judge.rag_faithfulness.begin:4a0e87b8b1c0", "kind": "contain 0.80", "src": "bekko/synthetic_relevance__fineweb"}
+{"ds": "judge/reference_answer/answer_equivalence", "id": "judge.reference_answer.answer_equivalence:5296db6c9088", "kind": "exact", "src": "bekko/synthetic_relevance__bge_m3__mr-tydi_english"}
+{"ds": "judge/reference_answer/answer_equivalence", "id": "judge.reference_answer.answer_equivalence:a9bf800aa638", "kind": "contain 0.84", "src": "bekko/boolq"}
+{"ds": "judge/summary_consistency/faithbench", "id": "judge.summary_consistency.faithbench:0c74617ec2ef", "kind": "contain 0.97", "src": "pub/ragtruth"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:63c6e3ebadda", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:19bab1a21471", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:cd114aba6a65", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:c9d1a822bf73", "kind": "exact", "src": "t3/BeaverTails"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:78c98d6e94e9", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:c39d363d443b", "kind": "exact", "src": "bekko/aegis2"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:b5fce4243976", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:ce54a6abe9a8", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:f8d9c663fe8f", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:a00e6da1b6fd", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:1bd51b845cb0", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:a96d16f7a670", "kind": "contain 0.80", "src": "bekko/aegis2"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:d2d144a02079", "kind": "exact", "src": "t3/PKU-SafeRLHF/helpfulness"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:5dc0701068ca", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:ea753cf25efc", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:b22655d23e4e", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/aegis2", "id": "safety.harmfulness.aegis2:8cb9a9289de9", "kind": "contain 0.89", "src": "bekko/aegis2"}
+{"ds": "safety/harmfulness/beavertails", "id": "safety.harmfulness.beavertails:23ab0f4a7d0d", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/harmfulness/beavertails", "id": "safety.harmfulness.beavertails:98a40b6c78cf", "kind": "exact", "src": "bekko/aegis2"}
+{"ds": "safety/harmfulness/beavertails", "id": "safety.harmfulness.beavertails:dd2ddc5cf989", "kind": "exact", "src": "bekko/aegis2"}
+{"ds": "safety/harmfulness/beavertails", "id": "safety.harmfulness.beavertails:9b133678cae5", "kind": "contain 1.00", "src": "bekko/hh_rlhf"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:b6c3e50fa5e6", "kind": "contain 0.94", "src": "t3/toxic-chat/toxicchat0124/jailbreaking"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:461011009f19", "kind": "contain 1.00", "src": "t3/toxic-chat/toxicchat0124/toxicity"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:d0a64660f3d0", "kind": "exact", "src": "t3/toxic-chat/toxicchat0124/toxicity"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:d15413b63681", "kind": "contain 0.87", "src": "t3/toxic-chat/toxicchat0124/toxicity"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:5f85a2ccd898", "kind": "contain 0.90", "src": "t3/toxic-chat/toxicchat0124/toxicity"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:47b5ebdb3836", "kind": "contain 0.82", "src": "bekko/aegis2"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:8ca40855aca2", "kind": "contain 1.00", "src": "t3/toxic-chat/toxicchat0124/toxicity"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:51d35c782508", "kind": "contain 0.94", "src": "t3/toxic-chat/toxicchat0124/toxicity"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:d3ea11cd8211", "kind": "contain 1.00", "src": "t3/toxic-chat/toxicchat0124/toxicity"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:ad61663c70ff", "kind": "contain 0.93", "src": "t3/toxic-chat/toxicchat0124/toxicity"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:69054ab659b8", "kind": "contain 1.00", "src": "bekko/aegis2"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:ef6f328b09a0", "kind": "contain 1.00", "src": "t3/safe-guard-prompt-injection"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:0b52a58123c1", "kind": "exact", "src": "t3/toxic-chat/toxicchat0124/toxicity"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:8773e03ba5a8", "kind": "contain 0.97", "src": "bekko/aegis2"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:c4242c4e9a64", "kind": "contain 0.89", "src": "t3/toxic-chat/toxicchat0124/toxicity"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:129234e50b24", "kind": "contain 1.00", "src": "t3/toxic-chat/toxicchat0124/jailbreaking"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:db3e0e19d43d", "kind": "contain 0.94", "src": "t3/toxic-chat/toxicchat0124/toxicity"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:edabc9066566", "kind": "contain 0.86", "src": "bekko/helpsteer2"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:9c1601d96838", "kind": "contain 0.95", "src": "bekko/aegis2"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:bb80c4e3298e", "kind": "contain 0.97", "src": "bekko/aegis2"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:c5c89efb054b", "kind": "exact", "src": "bekko/aegis2"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:58c9b71b1b60", "kind": "contain 0.89", "src": "t3/toxic-chat/toxicchat0124/jailbreaking"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:d370e11134a9", "kind": "contain 1.00", "src": "bekko/aegis2"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:afab93ee84d6", "kind": "contain 1.00", "src": "t3/toxic-chat/toxicchat0124/jailbreaking"}
+{"ds": "safety/injection/toxicchat_jailbreak", "id": "safety.injection.toxicchat_jailbreak:741b5e7b4656", "kind": "exact", "src": "bekko/helpsteer2"}
+{"ds": "safety/refusal/xstest_prompts", "id": "safety.refusal.xstest_prompts:1dc506dc343c", "kind": "exact", "src": "t3/Prompt-injection-dataset/full"}
+{"ds": "safety/refusal/xstest_prompts", "id": "safety.refusal.xstest_prompts:64b234688044", "kind": "exact", "src": "bekko/aegis2"}
+{"ds": "safety/refusal/xstest_prompts", "id": "safety.refusal.xstest_prompts:eb1a059f7ae4", "kind": "exact", "src": "t3/Prompt-injection-dataset/full"}
+{"ds": "safety/refusal/xstest_prompts", "id": "safety.refusal.xstest_prompts:dea273d33eeb", "kind": "exact", "src": "t3/Prompt-injection-dataset/full"}
+{"ds": "safety/refusal/xstest_prompts", "id": "safety.refusal.xstest_prompts:8d16c37d60dc", "kind": "exact", "src": "t3/Prompt-injection-dataset/full"}
+{"ds": "safety/refusal/xstest_responses", "id": "safety.refusal.xstest_responses:6ca7f96e1ee0", "kind": "contain 1.00", "src": "bekko/helpsteer3"}
+{"ds": "safety/refusal/xstest_responses", "id": "safety.refusal.xstest_responses:ea05417f6990", "kind": "contain 1.00", "src": "bekko/helpsteer3"}
+{"ds": "safety/refusal/xstest_responses", "id": "safety.refusal.xstest_responses:713538a31ad0", "kind": "contain 1.00", "src": "bekko/helpsteer3"}
+{"ds": "safety/refusal/xstest_responses", "id": "safety.refusal.xstest_responses:6d2010b2837b", "kind": "contain 1.00", "src": "bekko/helpsteer3"}
+{"ds": "safety/refusal/xstest_responses", "id": "safety.refusal.xstest_responses:09e473bad49a", "kind": "contain 1.00", "src": "bekko/helpsteer3"}
+{"ds": "route/tool_selection/bfcl_live", "id": "route.tool_selection.bfcl_live:4df4532b8014", "kind": "contain 1.00", "src": "bekko/taskmaster"}
+{"ds": "route/tool_selection/bfcl_live", "id": "route.tool_selection.bfcl_live:736ca740f5fe", "kind": "exact", "src": "bekko/sgd"}
+{"ds": "route/tool_selection/bfcl_live", "id": "route.tool_selection.bfcl_live:7ac43c467b8e", "kind": "exact", "src": "bekko/sgd"}

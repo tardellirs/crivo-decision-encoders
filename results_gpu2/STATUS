@@ -1,0 +1,98 @@
+2026-10-21T09:03:41Z serial grid start NVIDIA A100-SXM4-40GB
+2026-10-21T09:03:41Z train start J s0
+2026-10-21T09:07:33Z train done J s0 232s "oom_skips": 0
+2026-10-21T09:07:33Z train start J s1
+2026-10-21T09:07:41Z eval start J s0
+2026-10-21T09:12:34Z train done J s1 301s "oom_skips": 0
+2026-10-21T09:12:34Z train start J s2
+2026-10-21T09:18:07Z train done J s2 333s "oom_skips": 0
+2026-10-21T09:18:07Z train start JnoBrier s0
+2026-10-21T09:19:15Z eval done J s0 (error lines: 0)
+2026-10-21T09:19:15Z eval start J s1
+2026-10-21T09:23:06Z train done JnoBrier s0 299s "oom_skips": 0
+2026-10-21T09:23:06Z train start JnoBrier s1
+2026-10-21T09:24:48Z serial grid v2 start NVIDIA A100-SXM4-40GB
+2026-10-21T09:24:48Z train start JnoBrier s1
+2026-10-21T09:24:48Z eval start J s1
+2026-10-21T09:25:18Z eval start J s2
+2026-10-21T09:31:16Z train done JnoBrier s1 388s "oom_skips": 0
+2026-10-21T09:31:16Z train start JnoBrier s2
+2026-10-21T09:32:23Z eval done J s1 (error lines: 0)
+2026-10-21T09:32:23Z eval start JnoBrier s0
+2026-10-21T09:37:52Z train done JnoBrier s2 396s "oom_skips": 0
+2026-10-21T09:37:52Z train start JnoKD s0
+2026-10-21T09:39:11Z eval done J s2 (error lines: 0)
+2026-10-21T09:39:11Z eval start JnoBrier s1
+2026-10-21T09:44:27Z train done JnoKD s0 395s "oom_skips": 0
+2026-10-21T09:44:27Z train start JnoKD s1
+2026-10-21T09:46:19Z eval done JnoBrier s0 (error lines: 0)
+2026-10-21T09:46:19Z eval start JnoBrier s2
+2026-10-21T09:51:03Z train done JnoKD s1 396s "oom_skips": 0
+2026-10-21T09:51:03Z train start JnoKD s2
+2026-10-21T09:53:12Z eval done JnoBrier s1 (error lines: 0)
+2026-10-21T09:53:12Z eval start JnoKD s0
+2026-10-21T09:57:32Z train done JnoKD s2 389s "oom_skips": 0
+2026-10-21T09:57:32Z train start Jraw s0
+2026-10-21T10:00:11Z eval done JnoBrier s2 (error lines: 0)
+2026-10-21T10:00:11Z eval start JnoKD s1
+2026-10-21T10:04:04Z train done Jraw s0 392s "oom_skips": 0
+2026-10-21T10:04:04Z train start Jraw s1
+2026-10-21T10:06:58Z eval done JnoKD s0 (error lines: 0)
+2026-10-21T10:06:58Z eval start JnoKD s2
+2026-10-21T10:10:34Z train done Jraw s1 390s "oom_skips": 0
+2026-10-21T10:10:34Z train start Jraw s2
+2026-10-21T10:14:02Z eval done JnoKD s1 (error lines: 0)
+2026-10-21T10:14:02Z eval start Jraw s0
+2026-10-21T10:17:06Z train done Jraw s2 392s "oom_skips": 0
+2026-10-21T10:17:06Z train start P s0
+2026-10-21T10:20:54Z eval done JnoKD s2 (error lines: 0)
+2026-10-21T10:20:54Z eval start Jraw s1
+2026-10-21T10:24:28Z serial grid v3 start NVIDIA A100-SXM4-40GB
+2026-10-21T10:24:28Z train start P s0
+2026-10-21T10:24:28Z eval start Jraw s0
+2026-10-21T10:24:58Z eval start Jraw s1
+2026-10-21T10:29:56Z eval done Jraw s0 (error lines: 256)
+2026-10-21T10:29:56Z eval start Jraw s2
+2026-10-21T10:37:11Z eval done Jraw s1 (error lines: 128)
+2026-10-21T10:44:46Z eval done Jraw s2 (error lines: 192)
+2026-10-21T10:54:37Z fix Jraw s2 s1_60 start
+2026-10-21T10:55:24Z fix Jraw s2 s1_60 done
+2026-10-21T10:55:44Z fix Jraw s2 s1_60 start
+2026-10-21T10:56:13Z fix Jraw s2 s1_60 done
+2026-10-21T10:56:13Z fix Jraw s2 s1_60 start
+2026-10-21T10:56:26Z fix Jraw s2 s1_60 done
+2026-10-21T10:56:26Z fix Jraw s2 s1_60 start
+2026-10-21T10:56:39Z fix Jraw s2 s1_60 done
+2026-10-21T11:28:58Z train done P s0 3870s "oom_skips": 2
+2026-10-21T11:28:58Z SKIPS P s0 (batches dropped by OOM)
+2026-10-21T11:28:58Z train start P s1
+2026-10-21T11:29:11Z eval start P s0
+2026-10-21T11:43:21Z eval start P s0 (batched)
+2026-10-21T12:32:36Z eval done P s0 (batched)
+2026-10-21T12:52:45Z train done P s1 5027s "oom_skips": 0
+2026-10-21T12:52:45Z train start P s2
+2026-10-21T12:53:37Z eval start P s1 (batched)
+2026-10-21T13:21:11Z evalP paused until lane.finished (P s2 had 6 OOM skips beside P s1 eval)
+2026-10-21T14:03:06Z train done P s2 4221s "oom_skips": 6
+2026-10-21T14:03:06Z SKIPS P s2 (batches dropped by OOM)
+2026-10-21T14:03:11Z eval start P s1 (batched)
+2026-10-21T14:03:13Z train start Jsteps s0
+2026-10-21T14:03:22Z GRID DONE
+2026-10-21T14:11:51Z train done Jsteps s0 518s "oom_skips": 0
+2026-10-21T14:11:51Z train start Jsteps s1
+2026-10-21T14:11:51Z eval start Jsteps s0
+2026-10-21T14:22:32Z train done Jsteps s1 641s "oom_skips": 0
+2026-10-21T14:22:32Z train start Jsteps s2
+2026-10-21T14:22:32Z eval start Jsteps s1
+2026-10-21T14:23:58Z eval done P s1 (batched)
+2026-10-21T14:23:58Z eval start P s2 (batched)
+2026-10-21T14:27:12Z eval done Jsteps s0
+2026-10-21T14:32:55Z train done Jsteps s2 623s "oom_skips": 0
+2026-10-21T14:32:55Z eval start Jsteps s2
+2026-10-21T14:36:06Z eval done Jsteps s1
+2026-10-21T14:43:03Z eval done Jsteps s2
+2026-10-21T14:55:11Z eval done P s2 (batched)
+2026-10-21T14:55:32Z P EVALS DONE
+2026-10-21T14:56:24Z JSTEPS DONE
+2026-10-21T15:01:17Z final fix start
+2026-10-21T15:02:51Z final fix done

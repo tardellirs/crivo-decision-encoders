@@ -1,0 +1,19 @@
+{
+ "engine": "peropt:~/.cache/huggingface/hub/models--tardellirs--crivo-32m/snapshots/c14221dd5cb4953fa83dc40ccf3b90b37126668e",
+ "device": "cuda",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "threads": 30,
+ "requests": 1000,
+ "timed": 1000,
+ "unsupported": 0,
+ "load_s": 5.0,
+ "median_ms": 10.705535500164842,
+ "p95_ms": 355.0473389987019,
+ "mean_ms": 63.3414401598784,
+ "throughput_req_s": 15.777811694728612,
+ "questions": 1386,
+ "options_per_request_mean": 19.556,
+ "peak_rss_mb": 1608.37109375,
+ "peak_alloc_mb": 2305.71240234375,
+ "peak_reserved_mb": 4982.0
+}

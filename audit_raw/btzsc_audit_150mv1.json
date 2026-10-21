@@ -1,0 +1,552 @@
+{
+ "train_files": [
+  "mix_v1.train.jsonl.gz",
+  "mix_v2c.train.jsonl.gz",
+  "mix_v3.train.jsonl.gz",
+  "mix_v1.dev.jsonl.gz",
+  "mix_v2c.dev.jsonl.gz",
+  "mix_v3.dev.jsonl.gz"
+ ],
+ "n_targets": 172501,
+ "per_dataset": {
+  "amazonpolarity": {
+   "n": 10000,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "imdb": {
+   "n": 10000,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "appreviews": {
+   "n": 4000,
+   "short": 2,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "yelpreviews": {
+   "n": 10000,
+   "short": 55,
+   "short_exact": 8,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "rottentomatoes": {
+   "n": 1066,
+   "short": 34,
+   "short_exact": 1,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "financialphrasebank": {
+   "n": 690,
+   "short": 5,
+   "short_exact": 1,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "emotiondair": {
+   "n": 2000,
+   "short": 35,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "empathetic": {
+   "n": 2542,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "banking77": {
+   "n": 3080,
+   "short": 73,
+   "short_exact": 3,
+   "exact": 25,
+   "c80": 34,
+   "c50": 112,
+   "any": 52,
+   "examples": [
+    {
+     "id": 36,
+     "kind": "contain 1.00",
+     "src": "pub/banking77",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 53,
+     "kind": "contain 1.00",
+     "src": "pub/banking77",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 127,
+     "kind": "contain 1.00",
+     "src": "pub/banking77",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 158,
+     "kind": "contain 1.00",
+     "src": "pub/banking77",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 174,
+     "kind": "exact",
+     "src": "bekko/banking77",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "pub/banking77": 22,
+    "bekko/banking77": 19,
+    "bekko/minds14": 7,
+    "pub/clinc150": 3,
+    "bekko/clinc": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 52
+   }
+  },
+  "biasframes_intent": {
+   "n": 3648,
+   "short": 22,
+   "short_exact": 1,
+   "exact": 1,
+   "c80": 1,
+   "c50": 2,
+   "any": 1,
+   "examples": [
+    {
+     "id": 3171,
+     "kind": "exact",
+     "src": "bekko/measuring_hate",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/measuring_hate": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "massive": {
+   "n": 2974,
+   "short": 678,
+   "short_exact": 56,
+   "exact": 19,
+   "c80": 17,
+   "c50": 34,
+   "any": 34,
+   "examples": [
+    {
+     "id": 147,
+     "kind": "exact",
+     "src": "pub/clinc150",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 241,
+     "kind": "exact",
+     "src": "pub/clinc150",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 419,
+     "kind": "contain 1.00",
+     "src": "bekko/massive",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 458,
+     "kind": "contain 1.00",
+     "src": "bekko/massive",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 512,
+     "kind": "contain 0.90",
+     "src": "bekko/massive",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "pub/clinc150": 15,
+    "bekko/massive": 10,
+    "bekko/hwu64": 3,
+    "bekko/oasst1": 2,
+    "extra/bfcl-glaive": 1,
+    "bekko/aegis2": 1,
+    "pub/when2call": 1,
+    "bekko/mtop": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 33,
+    "mix_v2c.train.jsonl.gz": 1
+   }
+  },
+  "agnews": {
+   "n": 7600,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 1,
+   "c80": 45,
+   "c50": 150,
+   "any": 45,
+   "examples": [
+    {
+     "id": 270,
+     "kind": "contain 0.87",
+     "src": "bekko/agnews",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 308,
+     "kind": "contain 0.85",
+     "src": "bekko/synthetic_relevance__agnews",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 441,
+     "kind": "contain 0.81",
+     "src": "bekko/laya__ag_news",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 527,
+     "kind": "contain 0.84",
+     "src": "bekko/synthetic_relevance__agnews",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 580,
+     "kind": "contain 0.80",
+     "src": "bekko/laya__ag_news",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/laya__ag_news": 18,
+    "bekko/synthetic_relevance__agnews": 15,
+    "bekko/agnews": 12
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 45
+   }
+  },
+  "yahootopics": {
+   "n": 45002,
+   "short": 4,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 3,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "trueteacher": {
+   "n": 8955,
+   "short": 0,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "manifesto": {
+   "n": 17018,
+   "short": 17,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 3,
+   "c50": 6,
+   "any": 3,
+   "examples": [
+    {
+     "id": 6552,
+     "kind": "contain 1.00",
+     "src": "bekko/laya__phishing",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 8196,
+     "kind": "contain 1.00",
+     "src": "bekko/laya__phishing",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 8264,
+     "kind": "contain 1.00",
+     "src": "bekko/laya__phishing",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/laya__phishing": 3
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 3
+   }
+  },
+  "capsotu": {
+   "n": 3355,
+   "short": 3,
+   "short_exact": 0,
+   "exact": 0,
+   "c80": 0,
+   "c50": 0,
+   "any": 0,
+   "examples": [],
+   "srcs": {},
+   "files": {}
+  },
+  "biasframes_offensive": {
+   "n": 3838,
+   "short": 24,
+   "short_exact": 1,
+   "exact": 2,
+   "c80": 2,
+   "c50": 3,
+   "any": 2,
+   "examples": [
+    {
+     "id": 2134,
+     "kind": "exact",
+     "src": "bekko/measuring_hate",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 3409,
+     "kind": "exact",
+     "src": "bekko/qasper",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/measuring_hate": 1,
+    "bekko/qasper": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 2
+   }
+  },
+  "biasframes_sex": {
+   "n": 4404,
+   "short": 30,
+   "short_exact": 1,
+   "exact": 2,
+   "c80": 2,
+   "c50": 3,
+   "any": 2,
+   "examples": [
+    {
+     "id": 555,
+     "kind": "exact",
+     "src": "bekko/measuring_hate",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 594,
+     "kind": "exact",
+     "src": "bekko/qasper",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/measuring_hate": 1,
+    "bekko/qasper": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 2
+   }
+  },
+  "wikitoxic_toxicaggregated": {
+   "n": 10000,
+   "short": 567,
+   "short_exact": 29,
+   "exact": 1,
+   "c80": 1,
+   "c50": 2,
+   "any": 2,
+   "examples": [
+    {
+     "id": 1289,
+     "kind": "exact",
+     "src": "bekko/sgd",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 5723,
+     "kind": "contain 1.00",
+     "src": "bekko/measuring_hate",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/sgd": 1,
+    "bekko/measuring_hate": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 2
+   }
+  },
+  "wikitoxic_obscene": {
+   "n": 8691,
+   "short": 470,
+   "short_exact": 22,
+   "exact": 1,
+   "c80": 3,
+   "c50": 3,
+   "any": 4,
+   "examples": [
+    {
+     "id": 684,
+     "kind": "contain 1.00",
+     "src": "bekko/fineweb",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 2295,
+     "kind": "exact",
+     "src": "bekko/taskmaster",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 4477,
+     "kind": "contain 1.00",
+     "src": "bekko/helpsteer2",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 7408,
+     "kind": "contain 1.00",
+     "src": "bekko/measuring_hate",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/fineweb": 1,
+    "bekko/taskmaster": 1,
+    "bekko/helpsteer2": 1,
+    "bekko/measuring_hate": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 4
+   }
+  },
+  "wikitoxic_threat": {
+   "n": 5211,
+   "short": 202,
+   "short_exact": 20,
+   "exact": 1,
+   "c80": 0,
+   "c50": 0,
+   "any": 1,
+   "examples": [
+    {
+     "id": 559,
+     "kind": "exact",
+     "src": "bekko/taskmaster",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/taskmaster": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 1
+   }
+  },
+  "wikitoxic_insult": {
+   "n": 8427,
+   "short": 426,
+   "short_exact": 20,
+   "exact": 2,
+   "c80": 1,
+   "c50": 2,
+   "any": 3,
+   "examples": [
+    {
+     "id": 1082,
+     "kind": "exact",
+     "src": "bekko/laya__enron_spam",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 2219,
+     "kind": "exact",
+     "src": "bekko/taskmaster",
+     "file": "mix_v1.train.jsonl.gz"
+    },
+    {
+     "id": 5147,
+     "kind": "contain 1.00",
+     "src": "bekko/measuring_hate",
+     "file": "mix_v1.train.jsonl.gz"
+    }
+   ],
+   "srcs": {
+    "bekko/laya__enron_spam": 1,
+    "bekko/taskmaster": 1,
+    "bekko/measuring_hate": 1
+   },
+   "files": {
+    "mix_v1.train.jsonl.gz": 3
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "engine": "letter:Qwen/Qwen3-0.6B",
+ "device": "cuda",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "threads": 30,
+ "requests": 1000,
+ "timed": 929,
+ "unsupported": 71,
+ "load_s": 5.3,
+ "median_ms": 33.84889999870211,
+ "p95_ms": 113.25044099794468,
+ "mean_ms": 52.62247467274698,
+ "throughput_req_s": 18.978809117337175,
+ "questions": 1386,
+ "options_per_request_mean": 19.556,
+ "peak_rss_mb": 2464.3359375,
+ "peak_alloc_mb": 2043.7939453125,
+ "peak_reserved_mb": 2580.0
+}

@@ -1,0 +1,18 @@
+{
+ "engine": "nli:MoritzLaurer/deberta-v3-large-zeroshot-v2.0",
+ "device": "cpu",
+ "gpu": null,
+ "threads": 16,
+ "requests": 80,
+ "timed": 80,
+ "unsupported": 0,
+ "load_s": 5.2,
+ "median_ms": 728.259746499134,
+ "p95_ms": 61021.948974001134,
+ "mean_ms": 12102.865747724854,
+ "throughput_req_s": 0.08262460503300319,
+ "questions": 113,
+ "options_per_request_mean": 20.85,
+ "peak_rss_mb": 7659.1484375,
+ "cpu_model": "AMD EPYC 7J13 64-Core Processor"
+}

@@ -1,0 +1,222 @@
+{
+ "agnews": {
+  "test_unique_texts": 7600,
+  "laurer_train_unique_texts": 2000,
+  "exact_any": 126,
+  "exact_any_ge5w": 126,
+  "exact_same_task": 126,
+  "near8_same_task": 128,
+  "hyp_btzsc": 4,
+  "hyp_in_laurer_train": 4
+ },
+ "amazonpolarity": {
+  "test_unique_texts": 10000,
+  "laurer_train_unique_texts": 1000,
+  "exact_any": 0,
+  "exact_any_ge5w": 0,
+  "exact_same_task": 0,
+  "near8_same_task": 1,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ },
+ "appreviews": {
+  "test_unique_texts": 4000,
+  "laurer_train_unique_texts": 1000,
+  "exact_any": 0,
+  "exact_any_ge5w": 0,
+  "exact_same_task": 0,
+  "near8_same_task": 10,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ },
+ "banking77": {
+  "test_unique_texts": 3080,
+  "laurer_train_unique_texts": 4867,
+  "exact_any": 18,
+  "exact_any_ge5w": 18,
+  "exact_same_task": 18,
+  "near8_same_task": 25,
+  "hyp_btzsc": 72,
+  "hyp_in_laurer_train": 72
+ },
+ "biasframes_intent": {
+  "test_unique_texts": 3648,
+  "laurer_train_unique_texts": 999,
+  "exact_any": 22,
+  "exact_any_ge5w": 21,
+  "exact_same_task": 6,
+  "near8_same_task": 8,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ },
+ "biasframes_offensive": {
+  "test_unique_texts": 3838,
+  "laurer_train_unique_texts": 999,
+  "exact_any": 22,
+  "exact_any_ge5w": 21,
+  "exact_same_task": 4,
+  "near8_same_task": 6,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ },
+ "biasframes_sex": {
+  "test_unique_texts": 4404,
+  "laurer_train_unique_texts": 1000,
+  "exact_any": 26,
+  "exact_any_ge5w": 25,
+  "exact_same_task": 5,
+  "near8_same_task": 5,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ },
+ "capsotu": {
+  "test_unique_texts": 3355,
+  "laurer_train_unique_texts": 2324,
+  "exact_any": 0,
+  "exact_any_ge5w": 0,
+  "exact_same_task": 0,
+  "near8_same_task": 0,
+  "hyp_btzsc": 21,
+  "hyp_in_laurer_train": 21
+ },
+ "emotiondair": {
+  "test_unique_texts": 2000,
+  "laurer_train_unique_texts": 2518,
+  "exact_any": 2,
+  "exact_any_ge5w": 2,
+  "exact_same_task": 2,
+  "near8_same_task": 2,
+  "hyp_btzsc": 6,
+  "hyp_in_laurer_train": 6
+ },
+ "empathetic": {
+  "test_unique_texts": 2542,
+  "laurer_train_unique_texts": 2113,
+  "exact_any": 0,
+  "exact_any_ge5w": 0,
+  "exact_same_task": 0,
+  "near8_same_task": 0,
+  "hyp_btzsc": 32,
+  "hyp_in_laurer_train": 32
+ },
+ "financialphrasebank": {
+  "test_unique_texts": 690,
+  "laurer_train_unique_texts": 1262,
+  "exact_any": 0,
+  "exact_any_ge5w": 0,
+  "exact_same_task": 0,
+  "near8_same_task": 1,
+  "hyp_btzsc": 3,
+  "hyp_in_laurer_train": 3
+ },
+ "imdb": {
+  "test_unique_texts": 9956,
+  "laurer_train_unique_texts": 1000,
+  "exact_any": 6,
+  "exact_any_ge5w": 6,
+  "exact_same_task": 6,
+  "near8_same_task": 6,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ },
+ "manifesto": {
+  "test_unique_texts": 16678,
+  "laurer_train_unique_texts": 4901,
+  "exact_any": 188,
+  "exact_any_ge5w": 188,
+  "exact_same_task": 188,
+  "near8_same_task": 212,
+  "hyp_btzsc": 56,
+  "hyp_in_laurer_train": 56
+ },
+ "massive": {
+  "test_unique_texts": 2970,
+  "laurer_train_unique_texts": 4959,
+  "exact_any": 15,
+  "exact_any_ge5w": 9,
+  "exact_same_task": 11,
+  "near8_same_task": 13,
+  "hyp_btzsc": 59,
+  "hyp_in_laurer_train": 59
+ },
+ "rottentomatoes": {
+  "test_unique_texts": 1066,
+  "laurer_train_unique_texts": 1000,
+  "exact_any": 0,
+  "exact_any_ge5w": 0,
+  "exact_same_task": 0,
+  "near8_same_task": 0,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ },
+ "trueteacher": {
+  "test_unique_texts": 8955,
+  "laurer_train_unique_texts": 1000,
+  "exact_any": 0,
+  "exact_any_ge5w": 0,
+  "exact_same_task": 0,
+  "near8_same_task": 547,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ },
+ "wikitoxic_insult": {
+  "test_unique_texts": 8427,
+  "laurer_train_unique_texts": 1000,
+  "exact_any": 5,
+  "exact_any_ge5w": 5,
+  "exact_same_task": 1,
+  "near8_same_task": 19,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ },
+ "wikitoxic_obscene": {
+  "test_unique_texts": 8691,
+  "laurer_train_unique_texts": 1000,
+  "exact_any": 11,
+  "exact_any_ge5w": 6,
+  "exact_same_task": 2,
+  "near8_same_task": 29,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ },
+ "wikitoxic_threat": {
+  "test_unique_texts": 5211,
+  "laurer_train_unique_texts": 913,
+  "exact_any": 8,
+  "exact_any_ge5w": 2,
+  "exact_same_task": 1,
+  "near8_same_task": 18,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ },
+ "wikitoxic_toxicaggregated": {
+  "test_unique_texts": 10000,
+  "laurer_train_unique_texts": 999,
+  "exact_any": 13,
+  "exact_any_ge5w": 10,
+  "exact_same_task": 2,
+  "near8_same_task": 22,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ },
+ "yahootopics": {
+  "test_unique_texts": 50000,
+  "laurer_train_unique_texts": 5000,
+  "exact_any": 0,
+  "exact_any_ge5w": 0,
+  "exact_same_task": 0,
+  "near8_same_task": 51,
+  "hyp_btzsc": 10,
+  "hyp_in_laurer_train": 10
+ },
+ "yelpreviews": {
+  "test_unique_texts": 10000,
+  "laurer_train_unique_texts": 949,
+  "exact_any": 446,
+  "exact_any_ge5w": 443,
+  "exact_same_task": 446,
+  "near8_same_task": 440,
+  "hyp_btzsc": 2,
+  "hyp_in_laurer_train": 2
+ }
+}

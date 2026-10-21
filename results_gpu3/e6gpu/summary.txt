@@ -1,0 +1,8 @@
+common subset: 1000 requests
+system                   req  skip |       med       p95      mean (all answered) |       med       p95      mean (common)
+P_s0-per-question.a     1000     0 |      10.6     352.4      62.9 |      10.6     352.4      62.9
+P_s0-per-question.b     1000     0 |      10.6     351.8      63.0 |      10.6     351.8      63.0
+P_s0-request-batched.a  1000     0 |      10.7     343.3      59.9 |      10.7     343.3      59.9
+P_s0-request-batched.b  1000     0 |      10.7     314.1      58.1 |      10.7     314.1      58.1
+crivo-32m-v2.a          1000     0 |      10.5      33.2      13.9 |      10.5      33.2      13.9
+crivo-32m-v2.b          1000     0 |      10.2      32.5      13.6 |      10.2      32.5      13.6

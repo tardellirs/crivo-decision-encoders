@@ -1,0 +1,19 @@
+{
+ "engine": "crivo:tardellirs/crivo-32m",
+ "device": "cuda",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "threads": 30,
+ "requests": 1000,
+ "timed": 1000,
+ "unsupported": 0,
+ "load_s": 4.9,
+ "median_ms": 10.513781497138552,
+ "p95_ms": 33.33091699460056,
+ "mean_ms": 13.86127808575111,
+ "throughput_req_s": 71.94441166286188,
+ "questions": 1386,
+ "options_per_request_mean": 19.556,
+ "peak_rss_mb": 1628.9453125,
+ "peak_alloc_mb": 1264.30029296875,
+ "peak_reserved_mb": 3060.0
+}

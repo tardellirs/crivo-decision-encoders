@@ -1,0 +1,19 @@
+{
+ "engine": "reranker:cross-encoder/ettin-reranker-32m-v1",
+ "device": "cuda",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "threads": 30,
+ "requests": 1000,
+ "timed": 1000,
+ "unsupported": 0,
+ "load_s": 4.9,
+ "median_ms": 9.467952502745902,
+ "p95_ms": 890.9345499996562,
+ "mean_ms": 148.65347594805644,
+ "throughput_req_s": 6.725249549350516,
+ "questions": 1386,
+ "options_per_request_mean": 19.556,
+ "peak_rss_mb": 1523.54296875,
+ "peak_alloc_mb": 15153.75390625,
+ "peak_reserved_mb": 35110.0
+}
