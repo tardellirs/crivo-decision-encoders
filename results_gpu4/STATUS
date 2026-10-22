@@ -1,0 +1,28 @@
+2026-10-21T21:29:43Z inputs md5 ok; prefetch ok: ok jhu-clsp/ettin-encoder-32m 32033665; code=c14221dd5cb4953fa83dc40ccf3b90b37126668e; GPU NVIDIA A100-SXM4-40GB, 40960 MiB
+2026-10-21T21:29:44Z train start Praw s1
+2026-10-21T22:26:33Z train done Praw s1 3409s "steps": 6860, "oom_skips": 0, "tokens_total": 161346063, "questions_total": 150000, "train_seconds": 3393.3, "total_planned": 6860}
+2026-10-21T22:26:33Z train start Praw s2
+2026-10-21T23:24:14Z train done Praw s2 3461s "steps": 6859, "oom_skips": 0, "tokens_total": 161346063, "questions_total": 150000, "train_seconds": 3444.1, "total_planned": 6859}
+2026-10-21T23:24:14Z train start JrawComp s0
+2026-10-21T23:24:14Z eval start Praw s1
+2026-10-21T23:46:05Z eval ran Praw s1
+2026-10-21T23:46:05Z eval start Praw s2
+2026-10-21T23:46:14Z train done JrawComp s0 1320s "steps": 6858, "oom_skips": 0, "tokens_total": 136769305, "questions_total": 487579, "train_seconds": 1306.3, "total_planned": 6858}
+2026-10-21T23:46:14Z train start JrawComp s1
+2026-10-22T00:07:49Z eval ran Praw s2
+2026-10-22T00:07:49Z eval start JrawComp s0
+2026-10-22T00:08:07Z train done JrawComp s1 1313s "steps": 6860, "oom_skips": 0, "tokens_total": 136615113, "questions_total": 487730, "train_seconds": 1300.0, "total_planned": 6860}
+2026-10-22T00:08:07Z train start JrawComp s2
+2026-10-22T00:15:31Z eval ran JrawComp s0
+2026-10-22T00:15:31Z eval start JrawComp s1
+2026-10-22T00:23:49Z eval ran JrawComp s1
+2026-10-22T00:24:35Z train done JrawComp s2 988s "steps": 6859, "oom_skips": 0, "tokens_total": 136617609, "questions_total": 487650, "train_seconds": 975.3, "total_planned": 6859}
+2026-10-22T00:24:35Z eval start JrawComp s2
+2026-10-22T00:28:36Z eval ran JrawComp s2
+2026-10-22T00:28:45Z eval done Praw s1 (0 effective errors)
+2026-10-22T00:28:54Z eval done Praw s2 (0 effective errors)
+2026-10-22T00:29:02Z eval done JrawComp s0 (0 effective errors)
+2026-10-22T00:29:11Z eval done JrawComp s1 (0 effective errors)
+2026-10-22T00:29:20Z eval done JrawComp s2 (0 effective errors)
+2026-10-22T00:29:21Z compare:  per-option - joint @ raw init       (Praw - JrawComp)    pub15_skill    -0.0115 [-0.0382, +0.0152]  contains 0    s1_acc         +0.0028 [-0.0072, +0.0127]  contains 0    btzsc_all_f1   +0.0196 [-0.0103, +0.0495]  contains 0 
+2026-10-22T00:29:21Z ALL DONE

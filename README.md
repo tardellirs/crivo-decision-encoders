@@ -1,4 +1,4 @@
-# Joint or Per-Option? Compact Encoders for Closed-Set Decisions
+# Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters
 
 [![License: Apache-2.0](https://img.shields.io/badge/code%20license-Apache--2.0-blue.svg)](LICENSE)
 [![Paper: in preparation](https://img.shields.io/badge/paper-in%20preparation-lightgrey.svg)](#citation)
@@ -6,18 +6,20 @@
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](#installation)
 
 Code, evaluation adapters and lightweight result files for the paper **"Joint or Per-Option? Compact Encoders for
-Closed-Set Decisions from 17M to 1B Parameters"** (Tardelli Stekel, 2026, in preparation).
+Closed-Set Decisions from 17 Million to 1 Billion Parameters"** (Tardelli Stekel, 2026, in preparation).
 
 Many language-model pipelines end in a closed-set decision: pick a tool, route a request, judge a claim. We ask how
 small an encoder for such decisions can be, and whether it should read the candidate options **jointly** (all options
 in one sequence, one pass) or **per option** (one sequence per option, n passes). In a controlled three-seed ablation
 at 32M parameters, per-option scoring beats the joint reader by **5.8 points** of chance-corrected skill at matched
 optimizer steps and by **2.8 points** at approximately matched training compute, at the cost of 5–13× more encoder
-passes. We also release six joint encoders, **Crivo-17M to Crivo-1B**, and evaluate them on overlap-audited external
-benchmarks (System1-Arena, BTZSC), for option-order robustness, calibration and CPU/GPU latency. This repository holds
-everything needed to rerun those experiments and to regenerate every table and figure of the paper from the shipped
-result files. The [experiment log](docs/EXPERIMENT_LOG.md) records every run, including the decision rules written
-before each GPU run.
+passes. Crossing reader with initialisation (three seeds per cell, matched compute) shows that this advantage appears
+**only with the reranker initialisation**, whose (query, candidate) pair input matches per-option reading; from the raw
+Ettin encoder the two readers are indistinguishable. We also release six joint encoders, **Crivo-17M to Crivo-1B**,
+and evaluate them on overlap-audited external benchmarks (System1-Arena, BTZSC), for option-order robustness,
+calibration and CPU/GPU latency. This repository holds everything needed to rerun those experiments and to regenerate
+every table and figure of the paper from the shipped result files. The [experiment log](docs/EXPERIMENT_LOG.md)
+records every run, including the decision rules written before each GPU run.
 
 <p align="center">
   <img src="docs/fig_reader.png" width="640" alt="Joint reader: one sequence per question with all options attending to each other. Per-option reader: one sequence per option, softmax across the n logits.">
@@ -62,11 +64,47 @@ control, with Welch 95% CIs over seeds (3 + 3).
 | J-steps | joint | 6,842–6,843 | 0.187 | 0.417 | 0.485 | 0.262 |
 | J-comp | joint | 6,858–6,860 (≈ 3.25 epochs) | 0.217 | 0.424 | 0.532 | 0.253 |
 | **P** | per option | 6,853–6,860 † | **0.245** | **0.455** | **0.602** | **0** (by construction) |
-| P-raw (1 seed, raw Ettin init) | per option | 6,858 | 0.204 | 0.419 | 0.494 | 0 |
+| J-comp-raw (raw Ettin init, GPU-4) | joint | 6,858–6,860 | 0.226 | 0.416 | 0.459 | — ‡ |
+| P-raw (raw Ettin init; seed 0 GPU-3, seeds 1–2 GPU-4) | per option | 6,858–6,860 | 0.214 | 0.419 | 0.478 | 0 |
 | J-raw (raw Ettin init) | joint | 2,112–2,114 | 0.175 | 0.413 | 0.350 | 0.223 |
 
 † P dropped 2 / 0 / 6 batches to CUDA OOM (seeds 0 / 1 / 2) of 6,858–6,860 planned steps; every other run
-dropped none.
+dropped none. ‡ GPU-4 ran no option-permutation (E4) evaluation.
+
+### Initialisation × reader 2×2 (32M, 3 seeds per cell, matched compute)
+
+GPU-4 completed the 2×2 of reader (joint / per option) × initialisation (`cross-encoder/ettin-reranker-32m-v1` /
+raw `jhu-clsp/ettin-encoder-32m`): J-comp-raw is J-comp trained from the raw encoder (3 seeds) and P-raw gained
+seeds 1–2. All four cells train for P's optimizer-step count per seed (6,858 / 6,860 / 6,859) on the same 150k rows,
+with the same loss, LR schedule and evaluation. Means ± sd over 3 seeds:
+
+| Initialisation | Joint, compute-matched | Per option |
+|---|---|---|
+| reranker | **J-comp**: skill 0.217 ± 0.006 · S1 0.424 ± 0.008 · BTZSC 0.532 ± 0.006 | **P**: skill 0.245 ± 0.003 · S1 0.455 ± 0.001 · BTZSC 0.602 ± 0.022 |
+| raw Ettin encoder | **J-comp-raw**: skill 0.226 ± 0.013 · S1 0.416 ± 0.001 · BTZSC 0.459 ± 0.011 | **P-raw**: skill 0.214 ± 0.011 · S1 0.419 ± 0.004 · BTZSC 0.478 ± 0.014 |
+
+Contrasts and reading rules were pre-registered before the run ([experiment log §18.y.1](docs/EXPERIMENT_LOG.md)).
+Welch 95% CIs over seeds (3 vs 3; C4 with Welch–Satterthwaite df over the four cells); bold = CI excludes 0.
+
+| Contrast | pub15 skill | S1 acc (s1_60) | BTZSC F1 (500/dataset) |
+|---|---|---|---|
+| **C1** (primary): P-raw − J-comp-raw, reader effect at raw init | −0.011 [−0.038, +0.015] | +0.003 [−0.007, +0.013] | +0.020 [−0.010, +0.050] |
+| **C2**: P − P-raw, reranker gain for the per-option reader | **+0.031** [+0.006, +0.055] | **+0.036** [+0.026, +0.046] | **+0.123** [+0.077, +0.169] |
+| **C3**: J-comp − J-comp-raw, reranker gain for the joint reader | −0.009 [−0.035, +0.017] | +0.007 [−0.013, +0.028] | **+0.073** [+0.051, +0.095] |
+| **C4**: interaction C2 − C3 | **+0.040** [+0.014, +0.066] | **+0.028** [+0.011, +0.045] | **+0.050** [+0.006, +0.094] |
+| P − J-comp, reader effect at reranker init (GPU-3, unchanged) | **+0.028** [+0.015, +0.042] | **+0.031** [+0.010, +0.051] | **+0.070** [+0.018, +0.121] |
+
+From the raw encoder the two readers are indistinguishable at matched compute (C1 contains 0 on all three metrics),
+and the interaction is above 0 on all three: the per-option advantage at 32M appears only with the reranker
+initialisation. The reranker helps the per-option reader on every metric but the joint reader only on BTZSC. The most
+direct reading is a format match (the Ettin rerankers were trained on query–document pairs, exactly the per-option
+input); the 2×2 does not test that interpretation directly, and with three seeds per cell a small advantage of either
+reader at raw initialisation is not excluded. Compute also matters at raw init (J-comp-raw − J-raw: +0.051
+[+0.023, +0.079] skill, +0.109 [+0.086, +0.133] BTZSC F1). Every GPU-4 training ran its planned steps with 0 OOM
+skips and every eval had 0 effective errors.
+
+Files: [`results_gpu4/compare.txt`](results_gpu4/compare.txt) (with `compare.json`: all contrasts, the secondary
+metrics and per-run training tokens), per-seed `results_gpu4/ev/*/*.score.json`, training logs in `results_gpu4/logs/`.
 
 A2 (joint reader, minus J): removing the Brier term (+0.002 [−0.009, +0.012] skill), removing distillation
 (−0.003 [−0.006, −0.000]) or starting from the raw encoder instead of the reranker (−0.005 [−0.014, +0.004]) changes
@@ -199,6 +237,7 @@ The public-suite run outputs of the released models are in the dataset
 ├── results_gpu/         GPU-1 result summaries: E1/E2 score files, E4 flips, E6 latency, HEADLINE.md
 ├── results_gpu2/        GPU-2 (A1/A2 grid) score files per arm and seed, training logs, summaries, A1 analysis
 ├── results_gpu3/        GPU-3 score files, training logs, compare.{txt,json}, E6 GPU/CPU latency, released-model subsets
+├── results_gpu4/        GPU-4 (initialisation 2×2) score files per arm and seed, training logs, STATUS, compare.{txt,json}
 ├── results_cpu/         Prumo on BTZSC / S1-Arena / E4, earlier CPU latency runs
 ├── paper_artifacts/     make_tables.py and make_figs.py: every table and figure of the paper from the files above
 └── docs/                EXPERIMENT_LOG.md (the experiment hand-off log) and the figures used in this README
@@ -286,6 +325,7 @@ environment variables in its header. Hardware, wall time and cost below are what
 | E1, E2, E4, E6-GPU (GPU-1) | 1× A100 SXM4 40 GB, 3 job lanes sharing the GPU, E6 alone | ≈ 12 h incl. reruns | ≈ US$24 (US$1.99/h) |
 | A1/A2 grid (GPU-2): 6 arms × 3 seeds + evals | 1× A100 SXM4 40 GB | ≈ 6.3 h | ≈ US$12.6 |
 | GPU-3: Jcomp ×3, Praw ×1, E6 GPU + CPU | 1× A100 SXM4 40 GB (CPU block on its 30-vCPU host) | ≈ 3.0 h | ≈ US$6 |
+| GPU-4: JrawComp ×3, Praw ×2 (seeds 1–2) + evals | 1× A100 SXM4 40 GB | ≈ 3.2 h | ≈ US$6.4 |
 | Contamination audit, Prumo runs, E5, error analysis | 16-vCPU cloud VMs | minutes per step (audit ≈ 4 min/pass, 15 workers) | — |
 | E7 statistics, tables, figures | laptop CPU, < 0.6 GB RAM | ≤ 10 min per step | — |
 
@@ -405,17 +445,22 @@ The decision rule (P − J-comp, Welch 95% CI over seeds on four metrics) was wr
 ([experiment log §18.1](docs/EXPERIMENT_LOG.md)) and implemented in `gpu3/compare.py`. J-comp is the J arm trained for P's
 optimizer-step count per seed (6,858 / 6,860 / 6,859) with the LR schedule spanning exactly those steps. Input md5s: [`gpu3/inputs.md5.box`](gpu3/inputs.md5.box).
 
-### GPU-4: initialisation 2×2 (prepared)
+### GPU-4: initialisation 2×2
 
 ```bash
-KIT=$KIT INPUTS=<gpu3 inputs> S1_DATA=data/s1arena S1_CODE=s1arena_code bash gpu4/launch.sh <user@host>
+KIT=$KIT INPUTS=<gpu3 inputs> S1_DATA=data/s1arena S1_CODE=s1arena_code bash gpu4/launch.sh <user@host>   # then: ... status, ... fetch
 python gpu4/compare.py --gpu2 results_gpu2 --gpu3 results_gpu3 --gpu4 results_gpu4 --out results_gpu4/compare.json
 ```
 
 GPU-4 completes the reader × initialisation 2×2: JrawComp (joint reader from the raw Ettin encoder, compute-matched,
-3 seeds) and Praw seeds 1–2. Its cells, contrasts (primary: Praw − JrawComp) and reading rules were pre-registered in
-[experiment log §18.y](docs/EXPERIMENT_LOG.md) before any run; at the time of this release it had not been launched,
-so no GPU-4 results are included. Estimated ≈ 3 h on one A100 40 GB (≈ US$6).
+3 seeds) and Praw seeds 1–2, evaluated on pub15, btzsc500 and s1_60 (no E4, no latency). Its cells, contrasts
+(primary: Praw − JrawComp) and reading rules were pre-registered in [experiment log §18.y.1](docs/EXPERIMENT_LOG.md)
+before any run; `gpu4/run_gpu4.sh` runs the two Praw trainings alone, then the three JrawComp trainings with one eval
+lane beside them. The run took ≈ 3.2 h on one A100 SXM4 40 GB (≈ US$6.4); results are in `results_gpu4/` and in
+[Key results](#initialisation--reader-22-32m-3-seeds-per-cell-matched-compute). `compare.py` pools Praw seed 0 from
+`results_gpu3/` with seeds 1–2 from `results_gpu4/`, and its P − J-comp line reproduces `results_gpu3/compare.txt`.
+Run on the repository files, it reproduces `results_gpu4/compare.txt` except the per-run training lines, which read
+the checkpoints' `config.json` (not distributed; the same counts are in `compare.json` and the training logs).
 
 ## Regenerating the paper's tables and figures
 
@@ -430,11 +475,12 @@ number macro of the manuscript exactly.
 ## Experiment log
 
 [`docs/EXPERIMENT_LOG.md`](docs/EXPERIMENT_LOG.md) is the hand-off log kept during the experiments (2026-10-20 to
-2026-10-21), with its original section numbering: machines and provenance (§0), audits (§2–§3), adapters and baseline
+2026-10-22), with its original section numbering: machines and provenance (§0), audits (§2–§3), adapters and baseline
 wrappers (§5–§6), the A1/A2 grid design and its run (§7, §17), GPU-1 statistics (§16), E5 and error analysis (§13–§15),
-and the pre-registered GPU-3 and GPU-4 plans (§18.1, §18.y.1) with the GPU-3 results (§18.x). Host names, IP
-addresses, user names, instance ids and local paths were redacted; the content is otherwise unchanged. Paths in it
-are relative to the original working directory, which corresponds to the root of this repository.
+the pre-registered GPU-3 and GPU-4 plans (§18.1, §18.y.1), the GPU-3 results (§18.x) and the GPU-4 results (the last
+section, "18.y.2 GPU-4 results"). Host names, IP addresses, user names, instance ids and local paths were redacted;
+the content is otherwise unchanged. Paths in it are relative to the original working directory, which corresponds to
+the root of this repository.
 
 ## Data and contamination policy
 
@@ -461,11 +507,14 @@ are relative to the original working directory, which corresponds to the root of
 ## Limitations
 
 - The A1/A2 ablation is a **short regime**: 32M parameters, 150k rows, about one epoch (J-comp ≈ 3.25). The
-  per-option reader was not trained at the full recipe's scale, and its advantage depends partly on the reranker
-  initialisation (P-raw is 0.041 below P in pub15 skill, one seed).
-- **Seeds**: 3 per arm (1 for P-raw); Welch intervals over 3 + 3 seeds are wide for BTZSC.
-- **Compute matching is approximate**: J-comp matches P in optimizer steps, schedule and per-step token budget, not
-  exactly in encoded tokens (≈ 137M vs ≈ 161M for P-raw).
+  per-option reader was not trained at the full recipe's scale, and its advantage **depends on the reranker
+  initialisation**: from the raw encoder the two readers are indistinguishable (initialisation 2×2, C1).
+- **Seeds**: 3 per arm and per 2×2 cell; Welch intervals over 3 + 3 seeds are wide for BTZSC, and a small reader
+  effect at raw initialisation is not excluded.
+- **Compute matching is approximate**: J-comp and J-comp-raw match P in optimizer steps, schedule and per-step token
+  budget, not exactly in encoded tokens (≈ 137M vs ≈ 161M for P / P-raw).
+- **2×2 cells come from three GPU sessions** (GPU-2, -3, -4) with identical code, inputs (md5-checked), flags and
+  scorers; a session effect cannot be separated.
 - **Contamination**: only 4 BTZSC datasets are unseen for the v2 family; the S1-Arena audit is name-based at source
   level and conservative (longest state field) at item level. The S1-Arena HF snapshot lacks 2,043 local-only
   requests, so published leaderboard rows are not on the identical item set.
@@ -481,7 +530,7 @@ are relative to the original working directory, which corresponds to the root of
 
 ```bibtex
 @misc{stekel2026jointorperoption,
-  title  = {Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17M to 1B Parameters},
+  title  = {Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters},
   author = {Tardelli Stekel},
   year   = {2026},
   note   = {In preparation}

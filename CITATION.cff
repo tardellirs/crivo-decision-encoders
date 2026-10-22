@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or these results, please cite the paper (in preparation)."
-title: "Joint or Per-Option? Compact Encoders for Closed-Set Decisions: code and results"
+title: "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters: code and results"
 type: software
 authors:
   - family-names: "Stekel"
@@ -19,7 +19,7 @@ keywords:
 date-released: "2026-10-21"
 preferred-citation:
   type: article
-  title: "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17M to 1B Parameters"
+  title: "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters"
   authors:
     - family-names: "Stekel"
       given-names: "Tardelli"

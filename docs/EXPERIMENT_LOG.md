@@ -1,8 +1,9 @@
 # Paper experiments, days 1–3 (IEEE Access plan): full hand-off
 
-> **Note (code release).** This is the experiment hand-off log, kept during the work on 2026-10-20 and 2026-10-21,
-> with its original section numbering. It includes the decision rules written before the GPU runs (§17 for the A1/A2
-> grid, §18.1 for GPU-3, §18.y.1 for GPU-4). For the release, host names, IP addresses, user names, instance ids and
+> **Note (code release).** This is the experiment hand-off log, kept during the work from 2026-10-20 to 2026-10-22
+> (UTC), with its original section numbering. It includes the decision rules written before the GPU runs (§17 for the
+> A1/A2 grid, §18.1 for GPU-3, §18.y.1 for GPU-4); the GPU-4 results are in the last section ("18.y.2 GPU-4 results").
+> For the release, host names, IP addresses, user names, instance ids and
 > local absolute paths were replaced by placeholders such as `<gpu1-host>` or `<cpu-vm1>`, and one excluded
 > third-party evaluation panel is not named. Nothing else was edited. Paths are relative to the original working
 > directory `pareto/paper/exp/`, which corresponds to the root of this repository. Files the log mentions that are not
@@ -2540,3 +2541,47 @@ unmeasured; if it drops batches, the SKIPS path above retrains it alone.
 - on `ALL DONE`, run `… fetch` (it writes `paper/exp/results_gpu4/` and checks md5), then on the Mac
   `python3 paper/exp/gpu4/compare.py --gpu2 paper/exp/results_gpu2 --gpu3 paper/exp/results_gpu3 --gpu4 paper/exp/results_gpu4 --out paper/exp/results_gpu4/compare.json`,
   terminate, and check `lambda budget`.
+
+---
+
+## Code release (2026-10-21)
+
+- **Repo:** https://github.com/tardellirs/crivo-decision-encoders (public, Apache-2.0 for code), commit
+  `c87d233d5864990ea345072067f0f248581fcad7`, a single initial commit by "Tardelli Stekel" (GitHub noreply address).
+- **Built from** a separate staging folder `../joint-or-per-option-staging/` (not inside `pareto/`). Code was
+  generalised: no hosts, IPs or local paths; env vars `KIT`, `REPO`, `PY`, `DATA_DIR`, `INPUTS`, `S1_DATA`, `S1_CODE`,
+  `P_S0`. `train/train.py` is vendored without the unrelated vocabulary-quantisation option.
+- **Contents:** code (common, btzsc, s1arena, e4, e5, e6, errors, stats, a1a2, gpu, gpu3, gpu4, train,
+  paper_artifacts), score/summary files of GPU-1/2/3 and the CPU runs, `stats/gpu1/*.json`, audits (matched-text
+  snippets removed; ids only), board snapshots of 2026-10-20, and this log as `docs/EXPERIMENT_LOG.md` (hosts, IPs,
+  instance ids and paths redacted).
+- **Not released:** training data, teacher logits, checkpoints, per-item raw outputs and request files, benchmark
+  data, `results_gpu2_discarded/`, `po32/`, the paper sources.
+- **Checks:** `paper_artifacts/make_tables.py` reproduces every generated table and macro of `paper/ieee/tables/gen/`
+  from the repo files alone. `gpu3/compare.py`, `gpu3/e6_common.py`, `stats/paired_bootstrap.py md`,
+  `stats/board_stats.py` and both `classify.py` reproduce their stored outputs. The README quickstarts were run on CPU.
+
+### 18.y.2 GPU-4 results (run 2026-10-21 21:22 → 2026-10-22 00:33 UTC, Lambda A100 SXM4 40 GB, id <redacted>, ≈3.2 h ≈ US$6.4)
+- ALL DONE 00:29:21; `launch.sh … fetch` → `results_gpu4/` md5 88/88 ok; all 5 evals 0 effective errors; every
+  training full planned steps with 0 OOM skips (JrawComp tokens = Jcomp's; Praw 161.3M each). Instance terminated,
+  `lambda budget` US$0/h, cron removed.
+- 2×2 (mean ± sd, n = 3 each; `results_gpu4/compare.txt`):
+  | metric | Jcomp (reranker, joint) | P (reranker, per-option) | JrawComp (raw, joint) | Praw (raw, per-option) |
+  |---|---|---|---|---|
+  | pub15 skill | 0.217±0.006 | 0.245±0.003 | 0.226±0.013 | 0.214±0.011 |
+  | S1-60 acc | 0.424±0.008 | 0.455±0.001 | 0.416±0.001 | 0.419±0.004 |
+  | BTZSC-500 F1 | 0.532±0.006 | 0.602±0.022 | 0.459±0.011 | 0.478±0.014 |
+- Pre-registered contrasts (Welch 95% CI):
+  - C1 per-option − joint @ raw init (Praw − JrawComp): pub15 −0.012 [−0.038, +0.015], S1 +0.003 [−0.007, +0.013],
+    BTZSC +0.020 [−0.010, +0.050] → all **contain 0**.
+  - C2 reranker − raw @ per-option (P − Praw): +0.031 [+0.006, +0.055], +0.036 [+0.026, +0.046], +0.123 [+0.078, +0.169]
+    → all above 0.
+  - C3 reranker − raw @ joint (Jcomp − JrawComp): −0.009 [−0.035, +0.017], +0.007 [−0.013, +0.028] (contain 0),
+    BTZSC +0.073 [+0.051, +0.095] (above 0).
+  - C4 interaction: +0.040 [+0.014, +0.066], +0.028 [+0.011, +0.045], +0.050 [+0.006, +0.094] → all **above 0**.
+  - (GPU-3) P − Jcomp at reranker init: above 0 on all three.
+- Reading: the per-option advantage exists only with the reranker initialisation (significant interaction on all three
+  metrics); from the raw encoder the two readers are indistinguishable at matched compute. The reranker init helps the
+  per-option reader a lot and the joint reader only on BTZSC. I.e. the per-option reader wins because its input format
+  matches the cross-encoder pre-training (query, document pairs), not because reading options separately is
+  intrinsically better at this scale. Caveat: cells come from three boxes (GPU-2/3/4), same code/data/flags.

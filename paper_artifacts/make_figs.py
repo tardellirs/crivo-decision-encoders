@@ -14,7 +14,8 @@ fig_latency.pdf   PENDING GPU-3: S1-Arena accuracy vs median CPU latency (result
                   when that file exists, otherwise deleted; main.tex shows it only under ifhaveCpuLat.
 fig_overview.pdf  (a) S1-Arena task-mean accuracy vs parameters, Crivo vs baselines (our runs, item CIs) -- the lead;
                   (b) Decision Index 0.4 Full vs served parameters with the Pareto frontier (board data) -- supporting.
-fig_ablation.pdf  A1/A2 grid at 32M: per-arm means (bars = horizontal ticks; dot plot, axis not at zero) and the three seeds on three benchmarks.
+fig_ablation.pdf  A1/A2 grid at 32M: per-arm means (bars = horizontal ticks; dot plot, axis not at zero) and the three seeds on three benchmarks;
+                  bottom row: the GPU-4 initialisation 2x2 (raw vs reranker init x joint J-comp vs per-option P).
 fig_pubpriv.pdf   public index vs private same-skill score (all board models); one panel.
 fig_prumo.pdf     Prumo public vs private chance-corrected skill per benchmark (board data).
 Colours: Crivo #2a78d6 (blue), baselines #eb6834 (orange); validated with the dataviz palette validator.
@@ -147,13 +148,21 @@ fig.savefig(FIG / "fig_overview.png", dpi=200)
 plt.close(fig)
 
 # ------------------------------------------------------------------ Figure: A1/A2 ablation
+# Top row: the grid arms at the reranker init (+ the A2 arms). Bottom row: the initialisation 2x2 (README 18.y):
+# raw encoder vs reranker init on x, joint (J-comp / J-comp-raw) vs per-option (P / P-raw) as two lines.
 ARMS = [("J", "J"), ("Jsteps", "J-steps")] + ([("Jcomp", "J-comp")] if "Jcomp" in SEEDS else []) + [("P", "P")] + \
-    ([("Praw", "P raw")] if "Praw" in SEEDS else []) + [("JnoBrier", "no Brier"), ("JnoKD", "no KD"),
-                                                        ("Jraw", "J raw")]
+    [("JnoBrier", "no Brier"), ("JnoKD", "no KD"), ("Jraw", "J raw")]
+HAVE_2X2 = all(k in SEEDS and len(SEEDS[k]) == 3 for k in ("Jcomp", "P", "JrawComp", "Praw"))
+if not HAVE_2X2 and "Praw" in SEEDS:
+    ARMS.insert(4, ("Praw", "P raw"))
 ARM_COL = {"P": CRIVO, "Praw": "#8fb8ea", "Jcomp": BASE, "Jsteps": "#f2b48f"}
 METS = [("pub15_skill", "Public-suite subset\n(chance-corrected skill)"), ("s1_acc", "S1-Arena subset\n(task-mean accuracy)"),
         ("btzsc_f1", "BTZSC subset\n(macro-F1, 22 datasets)")]
-fig, axs = plt.subplots(1, 3, figsize=(3.5, 2.15))
+if HAVE_2X2:
+    fig, axg = plt.subplots(2, 3, figsize=(3.5, 3.05), gridspec_kw={"height_ratios": [1.0, 0.68]})
+    axs, axi = axg[0], axg[1]
+else:
+    fig, axs = plt.subplots(1, 3, figsize=(3.5, 2.15))
 rng = np.random.default_rng(0)
 for ax_, (k, title) in zip(axs, METS):
     for i, (a, _) in enumerate(ARMS):
@@ -172,7 +181,30 @@ for ax_, (k, title) in zip(axs, METS):
     ax_.set_title(title, fontsize=5.8)
     ax_.tick_params(axis="y", labelsize=5.6)
     ax_.grid(True, axis="y", color=GRID, lw=0.5, zorder=0)
-fig.tight_layout(w_pad=0.6)
+if HAVE_2X2:
+    LINES = [("Jcomp", "JrawComp", BASE, "joint", "--"), ("P", "Praw", CRIVO, "per option", "-")]
+    for j, (ax_, (k, _)) in enumerate(zip(axi, METS)):
+        allv = []
+        for rr, raw, c, lab, ls in LINES:
+            mv = [np.mean([s[k] for s in SEEDS[raw]]), np.mean([s[k] for s in SEEDS[rr]])]
+            ax_.plot([0, 1], mv, color=c, lw=1.2, ls=ls, zorder=2)
+            for x, arm in ((0, raw), (1, rr)):
+                vals = [s[k] for s in SEEDS[arm]]
+                allv += vals
+                off = -0.07 if lab == "joint" else 0.07
+                ax_.scatter(x + off + rng.uniform(-0.03, 0.03, 3), vals, s=7, color=c, edgecolor=INK, lw=0.3, zorder=3)
+                ax_.hlines(np.mean(vals), x + off - 0.09, x + off + 0.09, color=c, lw=1.6, zorder=2)
+            if j == 0:
+                ax_.text(1.24, mv[1], lab, color=INK, fontsize=5.4, va="center", ha="left")
+        lo, hi = min(allv), max(allv)
+        ax_.set_ylim(lo - 0.10 * (hi - lo) - 0.005, hi + 0.10 * (hi - lo) + 0.005)
+        ax_.set_xlim(-0.35, 1.35 if j else 1.95)
+        ax_.set_xticks([0, 1])
+        ax_.set_xticklabels(["raw\nencoder", "reranker"], fontsize=5.6)
+        ax_.tick_params(axis="y", labelsize=5.6)
+        ax_.grid(True, axis="y", color=GRID, lw=0.5, zorder=0)
+    axi[1].set_title("Initialisation $2\\times2$ at matched compute (3 seeds per cell)", fontsize=5.8)
+fig.tight_layout(w_pad=0.6, h_pad=0.6)
 fig.savefig(FIG / "fig_ablation.pdf")
 fig.savefig(FIG / "fig_ablation.png", dpi=200)
 plt.close(fig)
@@ -436,7 +468,7 @@ s_dn = sum(c[1] < 0 for _, _, c in rows)
 assert (len(rows), n_up, n_dn, s_up, s_dn) == (37, 22, 10, 8, 1), (len(rows), n_up, n_dn, s_up, s_dn)  # = VI-B text
 NS = "#9aa7b8"
 half = (len(rows) + 1) // 2
-fig, axs = plt.subplots(1, 2, figsize=(3.5, 2.3), sharex=True)
+fig, axs = plt.subplots(1, 2, figsize=(3.5, 2.1), sharex=True)
 for ax_, part in zip(axs, (rows[:half], rows[half:])):
     yy = np.arange(len(part))[::-1]
     for y_, (name, v, c) in zip(yy, part):

@@ -1,0 +1,146 @@
+{
+ "summary": {
+  "overall_macro_f1": 0.4655196367394483,
+  "n_datasets": 22,
+  "by_task": {
+   "sentiment": 0.6155933098682326,
+   "emotion": 0.2527366027350571,
+   "intent": 0.49475344178161834,
+   "topic": 0.41437623802213613
+  }
+ },
+ "by_dataset": {
+  "amazonpolarity": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.6776273372018053,
+   "accuracy": 0.678
+  },
+  "imdb": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.6624699069555599,
+   "accuracy": 0.668
+  },
+  "appreviews": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.6990981187449505,
+   "accuracy": 0.708
+  },
+  "yelpreviews": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.7478991596638656,
+   "accuracy": 0.748
+  },
+  "rottentomatoes": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.33028919330289197,
+   "accuracy": 0.472
+  },
+  "financialphrasebank": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.5761761433403224,
+   "accuracy": 0.706
+  },
+  "emotiondair": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.2541299253378925,
+   "accuracy": 0.41
+  },
+  "empathetic": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.2513432801322217,
+   "accuracy": 0.23
+  },
+  "banking77": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.6097202009767082,
+   "accuracy": 0.592
+  },
+  "biasframes_intent": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.42497147950912423,
+   "accuracy": 0.502
+  },
+  "massive": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.4495686448590224,
+   "accuracy": 0.5
+  },
+  "agnews": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.7059959840066548,
+   "accuracy": 0.732
+  },
+  "yahootopics": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.31150674637161313,
+   "accuracy": 0.362
+  },
+  "trueteacher": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.5023191524515316,
+   "accuracy": 0.506
+  },
+  "manifesto": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.0652993891394663,
+   "accuracy": 0.128
+  },
+  "capsotu": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.13512517451403688,
+   "accuracy": 0.11
+  },
+  "biasframes_offensive": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.4714348589738844,
+   "accuracy": 0.486
+  },
+  "biasframes_sex": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.5424135319363796,
+   "accuracy": 0.884
+  },
+  "wikitoxic_toxicaggregated": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.3866943866943867,
+   "accuracy": 0.528
+  },
+  "wikitoxic_obscene": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.3714682501676085,
+   "accuracy": 0.58
+  },
+  "wikitoxic_threat": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.5544730901746465,
+   "accuracy": 0.82
+  },
+  "wikitoxic_insult": {
+   "n": 500,
+   "answered": 500,
+   "macro_f1": 0.5114080538132897,
+   "accuracy": 0.656
+  }
+ }
+}

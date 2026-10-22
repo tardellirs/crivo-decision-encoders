@@ -13,6 +13,7 @@ Inputs (read-only):
   s1arena/contamination.json             S1-Arena task classes (v2 family)
   results_cpu/prumo/*.json               Prumo on S1-Arena / BTZSC / E4 (CPU, full runs)
   results_gpu2/ev/<arm>_s<seed>/         A1/A2 grid, per-seed score files
+  results_gpu3/, results_gpu4/           compute-matched control and initialisation 2x2: score files, compare.json
 No number in the generated tables is typed by hand, except the static training facts in tab_models
 (layers/hidden, teacher, cost), which come from the model cards.
 """
@@ -687,8 +688,12 @@ def seed_metrics(ev):
     m["s1_brier"] = s["summary"]["brier"]
     un = [v["accuracy"] for t, v in s["tasks"].items() if S1C.get(t, {}).get("class") == "unseen"]
     m["s1_unseen_acc"] = sum(un) / len(un)
-    f = json.load(open(ev / "e4" / "flips.json"))
-    m["flip_perm"] = sum(f[v]["flip_rate"] for v in ("perm1", "perm2", "perm3")) / 3
+    fp = ev / "e4" / "flips.json"   # GPU-4 runs have no E4 (flips): None
+    if fp.exists():
+        f = json.load(open(fp))
+        m["flip_perm"] = sum(f[v]["flip_rate"] for v in ("perm1", "perm2", "perm3")) / 3
+    else:
+        m["flip_perm"] = None
     return m
 
 
@@ -699,15 +704,26 @@ for a, _ in ARMS:
 # token budget (3 seeds); Praw = P from the raw Ettin-32M encoder (1 seed). Added to the table/figure only if present.
 jc_dirs = [G3 / "ev" / f"Jcomp_s{k}" for k in range(3)]
 HAVE_JCOMP = all((d / "pub15.score.json").exists() and (d / "e4" / "flips.json").exists() for d in jc_dirs)
-pr_dir = G3 / "ev" / "Praw_s0"
-HAVE_PRAW = (pr_dir / "pub15.score.json").exists() and (pr_dir / "e4" / "flips.json").exists()
+# GPU-4 (results_gpu4/ev/, README 18.y): the initialisation 2x2. Praw pools GPU-3 s0 with GPU-4 s1, s2; JrawComp =
+# J-comp's flags from the raw Ettin-32M encoder (3 seeds). GPU-4 ran no E4, so their flips are None.
+G4 = Path(os.environ.get("GPU4_DIR", EXP / "results_gpu4"))
+pr_dirs = [G3 / "ev" / "Praw_s0", G4 / "ev" / "Praw_s1", G4 / "ev" / "Praw_s2"]
+pr_dirs = [d for d in pr_dirs if (d / "pub15.score.json").exists()]
+HAVE_PRAW = bool(pr_dirs)
+jrc_dirs = [G4 / "ev" / f"JrawComp_s{k}" for k in range(3)]
+HAVE_JRAWCOMP = all((d / "pub15.score.json").exists() for d in jrc_dirs)
+HAVE_2X2 = HAVE_JCOMP and HAVE_JRAWCOMP and len(pr_dirs) == 3
 if HAVE_JCOMP:
     SEEDS["Jcomp"] = [seed_metrics(d) for d in jc_dirs]
 if HAVE_PRAW:
-    SEEDS["Praw"] = [seed_metrics(pr_dir)]
+    SEEDS["Praw"] = [seed_metrics(d) for d in pr_dirs]
+if HAVE_JRAWCOMP:
+    SEEDS["JrawComp"] = [seed_metrics(d) for d in jrc_dirs]
 json.dump(SEEDS, open(OUT / "a1a2_seeds.json", "w"), indent=1)
-TAB_ARMS = ARMS[:2] + ([("Jcomp", "J, compute matched to P")] if HAVE_JCOMP else []) + ARMS[2:3] + \
-    ([("Praw", "P from raw Ettin encoder$^\\dagger$")] if HAVE_PRAW else []) + ARMS[3:]
+TAB_ARMS = ARMS[:2] + ([("Jcomp", "J, compute matched to P (J-comp)")] if HAVE_JCOMP else []) + ARMS[2:3] + \
+    ([("JrawComp", "J-comp from raw encoder (J-comp-raw)")] if HAVE_JRAWCOMP else []) + \
+    ([("Praw", "P from raw encoder (P-raw)" + ("" if len(pr_dirs) == 3 else "$^\\dagger$"))] if HAVE_PRAW else []) + \
+    ARMS[3:5] + [("Jraw", "J from raw encoder")]
 
 
 def mean_sd(v):
@@ -734,6 +750,8 @@ def welch(a, b):
 MET = [("pub15_skill", "pub15 skill", 3), ("s1_acc", "S1 acc.", 3), ("s1_unseen_acc", "S1 unseen", 3),
        ("btzsc_f1", "BTZSC F1", 3), ("btzsc_unseen_f1", "BTZSC unseen-4", 3), ("s1_brier", "S1 Brier", 3),
        ("pub15_ece", "pub15 ECE", 3), ("flip_perm", "Perm. flips", 3)]
+NM_ = {"pub15_skill": "Skill", "s1_acc": "SOne", "s1_unseen_acc": "SOneU", "btzsc_f1": "BT", "btzsc_unseen_f1": "BTU",
+       "s1_brier": "SOneBrier", "pub15_ece": "Ece", "flip_perm": "Flip"}
 SHOW = ["pub15_skill", "s1_acc", "s1_unseen_acc", "btzsc_f1", "btzsc_unseen_f1", "s1_brier", "pub15_ece", "flip_perm"]
 lines = ["\\begin{tabular}{@{}l" + "r" * len(MET) + "@{}}", "\\toprule",
          "Arm & " + " & ".join(m[1] for m in MET) + " \\\\", "\\midrule",
@@ -741,10 +759,14 @@ lines = ["\\begin{tabular}{@{}l" + "r" * len(MET) + "@{}}", "\\toprule",
 for a, lab in TAB_ARMS:
     cells = [lab]
     for k, _, nd in MET:
-        if len(SEEDS[a]) == 1:   # one seed: value only
-            cells.append(f"{SEEDS[a][0][k]:.{nd}f}")
+        vv = [s[k] for s in SEEDS[a] if s[k] is not None]
+        if not vv:   # not measured (GPU-4 runs: no E4)
+            cells.append("--")
             continue
-        mu, sd = mean_sd([s[k] for s in SEEDS[a]])
+        if len(vv) == 1:   # one seed: value only
+            cells.append(f"{vv[0]:.{nd}f}")
+            continue
+        mu, sd = mean_sd(vv)
         cells.append(f"{mu:.{nd}f}$\\pm${sd:.{nd}f}" if k != "flip_perm" else f"{mu:.3f}$\\pm${sd:.3f}")
     lines.append(" & ".join(cells) + " \\\\")
 # Released Crivo-32M (full recipe, joint) on the same evaluation subsets: its GPU-1 S1/BTZSC outputs and its released
@@ -791,8 +813,65 @@ for a, b, lab in CMP:
                   "btzsc_unseen_f1": "BTU", "s1_brier": "SOneBrier", "pub15_ece": "Ece", "flip_perm": "Flip"}[k]
             mac(f"ATwo{a}{nm}", f"{d:+.3f}")
             mac(f"ATwo{a}{nm}ci", f"[{c[0]:+.3f}, {c[1]:+.3f}]")
-    if (a, b) in (("P", "Jcomp"), ("P", "Jsteps"), ("Jcomp", "Jsteps")):   # A2 rows (all null) are in the text only
+    if (a, b) in (("P", "Jcomp"), ("P", "Jsteps")):   # J-comp - J-steps and the A2 rows (all null) are in the text only
         lines.append(" & ".join(cells) + " \\\\")
+
+
+def welch4(a, b, c, d):
+    """(mean a - mean b) - (mean c - mean d), Welch-Satterthwaite df over the four cells' variances (README 18.y.1 C4)."""
+    from scipy import stats as st
+    parts = [mean_sd(x) + (len(x),) for x in (a, b, c, d)]
+    diff = (parts[0][0] - parts[1][0]) - (parts[2][0] - parts[3][0])
+    v = [sd ** 2 / n for _, sd, n in parts]
+    se2 = sum(v)
+    df = se2 ** 2 / sum(vi ** 2 / (n - 1) for vi, (_, _, n) in zip(v, parts))
+    t = st.t.ppf(0.975, df)
+    return diff, (diff - t * math.sqrt(se2), diff + t * math.sqrt(se2))
+
+
+def ci_cell(d, c):
+    sig = c[0] > 0 or c[1] < 0
+    return ("\\shortstack{" + ("\\textbf{" if sig else "") + f"{d:+.3f}" + ("}" if sig else "") +
+            f"\\\\{{\\tiny[{c[0]:+.3f}, {c[1]:+.3f}]}}}}")
+
+
+TT = {}   # 2x2 contrasts (README 18.y.1): C1 Praw-JrawComp, C2 P-Praw, C3 Jcomp-JrawComp, C4 interaction
+if HAVE_2X2:
+    lines += ["\\midrule", f"\\multicolumn{{{len(MET) + 1}}}{{@{{}}l}}{{\\textit{{Initialisation $2\\times2$ (decision rule "
+              "fixed before the run), Welch 95\\% CI}" + "} \\\\"]
+    for cn, lab, spec in (("Cone", "P-raw $-$ J-comp-raw (C1, raw init)", ("Praw", "JrawComp")),
+                          ("Ctwo", "P $-$ P-raw (C2, reranker gain, per option)", ("P", "Praw")),
+                          ("Cthree", "J-comp $-$ J-comp-raw (C3, reranker gain, joint)", ("Jcomp", "JrawComp")),
+                          ("Cfour", "Interaction C2 $-$ C3 (C4)", ("P", "Praw", "Jcomp", "JrawComp"))):
+        cells = [lab]
+        for k, _, nd in MET:
+            if k == "flip_perm":
+                cells.append("--")
+                continue
+            xs = [[s[k] for s in SEEDS[x]] for x in spec]
+            d, c = welch(*xs) if len(spec) == 2 else welch4(*xs)
+            TT[f"{cn}{NM_[k]}"] = f"{d:+.3f}"
+            TT[f"{cn}{NM_[k]}ci"] = f"[{c[0]:+.3f}, {c[1]:+.3f}]"
+            cells.append(ci_cell(d, c))
+        lines.append(" & ".join(cells) + " \\\\")
+    for k, _, _ in MET:   # secondary: compute effect at raw init (JrawComp - Jraw), descriptive
+        if k == "flip_perm":
+            continue
+        d, c = welch([s[k] for s in SEEDS["JrawComp"]], [s[k] for s in SEEDS["Jraw"]])
+        TT[f"JrawCompMinusJraw{NM_[k]}"] = f"{d:+.3f}"
+        TT[f"JrawCompMinusJraw{NM_[k]}ci"] = f"[{c[0]:+.3f}, {c[1]:+.3f}]"
+    for a_ in ("Praw", "JrawComp"):
+        for k, _, _ in MET:
+            if k == "flip_perm":
+                continue
+            mu, sd = mean_sd([s[k] for s in SEEDS[a_]])
+            TT[f"{a_}Mean{NM_[k]}"] = f"{mu:.3f}"
+    _c4 = _load(G4 / "compare.json") or {}
+    _tr4 = _c4.get("training_runs", {})
+    TT["OomGpuFour"] = f"{sum(v.get('oom_skips', 0) for v in _tr4.values())}"
+    TT["TwoTwoN"] = "3"
+for k, v in TT.items():
+    mac(k, v)
 lines += ["\\bottomrule", "\\end{tabular}"]
 write("tab_ablation.tex", "\n".join(lines) + "\n")
 for a, _ in ARMS:
@@ -826,10 +905,11 @@ else:
             PEND[f] = None
 PSW["Praw"] = HAVE_PRAW
 if HAVE_PRAW:
-    pm = SEEDS["Praw"][0]
     for k, _, _ in MET:
-        PEND[f"Praw{NM[k]}"] = f"{pm[k]:.3f}"
-        PEND[f"PrawMinusP{NM[k]}"] = f"{pm[k] - mean_sd([x[k] for x in SEEDS['P']])[0]:+.3f}"
+        vv = [x[k] for x in SEEDS["Praw"] if x[k] is not None]
+        pmk = sum(vv) / len(vv)
+        PEND[f"Praw{NM[k]}"] = f"{pmk:.3f}"
+        PEND[f"PrawMinusP{NM[k]}"] = f"{pmk - mean_sd([x[k] for x in SEEDS['P']])[0]:+.3f}"
 else:
     for k, _, _ in MET:
         PEND[f"Praw{NM[k]}"] = PEND[f"PrawMinusP{NM[k]}"] = None
@@ -868,13 +948,8 @@ if HAVE_JCOMP:
         d, c = welch([x[k] for x in SEEDS["Jcomp"]], [x[k] for x in SEEDS["Jsteps"]])
         PEND[f"JcompMinusJsteps{NM[k]}"] = f"{d:+.3f}"
         PEND[f"JcompMinusJsteps{NM[k]}ci"] = f"[{c[0]:+.3f}, {c[1]:+.3f}]"
-if HAVE_PRAW:   # reranker-initialisation gain, per reader (pub15 skill): P - Praw (1 seed) and J - Jraw (3 vs 3 seeds)
-    PEND["InitGainP"] = f"{mean_sd([x['pub15_skill'] for x in SEEDS['P']])[0] - SEEDS['Praw'][0]['pub15_skill']:.3f}"
+if HAVE_PRAW:   # reranker-initialisation gain at J's budget (descriptive; the 3-seed 2x2 contrasts are the \C* macros)
     PEND["InitGainJ"] = f"{mean_sd([x['pub15_skill'] for x in SEEDS['J']])[0] - mean_sd([x['pub15_skill'] for x in SEEDS['Jraw']])[0]:.3f}"
-    for k, _, _ in MET:
-        PEND[f"PrawMinusJraw{NM[k]}"] = f"{SEEDS['Praw'][0][k] - mean_sd([x[k] for x in SEEDS['Jraw']])[0]:+.3f}"
-        PEND[f"PrawMinusJcomp{NM[k]}"] = (f"{SEEDS['Praw'][0][k] - mean_sd([x[k] for x in SEEDS['Jcomp']])[0]:+.3f}"
-                                          if HAVE_JCOMP else None)
 ptxt = ["% generated by tables/make_tables.py -- GPU-3 switches and numbers"]
 for sw, on in PSW.items():
     ptxt.append(f"\\newif\\ifhave{sw} \\have{sw}{'true' if on else 'false'}")

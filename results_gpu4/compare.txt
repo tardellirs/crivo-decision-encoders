@@ -1,0 +1,41 @@
+2x2 (mean ± sd over seeds)        joint, compute-matched            per option
+ pub15_skill
+   reranker init   Jcomp    0.217 ± 0.006 (n=3)         P     0.245 ± 0.003 (n=3)
+   raw      init   JrawComp 0.226 ± 0.013 (n=3)         Praw  0.214 ± 0.011 (n=3)
+ s1_acc
+   reranker init   Jcomp    0.424 ± 0.008 (n=3)         P     0.455 ± 0.001 (n=3)
+   raw      init   JrawComp 0.416 ± 0.001 (n=3)         Praw  0.419 ± 0.004 (n=3)
+ btzsc_all_f1
+   reranker init   Jcomp    0.532 ± 0.006 (n=3)         P     0.602 ± 0.022 (n=3)
+   raw      init   JrawComp 0.459 ± 0.011 (n=3)         Praw  0.478 ± 0.014 (n=3)
+contrasts (Welch 95% CI over seeds; pre-registered reading: CI above 0 / contains 0 / below 0)
+ per-option - joint @ raw init       (Praw - JrawComp)
+   pub15_skill    -0.0115 [-0.0382, +0.0152]  contains 0
+   s1_acc         +0.0028 [-0.0072, +0.0127]  contains 0
+   btzsc_all_f1   +0.0196 [-0.0103, +0.0495]  contains 0
+ reranker - raw @ per-option         (P - Praw)
+   pub15_skill    +0.0308 [+0.0063, +0.0553]  above 0
+   s1_acc         +0.0355 [+0.0255, +0.0455]  above 0
+   btzsc_all_f1   +0.1232 [+0.0775, +0.1690]  above 0
+ reranker - raw @ joint              (Jcomp - JrawComp)
+   pub15_skill    -0.0090 [-0.0350, +0.0170]  contains 0
+   s1_acc         +0.0074 [-0.0131, +0.0278]  contains 0
+   btzsc_all_f1   +0.0732 [+0.0513, +0.0952]  above 0
+ interaction (P-Praw)-(Jcomp-JrawComp)
+   pub15_skill    +0.0398 [+0.0135, +0.0661]  above 0
+   s1_acc         +0.0282 [+0.0110, +0.0454]  above 0
+   btzsc_all_f1   +0.0500 [+0.0058, +0.0941]  above 0
+ per-option - joint @ reranker init (P - Jcomp) [GPU-3]
+   pub15_skill    +0.0283 [+0.0146, +0.0420]  above 0
+   s1_acc         +0.0309 [+0.0104, +0.0515]  above 0
+   btzsc_all_f1   +0.0696 [+0.0185, +0.1207]  above 0
+ secondary: JrawComp - Jraw (compute at raw init): pub15_skill +0.0507 [+0.0227, +0.0787]; s1_acc +0.0031 [+0.0004, +0.0058]; btzsc_all_f1 +0.1090 [+0.0855, +0.1325]
+  run Jcomp_s0 {'step': 6858, 'total_planned': 6858, 'oom_skips': 0, 'tokens_total': 136769305, 'questions_total': 487579, 'train_seconds': 709.9}
+  run Jcomp_s1 {'step': 6860, 'total_planned': 6860, 'oom_skips': 0, 'tokens_total': 136615113, 'questions_total': 487730, 'train_seconds': 898.1}
+  run Jcomp_s2 {'step': 6859, 'total_planned': 6859, 'oom_skips': 0, 'tokens_total': 136617609, 'questions_total': 487650, 'train_seconds': 898.9}
+  run Praw_s0 {'step': 6858, 'total_planned': 6858, 'oom_skips': 0, 'tokens_total': 161346063, 'questions_total': 150000, 'train_seconds': 3382.9}
+  run Praw_s1 {'step': 6860, 'total_planned': 6860, 'oom_skips': 0, 'tokens_total': 161346063, 'questions_total': 150000, 'train_seconds': 3393.3}
+  run Praw_s2 {'step': 6859, 'total_planned': 6859, 'oom_skips': 0, 'tokens_total': 161346063, 'questions_total': 150000, 'train_seconds': 3444.1}
+  run JrawComp_s0 {'step': 6858, 'total_planned': 6858, 'oom_skips': 0, 'tokens_total': 136769305, 'questions_total': 487579, 'train_seconds': 1306.3}
+  run JrawComp_s1 {'step': 6860, 'total_planned': 6860, 'oom_skips': 0, 'tokens_total': 136615113, 'questions_total': 487730, 'train_seconds': 1300.0}
+  run JrawComp_s2 {'step': 6859, 'total_planned': 6859, 'oom_skips': 0, 'tokens_total': 136617609, 'questions_total': 487650, 'train_seconds': 975.3}
