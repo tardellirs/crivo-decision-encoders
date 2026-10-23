@@ -1,12 +1,14 @@
 # Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters
 
 [![License: Apache-2.0](https://img.shields.io/badge/code%20license-Apache--2.0-blue.svg)](LICENSE)
-[![Paper: in preparation](https://img.shields.io/badge/paper-in%20preparation-lightgrey.svg)](#citation)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.30970-b31b1b.svg)](https://arxiv.org/abs/2610.30970)
+[![Paper page](https://img.shields.io/badge/%F0%9F%A4%97%20paper-page-yellow.svg)](https://huggingface.co/papers/2610.30970)
 [![Models on Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20models-Crivo%20collection-yellow.svg)](https://huggingface.co/collections/tardellirs/crivo-6acaa1731d71f839970f04a6)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](#installation)
 
 Code, evaluation adapters and lightweight result files for the paper **"Joint or Per-Option? Compact Encoders for
-Closed-Set Decisions from 17 Million to 1 Billion Parameters"** (Tardelli Stekel, 2026, in preparation).
+Closed-Set Decisions from 17 Million to 1 Billion Parameters"** (Tardelli Ronan Coelho Stekel, 2026,
+[arXiv:2610.30970](https://arxiv.org/abs/2610.30970)).
 
 Many language-model pipelines end in a closed-set decision: pick a tool, route a request, judge a claim. We ask how
 small an encoder for such decisions can be, and whether it should read the candidate options **jointly** (all options
@@ -529,11 +531,14 @@ the root of this repository.
 ## Citation
 
 ```bibtex
-@misc{stekel2026jointorperoption,
-  title  = {Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters},
-  author = {Tardelli Stekel},
-  year   = {2026},
-  note   = {In preparation}
+@misc{stekel2026jointperoption,
+  title         = {Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters},
+  author        = {Tardelli Ronan Coelho Stekel},
+  year          = {2026},
+  eprint        = {2610.30970},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2610.30970}
 }
 ```
 

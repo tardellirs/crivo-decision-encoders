@@ -151,13 +151,13 @@ plt.close(fig)
 # Top row: the grid arms at the reranker init (+ the A2 arms). Bottom row: the initialisation 2x2 (README 18.y):
 # raw encoder vs reranker init on x, joint (J-comp / J-comp-raw) vs per-option (P / P-raw) as two lines.
 ARMS = [("J", "J"), ("Jsteps", "J-steps")] + ([("Jcomp", "J-comp")] if "Jcomp" in SEEDS else []) + [("P", "P")] + \
-    [("JnoBrier", "no Brier"), ("JnoKD", "no KD"), ("Jraw", "J raw")]
+    [("JnoBrier", "no Brier"), ("JnoKD", "no distil."), ("Jraw", "J-raw")]
 HAVE_2X2 = all(k in SEEDS and len(SEEDS[k]) == 3 for k in ("Jcomp", "P", "JrawComp", "Praw"))
 if not HAVE_2X2 and "Praw" in SEEDS:
-    ARMS.insert(4, ("Praw", "P raw"))
+    ARMS.insert(4, ("Praw", "P-raw"))
 ARM_COL = {"P": CRIVO, "Praw": "#8fb8ea", "Jcomp": BASE, "Jsteps": "#f2b48f"}
-METS = [("pub15_skill", "Public-suite subset\n(chance-corrected skill)"), ("s1_acc", "S1-Arena subset\n(task-mean accuracy)"),
-        ("btzsc_f1", "BTZSC subset\n(macro-F1, 22 datasets)")]
+METS = [("pub15_skill", "pub15\n(chance-corrected skill)"), ("s1_acc", "S1-60\n(task-mean accuracy)"),
+        ("btzsc_f1", "BTZSC-500\n(macro-F1, 22 datasets)")]
 if HAVE_2X2:
     fig, axg = plt.subplots(2, 3, figsize=(3.5, 3.05), gridspec_kw={"height_ratios": [1.0, 0.68]})
     axs, axi = axg[0], axg[1]
@@ -182,7 +182,7 @@ for ax_, (k, title) in zip(axs, METS):
     ax_.tick_params(axis="y", labelsize=5.6)
     ax_.grid(True, axis="y", color=GRID, lw=0.5, zorder=0)
 if HAVE_2X2:
-    LINES = [("Jcomp", "JrawComp", BASE, "joint", "--"), ("P", "Praw", CRIVO, "per option", "-")]
+    LINES = [("Jcomp", "JrawComp", BASE, "joint", "--"), ("P", "Praw", CRIVO, "per-option", "-")]
     for j, (ax_, (k, _)) in enumerate(zip(axi, METS)):
         allv = []
         for rr, raw, c, lab, ls in LINES:
@@ -324,7 +324,7 @@ sb0 = ry1 - 0.5 - 0.3 * len(lines_) - 0.14
 rbox(ax, 0.22, sb0, 9.56, ry1 - 0.5 - sb0, TINT_S, lw=0.5)
 ax.text(0.34, ry1 - 0.58, "state", fontsize=FS, color=INK2, va="top", fontweight="bold")
 ax.text(1.12, ry1 - 0.58, "\n".join(lines_), fontsize=FS, color=INK, va="top", linespacing=1.3)
-TYPE_TAG = {"choice": "choice", "noul": "yes/no (noul)", "score": "ordinal (score)"}
+TYPE_TAG = {"choice": "choice", "noul": "binary (noul)", "score": "ordinal (score)"}
 qy = sb0 - 0.12
 for key in ("team", "refund", "urgency"):
     q = Q[key]
@@ -515,7 +515,7 @@ ax.errorbar(xs, [f["value"] for f in fp], yerr=[[f["value"] - f["ci95"][0] for f
             color=CRIVO, lw=1.1, marker="D", ms=4, mec=CRIVO, capsize=0, zorder=4, label="Crivo (joint), permuted options")
 yn = [E4[k]["yn"]["flip_rate"]["value"] for k, _ in CRIVO_P]
 ax.plot(xs, yn, color=CRIVO, ls="--", lw=1.0, marker="D", ms=3.6, mfc="white", mec=CRIVO, zorder=4,
-        label="Crivo (joint), yes/no swapped")
+        label="Crivo (joint), binary options swapped")
 for k, p, name, off, ha in BASE_F:
     f = E4[k]["flip_perm_mean"]
     ax.errorbar([p], [f["value"]], yerr=[[f["value"] - f["ci95"][0]], [f["ci95"][1] - f["value"]]], color=BASE, marker="o",
@@ -524,7 +524,7 @@ for k, p, name, off, ha in BASE_F:
                 va="center" if off[1] >= 0 else "top", linespacing=1.1)
 pf = [s["flip_perm"] for s in SEEDS["P"]]
 ax.scatter([32.0e6], [np.mean(pf)], s=20, marker="s", facecolor="white", edgecolor=CRIVO, lw=1.0, zorder=5,
-           label="per-option reader (32M, A1 arm P),\n0 flips by construction")
+           label="per-option reader P (32M),\n0 flips by construction")
 for (k, p), f in zip(CRIVO_P, fp):
     if k in ("crivo-17m", "crivo-1b"):
         ax.annotate(k.replace("crivo-", "").upper(), (p, f["value"]), xytext=(0, 6), textcoords="offset points",
@@ -534,8 +534,8 @@ ax.set_ylim(-0.1, 0.85)
 ax.set_xlabel("Parameters (log scale)")
 ax.set_ylabel("Share of answers that change")
 h_, l_ = ax.get_legend_handles_labels()
-order = [l_.index(t) for t in ("Crivo (joint), permuted options", "Crivo (joint), yes/no swapped",
-                               "per-option reader (32M, A1 arm P),\n0 flips by construction", "baselines, permuted options")]
+order = [l_.index(t) for t in ("Crivo (joint), permuted options", "Crivo (joint), binary options swapped",
+                               "per-option reader P (32M),\n0 flips by construction", "baselines, permuted options")]
 ax.legend([h_[i] for i in order], [l_[i] for i in order], loc="center left", bbox_to_anchor=(0.17, 0.53), fontsize=5.6,
           frameon=False)
 fig.tight_layout()
@@ -604,7 +604,7 @@ else:
         pm = sum(pv) / len(pv)
         ax.errorbar([rp[0]], [pm], yerr=[[pm - min(pv)], [max(pv) - pm]], color=CRIVO, marker="*", ms=7, mfc="white",
                     mew=0.9, ls="none", zorder=5, label="per-option arm P (S1-60 subset)")
-        ax.annotate("P (32M per option, S1-60)", (rp[0], pm), xytext=(-3, -9), textcoords="offset points",
+        ax.annotate("P (32M per-option, S1-60)", (rp[0], pm), xytext=(-3, -9), textcoords="offset points",
                     fontsize=5.4, ha="left", va="top", color=CRIVO)
     u = own["uniform"]["value"]
     ax.axhline(u, color=PUBL, lw=0.8, ls=":")

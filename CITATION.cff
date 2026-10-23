@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this code or these results, please cite the paper (in preparation)."
+message: "If you use this code or these results, please cite the paper (arXiv:2610.30970)."
 title: "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters: code and results"
 type: software
 authors:
@@ -22,7 +22,12 @@ preferred-citation:
   title: "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters"
   authors:
     - family-names: "Stekel"
-      given-names: "Tardelli"
+      given-names: "Tardelli Ronan Coelho"
       orcid: "https://orcid.org/0000-0002-3135-3656"
   year: 2026
-  status: in-preparation
+  status: preprint
+  identifiers:
+    - type: other
+      value: "arXiv:2610.30970"
+      description: "arXiv preprint"
+  url: "https://arxiv.org/abs/2610.30970"

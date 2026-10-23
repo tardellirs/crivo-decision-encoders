@@ -1,6 +1,6 @@
 crivo-decision-encoders
 Code and results for "Joint or Per-Option? Compact Encoders for Closed-Set Decisions from 17 Million to 1 Billion Parameters"
-(Tardelli Stekel, 2026, in preparation).
+(Tardelli Ronan Coelho Stekel, 2026, arXiv:2610.30970).
 Copyright 2026 Tardelli Stekel
 
 The code in this repository is licensed under the Apache License, Version 2.0 (see LICENSE).

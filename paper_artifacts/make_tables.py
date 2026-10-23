@@ -20,6 +20,7 @@ No number in the generated tables is typed by hand, except the static training f
 import json
 import math
 import os
+import re
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -76,8 +77,18 @@ def esc(s):
     return s.replace("&", "\\&").replace("_", "\\_").replace("%", "\\%")
 
 
+_IV = re.compile(r"\[([+\-]?\d[^\[\]]*,\s*[+\-]?\d[^\[\]]*)\]")
+_MINUS = re.compile(r"(?<![A-Za-z0-9\\}\-])-(?=\.?\d)")
+
+
+def typeset(text):
+    """Round 3: unbreakable intervals (\\mbox{[a, b]}) and a true minus sign (\\ensuremath{-}, valid in text and math)."""
+    text = _IV.sub(lambda m: "\\mbox{[" + m.group(1) + "]}", text)
+    return _MINUS.sub(lambda m: "\\ensuremath{-}", text)
+
+
 def write(name, text):
-    (OUT / name).write_text(text)
+    (OUT / name).write_text(typeset(text))
     print("wrote", OUT / name)
 
 
@@ -118,7 +129,8 @@ def row_main(m):
     v = m["v03"]
     lat = m.get("latency") or {}
     ours = m["engine"].startswith("crivo") or m["engine"] == "prumo"
-    name = esc(m["name"]).replace(" System One v0", " v0").replace("tasksource Decider nano v4 (150M)",
+    name = esc(m["name"]).replace(" System One v0", " v0").replace("Crivo-32M v2", "Crivo-32M").replace(
+        "Crivo-150M v2", "Crivo-150M").replace("tasksource Decider nano v4 (150M)",
                                                                    "tasksource nano v4")
     if ours:
         name = f"\\textbf{{{name}}}"
@@ -400,7 +412,7 @@ def btv(key, sub):
 
 lines = ["\\begin{tabular}{@{}lrlll@{}}", "\\toprule",
          "System & Params & Unseen-4 [item CI] & Seen-18 & All-22 \\\\", "\\midrule",
-         "\\multicolumn{5}{@{}l}{\\textit{This work (v2 family; seen-18 = training split seen)}} \\\\"]
+         "\\multicolumn{5}{@{}l}{\\textit{This work (seen-18 = training split seen)}} \\\\"]
 for lab, key, p in BTSYS:
     lines.append(" & ".join([f"\\textbf{{{lab}}}", params(p), f"{btv(key, 'unseen4')['value']:.3f} {ci(btv(key, 'unseen4')['ci95'])}",
                              f"{btv(key, 'seen18')['value']:.3f}", f"{btv(key, 'all22')['value']:.3f}"]) + " \\\\")
@@ -610,7 +622,12 @@ else:
              " & \\multicolumn{3}{c}{A100, ms} & \\multicolumn{2}{c}{CPU 16 thr., ms} & CPU 1 thr. & Board \\\\",
              "\\cmidrule(lr){2-4}\\cmidrule(lr){5-6}",
              "System & med. & mean & p95 & med. & mean & med. (ms) & med. (ms) \\\\", "\\midrule"]
+PAIRED = []   # round 3: the GPU-3 pair (Crivo-32M and P, alternating passes) is a block of its own
 for lab, key, eng, g3names in LATSYS:
+    if key == "crivo-32m-peropt" and HAVE_GPU_LAT and HAVE_CPU_LAT:
+        PAIRED = [("Crivo-32M (joint)", g3_pick(E6G3, ["crivo-32m-v2"]), g3_pick(E6C3, ["crivo-32m-v2", "crivo-32m"])),
+                  ("32M per-option (P)", g3_pick(E6G3, GPU_PO), g3_pick(E6C3, g3names))]
+        continue
     g = GPU.get(key)
     if key in FIRST_PASS_GPU:
         g = None
@@ -627,6 +644,11 @@ for lab, key, eng, g3names in LATSYS:
         cells = [lab, fmt(lat(g), 1), fmt(lat(g, "mean_ms"), 1), fmt(lat(g, "p95_ms"), 1),
                  fmt(lat(c16), 1), fmt(lat(c16, "mean_ms"), 0), fmt(lat(c1), 1), fmt(bl, 1)]
     lines.append(" & ".join(cells) + " \\\\")
+if PAIRED:
+    lines += ["\\midrule", "\\multicolumn{8}{@{}l}{\\textit{Paired GPU run: same A100, two alternating passes}} \\\\"]
+    for lab, g, c16 in PAIRED:
+        lines.append(" & ".join([lab, fmt(lat(g), 1), fmt(lat(g, "mean_ms"), 1), fmt(lat(g, "p95_ms"), 1),
+                                 fmt(lat(c16), 1), thou(lat(c16, "mean_ms")), thou(lat(c16, "p95_ms")), "--"]) + " \\\\")
 lines += ["\\bottomrule", "\\end{tabular}"]
 write("tab_latency.tex", "\n".join(lines) + "\n")
 mac("GpuSeventeen", f"{GPU['crivo-17m']['median_ms']:.1f}")
@@ -670,8 +692,8 @@ mac("CpuPeroptPNineFiveRatio", f"{_cp['p95_ms'] / _cj['p95_ms']:.0f}")
 
 # ===================================================================== A1/A2 grid (per-seed)
 G2 = EXP / "results_gpu2"
-ARMS = [("J", "J (reference)"), ("Jsteps", "J, steps matched to P"), ("P", "P (per-option)"),
-        ("JnoBrier", "J without Brier"), ("JnoKD", "J without distillation"), ("Jraw", "J from raw Ettin encoder")]
+ARMS = [("J", "J (released reader)"), ("Jsteps", "J-steps (steps matched to P)"), ("P", "P (per-option)"),
+        ("JnoBrier", "J without Brier"), ("JnoKD", "J without distillation"), ("Jraw", "J-raw (J from raw encoder)")]
 
 
 def seed_metrics(ev):
@@ -720,10 +742,10 @@ if HAVE_PRAW:
 if HAVE_JRAWCOMP:
     SEEDS["JrawComp"] = [seed_metrics(d) for d in jrc_dirs]
 json.dump(SEEDS, open(OUT / "a1a2_seeds.json", "w"), indent=1)
-TAB_ARMS = ARMS[:2] + ([("Jcomp", "J, compute matched to P (J-comp)")] if HAVE_JCOMP else []) + ARMS[2:3] + \
-    ([("JrawComp", "J-comp from raw encoder (J-comp-raw)")] if HAVE_JRAWCOMP else []) + \
-    ([("Praw", "P from raw encoder (P-raw)" + ("" if len(pr_dirs) == 3 else "$^\\dagger$"))] if HAVE_PRAW else []) + \
-    ARMS[3:5] + [("Jraw", "J from raw encoder")]
+TAB_ARMS = ARMS[:2] + ([("Jcomp", "J-comp (compute matched to P)")] if HAVE_JCOMP else []) + ARMS[2:3] + \
+    ([("JrawComp", "J-comp-raw (J-comp from raw encoder)")] if HAVE_JRAWCOMP else []) + \
+    ([("Praw", "P-raw (P from raw encoder)" + ("" if len(pr_dirs) == 3 else "$^\\dagger$"))] if HAVE_PRAW else []) + \
+    ARMS[3:5] + [("Jraw", "J-raw (J from raw encoder)")]
 
 
 def mean_sd(v):
@@ -747,8 +769,8 @@ def welch(a, b):
     return d, (d - t * se, d + t * se)
 
 
-MET = [("pub15_skill", "pub15 skill", 3), ("s1_acc", "S1 acc.", 3), ("s1_unseen_acc", "S1 unseen", 3),
-       ("btzsc_f1", "BTZSC F1", 3), ("btzsc_unseen_f1", "BTZSC unseen-4", 3), ("s1_brier", "S1 Brier", 3),
+MET = [("pub15_skill", "pub15 skill", 3), ("s1_acc", "S1-60 acc.", 3), ("s1_unseen_acc", "S1-60 unseen", 3),
+       ("btzsc_f1", "BTZSC-500 F1", 3), ("btzsc_unseen_f1", "unseen-4 F1", 3), ("s1_brier", "S1-60 Brier", 3),
        ("pub15_ece", "pub15 ECE", 3), ("flip_perm", "Perm. flips", 3)]
 NM_ = {"pub15_skill": "Skill", "s1_acc": "SOne", "s1_unseen_acc": "SOneU", "btzsc_f1": "BT", "btzsc_unseen_f1": "BTU",
        "s1_brier": "SOneBrier", "pub15_ece": "Ece", "flip_perm": "Flip"}
@@ -791,8 +813,8 @@ if RS:
     mac("RelSixtyEightPubc", f"{RS['models']['crivo-68m']['pub15c_skill']:.3f}")
     mac("PubcN", f"{RS['checks']['pub15_common_requests']:,}")
 lines += ["\\midrule", f"\\multicolumn{{{len(MET) + 1}}}{{@{{}}l}}{{\\textit{{Differences, Welch 95\\% CI over seeds (3 vs 3)}}}} \\\\"]
-CMP = ([("P", "Jcomp", "P $-$ J-comp (A1, matched compute)")] if HAVE_JCOMP else []) + \
-      [("P", "Jsteps", "P $-$ J-steps (A1, matched steps)")] + \
+CMP = ([("P", "Jcomp", "P $-$ J-comp (matched compute)")] if HAVE_JCOMP else []) + \
+      [("P", "Jsteps", "P $-$ J-steps (matched steps)")] + \
       ([("Jcomp", "Jsteps", "J-comp $-$ J-steps")] if HAVE_JCOMP else []) + \
       [("Jsteps", "J", "J-steps $-$ J"),
        ("JnoBrier", "J", "no Brier $-$ J"), ("JnoKD", "J", "no KD $-$ J"), ("Jraw", "J", "raw init $-$ J")]
@@ -837,12 +859,11 @@ def ci_cell(d, c):
 
 TT = {}   # 2x2 contrasts (README 18.y.1): C1 Praw-JrawComp, C2 P-Praw, C3 Jcomp-JrawComp, C4 interaction
 if HAVE_2X2:
-    lines += ["\\midrule", f"\\multicolumn{{{len(MET) + 1}}}{{@{{}}l}}{{\\textit{{Initialisation $2\\times2$ (decision rule "
-              "fixed before the run), Welch 95\\% CI}" + "} \\\\"]
-    for cn, lab, spec in (("Cone", "P-raw $-$ J-comp-raw (C1, raw init)", ("Praw", "JrawComp")),
-                          ("Ctwo", "P $-$ P-raw (C2, reranker gain, per option)", ("P", "Praw")),
-                          ("Cthree", "J-comp $-$ J-comp-raw (C3, reranker gain, joint)", ("Jcomp", "JrawComp")),
-                          ("Cfour", "Interaction C2 $-$ C3 (C4)", ("P", "Praw", "Jcomp", "JrawComp"))):
+    lines += ["\\midrule", f"\\multicolumn{{{len(MET) + 1}}}{{@{{}}l}}{{\\textit{{Initialisation $2\\times2$, Welch 95\\% CI over seeds}}" + "} \\\\"]
+    for cn, lab, spec in (("Cone", "C1: P-raw $-$ J-comp-raw", ("Praw", "JrawComp")),
+                          ("Ctwo", "C2: P $-$ P-raw", ("P", "Praw")),
+                          ("Cthree", "C3: J-comp $-$ J-comp-raw", ("Jcomp", "JrawComp")),
+                          ("Cfour", "C4: C2 $-$ C3 (interaction)", ("P", "Praw", "Jcomp", "JrawComp"))):
         cells = [lab]
         for k, _, nd in MET:
             if k == "flip_perm":
@@ -950,7 +971,7 @@ if HAVE_JCOMP:
         PEND[f"JcompMinusJsteps{NM[k]}ci"] = f"[{c[0]:+.3f}, {c[1]:+.3f}]"
 if HAVE_PRAW:   # reranker-initialisation gain at J's budget (descriptive; the 3-seed 2x2 contrasts are the \C* macros)
     PEND["InitGainJ"] = f"{mean_sd([x['pub15_skill'] for x in SEEDS['J']])[0] - mean_sd([x['pub15_skill'] for x in SEEDS['Jraw']])[0]:.3f}"
-ptxt = ["% generated by tables/make_tables.py -- GPU-3 switches and numbers"]
+ptxt = ["% generated by paper_artifacts/make_tables.py -- GPU-3 switches and numbers"]
 for sw, on in PSW.items():
     ptxt.append(f"\\newif\\ifhave{sw} \\have{sw}{'true' if on else 'false'}")
     # \when<sw>{text}: the text when the result exists; otherwise a \pending marker (nothing in final mode)
